@@ -1,0 +1,205 @@
+[
+ {
+  "id": "c6",
+  "text": "06 파트너와 자금 투자자이자 고객이자 경쟁자 S-1은 아마존·구글·마이크로소프트의 역할을 한 문장에 네 가지로 적었습니다. 세 회사는 투자자이자 고객이자 유통 파트너이자 경쟁자 입니다. 브로드컴은 공급자이자 임대인입니다 [cite:x-csp-roles] . 앤트로픽이 모델과 사내 도구 운영에 쓰는 컴퓨트도 상당 부분 이 세 클라우드가 공급합니다 [cite:rf2-16] . 판매 경로로서 이들 클라우드의 비중도 커졌습니다. 매출 가운데 클라우드 마켓플레이스를 거친 비중은 2023년 약 11%에서 2026년 상반기 약 48%로 늘었습니다 [cite:rf1-08] . 아마존과 구글은 전환이 마무리되면 각각 발행주식의 5% 넘게 보유하게 됩니다. 이 주식은 의결권이 없는 Class N입니다. 다만 관계없는 제3자에게 매각되면 Class A로 바뀝니다 [cite:rf2-46] [cite:gov-08] . 아마존의 2023년 전환사채는 Class N 보통주로 전환됩니다. 전환가는 주당 2.0928달러(2026년 9월 10대1 분할을 반영한 값)와 공모가 중 낮은 쪽입니다 [cite:notes-10] [cite:gov-10] . 지분 상한에 걸려 전환되지 못한 부분은 상장(IPO) 뒤 분기마다 상한 안에서 나눠 전환됩니다 [cite:x-amzn-qtr] . 기업가치가 오른 과정은 우선주 가격에 나타납니다. 분할 전 기준으로 우선주 가격은 2023년 시리즈 C 주당 11.2261달러에서 2026년 5~6월 시리즈 H 589.0095달러로 약 52배 올랐습니다 [cite:rpt-05] . 설립 이후 2026년 6월 말까지 조달한 자본은 누적 1,411억 달러입니다 [cite:sum-14] . 보도에 따르면 2026년 5월 마지막 사모 라운드의 기업가치는 9,650억 달러였습니다 [cite:news-bbg-965] . 이 수치는 S-1에는 나오지 않습니다. 구글 200억, 아마존 150억, 브로드컴 420억 달러를 합한 770억 달러의 전환사채 매입 약정은 아직 들어온 돈이 아닙니다. 6월 말 기준으로 인출하지 않은 한도입니다 [cite:mdna-36] . AMD는 조건이 충족되면 Class N을 최대 50억 달러어치 매입하기로 했습니다 [cite:notes-06] . 한 회사, 여러 개의 선 관계 종류를 눌러 켜고 끌 수 있습니다. 점선은 아직 집행되지 않은 조건부 자금 약정입니다. 지분·자금 컴퓨트 공급 고객·유통 경쟁 [cite:x-csp-roles] [cite:rf2-16] [cite:mdna-36] [cite:notes-06] [cite:mdna-33] [cite:sum-02] 우선주 주당 가격 (달러) 시리즈별 첫 번째 클래스 가격. 2026년 9월 10대1 주식분할 이전 기준입니다. [cite:rpt-05] [cite:x-ser-d] [cite:appx-02] [cite:rpt-03] [cite:rpt-02] [cite:rpt-01] [cite:gov-10]",
+  "facts": {
+   "appx-02": {
+    "claim": "(계산) 우선주 주당 가격은 2025년 초 시리즈 E-1의 56.0865달러에서 2026년 5~6월 시리즈 H의 589.0095달러로 약 10.5배 올랐습니다.",
+    "quote": "we sold an aggregate of 63,610,106 shares of our Series E-1 redeemable convertible preferred stock to 72 accredited investors at a purchase price of $56.0865 per share",
+    "line": 22924
+   },
+   "gov-08": {
+    "claim": "Class N 주식은 의결권이 없으며 주로 전략적 사업 파트너가 보유합니다. 관계없는 제3자에게 매각되면 Class A로 전환됩니다.",
+    "quote": "The holders of our Class N common stock are primarily strategic business partners, and shares of Class N common stock will generally convert to Class A common stock upon a sale or transfer to an unaffiliated third party.",
+    "line": 129
+   },
+   "gov-10": {
+    "claim": "2026년 9월 17일 Class A와 Class N은 10대1로 주식을 분할했고, Class T는 1,000대1로 역분할해 1주가 됐습니다.",
+    "quote": "•a one-for-1,000 reverse split of our Class T common stock effected on September 17, 2026;",
+    "line": 1294
+   },
+   "mdna-33": {
+    "claim": "앤트로픽은 2026년 5~10월 SpaceX 자회사 SpaceXAI(옛 X.AI LLC)와 NVIDIA GPU 기반 컴퓨트 계약을 체결했습니다. 이 계약에 따라 2029년까지 최대 1,205억 달러를 지출하기로 했습니다. 전체 용량이 인도된 뒤(2026년 12월 예상)에는 월 약 31억 달러를 지출합니다.",
+    "quote": "we agreed to spend an aggregate of up to $120.5 billion over terms extending into 2029, consisting of approximately $3.1 billion in the aggregate per month once all capacity has been delivered, which we expect in December 2026",
+    "line": 9694
+   },
+   "mdna-36": {
+    "claim": "2026년 6월 30일 기준 미인출 전환사채 매입 약정(NPA) 한도는 총 770억 달러입니다. 회사별로는 구글 200억 달러, 아마존 150억 달러, 브로드컴 420억 달러입니다.",
+    "quote": "Total $77,000 $—",
+    "line": 9249
+   },
+   "news-bbg-965": {
+    "claim": "Bloomberg는 2026년 5월 28일 앤트로픽이 기업가치 9,650억 달러로 자금을 조달해 OpenAI를 넘어섰다고 보도했습니다. 이 숫자는 S-1에 없습니다.",
+    "quote": "Anthropic Raises at $965 Billion Valuation, Eclipsing OpenAI",
+    "line": null
+   },
+   "notes-06": {
+    "claim": "앤트로픽은 2026년 7월 AMD와 MI450 GPU 기반 Helios 랙 시스템 공급 계약을 체결했습니다. AMD는 조건이 충족되면 앤트로픽 Class N 보통주를 최대 50억 달러어치 매입하기로 했습니다.",
+    "quote": "In July 2026, the Company entered into a hardware supply framework agreement (the “Hardware Supply Agreement”) with Advanced Micro Devices, Inc. (“AMD”) to purchase, lease, or access AMD Helios rack-scale systems featuring AMD Instinct MI450 series GPUs. Pursuant to the terms of the Hardware Supply Agreement, AMD committed to purchase up to $5.0 billion of the Company’s Class N common stock, if certain conditions are achieved.",
+    "line": 22802
+   },
+   "notes-10": {
+    "claim": "아마존이 보유한 2023·2024년 전환사채는 IPO 때 Class N 보통주로 자동 전환됩니다. 전환 가격은 주당 2.0928달러(2023년분) 또는 5.0478달러(2024년분)와 공모가 가운데 낮은 쪽입니다.",
+    "quote": "in connection with an initial public offering, direct listing, or special purpose acquisition company transaction, any outstanding principal amount and accrued but unpaid interest thereon under the applicable Amazon NPA will automatically convert into shares of the Company’s Class N common stock at a conversion price equal to the lower of (i) $2.0928 per share, in the case of Amazon 2023 NPA, or $5.0478 per share, in the case of Amazon 2024 NPA",
+    "line": 20908
+   },
+   "rf1-08": {
+    "claim": "클라우드(CSP) 마켓플레이스를 거친 매출 비중은 2023년 약 11%, 2024년 약 32%, 2025년 약 47%, 2026년 상반기 약 48%로 높아졌습니다.",
+    "quote": "revenue generated from sales to customers through CSP marketplaces represented approximately 11%, 32%, 47%, and 48%, respectively, of total revenue.",
+    "line": 3203
+   },
+   "rf2-16": {
+    "claim": "앤트로픽은 모델·플랫폼·애플리케이션과 사내 운영 도구 다수를 컴퓨트 인프라에 호스팅합니다. 이 인프라의 상당 부분은 아마존, 구글, 마이크로소프트가 제공합니다.",
+    "quote": "Amazon, Google, and Microsoft provide substantial portions of the compute infrastructure that we use to host our models, platform, and applications and many of the internal tools we use to operate our business.",
+    "line": 4492
+   },
+   "rf2-46": {
+    "claim": "우선주와 전환사채가 전환되면 아마존과 구글은 각각 앤트로픽 발행주식의 5%를 넘게 보유하게 됩니다. 두 회사가 보유할 지분은 의결권이 없는 Class N입니다. 구체적인 주식 수는 빈칸입니다.",
+    "quote": "Amazon and Google will each hold greater than five percent of our outstanding capital stock.",
+    "line": 6293
+   },
+   "rpt-01": {
+    "claim": "앤트로픽은 2026년 5~6월 시리즈 H-1 우선주 7,763만 7,878주를 주당 589.0095달러에 발행해 약 457억 2,945만 달러를 조달했습니다.",
+    "quote": "From May 2026 to June 2026, we sold an aggregate of 77,637,878 shares of our Series H-1 redeemable convertible preferred stock at a purchase price of $589.0095 per share, for an aggregate purchase price of $45,729,447,703.",
+    "line": 14259
+   },
+   "rpt-02": {
+    "claim": "회사는 2026년 1~2월 시리즈 G-1 우선주를 주당 259.1364달러에 매각해 약 234억 5,455만 달러를 조달했습니다.",
+    "quote": "From January 2026 to February 2026, we sold an aggregate of 90,510,425 shares of our Series G-1 redeemable convertible preferred stock at a purchase price of $259.1364 per share, for an aggregate purchase price of $23,454,545,698.",
+    "line": 14285
+   },
+   "rpt-03": {
+    "claim": "앤트로픽은 2025년 8~9월 시리즈 F-1 우선주를 주당 140.9676달러에 팔아 약 130억 달러를 조달했습니다.",
+    "quote": "From August 2025 to September 2025, we sold an aggregate of 92,219,720 shares of our Series F-1 redeemable convertible preferred stock at a purchase price of $140.9676 per share, for an aggregate purchase price of $12,999,992,602.",
+    "line": 14309
+   },
+   "rpt-05": {
+    "claim": "(계산) 2023년 시리즈 C 우선주 가격은 주당 11.2261달러였습니다(총 4억 4,534만 달러 조달). 2026년 시리즈 H는 589.0095달러로, 우선주 가격이 약 52배 올랐습니다.",
+    "quote": "From March 2023 to June 2023, we sold an aggregate of 39,669,823 shares of our Series C-1 and C-2 redeemable convertible preferred stock at a purchase price of $11.2261 per share, for an aggregate purchase price of $445,337,400.",
+    "line": 14375
+   },
+   "sum-02": {
+    "claim": "앤트로픽은 컴퓨트를 AWS Trainium, Google TPU, NVIDIA GPU, AMD GPU를 아우르는 멀티칩 구조로 운영합니다. 여러 전략 파트너에게서 확보한 컴퓨트는 대체 가능한 하나의 풀처럼 관리합니다.",
+    "quote": "our multi-chip compute architecture across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs",
+    "line": 456
+   },
+   "sum-14": {
+    "claim": "2026년 6월 30일까지 누적 조달 자본은 1,411억 달러입니다. 같은 날 현금 및 현금성 자산은 1,124억 달러, 단기투자는 193억 달러였습니다.",
+    "quote": "As of June 30, 2026, we had raised an aggregate of $141.1 billion of capital and had cash and cash equivalents of $112.4 billion",
+    "line": 681
+   },
+   "x-amzn-qtr": {
+    "claim": "지분 상한 때문에 IPO 때 전환되지 못한 아마존 노트는 IPO 이후 매 회계분기 말에 상한 범위 안에서 Class N으로 자동 전환됩니다.",
+    "quote": "common stock offered to the public in such transaction. Any portion of Amazon’s notes that cannot convert due to Amazon’s ownership cap will automatically convert, subject to Amazon’s ownership cap, into shares of Class N common stock at the close of each fiscal quarter following an initial public offering at a conversion price equal",
+    "line": 20913
+   },
+   "x-csp-roles": {
+    "claim": "S-1은 아마존·구글·마이크로소프트(CSP)를 투자자이자 고객, 유통 파트너, 경쟁자로 동시에 기재했습니다. 브로드컴은 공급자이자 임대인(lessor)으로 기재했습니다.",
+    "quote": "Our relationships with our strategic partners—whether with these CSPs, who simultaneously serve as our investors, customers, distribution partners, and competitors, or with Broadcom, which simultaneously serves as a supplier and lessor—create potential conflicts of interest that are difficult to fully anticipate or mitigate. These",
+    "line": 4076
+   },
+   "x-ser-d": {
+    "claim": "회사는 2024년 1~5월 시리즈 D-1·D-3 우선주를 주당 30.0045달러에 총 11억 9,954만 달러어치 매각했습니다.",
+    "quote": "From January 2024 to May 2024, we sold an aggregate of 39,978,675 shares of our Series D-1 and D-3 redeemable convertible preferred stock at a purchase price of $30.0045 per share, for an aggregate purchase price of $1,199,540,154. In January 2024, we issued 33,328 shares of our Series D-1 redeemable convertible",
+    "line": 14351
+   }
+  }
+ },
+ {
+  "id": "act3",
+  "text": "PART 3 지배구조와 사람 07 지배구조의 실험 1 08 지배구조의 실험 2 09 사람들",
+  "facts": {}
+ },
+ {
+  "id": "misc",
+  "text": "기업가치가 오를수록 장부상 손실이 커졌습니다. 창업자 주식 한 장에 걸린 50.1%는 신주를 발행해도 희석되지 않습니다. 근거 [cite:fin-08] [cite:rf2-48]",
+  "facts": {
+   "fin-08": {
+    "claim": "공정가치 변동 손실은 미상환 전환사채의 공정가치가 커지면서 생겼습니다. 전환사채의 공정가치는 기업가치가 오르면서 커졌습니다. 회사 가치가 오를수록 장부상 손실이 커지는 구조입니다.",
+    "quote": "These changes were primarily driven by an increase in the fair value of our outstanding convertible promissory notes resulting from an increase in our enterprise valuation during each of the respective periods.",
+    "line": 1437
+   },
+   "rf2-48": {
+    "claim": "Class A 100만 주를 추가 발행하면 Class F는 50.1%를 유지하도록 약 1,004,008표를 자동으로 더 받습니다. 신주를 발행해도 Class F 의결권이 희석되지 않는다는 뜻입니다.",
+    "quote": "or approximately 1,004,008 additional votes.",
+    "line": 6338
+   }
+  }
+ },
+ {
+  "id": "c7",
+  "text": "07 지배구조의 실험 1 주식 한 장이 의결권 50.1%를 행사합니다 1주 공모 직전 Founder LLC에 발행되는 Class F 주식 수. 일반 안건 의결권은 전체의 50.1%입니다 [cite:gov-01] 아마존과 구글은 의결권이 없는 Class N 주식을 받습니다 [cite:rf2-46] . 같은 시기에 단 1주짜리 주식이 새로 발행됩니다. Founder LLC가 받는 Class F 1주 입니다. Founder LLC의 구성원은 공동창업자 7명으로, 다리오 아모데이, 다니엘라 아모데이, 톰 브라운, 잭 클라크, 재러드 캐플런, 샘 맥캔들리시, 크리스토퍼 올라입니다 [cite:gov-03] . 이 1주에는 배당도 잔여재산 분배 권리도 없습니다 [cite:gov-02] . 대신 장기이익신탁(LTBT) 몫의 이사 선임을 제외한 일반 안건에서 전체 의결권의 50.1%를 행사합니다 [cite:gov-01] . 이 비율은 주식 수가 늘어도 유지됩니다. Class A가 100만 주 늘면 이 1주에 약 1,004,008표가 자동으로 더 붙습니다 [cite:rf2-48] . 신주를 아무리 발행해도 희석되지 않습니다. S-1도 이 결과를 명시했습니다. 일반 Class A 주주는 어떻게 투표하든 주주총회 안건이나 이사 선임 결과에 대체로 영향을 줄 수 없다는 설명입니다 [cite:cap-04] . 예외는 Founder LLC의 창업자 멤버 과반이 합의하지 못할 때뿐입니다. 이때 Class F 표는 대체로 Class A 투표 비율대로 나뉘어 행사됩니다 [cite:rf2-37] . 이 구조의 일몰 조건은 사람 수에 달려 있습니다. Founder LLC의 창업자 멤버(승계 멤버 포함)가 90일 연속 3명 미만이면 450일의 전환 기간이 시작됩니다. 이 기간이 끝나면 Class F와 Class E는 무상 소각됩니다 [cite:biz-36] . 회사는 이 자본·지배구조에 상장사 가운데 직접적인 선례가 없다 고 밝혔습니다 [cite:rf2-33] . 일반 안건 의결권 Class A 주식 수를 바꿔 보십시오. Class F 몫은 함께 늘거나 줄어 50.1%를 유지합니다. 의결권 있는 Class A 주식 수: 20억 주 2,000,000,000 Class A 표 (49.9%) 2,008,016,032 Class F 1주의 표 (50.1%) 계산: Class F 표 = Class A 표 × 50.1 ÷ 49.9. S-1이 제시한 100만 주 = 1,004,008표 예시와 같은 비율입니다. 실제 공모 후 주식 수는 아직 빈칸입니다 [cite:rf2-48] [cite:gap-14] 다섯 개의 주식 클래스 상장 후 수권 주식은 4,600억 2주입니다. 끝자리 2주는 Class T와 Class F 1주씩입니다 [cite:cap-01] A 1주 1표. 공모 대상 주식 N 0표. 주로 전략적 파트너 보유 T 1주. LTBT 보유. 이사회 과반 선임 F 1주. 의결권 50.1%. 경제적 권리 없음 E 직원용. 제한된 안건만. 공모 직후 0주 [cite:gov-08] [cite:gov-04] [cite:gov-02] [cite:gov-07]",
+  "facts": {
+   "biz-36": {
+    "claim": "Continuing Founder는 Founder LLC의 창업자 멤버와 승계 멤버를 가리킵니다(비적격 승계자 제외). 이들이 3명 미만인 상태가 90일 연속 이어지면 450일의 전환 기간이 시작됩니다. 이 기간이 끝나면 Class F와 Class E 주식은 모두 무상으로 소각(상환)됩니다.",
+    "quote": "Transition Period, all of our Class F common stock and Class E common stock then issued and outstanding will",
+    "line": 12243
+   },
+   "cap-01": {
+    "claim": "상장 후 수권 주식은 4,600억 2주입니다. 내역은 Class A 3,000억 주, Class N 1,000억 주, Class E 300억 주, 우선주 300억 주, Class T 1주, Class F 1주입니다.",
+    "quote": "of 460,000,000,002 shares of capital stock, $0.00001 par value per share, of which:",
+    "line": 14861
+   },
+   "cap-04": {
+    "claim": "회사는 일반 Class A 주주가 어떻게 투표하든 주주총회 안건이나 이사 선임 결과에 대체로 영향을 미칠 수 없다고 공시했습니다. 다만 창업자 과반이 합의하지 못하면 Class F 의결권은 Class A 투표 비율대로 행사됩니다.",
+    "quote": "Holders of our Class A common stock generally will not be able to affect the outcome of any matter submitted to a vote of our stockholders or the election of our directors, regardless of how they vote",
+    "line": 15592
+   },
+   "gap-14": {
+    "claim": "공모 후 공동창업자의 의결권 비율(Founder LLC 포함·제외)은 원문에서 여전히 빈칸입니다.",
+    "quote": "founders will collectively hold approximately (i) % of the total voting power of our outstanding capital",
+    "line": 5915
+   },
+   "gov-01": {
+    "claim": "공모 직전 창업자 LLC(Founder LLC)에 Class F 주식 단 1주가 발행됩니다. 이 1주는 주주 일반 안건에서 발행 주식 전체 의결권의 50.1%를 행사합니다. 이사 선임도 이 안건에 포함됩니다. 다만 LTBT가 선임하는 Class T 이사는 대상에서 제외됩니다.",
+    "quote": "will be entitled to an aggregate number of votes that equals 50.1% of the total voting power of our outstanding shares of capital stock",
+    "line": 122
+   },
+   "gov-02": {
+    "claim": "Class F 주식에는 배당이나 잔여재산 같은 경제적 권리가 전혀 없습니다. 이 주식에는 의결권만 있습니다.",
+    "quote": "Our Class F common stock will not have any economic rights.",
+    "line": 124
+   },
+   "gov-03": {
+    "claim": "Founder LLC의 최초 구성원은 공동창업자 7명입니다. 명단은 Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, Christopher Olah입니다.",
+    "quote": "our seven co-founders, Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Christopher Olah",
+    "line": 795
+   },
+   "gov-04": {
+    "claim": "Long-Term Benefit Trust(LTBT)는 금전적 이해관계가 없는 의결권 수탁자 5명으로 구성됩니다. 수탁자는 AI 안전, 국가안보, 공공정책, 사회적 기업 분야의 전문가입니다.",
+    "quote": "The LTBT is intended to operate as an independent body of five financially disinterested voting trustees (“Trustees”) with expertise in AI safety, national security, public policy, and social enterprise.",
+    "line": 788
+   },
+   "gov-07": {
+    "claim": "상장 후에는 Class E 주식이 새로 생겨 직원에게 발행됩니다. 공동창업자는 발행 대상에서 제외됩니다. Class E는 제한된 안건에만 의결권이 있고, 경제적 권리는 없습니다. 공모 직후 Class E 발행 주식 수는 0주입니다.",
+    "quote": "Class E common stock, which will be issued to our employees, excluding our co-founders.",
+    "line": 125
+   },
+   "gov-08": {
+    "claim": "Class N 주식은 의결권이 없으며 주로 전략적 사업 파트너가 보유합니다. 관계없는 제3자에게 매각되면 Class A로 전환됩니다.",
+    "quote": "The holders of our Class N common stock are primarily strategic business partners, and shares of Class N common stock will generally convert to Class A common stock upon a sale or transfer to an unaffiliated third party.",
+    "line": 129
+   },
+   "rf2-33": {
+    "claim": "앤트로픽은 자사의 자본·지배구조가 상장사 가운데 직접적인 선례가 없는 새로운 구조라고 밝혔습니다.",
+    "quote": "We have a novel capital and corporate governance structure that has no direct public company precedent.",
+    "line": 5846
+   },
+   "rf2-37": {
+    "claim": "Continuing Founders 과반이 Class F의 투표 방향에 합의하지 못하면, Class F 의결권은 Class A 투표 결과에 비례해 행사됩니다.",
+    "quote": "unless a majority of the Continuing Founders (as defined below) cannot agree on how our Class F common stock will be voted (in which case our Class F common stock will generally be voted proportionately with the votes of our Class A common stock cast on the matter).",
+    "line": 5871
+   },
+   "rf2-46": {
+    "claim": "우선주와 전환사채가 전환되면 아마존과 구글은 각각 앤트로픽 발행주식의 5%를 넘게 보유하게 됩니다. 두 회사가 보유할 지분은 의결권이 없는 Class N입니다. 구체적인 주식 수는 빈칸입니다.",
+    "quote": "Amazon and Google will each hold greater than five percent of our outstanding capital stock.",
+    "line": 6293
+   },
+   "rf2-48": {
+    "claim": "Class A 100만 주를 추가 발행하면 Class F는 50.1%를 유지하도록 약 1,004,008표를 자동으로 더 받습니다. 신주를 발행해도 Class F 의결권이 희석되지 않는다는 뜻입니다.",
+    "quote": "or approximately 1,004,008 additional votes.",
+    "line": 6338
+   }
+  }
+ }
+]

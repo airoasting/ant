@@ -1,0 +1,164 @@
+[
+ {
+  "id": "c11",
+  "text": "11 언론이 본 것 같은 서류, 다른 헤드라인 10월 26일 하루 동안 tier 1 매체는 같은 S-1에서 서로 다른 장면을 골랐습니다. Fortune은 매출과 손실의 대비를 앞세웠습니다. Semafor와 TechCrunch는 창업자 7인과 LTBT의 통제 구조를, Bloomberg는 프런티어 AI 연구소의 첫 상장이라는 점을 내세웠습니다. 아래 카드는 원문을 직접 열어 제목·날짜·바이라인을 확인한 기사 12건입니다. 오른쪽으로 넘겨 보십시오. 팩트체크 보도와 원문이 엇갈린 곳 컴퓨트 약정 총액 5,180억 달러(Reuters 9월 단독, 비공개본), 5,420억~5,670억 달러(Fortune 합산), 4,300억·6,370억 달러(Yahoo Finance 합산) 총액 칸은 \"more than $ \"로 비어 있습니다. 2030년 이전분과 향후 12개월분도 빈칸입니다 [cite:rf1-12] . 숫자가 적힌 것은 마이크로소프트 449억 달러 같은 개별 계약 [cite:mdna-29] 과 6월 30일 기준 확정·최소 약정 약 2,656억 달러 [cite:notes-02] , 미개시 리스 약 3,214억 달러 [cite:notes-01] 처럼 부분 합계입니다. 이 합계들은 기준이 서로 다릅니다 4,170억 달러의 시점 \"2025년 12월 31일 기준\" 약정으로 쓴 기사가 있습니다 원문은 \"Subsequent to December 31, 2025\"입니다. 이 주석은 2026년 6월 1일까지를 평가했습니다. 그 사이 새로 맺거나 고친 계약입니다 [cite:notes-03] 학습 중단? \"halted training\"(학습 중단)으로 옮긴 기사가 있습니다 원문은 \"delay pre-training\"입니다. 사전학습 착수를 한 달 넘게 미뤘다는 뜻입니다 [cite:rf1-29] 20배의 단위 Claude Code 고객이 20배를 쓴다고 옮긴 기사가 있습니다 원문 단위는 고객사가 아니라 사용자(users)입니다. 그중에서도 Claude Code를 쓰는 상위 5%입니다. 비교 기준은 쓰지 않는 사용자의 월평균 75달러 미만입니다 [cite:biz-14] 컴퓨트 1달러당 2.08달러 Fortune이 2분기 매출을 컴퓨트 비용으로 나눠 낸 값 S-1에 없는 계산값입니다. S-1은 비율 251%→48%를 씁니다 [cite:mdna-10] 고객 집중 매출의 약 5분의 1이 고객 2곳에서 나온다는 보도가 있습니다 2025년은 Customer A·B가 각각 12%였습니다. 2026년 상반기는 Customer C 한 곳이 11%입니다 [cite:gap-25] 한국 독자에게 S-1 속 한국은 세 줄입니다 공모는 일본까지, 한국은 사모 호주, 캐나다, 일부 EEA 국가, 일본, 스위스, 영국에서는 공모로 진행됩니다 [cite:cover-05] . 한국에서는 자본시장법상 사모로만 판매됩니다. 허용되는 경우가 아니면 한국 거주자에게 되팔 수 없습니다 [cite:uw-05] HBM 주요 제조사로 적힌 SK하이닉스와 삼성전자 고대역폭메모리와 고성능 메모리는 대부분 SK하이닉스, 삼성전자, 마이크론이 생산한다고 적었습니다 [cite:rf1-32] 법인세 200만 달러 환급 2025년 국가별 현금 법인세에서 한국은 200만 달러 환급으로 나옵니다 [cite:notes-46] . 한국 법인명이나 서울 사무소는 원문에 없습니다 [cite:gap-48] 보호예수가 풀리는 순서 첫 거래일에는 비창업자 이사·임원과 일부 직원 물량(최대 10%)부터 풀립니다. 이어 일부 주주 물량이 투자설명서 일자 후 27·48·62·76일차와 2026년 연간 실적 발표 뒤에 단계적으로 해제됩니다. 창업자는 최대 365일 묶입니다. 2027년 1분기 실적 발표 후와 180일째 중 이른 시점부터는 최대 29%를 팔 수 있습니다. 막대 높이는 순서만 나타냅니다(물량은 빈칸). 첫날 27일 48일 62일 76일 FY26 180일 365일 최대 10% 일부 주주 일부 주주 일부 주주 일부 주주 연간 실적 후 1분기 실적 후 창업자 [cite:uw-02] [cite:gap-44] [cite:gap-45] [cite:gap-46] [cite:uw-01]",
+  "facts": {
+   "biz-14": {
+    "claim": "2026년 3분기 Claude Code를 쓰지 않는 Claude Enterprise 사용자는 월평균 75달러 미만을 썼습니다. Claude Code를 쓰는 상위 5% Claude Enterprise 사용자는 그 약 20배를 썼습니다.",
+    "quote": "ended September 30, 2026, Claude Enterprise users who did not use Claude Code spent less than $75 per",
+    "line": 10716
+   },
+   "cover-05": {
+    "claim": "미국 밖에서도 호주, 캐나다, 일부 EEA 회원국, 일본, 스위스, 영국에서 공모가 함께 진행됩니다. 다만 이들 국가 거래소에 상장할 계획은 없습니다.",
+    "quote": "This offering includes public offerings in Australia, Canada, certain member states of the European Economic Area, Japan, Switzerland, and the United Kingdom.",
+    "line": 249
+   },
+   "gap-25": {
+    "claim": "매출 10% 이상 고객은 2023년 Customer C(43%)와 Customer D(11%), 2025년 Customer A·B(각 12%)입니다. 2025년 상반기에는 Customer B(18%), 2026년 상반기에는 Customer C(11%)입니다. 원문에 고객 실명과 업종은 없습니다.",
+    "quote": "43%",
+    "line": 18876
+   },
+   "gap-44": {
+    "claim": "락업은 투자설명서 일자 다음 첫 거래일에 비창업자 이사·임원과 일부 전현직 직원·컨설턴트 물량부터 풀립니다. 이어 투자설명서 일자 후 27·48·62·76일차에 단계적으로 해제됩니다. 주식 수와 비율은 빈칸입니다.",
+    "quote": "Up to shares of Class A common stock held by our non-founder directors and officers and certain of our current and former employees and consultants, representing % of the shares subject to the 180-day lock-up and market standoff period",
+    "line": 15874
+   },
+   "gap-45": {
+    "claim": "2단계에서는 2026년 연간 실적 발표 후 나스닥 둘째 완전 거래일과 발표일로부터 13·27·41·55·69일차에 추가로 해제됩니다.",
+    "quote": "The second full trading day on Nasdaq immediately",
+    "line": 15900
+   },
+   "gap-46": {
+    "claim": "2027년 1분기 실적 발표 후 둘째 완전 거래일 또는 상장 180일 후 중 빠른 시점에 180일 락업 물량이 모두 풀립니다. 이후 365일 연장 락업 물량이 단계적으로 해제됩니다. 해제 시점은 1분기 발표일로부터 34·48·62·76일차, 2분기 실적 발표 후 둘째 완전 거래일과 27·41·55·69·83일차입니다. 잔여분은 3분기 실적 발표 후 또는 365일 후 풀립니다.",
+    "quote": "Up to shares of Class A common stock, representing all",
+    "line": 15938
+   },
+   "gap-48": {
+    "claim": "원문에 한국 법인명이나 서울 사무소는 없습니다. 국제 사무소가 유럽과 아시아태평양에 있다고만 적혀 있습니다.",
+    "quote": "Our headquarters is located in San Francisco, California. We also maintain international offices in Europe and",
+    "line": 11937
+   },
+   "mdna-10": {
+    "claim": "매출 대비 컴퓨트·인프라 비용 비율은 2025년 1분기 251%에서 2026년 2분기 48%로 떨어졌습니다.",
+    "quote": "Compute and infrastructure expenses as a percentage of revenue decreased from 251% to 48% over the same period, as revenue growth outpaced the growth of our committed compute cost base.",
+    "line": 8774
+   },
+   "mdna-29": {
+    "claim": "앤트로픽은 2025년 11월 마이크로소프트와 계약을 맺었습니다. 2026년 11월부터 2033년 5월까지 실제 사용량과 관계없이 최소 449억 달러를 지출하는 약정입니다.",
+    "quote": "In November 2025, we entered into an agreement with Microsoft, which was subsequently amended in February and October 2026, pursuant to which we committed to spend an aggregate of at least $44.9 billion between November 2026 and May 2033, regardless of actual usage.",
+    "line": 9669
+   },
+   "notes-01": {
+    "claim": "아직 개시되지 않은 컴퓨트·인프라 리스 계약이 있습니다. 이 계약의 미래 미할인 의무 총액은 2025년 12월 31일 약 502억 달러에서 2026년 6월 30일 약 3,214억 달러로 늘었습니다.",
+    "quote": "primarily related to compute and infrastructure capacity that had not yet commenced, with total estimated future undiscounted lease obligations of approximately $50.2 billion and $321.4 billion, respectively",
+    "line": 20475
+   },
+   "notes-02": {
+    "claim": "해지 불가 구매 약정(주로 CSP 호스팅 등 제3자 인프라 서비스)의 미래 최소 지급액은 2025년 말 545억 5,900만 달러였습니다(잔여 기간 1년 초과분). 2026년 6월 30일 기준 고정·최소보장 약정은 약 2,656억 달러로 늘었습니다(약 4.9배, 계산).",
+    "quote": "As of June 30, 2026 (unaudited), expected future fixed or minimum guaranteed commitments under these agreements were approximately $265.6 billion with terms ranging from one to 20 years.",
+    "line": 22445
+   },
+   "notes-03": {
+    "claim": "2025년 말 이후(감사 재무제표 후속사건 기준) 새로 맺거나 수정한 리스·상업 계약의 미래 최소 지급 의무는 약 4,170억 달러입니다.",
+    "quote": "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $417 billion.",
+    "line": 22696
+   },
+   "notes-46": {
+    "claim": "2025년 국가별 현금 법인세는 영국에 1,000만 달러를 냈고 한국에서 200만 달러를 환급받았습니다. 순 현금 법인세는 800만 달러였습니다.",
+    "quote": "United Kingdom 10 South Korea (2)",
+    "line": 22261
+   },
+   "rf1-12": {
+    "claim": "2026년 9월 30일 현재 및 그 이후 체결한 구매 약정과 리스(단기 약정, 미개시 리스 포함)의 총 약정액은 원문에 빈칸('more than $ ')입니다. 이 약정은 사실상 전부 컴퓨트와 인프라 관련입니다.",
+    "quote": "As of and subsequent to September 30, 2026, we have entered into purchase commitments and lease agreements, including short-term commitments, as well as leases not yet commenced, with an aggregate committed spend of more than $ , substantially all of which is related to compute and infrastructure.",
+    "line": 1866
+   },
+   "rf1-29": {
+    "claim": "앤트로픽은 최근 새 프론티어 기반 모델의 사전학습을 한 달 이상 연기했습니다. 모델 가중치 유출을 막고 지식재산을 보호하는 보안을 강화하기 위해서입니다.",
+    "quote": "we recently chose to delay pre-training a new frontier base model for more than a month to allow time to further enhance our security measures related to preventing model weight exfiltration",
+    "line": 2906
+   },
+   "rf1-32": {
+    "claim": "S-1은 고대역폭메모리(HBM)와 컴퓨트 인프라용 기타 고성능 메모리를 대부분 SK하이닉스, 삼성전자, 마이크론이 생산한다고 명시했습니다.",
+    "quote": "are largely manufactured by SK hynix Inc., Samsung Electronics Co., and Micron Technology, Inc.",
+    "line": 1943
+   },
+   "uw-01": {
+    "claim": "창업자들의 보호예수는 365일 또는 2027년 3분기 실적 발표 중 이른 시점까지입니다. 다만 1분기 실적 발표 후 또는 180일째 중 이른 시점부터 창업자들은 보유 지분의 최대 29%를 팔 수 있습니다.",
+    "quote": "may Transfer up to 29% of the aggregate number of lock-up securities held by them",
+    "line": 16691
+   },
+   "uw-02": {
+    "claim": "비창업자 임원·직원은 상장 첫 거래일부터 보호예수 주식의 최대 10%를 팔 수 있습니다. 2026년 연간 실적 발표 후에는 최대 35%를 추가로 팔 수 있습니다. 일부 주주의 물량은 27·48·62·76일차 등 날짜별로 단계적으로 풀립니다.",
+    "quote": "up to 10% of the aggregate number of lock-up securities held by",
+    "line": 16613
+   },
+   "uw-05": {
+    "claim": "한국에서는 공모가 아니라 자본시장법상 사모로만 판매합니다. 허용되는 경우를 빼면 한국 내에서 또는 한국 거주자에게 재매출·재판매할 목적으로 팔 수 없습니다.",
+    "quote": "the shares of Class A common stock have been and will be offered in Korea as a private placement under the FSCMA",
+    "line": 17118
+   }
+  }
+ },
+ {
+  "id": "c12",
+  "text": "엔딩 다음 정정신고서가 채울 칸들 S-1 첫 공개본에서는 숫자보다 빈칸에서 읽을 것이 더 많습니다. 공모가는 회사와 매출 주주, 대표 주관사가 협의해 정합니다 [cite:x-price-neg] . 대표 주관사는 골드만삭스와 모건스탠리이고, 인수단은 모두 22곳입니다 [cite:cover-04] . 공모가가 정해지면 아래 칸이 하나씩 채워집니다. 3분기 매출은 이미 역산할 수 있습니다. 나머지는 기다려야 합니다. 공모가 범위 $ ~ $ 표지 [cite:cover-02] 신주 수 · 구주매출 수 구주매출 대금은 회사로 오지 않습니다 [cite:cover-03] 2026년 3분기 매출 $ 계산하면 약 169억 달러 [cite:x-calc-q3] 컴퓨트·인프라 총 약정액 >$ 2031~2045년까지 이어집니다 [cite:biz-07] 공모 후 창업자 의결권 % Founder LLC 몫을 뺀 비율과 포함한 비율 두 칸. Class F 몫은 50.1%로 고정 [cite:gap-14] [cite:gov-01] 공모 순수익 $ 컴퓨트·인프라 투자, 인재 등 일반 목적 [cite:rf2-53]",
+  "facts": {
+   "biz-07": {
+    "claim": "2026년 9월 30일 기준(및 이후) 체결한 구매 약정과 리스의 총 약정 지출액은 원문에서 빈칸입니다. 이 지출은 거의 전부 컴퓨트와 인프라 관련입니다. 2030년 12월 31일 이전 발생분과 12개월 내 만기분도 빈칸입니다. 나머지는 거의 전부 2031~2045년에 발생합니다.",
+    "quote": "commenced, with an aggregate committed spend of more than $ , substantially all of which is related to",
+    "line": 10051
+   },
+   "cover-02": {
+    "claim": "예비 투자설명서 표지에서 공모가 범위는 비어 있습니다($ ~ $). 회사가 새로 파는 신주 수와 구주매출 주식 수도 빈칸입니다.",
+    "quote": "It is currently estimated that the initial public offering price per share will be between $ and $ .",
+    "line": 106
+   },
+   "cover-03": {
+    "claim": "이번 공모에는 회사가 새로 발행하는 주식과 기존 주주(selling stockholders)가 파는 주식이 함께 들어 있습니다. 두 물량 모두 원문에서 빈칸입니다.",
+    "quote": "We are selling shares of Class A common stock and the selling stockholders identified in this prospectus are selling an additional shares of Class A common stock.",
+    "line": 103
+   },
+   "cover-04": {
+    "claim": "표지에는 Goldman Sachs를 시작으로 Morgan Stanley, J.P. Morgan, Citigroup 등 22개 인수 금융사가 나열돼 있습니다.",
+    "quote": "Goldman Sachs & Co. LLC",
+    "line": 158
+   },
+   "gap-14": {
+    "claim": "공모 후 공동창업자의 의결권 비율(Founder LLC 포함·제외)은 원문에서 여전히 빈칸입니다.",
+    "quote": "founders will collectively hold approximately (i) % of the total voting power of our outstanding capital",
+    "line": 5915
+   },
+   "gov-01": {
+    "claim": "공모 직전 창업자 LLC(Founder LLC)에 Class F 주식 딱 1주가 발행됩니다. 이 1주는 주주 일반 안건에서 발행 주식 전체 의결권의 50.1%를 행사합니다. 이 안건에는 이사 선임도 들어갑니다. 다만 LTBT가 뽑는 Class T 이사의 선임은 빠집니다.",
+    "quote": "will be entitled to an aggregate number of votes that equals 50.1% of the total voting power of our outstanding shares of capital stock",
+    "line": 122
+   },
+   "rf2-53": {
+    "claim": "공모 순수익 추정액과 가정 공모가는 원문에 빈칸입니다. 자금은 컴퓨트·인프라 투자와 인재 채용 등 일반 목적에 씁니다.",
+    "quote": "We estimate that the net proceeds to us from the sale of shares of our Class A common stock in this offering will be approximately $ , based upon the assumed initial public offering price of $ per share",
+    "line": 6576
+   },
+   "x-calc-q3": {
+    "claim": "(계산) 2024년 4분기 매출 1억 9,700만 달러에 S-1이 밝힌 86배를 곱하면 2026년 3분기 매출은 약 169억 달러입니다. S-1 본문의 3분기 매출 칸은 비어 있습니다.",
+    "quote": "2026, our headcount grew over five times, while our revenue for the three months ended September 30, 2026 was 86 times our revenue for the three months ended December 31, 2024.",
+    "line": 10186
+   },
+   "x-price-neg": {
+    "claim": "공모가는 회사와 매출 주주, 인수단 대표 주관사가 협의해 정한다고 S-1은 적고 있습니다.",
+    "quote": "Prior to the offering, there has been no public market for our Class A common stock. The initial public offering price will be determined by negotiations among us, the selling stockholders, and the representatives. Among the",
+    "line": 16716
+   }
+  }
+ },
+ {
+  "id": "method",
+  "text": "이 페이지를 만든 방법 숫자 하나에 검증자 둘 23,197 S-1 원문을 텍스트로 바꾼 줄 수입니다. 여덟 구간으로 나눠 에이전트 8명이 끝까지 읽었습니다 479 뽑은 사실입니다(구간 에이전트 461건, 메인 세션이 원문 줄에서 직접 보강한 18건). 구간 에이전트가 뽑은 사실은 별도 반증 검증자가 숫자·단위·기간을 다시 대조했습니다. 이 과정에서 61건을 고쳤습니다 479/479 모든 인용문을 원문 텍스트와 기계적으로 대조했습니다. 1건은 줄바꿈 위치가 달라 수동으로 확인했습니다 12 원문을 직접 열어 제목·날짜·바이라인을 확인한 tier 1 기사입니다. 열리지 않은 3건은 뺐습니다. 보도 숫자를 S-1과 맞대어 보고 엇갈린 곳은 따로 적었습니다 5차 · 0건 발행 전 감사를 다섯 번 돌렸습니다. 지적은 51, 4, 1, 4곳으로 줄었고 모두 고쳤습니다. 마지막 5차 감사에서는 페이지 주장 366개를 원문과 다시 대조했습니다. 지적은 0건이었습니다 원문: Anthropic, PBC Form S-1 (SEC EDGAR, 2026년 10월 26일) · 제출 이력 § 줄번호는 S-1 HTML을 텍스트로 변환한 파일을 기준으로 합니다. 등호 아이콘은 S-1 숫자로 한 계산을, 화살표 아이콘은 S-1 밖 출처를 뜻합니다. 이 페이지는 투자 권유가 아닙니다. 공모가 확정 전 예비 투자설명서를 기준으로 했습니다. S-1은 아직 효력이 발생하지 않았습니다. 2026년 10월 27일 작성.",
+  "facts": {}
+ },
+ {
+  "id": "news-cards",
+  "text": "[{\"outlet\": \"Bloomberg\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic Files for IPO in Global Race to Raise Cash for AI\", \"url\": \"https://news.bloomberglaw.com/artificial-intelligence/anthropic-files-for-ipo-to-become-first-frontier-ai-lab-to-list\", \"angle\": \"프런티어 AI 모델 개발사의 첫 상장 사례로 규정하고 AI 자금 조달 경쟁의 일부로 해석했습니다. 검색 노출 제목은 'Anthropic Flags Existential Risks in Long-Awaited IPO Filing'으로, 위험 공시도 함께 부각했습니다.\", \"check\": \"S-1 대조 · 티커 ANT, 나스닥 글로벌 셀렉트, 인수단 \\\"GS·MS 외 20곳\\\"이 S-1 표지와 일치합니다.\", \"pre\": false}, {\"outlet\": \"Fortune\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic’s IPO prospectus shows $16.3 billion in revenue, an $80.7 billion net loss, and goal of an 'age of miracles'\", \"url\": \"https://fortune.com/2026/10/26/anthropics-s-1/\", \"angle\": \"S-1 전체를 훑는 종합 기사입니다. 매출 급증과 장부상 대규모 손실의 대비를 축으로 삼았습니다. 영업 현금흐름이 처음 플러스로 돌아선 점, 컴퓨트 효율, 창업자 의결권과 고객 의존 구조까지 한 번에 정리했습니다.\", \"check\": \"S-1 대조 · 매출, 순손실, 영업현금흐름이 S-1과 일치합니다. 컴퓨트 1달러당 2.08달러는 기자가 계산한 값입니다.\", \"pre\": false}, {\"outlet\": \"Fortune\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic plans to spend up to $567 billion on compute. Its IPO prospectus reveals plans to set up its own data centers\", \"url\": \"https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/\", \"angle\": \"컴퓨트 약정 규모와 공급자 구성을 자세히 분석했습니다. 앤트로픽은 경쟁사이자 투자자인 빅테크 클라우드에 기대 왔습니다. 기사는 이 구조에서 'Anthropic Direct'라는 자체 데이터센터 전략으로 옮겨 가는 흐름을 핵심으로 봤습니다.\", \"check\": \"S-1 대조 · 4,170억 달러의 시점 표현과 5,420억~5,670억 달러 합산은 S-1 원문과 다릅니다.\", \"pre\": false}, {\"outlet\": \"Fortune\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic's risk factors include the end of humanity, a feud with the Pentagon, and CEO Dario Amodei's reputation\", \"url\": \"https://fortune.com/2026/10/26/anthropic-s1-risk-factors-existential-risk-pentagon-dario-amodei/\", \"angle\": \"위험요인 섹션만 따로 읽었습니다. 인류 존망 위험, 국방부(Department of War)와의 분쟁, 안전 우선 결정의 비용, 창업자 의존과 지배구조까지 다뤘습니다. 전형적인 공시를 넘어서는 경고를 한데 묶어 보여 줬습니다.\", \"check\": \"S-1 대조 · 존망 위험 문구는 일치하지만 \\\"halted training\\\"은 원문 \\\"delay pre-training\\\"과 다릅니다.\", \"pre\": false}, {\"outlet\": \"Fortune\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic's S-1 makes clear it's on the hook for billions in compute. Its customers can walk at any time.\", \"url\": \"https://fortune.com/2026/10/26/anthropics-s-1-makes-clear-its-on-the-hook-for-billions-in-compute-its-customers-can-walk-at-any-time-2/\", \"angle\": \"비용과 수요의 기간 불일치를 짚었습니다. 컴퓨트는 수년짜리 확정 약정인데 매출의 80%는 언제든 줄일 수 있는 사용량 기반입니다. 기사는 이 구조적 긴장을 핵심 위험으로 봤습니다.\", \"check\": \"S-1 대조 · 인용문은 S-1과 일치합니다. \\\"R&D용 컴퓨트 97억 달러\\\"는 기능별 R&D 비용 총액입니다.\", \"pre\": false}, {\"outlet\": \"TechCrunch\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic officially files for its public debut\", \"url\": \"https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/\", \"angle\": \"유출 초안이 이어진 뒤 나온 공식 제출 소식을 전했습니다. 숫자보다는 창업자 7인의 'Founder LLC'와 LTBT로 짜인 통제 구조가 논쟁적이라는 점에 무게를 뒀습니다.\", \"check\": \"S-1 대조 · 매출, 영업손실, 고객 구간, 50.1%가 모두 S-1과 일치합니다.\", \"pre\": false}, {\"outlet\": \"TechCrunch\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked\", \"url\": \"https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/\", \"angle\": \"고객 지표와 기업 영업 구조에 집중했습니다. 고객이 API와 Claude Code·Cowork 같은 자체 앱을 함께 쓰는 교차 채택이 지출 확대로 이어진다는 점을 핵심으로 봤습니다.\", \"check\": \"S-1 대조 · NRR 900%는 일치합니다. 20배 비교의 단위는 고객사가 아니라 사용자입니다.\", \"pre\": false}, {\"outlet\": \"Semafor\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic IPO filing discloses first-of-its-kind governance structure\", \"url\": \"https://www.semafor.com/article/10/26/2026/anthropic-ipo-filing-discloses-first-of-its-kind-governance-structure\", \"angle\": \"재무보다 지배구조에 초점을 맞췄습니다. 창업자 7인은 단 한 주의 초다수 의결권 주식으로 회사를 통제하고 대형 투자자는 의결권이 없습니다. 기사는 이 구조를 상장사로서 전례 없는 형태로 봤습니다.\", \"check\": \"S-1 대조 · Class F 1주 50.1%는 일치합니다. \\\"94쪽이 AI 위험\\\"은 위험요인 섹션 전체 분량입니다.\", \"pre\": false}, {\"outlet\": \"Bloomberg\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic Is Said to Plan Public Filing for Mega-IPO Monday\", \"url\": \"https://finance.yahoo.com/technology/ai/articles/anthropic-said-plan-public-filing-115338000.html\", \"angle\": \"공개 제출 직전에 나온 예고 기사입니다. 제출 시각과 공모 규모 기대를 소식통을 인용해 전했습니다. 다른 IPO가 연기되는 흐름 속에서도 앤트로픽은 강행한다는 시장 맥락을 붙였습니다.\", \"check\": \"S-1 대조 · 제출 직전에 나온 예고 기사입니다. 제출 시각과 공모 규모 기대는 소식통에서 나온 내용이라 S-1로 대조할 수 없습니다.\", \"pre\": true}, {\"outlet\": \"Reuters\", \"date\": \"2026.09.28\", \"headline\": \"Anthropic's IPO prospectus shows sweeping AI vision, surging costs\", \"url\": \"https://finance.yahoo.com/technology/ai/articles/exclusive-anthropics-ipo-prospectus-shows-231722972.html\", \"angle\": \"공개 제출 한 달 전 비공개 투자설명서를 단독 입수한 기사입니다. 2025년 실적과 5,180억 달러 인프라 약정을 처음 드러냈고 이후 S-1 보도의 비교 기준이 됐습니다.\", \"check\": \"S-1 대조 · 비공개본 단독 보도입니다. 2025년 매출·순손실은 공개 S-1과 일치하지만 5,180억 달러 총액은 공개본에 없습니다.\", \"pre\": true}, {\"outlet\": \"AP\", \"date\": \"2026.06.01\", \"headline\": \"Anthropic races toward Wall Street debut with a confidential SEC filing\", \"url\": \"https://www.investmentexecutive.com/news/markets/anthropic-races-toward-wall-street-debut-with-a-confidential-sec-filing/\", \"angle\": \"DRS 제출을 올해 예정된 메가 IPO 세 건(앤트로픽, OpenAI, SpaceX) 중 하나로 봤습니다. 세 회사가 모두 적자라는 점을 들어 AI 버블 우려도 함께 짚었습니다.\", \"check\": \"S-1 대조 · DRS 보도입니다. 전재본으로 확인했습니다. 연환산 매출 470억 달러는 S-1에 나온 숫자가 아닙니다.\", \"pre\": true}, {\"outlet\": \"Bloomberg\", \"date\": \"2026.05.28\", \"headline\": \"Anthropic Raises at $965 Billion Valuation, Eclipsing OpenAI\", \"url\": \"https://news.bgov.com/private-equity/anthropic-raises-at-965-billion-valuation-eclipsing-openai-1\", \"angle\": \"IPO 직전 마지막 사모 라운드를 앤트로픽 기업가치가 처음 OpenAI를 넘어선 순간으로 보도했습니다.\", \"check\": \"S-1 대조 · 마지막 사모 라운드 9,650억 달러는 S-1에 없는 숫자입니다.\", \"pre\": true}]",
+  "facts": {}
+ }
+]

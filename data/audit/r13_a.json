@@ -1,0 +1,78 @@
+[
+ {
+  "id": "top",
+  "text": "Form S-1 Anthropic, PBC 2026.10.26 SEC 공개 제출 Nasdaq ANT 주식 한 장, 그리고 아직 비어 있는 칸들 앤트로픽이 2026년 10월 26일 미국 증권거래위원회(SEC)에 상장 증권신고서 S-1을 공개 제출했습니다 [cite:edgar-hist] . 나스닥 티커는 ANT입니다 [cite:cover-01] . 원문을 여덟 구간으로 나눠 읽고 보강해 사실 480개 를 모았습니다. 모은 사실은 하나씩 원문과 대조한 뒤 열한 개 장으로 정리했습니다. 숫자 옆 원문 버튼을 누르면 S-1의 근거 문장이 열립니다. 공모가는 아직 $ ~ $ 로 비어 있습니다 [cite:cover-02] . 162억 8,600만 달러 2026년 상반기 6개월 매출 [cite:fin-01] 807억 4,800만 달러 같은 기간 순손실 [cite:fin-07] 1주 = 50.1% 창업자 7인의 유한책임회사(Founder LLC)가 보유한 Class F 1주의 일반 안건 의결권 [cite:gov-01] 약 4,170억 달러 2026년 1월~6월 1일에 새로 체결하거나 변경한 계약의 최소 지급 의무 [cite:notes-03] [cite:x-note16-date] 스크롤해서 읽기",
+  "text_before_polish": "Form S-1 Anthropic, PBC 2026.10.26 SEC 공개 제출 Nasdaq ANT 주식 한 장, 그리고 아직 비어 있는 칸들 앤트로픽이 2026년 10월 26일 미국 증권거래위원회(SEC)에 상장 증권신고서 S-1을 공개 제출했습니다 [cite:edgar-hist] . 나스닥 티커는 ANT입니다 [cite:cover-01] . 원문을 여덟 구간으로 나눠 읽고 보강해 사실 __TOTAL__개 를 모았습니다. 이 사실을 하나씩 원문과 대조한 뒤 열한 개 장면으로 엮은 것이 이 페이지입니다. 숫자 옆 원문 버튼을 누르면 S-1의 근거 문장이 열립니다. 공모가는 아직 $ ~ $ 입니다 [cite:cover-02] . 162억 8,600만 달러 2026년 상반기 6개월 매출 [cite:fin-01] 807억 4,800만 달러 같은 기간 순손실 [cite:fin-07] 1주 = 50.1% 창업자 7인의 유한책임회사(Founder LLC)가 가진 Class F 1주의 일반 안건 의결권 [cite:gov-01] 약 4,170억 달러 2026년 1월~6월 1일에 새로 맺거나 고친 계약의 최소 지급 의무 [cite:notes-03] [cite:x-note16-date] 스크롤해서 읽기",
+  "facts": {
+   "cover-01": {
+    "claim": "Anthropic은 Class A 보통주의 나스닥 글로벌 셀렉트 마켓 상장을 신청했습니다. 티커는 'ANT'입니다.",
+    "quote": "symbol “ANT.”",
+    "line": 108
+   },
+   "cover-02": {
+    "claim": "예비 투자설명서 표지의 공모가 범위는 비어 있습니다($ ~ $). 회사가 새로 파는 신주 수와 구주매출 주식 수도 빈칸입니다.",
+    "quote": "It is currently estimated that the initial public offering price per share will be between $ and $ .",
+    "line": 106
+   },
+   "edgar-hist": {
+    "claim": "SEC EDGAR에 따르면 앤트로픽은 2026년 6월 1일 비공개 증권신고서 초안(DRS)을 제출했습니다. 이후 7월 13일·8월 10일·9월 4일·10월 1일·10월 9일 다섯 차례에 걸쳐 수정 초안(DRS/A)을 냈습니다. 10월 26일에는 S-1을 공개 제출했습니다.",
+    "quote": "2026-10-26 S-1 · 2026-10-09 DRS/A · 2026-10-01 DRS/A · 2026-09-04 DRS/A · 2026-08-10 DRS/A · 2026-07-13 DRS/A · 2026-06-01 DRS",
+    "line": null
+   },
+   "fin-01": {
+    "claim": "연간 매출은 2023년 4,100만 달러, 2024년 3억 8,600만 달러, 2025년 45억 8,500만 달러였습니다. 2026년 상반기 매출은 162억 8,600만 달러입니다. 전년 동기(11억 6,300만 달러)의 약 14배입니다(계산).",
+    "quote": "Revenue $41 $386 $4,585 $1,163 $16,286",
+    "line": 1326
+   },
+   "fin-07": {
+    "claim": "2026년 상반기 순손실은 807억 4,800만 달러입니다. 이 가운데 723억 8,800만 달러는 전환사채·파생부채·SAFE의 공정가치 변동에서 발생했습니다.",
+    "quote": "Change in fair value of convertible notes, derivative liabilities, and SAFEs (1,045) (5,434) (34,308) (10,942) (72,388)",
+    "line": 1381
+   },
+   "gov-01": {
+    "claim": "공모 직전 창업자 LLC(Founder LLC)에 Class F 주식 단 1주가 발행됩니다. 이 1주는 주주 일반 안건에서 발행 주식 전체 의결권의 50.1%를 행사합니다. 이사 선임도 이 안건에 포함됩니다. 다만 LTBT가 선임하는 Class T 이사는 대상에서 제외됩니다.",
+    "quote": "will be entitled to an aggregate number of votes that equals 50.1% of the total voting power of our outstanding shares of capital stock",
+    "line": 122
+   },
+   "notes-03": {
+    "claim": "2025년 말 이후(감사 재무제표 후속사건 기준) 새로 체결하거나 변경한 리스·상업 계약의 미래 최소 지급 의무는 약 4,170억 달러입니다.",
+    "quote": "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $417 billion.",
+    "line": 22696
+   },
+   "x-note16-date": {
+    "claim": "감사받은 재무제표의 후속사건 주석(Note 16)은 2026년 6월 1일까지 발생한 사건을 평가 대상으로 합니다. 4,170억 달러는 이 주석에 들어 있습니다.",
+    "quote": "The Company has evaluated subsequent events for recognition and measurement purposes through June 1, 2026, which is the date the consolidated financial statements were available to be issued.",
+    "line": 22647
+   }
+  }
+ },
+ {
+  "id": "ftrack",
+  "text": "비공개 초안 여섯 번, 공개본 한 번 SEC 전자공시시스템(EDGAR) 제출 이력 [cite:edgar-hist] DRS 비공개 초안 06.01 DRS/A 비공개 수정 초안 07.13 DRS/A 비공개 수정 초안 08.10 DRS/A 비공개 수정 초안 09.04 DRS/A 비공개 수정 초안 10.01 DRS/A 비공개 수정 초안 10.09 S-1 공개 증권신고서 10.26",
+  "text_before_polish": "비공개 초안 여섯 번, 공개본 한 번 SEC 전자공시시스템(EDGAR) 제출 이력 [cite:edgar-hist] DRS 비공개 초안 06.01 DRS/A 비공개 수정 초안 07.13 DRS/A 비공개 수정 초안 08.10 DRS/A 비공개 수정 초안 09.04 DRS/A 비공개 수정 초안 10.01 DRS/A 비공개 수정 초안 10.09 S-1 공개 증권신고서 10.26",
+  "facts": {
+   "edgar-hist": {
+    "claim": "SEC EDGAR에 따르면 앤트로픽은 2026년 6월 1일 비공개 증권신고서 초안(DRS)을 제출했습니다. 이후 7월 13일·8월 10일·9월 4일·10월 1일·10월 9일 다섯 차례에 걸쳐 수정 초안(DRS/A)을 냈습니다. 10월 26일에는 S-1을 공개 제출했습니다.",
+    "quote": "2026-10-26 S-1 · 2026-10-09 DRS/A · 2026-10-01 DRS/A · 2026-09-04 DRS/A · 2026-08-10 DRS/A · 2026-07-13 DRS/A · 2026-06-01 DRS",
+    "line": null
+   }
+  }
+ },
+ {
+  "id": "misc",
+  "text": "기업가치가 오를수록 장부상 손실이 커졌습니다. 창업자 주식 한 장에 걸린 50.1%는 신주를 발행해도 희석되지 않습니다. 근거 [cite:fin-08] [cite:rf2-48]",
+  "text_before_polish": "기업가치가 오를수록 장부의 손실이 커졌습니다. 창업자 주식 한 장에 걸린 50.1%는 신주를 찍어도 희석되지 않습니다. 근거 [cite:fin-08] [cite:rf2-48]",
+  "facts": {
+   "fin-08": {
+    "claim": "공정가치 변동 손실은 미상환 전환사채의 공정가치가 커지면서 생겼습니다. 전환사채의 공정가치는 기업가치가 오르면서 커졌습니다. 회사 가치가 오를수록 장부상 손실이 커지는 구조입니다.",
+    "quote": "These changes were primarily driven by an increase in the fair value of our outstanding convertible promissory notes resulting from an increase in our enterprise valuation during each of the respective periods.",
+    "line": 1437
+   },
+   "rf2-48": {
+    "claim": "Class A 100만 주를 추가 발행하면 Class F는 50.1%를 유지하도록 약 1,004,008표를 자동으로 더 받습니다. 신주를 발행해도 Class F 의결권이 희석되지 않는다는 뜻입니다.",
+    "quote": "or approximately 1,004,008 additional votes.",
+    "line": 6338
+   }
+  }
+ }
+]

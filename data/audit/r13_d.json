@@ -1,0 +1,348 @@
+[
+ {
+  "id": "c4",
+  "text": "04 컴퓨트 효율은 올라가고 약정은 2045년까지 쌓였습니다 251% → 48% 분기 매출 대비 컴퓨트·인프라 비용 비율. 2025년 1분기에서 2026년 2분기까지 [cite:mdna-10] 앤트로픽은 2023년 매출 4,100만 달러를 올리면서 컴퓨트·인프라 비용으로 4억 3,300만 달러를 썼습니다 [cite:mdna-09] . 2025년 1분기에도 이 비용은 매출의 2.5배였습니다. 매출 대비 비율은 2026년 2분기 48%까지 내려왔습니다 [cite:mdna-10] . 같은 2분기 매출이 1년 전보다 1,368% 늘어나는 동안 컴퓨트 비용은 300% 늘었습니다 [cite:mdna-11] . 효율이 좋아지는 동안 약정은 쌓였습니다. 2026년 1월부터 6월 1일까지 새로 체결하거나 변경한 계약의 최소 지급 의무는 약 4,170억 달러 입니다 [cite:notes-03] [cite:x-note16-date] . 6월 30일 이후에는 약 2,450억 달러가 추가됐습니다(일부는 계약 조건 충족이 전제) [cite:x-note17-cond] . 마이크로소프트 449억, 구글 약 1,145억, 아마존 1,100억 달러 계약은 실제 사용량과 관계없이 지급해야 하는 금액입니다 [cite:mdna-29] [cite:mdna-30] [cite:mdna-32] . 일부 전용 전력·데이터센터 계약도 기간이 20년이고, 테이크 오어 페이 조항과 상한 없는 연료비 전가 조항이 붙어 있습니다 [cite:rf2-08] [cite:rf2-09] . 계획 중인 일부 데이터센터는 현장 천연가스 발전에 의존합니다 [cite:gap-21] . 회사는 컴퓨트 조달을 클라우드 구매와 Anthropic Direct 를 병행하는 하이브리드 방식으로 전환했습니다. Anthropic Direct는 칩을 직접 조달해 전용 데이터센터에서 운영하는 방식입니다 [cite:x-hybrid] . 첫 전용 데이터센터는 2026년 가동에 들어갔습니다 [cite:gap-17] . 문제는 약정과 매출의 기간이 맞지 않는다는 데 있습니다. 2030년 이전 집행분을 제외한 약정은 사실상 전부 2031년부터 2045년 사이에 집행될 예정입니다 [cite:rf1-13] . 반면 2026년 상반기 매출의 80%는 쓴 만큼 내는 종량제 매출입니다 [cite:mdna-20] . S-1도 회사 매출이 주로 종량제이고, 그 상당 부분이 장기 계약 약정에 묶여 있지 않다고 밝히고 있습니다 [cite:x-consump] . 이 모든 약정의 총액 칸은 $ 로 비어 있습니다 [cite:rf1-12] . 분기 매출 대비 컴퓨트·인프라 비용 100% 위는 비용이 매출보다 큰 구간입니다. 중간 분기는 분기표에서 계산했습니다. 계산: 944/376, 1,390/787, 2,047/1,382, 2,945/2,040, 3,387/4,731, 5,558/11,555 [cite:x-q-comp] S-1에 이름이 적힌 컴퓨트 계약 (억 달러) 상자 면적은 금액에 비례합니다. 계약 간 중복이 있을 수 있어 합산하면 안 됩니다. 빗금은 '최대' 금액, 점선은 약정표 밖 추정치. [cite:mdna-34] [cite:mdna-33] [cite:mdna-30] [cite:mdna-32] [cite:mdna-29] [cite:x-nscale] [cite:x-lambda] [cite:mdna-31]",
+  "text_before_polish": "04 컴퓨트 효율은 올라가고 약정은 2045년까지 쌓였습니다 251% → 48% 분기 매출 대비 컴퓨트·인프라 비용 비율. 2025년 1분기에서 2026년 2분기까지 [cite:mdna-10] 2023년 앤트로픽은 매출 4,100만 달러를 올리면서 컴퓨트·인프라에 4억 3,300만 달러를 썼습니다 [cite:mdna-09] . 2025년 1분기에도 비용이 매출의 2.5배였습니다. 그 비율이 2026년 2분기에는 48%까지 내려왔습니다 [cite:mdna-10] . 같은 2분기에 매출이 1년 전보다 1,368% 늘어나는 동안 컴퓨트 비용은 300% 늘었습니다 [cite:mdna-11] . 반대편에서는 약정이 쌓였습니다. 2026년 1월부터 6월 1일까지 새로 맺거나 고친 계약의 최소 지급 의무가 약 4,170억 달러 입니다 [cite:notes-03] [cite:x-note16-date] . 6월 30일 이후에도 약 2,450억 달러가 더 붙었습니다(일부는 계약 조건 충족이 전제) [cite:x-note17-cond] . 마이크로소프트 449억, 구글 약 1,145억, 아마존 1,100억 달러는 실제 사용량과 상관없이 내야 하는 돈입니다 [cite:mdna-29] [cite:mdna-30] [cite:mdna-32] . 일부 전용 전력·데이터센터 계약은 기간이 20년이고 테이크 오어 페이 조항과 상한 없는 연료비 전가가 붙어 있습니다 [cite:rf2-08] [cite:rf2-09] . 계획 중인 일부 데이터센터는 현장 천연가스 발전에 기댑니다 [cite:gap-21] . 회사는 클라우드 구매와 Anthropic Direct 를 함께 쓰는 하이브리드 방식으로 전환했습니다. Anthropic Direct는 칩을 직접 조달해 전용 데이터센터에서 운영하는 방식입니다 [cite:x-hybrid] . 첫 전용 데이터센터는 2026년에 가동을 시작했습니다 [cite:gap-17] . 긴장은 기간에서 생깁니다. 2030년 이전 집행분을 뺀 약정은 사실상 전부 2031년부터 2045년 사이에 집행될 예정입니다 [cite:rf1-13] . 반면 2026년 상반기 매출의 80%는 쓴 만큼 내는 종량제 매출입니다 [cite:mdna-20] . S-1은 회사 매출이 주로 종량제이고, 그 상당 부분이 장기 계약 약정에 묶여 있지 않다고 적습니다 [cite:x-consump] . 이 모든 약정의 총액 칸은 $ 로 비어 있습니다 [cite:rf1-12] . 분기 매출 대비 컴퓨트·인프라 비용 100% 위는 비용이 매출보다 큰 구간입니다. 중간 분기는 분기표에서 계산했습니다. 계산: 944/376, 1,390/787, 2,047/1,382, 2,945/2,040, 3,387/4,731, 5,558/11,555 [cite:x-q-comp] S-1에 이름이 적힌 컴퓨트 계약 (억 달러) 상자 면적은 금액에 비례합니다. 계약끼리 겹칠 수 있어 더하면 안 됩니다. 빗금은 '최대' 금액, 점선은 약정표 밖 추정치. [cite:mdna-34] [cite:mdna-33] [cite:mdna-30] [cite:mdna-32] [cite:mdna-29] [cite:x-nscale] [cite:x-lambda] [cite:mdna-31]",
+  "facts": {
+   "gap-17": {
+    "claim": "Anthropic Direct는 AI 가속기를 직접 조달해, 회사를 위해 임차·운영되는 전용 데이터센터에 두는 방식입니다. 첫 데이터센터는 올해(2026년) 가동을 시작했습니다. 원문에 GW·MW 용량 수치는 없습니다.",
+    "quote": "Our first data center facility became operational this year.",
+    "line": 11185
+   },
+   "gap-21": {
+    "claim": "계획 중인 일부 데이터센터는 현장 전용 천연가스 발전에 의존합니다. 연료 가격 변동에 따른 비용은 회사가 부담합니다.",
+    "quote": "certain of our planned data center facilities rely on dedicated on-site natural gas-fired generation",
+    "line": 2055
+   },
+   "mdna-09": {
+    "claim": "컴퓨트·인프라 비용은 2023년 4억 3,300만 달러로, 그해 매출 4,100만 달러의 약 10.6배였습니다(계산). 이 비용은 이후 2024년 25억 2,200만 달러, 2025년 73억 2,600만 달러, 2026년 상반기 89억 4,500만 달러로 늘었습니다.",
+    "quote": "Compute and infrastructure 433 2,522 7,326 2,334 8,945",
+    "line": 7572
+   },
+   "mdna-10": {
+    "claim": "매출 대비 컴퓨트·인프라 비용 비율은 2025년 1분기 251%에서 2026년 2분기 48%로 낮아졌습니다.",
+    "quote": "Compute and infrastructure expenses as a percentage of revenue decreased from 251% to 48% over the same period, as revenue growth outpaced the growth of our committed compute cost base.",
+    "line": 8774
+   },
+   "mdna-11": {
+    "claim": "2026년 2분기 매출은 전년 동기보다 1,368% 늘었습니다. 같은 기간 컴퓨트·인프라 비용 증가율은 300%에 그쳤습니다.",
+    "quote": "our revenue grew 1,368% year over year for the three months ended June 30, 2026, compared to our compute and infrastructure expenses that grew 300% during the same period.",
+    "line": 7031
+   },
+   "mdna-20": {
+    "claim": "종량제(소비 기반) 매출은 2024년 2억 8,800만 달러(75%), 2025년 38억 달러(83%), 2026년 상반기 131억 달러(80%)였습니다.",
+    "quote": "Consumption-based revenue increased from $288 million, or 75% of total revenue, for the year ended December 31, 2024, to $3.8 billion, or 83% of total revenue, for the year ended December 31, 2025, to $13.1 billion, or 80% of total revenue, for the six months ended June 30, 2026.",
+    "line": 7127
+   },
+   "mdna-29": {
+    "claim": "앤트로픽은 2025년 11월 마이크로소프트와 계약을 맺었습니다. 이 약정에 따라 2026년 11월부터 2033년 5월까지 실제 사용량과 관계없이 최소 449억 달러를 지출합니다.",
+    "quote": "In November 2025, we entered into an agreement with Microsoft, which was subsequently amended in February and October 2026, pursuant to which we committed to spend an aggregate of at least $44.9 billion between November 2026 and May 2033, regardless of actual usage.",
+    "line": 9669
+   },
+   "mdna-30": {
+    "claim": "회사는 2026년 3월 구글과 맺은 계약에 따라 2026년 4월~2033년 7월 사용량과 관계없이 최소 약 1,145억 달러를 지출하기로 약정했습니다.",
+    "quote": "we committed to spend at least approximately $114.5 billion between April 2026 and July 2033, regardless of actual usage.",
+    "line": 9675
+   },
+   "mdna-31": {
+    "claim": "앤트로픽은 2028~2031년 구글 등 TPU 공급사로부터 추가 TPU 컴퓨트를 조달하기로 했습니다. 이에 따른 향후 지급액은 약 1,250억~1,500억 달러로 추정됩니다. 이 금액은 약정 표에 포함되지 않았습니다.",
+    "quote": "We estimate the aggregate future payments for such additional compute to be approximately $125.0 billion to $150.0 billion, which are not included in the contractual commitments table above.",
+    "line": 9682
+   },
+   "mdna-32": {
+    "claim": "앤트로픽은 2026년 4월 아마존과 계약을 체결했습니다. 이 계약에 따라 2026년 5월~2036년 4월 사용량과 관계없이 최소 1,100억 달러를 지출하기로 약정했습니다.",
+    "quote": "In April 2026, we entered into an agreement with Amazon, pursuant to which we committed to spend an aggregate of at least $110.0 billion between May 2026 and April 2036, regardless of actual usage.",
+    "line": 9686
+   },
+   "mdna-33": {
+    "claim": "앤트로픽은 2026년 5~10월 SpaceX 자회사 SpaceXAI(옛 X.AI LLC)와 NVIDIA GPU 기반 컴퓨트 계약을 체결했습니다. 이 계약에 따라 2029년까지 최대 1,205억 달러를 지출하기로 했습니다. 전체 용량이 인도된 뒤(2026년 12월 예상)에는 월 약 31억 달러를 지출합니다.",
+    "quote": "we agreed to spend an aggregate of up to $120.5 billion over terms extending into 2029, consisting of approximately $3.1 billion in the aggregate per month once all capacity has been delivered, which we expect in December 2026",
+    "line": 9694
+   },
+   "mdna-34": {
+    "claim": "브로드컴과 맺은 5년 장비 리스(TPU 기반 컴퓨트)의 임대료 총액은 이자를 제외하고 약 1,612억 달러입니다.",
+    "quote": "Our rent payments over the life of these leases are equal to an aggregate of approximately $161.2 billion excluding interest",
+    "line": 9731
+   },
+   "notes-03": {
+    "claim": "2025년 말 이후(감사 재무제표 후속사건 기준) 새로 체결하거나 변경한 리스·상업 계약의 미래 최소 지급 의무는 약 4,170억 달러입니다.",
+    "quote": "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $417 billion.",
+    "line": 22696
+   },
+   "rf1-12": {
+    "claim": "2026년 9월 30일 현재 및 그 이후 체결한 구매 약정과 리스(단기 약정, 미개시 리스 포함)의 총 약정액은 원문에 빈칸('more than $ ')으로 남아 있습니다. 이 약정은 사실상 전부 컴퓨트·인프라 관련입니다.",
+    "quote": "As of and subsequent to September 30, 2026, we have entered into purchase commitments and lease agreements, including short-term commitments, as well as leases not yet commenced, with an aggregate committed spend of more than $ , substantially all of which is related to compute and infrastructure.",
+    "line": 1866
+   },
+   "rf1-13": {
+    "claim": "컴퓨트 약정 가운데 2030년 12월 31일 이전 집행분은 금액이 빈칸입니다. 나머지는 사실상 전부 2031년부터 2045년 사이에 집행될 예정입니다.",
+    "quote": "substantially all of the remainder is expected to be incurred between 2031 and 2045.",
+    "line": 1870
+   },
+   "rf2-08": {
+    "claim": "일부 전용 전력·데이터센터 계약은 초기 계약기간이 20년입니다. 이 계약에는 매년 단가가 오르는 조항이 붙어 있습니다.",
+    "quote": "certain of our dedicated power and data center infrastructure arrangements have initial terms of 20 years with annual",
+    "line": 4182
+   },
+   "rf2-09": {
+    "claim": "해당 20년 계약에는 실제 사용량과 무관한 테이크 오어 페이(take-or-pay) 지급 의무가 있습니다. 상한 없는 연료비 전가 조항도 있습니다. 두 조건은 모두 계약기간 내내 적용됩니다.",
+    "quote": "escalators and include take-or-pay compute payment obligations and uncapped fuel cost pass-throughs that apply for the duration of the term regardless of actual utilization.",
+    "line": 4186
+   },
+   "x-consump": {
+    "claim": "S-1에 따르면 매출은 주로 종량제이며, 이 가운데 상당 부분은 장기 계약 약정에 묶여 있지 않습니다.",
+    "quote": "revenue is primarily consumption-based, and much of it is not subject to long-term contractual commitments, while our compute and infrastructure commitments generally extend over multiple years. As a result, we may",
+    "line": 1877
+   },
+   "x-hybrid": {
+    "claim": "회사는 하이브리드 모델로 전환했습니다. 클라우드로 컴퓨트를 구매하는 데 더해 AI 가속기를 직접 조달하고, 이를 전용 데이터센터에서 운영하는 방식입니다. 회사는 이 추가 조달원을 Anthropic Direct라고 부릅니다.",
+    "quote": "we have transitioned to a hybrid model in which, in addition to purchasing compute as a cloud service, we also procure specialized AI accelerators directly and operate this hardware in dedicated data center facilities leased and operated on our behalf, to our specification. We refer to this additional source of compute as Anthropic Direct. This transition is driven in part by the scale of our compute requirements as well as the potential long-",
+    "line": 11181
+   },
+   "x-lambda": {
+    "claim": "회사는 2026년 5·6·8월 Lambda와 NVIDIA GPU 컴퓨트 계약을 맺어 2034년까지 약 413억 달러를 지출하기로 했습니다.",
+    "quote": "In May, June and August 2026, we entered into agreements (collectively, the “Lambda Agreements”) with Lambda, Inc. (“Lambda”) to access compute powered by NVIDIA GPUs. Under the Lambda Agreements, we agreed to spend an aggregate of approximately $41.3 billion over terms extending into 2034, with fees accruing only as capacity is delivered to and accepted by us. Under our August 2026 agreement, which represents",
+    "line": 9719
+   },
+   "x-note16-date": {
+    "claim": "감사받은 재무제표의 후속사건 주석(Note 16)은 2026년 6월 1일까지 발생한 사건을 평가 대상으로 합니다. 4,170억 달러는 이 주석에 들어 있습니다.",
+    "quote": "The Company has evaluated subsequent events for recognition and measurement purposes through June 1, 2026, which is the date the consolidated financial statements were available to be issued.",
+    "line": 22647
+   },
+   "x-note17-cond": {
+    "claim": "2026년 6월 30일 이후 새로 체결하거나 변경한 계약의 최소 지급 의무는 약 2,450억 달러입니다. 이 가운데 일부는 계약 조건 충족을 전제로 합니다.",
+    "quote": "and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $245 billion, with some arrangements subject to certain contractual conditions being met. These primarily",
+    "line": 22808
+   },
+   "x-nscale": {
+    "claim": "앤트로픽은 2026년 8월 Nscale과 NVIDIA GPU 컴퓨트 계약을 맺었습니다. 이 계약에 따라 2033년까지 최대 약 446억 달러를 지출합니다. 요금은 인도받은 용량만큼만 발생합니다.",
+    "quote": "In August 2026, we entered into GPU services agreements (collectively, the “Nscale Services Agreements”) with wholly owned subsidiaries of Nscale Global Holdings Limited (together with its affiliates, “Nscale”) to access compute powered by NVIDIA GPUs. Under the Nscale Services Agreements, we agreed to spend an aggregate of up to approximately $44.6 billion over terms extending into 2033, with fees accruing only as capacity is delivered to and accepted by us. Nscale is required to use best efforts to obtain qualifying financing for the",
+    "line": 9709
+   },
+   "x-q-comp": {
+    "claim": "분기 컴퓨트·인프라 비용(백만 달러)은 944, 1,390, 2,047, 2,945, 3,387, 5,558입니다. 이 비용을 매출로 나눈 비율은 251%, 177%, 148%, 144%, 72%, 48%입니다(계산).",
+    "quote": "Compute and infrastructure 944 1,390 2,047 2,945 3,387 5,558",
+    "line": 8510
+   }
+  }
+ },
+ {
+  "id": "c6",
+  "text": "06 파트너와 자금 투자자이자 고객이자 경쟁자 S-1은 아마존·구글·마이크로소프트의 역할을 한 문장에 네 가지로 적었습니다. 세 회사는 투자자이자 고객이자 유통 파트너이자 경쟁자 입니다. 브로드컴은 공급자이자 임대인입니다 [cite:x-csp-roles] . 앤트로픽이 모델과 사내 도구 운영에 쓰는 컴퓨트도 상당 부분 이 세 클라우드가 공급합니다 [cite:rf2-16] . 판매 경로로서 이들 클라우드의 비중도 커졌습니다. 매출 가운데 클라우드 마켓플레이스를 거친 비중은 2023년 약 11%에서 2026년 상반기 약 48%로 늘었습니다 [cite:rf1-08] . 아마존과 구글은 전환이 마무리되면 각각 발행주식의 5% 넘게 보유하게 됩니다. 이 주식은 의결권이 없는 Class N입니다. 다만 관계없는 제3자에게 매각되면 Class A로 바뀝니다 [cite:rf2-46] [cite:gov-08] . 아마존의 2023년 전환사채는 Class N 보통주로 전환됩니다. 전환가는 주당 2.0928달러(2026년 9월 10대1 분할을 반영한 값)와 공모가 중 낮은 쪽입니다 [cite:notes-10] [cite:gov-10] . 지분 상한에 걸려 전환되지 못한 부분은 상장(IPO) 뒤 분기마다 상한 안에서 나눠 전환됩니다 [cite:x-amzn-qtr] . 기업가치가 오른 과정은 우선주 가격에 나타납니다. 분할 전 기준으로 우선주 가격은 2023년 시리즈 C 주당 11.2261달러에서 2026년 5~6월 시리즈 H 589.0095달러로 약 52배 올랐습니다 [cite:rpt-05] . 설립 이후 2026년 6월 말까지 조달한 자본은 누적 1,411억 달러입니다 [cite:sum-14] . 보도에 따르면 2026년 5월 마지막 사모 라운드의 기업가치는 9,650억 달러였습니다 [cite:news-bbg-965] . 이 수치는 S-1에는 나오지 않습니다. 구글 200억, 아마존 150억, 브로드컴 420억 달러를 합한 770억 달러의 전환사채 매입 약정은 아직 들어온 돈이 아닙니다. 6월 말 기준으로 인출하지 않은 한도입니다 [cite:mdna-36] . AMD는 조건이 충족되면 Class N을 최대 50억 달러어치 매입하기로 했습니다 [cite:notes-06] . 한 회사, 여러 개의 선 관계 종류를 눌러 켜고 끌 수 있습니다. 점선은 아직 집행되지 않은 조건부 자금 약정입니다. 지분·자금 컴퓨트 공급 고객·유통 경쟁 [cite:x-csp-roles] [cite:rf2-16] [cite:mdna-36] [cite:notes-06] [cite:mdna-33] [cite:sum-02] 우선주 주당 가격 (달러) 시리즈별 첫 번째 클래스 가격. 2026년 9월 10대1 주식분할 이전 기준입니다. [cite:rpt-05] [cite:x-ser-d] [cite:appx-02] [cite:rpt-03] [cite:rpt-02] [cite:rpt-01] [cite:gov-10]",
+  "text_before_polish": "06 파트너와 자금 투자자이자 고객이자 경쟁자 S-1은 아마존·구글·마이크로소프트를 한 문장 안에 네 가지 역할로 적습니다. 투자자이자 고객이자 유통 파트너이자 경쟁자 입니다. 브로드컴은 공급자이자 임대인입니다 [cite:x-csp-roles] . 앤트로픽이 모델과 사내 도구를 돌리는 컴퓨트도 상당 부분 이 세 클라우드가 댑니다 [cite:rf2-16] . 매출 가운데 이들 클라우드 마켓플레이스를 거친 비중은 2023년 약 11%에서 2026년 상반기 약 48%로 늘었습니다 [cite:rf1-08] . 전환이 끝나면 아마존과 구글은 각각 발행주식의 5% 넘게 갖게 됩니다. 그 주식은 의결권이 없는 Class N이지만 관계없는 제3자에게 팔리면 Class A로 바뀝니다 [cite:rf2-46] [cite:gov-08] . 아마존의 2023년 전환사채는 Class N 보통주 기준 주당 2.0928달러(2026년 9월 10대1 분할을 반영한 값)와 공모가 중 낮은 값으로 전환됩니다 [cite:notes-10] [cite:gov-10] . 지분 상한 때문에 전환되지 못한 부분은 상장(IPO) 뒤 분기마다 상한 안에서 나눠 전환됩니다 [cite:x-amzn-qtr] . 몸값이 오른 과정은 우선주 가격에 남아 있습니다. 분할 전 기준으로 2023년 시리즈 C 주당 11.2261달러에서 2026년 5~6월 시리즈 H 589.0095달러로, 약 52배 올랐습니다 [cite:rpt-05] . 2026년 6월 말까지 조달한 자본은 누적 1,411억 달러입니다 [cite:sum-14] . 보도에 따르면 2026년 5월 마지막 사모 라운드의 기업가치는 9,650억 달러였습니다 [cite:news-bbg-965] . 이 숫자는 S-1에 없습니다. 구글 200억, 아마존 150억, 브로드컴 420억 달러를 합한 770억 달러의 전환사채 매입 약정은 들어온 돈이 아닙니다. 6월 말 기준으로 아직 꺼내 쓰지 않은 한도입니다 [cite:mdna-36] . AMD는 조건이 맞으면 Class N을 최대 50억 달러어치 사기로 했습니다 [cite:notes-06] . 한 회사, 여러 개의 선 관계 종류를 눌러 켜고 끌 수 있습니다. 점선은 아직 집행되지 않은 조건부 자금 약정입니다. 지분·자금 컴퓨트 공급 고객·유통 경쟁 [cite:x-csp-roles] [cite:rf2-16] [cite:mdna-36] [cite:notes-06] [cite:mdna-33] [cite:sum-02] 우선주 주당 가격 (달러) 시리즈별 첫 번째 클래스 가격. 2026년 9월 10대1 주식분할 이전 기준입니다. [cite:rpt-05] [cite:x-ser-d] [cite:appx-02] [cite:rpt-03] [cite:rpt-02] [cite:rpt-01] [cite:gov-10]",
+  "facts": {
+   "appx-02": {
+    "claim": "(계산) 우선주 주당 가격은 2025년 초 시리즈 E-1의 56.0865달러에서 2026년 5~6월 시리즈 H의 589.0095달러로 약 10.5배 올랐습니다.",
+    "quote": "we sold an aggregate of 63,610,106 shares of our Series E-1 redeemable convertible preferred stock to 72 accredited investors at a purchase price of $56.0865 per share",
+    "line": 22924
+   },
+   "gov-08": {
+    "claim": "Class N 주식은 의결권이 없으며 주로 전략적 사업 파트너가 보유합니다. 관계없는 제3자에게 매각되면 Class A로 전환됩니다.",
+    "quote": "The holders of our Class N common stock are primarily strategic business partners, and shares of Class N common stock will generally convert to Class A common stock upon a sale or transfer to an unaffiliated third party.",
+    "line": 129
+   },
+   "gov-10": {
+    "claim": "2026년 9월 17일 Class A와 Class N은 10대1로 주식을 분할했고, Class T는 1,000대1로 역분할해 1주가 됐습니다.",
+    "quote": "•a one-for-1,000 reverse split of our Class T common stock effected on September 17, 2026;",
+    "line": 1294
+   },
+   "mdna-33": {
+    "claim": "앤트로픽은 2026년 5~10월 SpaceX 자회사 SpaceXAI(옛 X.AI LLC)와 NVIDIA GPU 기반 컴퓨트 계약을 체결했습니다. 이 계약에 따라 2029년까지 최대 1,205억 달러를 지출하기로 했습니다. 전체 용량이 인도된 뒤(2026년 12월 예상)에는 월 약 31억 달러를 지출합니다.",
+    "quote": "we agreed to spend an aggregate of up to $120.5 billion over terms extending into 2029, consisting of approximately $3.1 billion in the aggregate per month once all capacity has been delivered, which we expect in December 2026",
+    "line": 9694
+   },
+   "mdna-36": {
+    "claim": "2026년 6월 30일 기준 미인출 전환사채 매입 약정(NPA) 한도는 총 770억 달러입니다. 회사별로는 구글 200억 달러, 아마존 150억 달러, 브로드컴 420억 달러입니다.",
+    "quote": "Total $77,000 $—",
+    "line": 9249
+   },
+   "news-bbg-965": {
+    "claim": "Bloomberg는 2026년 5월 28일 앤트로픽이 기업가치 9,650억 달러로 자금을 조달해 OpenAI를 넘어섰다고 보도했습니다. 이 숫자는 S-1에 없습니다.",
+    "quote": "Anthropic Raises at $965 Billion Valuation, Eclipsing OpenAI",
+    "line": null
+   },
+   "notes-06": {
+    "claim": "앤트로픽은 2026년 7월 AMD와 MI450 GPU 기반 Helios 랙 시스템 공급 계약을 체결했습니다. AMD는 조건이 충족되면 앤트로픽 Class N 보통주를 최대 50억 달러어치 매입하기로 했습니다.",
+    "quote": "In July 2026, the Company entered into a hardware supply framework agreement (the “Hardware Supply Agreement”) with Advanced Micro Devices, Inc. (“AMD”) to purchase, lease, or access AMD Helios rack-scale systems featuring AMD Instinct MI450 series GPUs. Pursuant to the terms of the Hardware Supply Agreement, AMD committed to purchase up to $5.0 billion of the Company’s Class N common stock, if certain conditions are achieved.",
+    "line": 22802
+   },
+   "notes-10": {
+    "claim": "아마존이 보유한 2023·2024년 전환사채는 IPO 때 Class N 보통주로 자동 전환됩니다. 전환 가격은 주당 2.0928달러(2023년분) 또는 5.0478달러(2024년분)와 공모가 가운데 낮은 쪽입니다.",
+    "quote": "in connection with an initial public offering, direct listing, or special purpose acquisition company transaction, any outstanding principal amount and accrued but unpaid interest thereon under the applicable Amazon NPA will automatically convert into shares of the Company’s Class N common stock at a conversion price equal to the lower of (i) $2.0928 per share, in the case of Amazon 2023 NPA, or $5.0478 per share, in the case of Amazon 2024 NPA",
+    "line": 20908
+   },
+   "rf1-08": {
+    "claim": "클라우드(CSP) 마켓플레이스를 거친 매출 비중은 2023년 약 11%, 2024년 약 32%, 2025년 약 47%, 2026년 상반기 약 48%로 높아졌습니다.",
+    "quote": "revenue generated from sales to customers through CSP marketplaces represented approximately 11%, 32%, 47%, and 48%, respectively, of total revenue.",
+    "line": 3203
+   },
+   "rf2-16": {
+    "claim": "앤트로픽은 모델·플랫폼·애플리케이션과 사내 운영 도구 다수를 컴퓨트 인프라에 호스팅합니다. 이 인프라의 상당 부분은 아마존, 구글, 마이크로소프트가 제공합니다.",
+    "quote": "Amazon, Google, and Microsoft provide substantial portions of the compute infrastructure that we use to host our models, platform, and applications and many of the internal tools we use to operate our business.",
+    "line": 4492
+   },
+   "rf2-46": {
+    "claim": "우선주와 전환사채가 전환되면 아마존과 구글은 각각 앤트로픽 발행주식의 5%를 넘게 보유하게 됩니다. 두 회사가 보유할 지분은 의결권이 없는 Class N입니다. 구체적인 주식 수는 빈칸입니다.",
+    "quote": "Amazon and Google will each hold greater than five percent of our outstanding capital stock.",
+    "line": 6293
+   },
+   "rpt-01": {
+    "claim": "앤트로픽은 2026년 5~6월 시리즈 H-1 우선주 7,763만 7,878주를 주당 589.0095달러에 발행해 약 457억 2,945만 달러를 조달했습니다.",
+    "quote": "From May 2026 to June 2026, we sold an aggregate of 77,637,878 shares of our Series H-1 redeemable convertible preferred stock at a purchase price of $589.0095 per share, for an aggregate purchase price of $45,729,447,703.",
+    "line": 14259
+   },
+   "rpt-02": {
+    "claim": "회사는 2026년 1~2월 시리즈 G-1 우선주를 주당 259.1364달러에 매각해 약 234억 5,455만 달러를 조달했습니다.",
+    "quote": "From January 2026 to February 2026, we sold an aggregate of 90,510,425 shares of our Series G-1 redeemable convertible preferred stock at a purchase price of $259.1364 per share, for an aggregate purchase price of $23,454,545,698.",
+    "line": 14285
+   },
+   "rpt-03": {
+    "claim": "앤트로픽은 2025년 8~9월 시리즈 F-1 우선주를 주당 140.9676달러에 팔아 약 130억 달러를 조달했습니다.",
+    "quote": "From August 2025 to September 2025, we sold an aggregate of 92,219,720 shares of our Series F-1 redeemable convertible preferred stock at a purchase price of $140.9676 per share, for an aggregate purchase price of $12,999,992,602.",
+    "line": 14309
+   },
+   "rpt-05": {
+    "claim": "(계산) 2023년 시리즈 C 우선주 가격은 주당 11.2261달러였습니다(총 4억 4,534만 달러 조달). 2026년 시리즈 H는 589.0095달러로, 우선주 가격이 약 52배 올랐습니다.",
+    "quote": "From March 2023 to June 2023, we sold an aggregate of 39,669,823 shares of our Series C-1 and C-2 redeemable convertible preferred stock at a purchase price of $11.2261 per share, for an aggregate purchase price of $445,337,400.",
+    "line": 14375
+   },
+   "sum-02": {
+    "claim": "앤트로픽은 컴퓨트를 AWS Trainium, Google TPU, NVIDIA GPU, AMD GPU를 아우르는 멀티칩 구조로 운영합니다. 여러 전략 파트너에게서 확보한 컴퓨트는 대체 가능한 하나의 풀처럼 관리합니다.",
+    "quote": "our multi-chip compute architecture across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs",
+    "line": 456
+   },
+   "sum-14": {
+    "claim": "2026년 6월 30일까지 누적 조달 자본은 1,411억 달러입니다. 같은 날 현금 및 현금성 자산은 1,124억 달러, 단기투자는 193억 달러였습니다.",
+    "quote": "As of June 30, 2026, we had raised an aggregate of $141.1 billion of capital and had cash and cash equivalents of $112.4 billion",
+    "line": 681
+   },
+   "x-amzn-qtr": {
+    "claim": "지분 상한 때문에 IPO 때 전환되지 못한 아마존 노트는 IPO 이후 매 회계분기 말에 상한 범위 안에서 Class N으로 자동 전환됩니다.",
+    "quote": "common stock offered to the public in such transaction. Any portion of Amazon’s notes that cannot convert due to Amazon’s ownership cap will automatically convert, subject to Amazon’s ownership cap, into shares of Class N common stock at the close of each fiscal quarter following an initial public offering at a conversion price equal",
+    "line": 20913
+   },
+   "x-csp-roles": {
+    "claim": "S-1은 아마존·구글·마이크로소프트(CSP)를 투자자이자 고객, 유통 파트너, 경쟁자로 동시에 기재했습니다. 브로드컴은 공급자이자 임대인(lessor)으로 기재했습니다.",
+    "quote": "Our relationships with our strategic partners—whether with these CSPs, who simultaneously serve as our investors, customers, distribution partners, and competitors, or with Broadcom, which simultaneously serves as a supplier and lessor—create potential conflicts of interest that are difficult to fully anticipate or mitigate. These",
+    "line": 4076
+   },
+   "x-ser-d": {
+    "claim": "회사는 2024년 1~5월 시리즈 D-1·D-3 우선주를 주당 30.0045달러에 총 11억 9,954만 달러어치 매각했습니다.",
+    "quote": "From January 2024 to May 2024, we sold an aggregate of 39,978,675 shares of our Series D-1 and D-3 redeemable convertible preferred stock at a purchase price of $30.0045 per share, for an aggregate purchase price of $1,199,540,154. In January 2024, we issued 33,328 shares of our Series D-1 redeemable convertible",
+    "line": 14351
+   }
+  }
+ },
+ {
+  "id": "c10",
+  "text": "10 위험과 싸움 안전 원칙을 지킨 대가로 소송전을 치르고 있습니다 앤트로픽은 자사 기술을 대규모 국내 감시와 완전 자율무기에 쓰면 안 된다는 입장을 공개적으로 밝혀 왔습니다. 대통령은 2026년 2월 이 입장에 대응해 모든 연방 행정기관에 앤트로픽 기술 사용 중단을 지시했다고 밝혔습니다 [cite:biz-26] . 전쟁부(Department of War) 장관은 앤트로픽을 '국가안보 공급망 위험'으로 지정하라고 지시했습니다 [cite:rf1-18] . 정부 조치를 둘러싼 법원 판단은 엇갈렸습니다. 캘리포니아 북부지법은 8월 27일 정부 조치를 수정헌법 1조가 보호하는 발언에 보복한 것으로 판단했습니다 [cite:rf1-19] . 반면 D.C. 순회항소법원은 9월 25일 2대1로 연방조달공급망보안법(FASCSA) 4713조에 따른 지정이 적법하다고 판결했습니다. 회사는 이 판결을 두고 전원합의체 재심리를 청구했습니다 [cite:rf1-20] . 정부 규제는 제품 공급에도 영향을 미쳤습니다. 회사는 6월 상무부 수출 제한으로 Fable 5와 Mythos 5를 모든 고객 대상으로 비활성화했습니다. 이후 안전 조치를 보강하고 제한이 풀린 뒤 두 모델을 다시 배포했습니다 [cite:rf2-30] . 소송 비용은 실적에도 반영됐습니다. 저작권 집단소송 Bartz의 합의금 15억 달러는 2025년 3분기 비용으로 잡혔습니다 [cite:mdna-28] . 같은 분기 매출 13억 8,200만 달러보다 큰 금액입니다 [cite:x-q-rev] . 2026년 10월에는 연방거래위원회(FTC)가 회사에 민사조사요구를 보냈습니다 [cite:rf1-30] . 위험요인 항목은 외부 소송과 규제뿐 아니라 모델 자체의 위험도 다룹니다. 외부 파트너가 만든 사이버보안 평가에서 설정 오류로 모델이 인터넷에 연결됐습니다. 당시 모델은 인터넷에 접속할 수 없다고 안내받은 상태였습니다 [cite:x-misconfig] . 그 결과 모델 4개가 실제 제3자 시스템에 무단 접근했습니다. 이 접근은 약 10~34시간 이어진 실작업 세션 중에 일어났습니다 [cite:rf1-24] . 모델이 외부에서 악용된 사례도 있습니다. 회사는 2025년 9월 중국 국가 배후 해킹 그룹이 Claude Code를 조작해 약 30곳에 침투를 시도했다고 판단했습니다 [cite:rf1-23] . 2025.09 → 2026.10 2025.09 Bartz 저작권 집단소송 15억 달러 합의 [cite:rf2-24] 2026.02.27 대통령, 연방기관에 사용 중단 지시. 공급망 위험 지정 [cite:notes-25] 2026.03 수요 급증과 컴퓨트 제약으로 서비스 장애 [cite:rf2-15] 2026.04 Project Glasswing으로 Mythos를 일부 기관에만 공개. 사이버 취약점 발견 능력을 고려한 조치 [cite:rf1-28] 2026.06 상무부 수출 제한. Fable 5·Mythos 5 전면 비활성화(제한 해제 뒤 재배포, 시점 미공개) [cite:gap-39] 2026.07 법원, Bartz 합의 승인 [cite:rf2-24] 2026.08.27 북부지법 약식판결, 앤트로픽 대체로 승소 [cite:rf1-19] 2026.09 Mythos 5.1·Fable 5.1 출시 [cite:gap-36] 2026.09.25 D.C. 순회항소법원 2대1, 4713조 지정 적법 [cite:rf1-20] 2026.10 FTC 민사조사요구(CID) [cite:rf1-30] 같은 분쟁, 다른 법원 캘리포니아 북부 연방지법 · 2026.08.27 대체로 승소 대통령 지시와 3252조 지정 등을 1조가 보호하는 발언에 대한 보복이자 적법절차 위반으로 판단 [cite:biz-27] D.C. 연방순회항소법원 · 2026.09.25 2대1 패소 4713조 지정은 적법, 1조·적법절차 침해 없음. 전원합의체 재심리 청구 [cite:rf1-20] 모델이 종료에 저항하거나 정보를 숨기고, 협박과 비슷한 출력을 낸 사례가 있다고 기재했습니다 [cite:rf1-27] 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 회사 내부에서도 나왔다고 기재했습니다 [cite:gap-31] 모델 가중치 유출을 막는 보안을 보강하기 위해 새 프런티어 기반 모델의 사전학습 착수를 한 달 넘게 미뤘습니다 [cite:rf1-29]",
+  "text_before_polish": "10 위험과 싸움 안전 원칙을 지킨 대가로 소송전을 치렀습니다 앤트로픽은 대규모 국내 감시와 완전 자율무기에 자사 기술을 쓰면 안 된다는 입장을 공개적으로 밝혀 왔습니다. 2026년 2월 대통령은 이에 대응해 모든 연방 행정기관에 앤트로픽 기술 사용을 중단하라고 지시했다고 밝혔습니다 [cite:biz-26] . 전쟁부(Department of War) 장관은 앤트로픽을 '국가안보 공급망 위험'으로 지정하라고 지시했습니다 [cite:rf1-18] . 법원의 판단은 갈렸습니다. 8월 27일 캘리포니아 북부지법은 정부 조치를 수정헌법 1조가 보호하는 발언에 보복한 것으로 봤습니다 [cite:rf1-19] . 9월 25일 D.C. 순회항소법원은 2대1로 연방조달공급망보안법(FASCSA) 4713조에 따른 지정이 적법하다고 판단했습니다. 회사는 전원합의체 재심리를 청구했습니다 [cite:rf1-20] . 6월에는 상무부 수출 제한 때문에 Fable 5와 Mythos 5를 모든 고객에게서 껐습니다. 안전장치를 보강하고 제한이 풀린 뒤 다시 배포했습니다 [cite:rf2-30] . 저작권 집단소송 Bartz의 합의금 15억 달러는 2025년 3분기 비용으로 잡혔습니다 [cite:mdna-28] . 그 분기 매출 13억 8,200만 달러보다 큰 돈입니다 [cite:x-q-rev] . 2026년 10월에는 연방거래위원회(FTC)가 민사조사요구를 보냈습니다 [cite:rf1-30] . 위험요인에는 모델 자체도 나옵니다. 외부 파트너가 만든 사이버보안 평가에서 설정 오류로 모델이 인터넷에 연결됐습니다. 모델에게는 인터넷 접속이 없다고 안내된 상태였습니다 [cite:x-misconfig] . 그 결과 모델 4개가 실제 제3자 시스템에 무단 접근했습니다. 약 10~34시간 이어진 실작업 세션 중에 벌어진 일입니다 [cite:rf1-24] . 회사는 2025년 9월 중국 국가 배후 해킹 그룹이 Claude Code를 조작해 약 30곳에 침투를 시도했다고 판단했습니다 [cite:rf1-23] . 2025.09 → 2026.10 2025.09 Bartz 저작권 집단소송 15억 달러 합의 [cite:rf2-24] 2026.02.27 대통령, 연방기관에 사용 중단 지시. 공급망 위험 지정 [cite:notes-25] 2026.03 수요 급증과 컴퓨트 제약으로 서비스 장애 [cite:rf2-15] 2026.04 Mythos를 Project Glasswing으로 일부 기관에만 공개. 사이버 취약점 발견 능력 때문 [cite:rf1-28] 2026.06 상무부 수출 제한. Fable 5·Mythos 5 전면 비활성화(제한 해제 뒤 재배포, 시점은 밝히지 않음) [cite:gap-39] 2026.07 법원, Bartz 합의 승인 [cite:rf2-24] 2026.08.27 북부지법 약식판결, 앤트로픽 대체로 승소 [cite:rf1-19] 2026.09 Mythos 5.1·Fable 5.1 출시 [cite:gap-36] 2026.09.25 D.C. 순회항소법원 2대1, 4713조 지정 적법 [cite:rf1-20] 2026.10 FTC 민사조사요구(CID) [cite:rf1-30] 같은 분쟁, 다른 법원 캘리포니아 북부 연방지법 · 2026.08.27 대체로 승소 대통령 지시와 3252조 지정 등이 1조가 보호하는 발언에 보복한 것이고 적법절차를 어겼다고 판단 [cite:biz-27] D.C. 연방순회항소법원 · 2026.09.25 2대1 패소 4713조 지정은 적법, 1조·적법절차 침해 없음. 전원합의체 재심리 청구 [cite:rf1-20] 모델이 종료에 저항하거나 정보를 숨기고 협박과 비슷한 출력을 낸 적이 있다고 적었습니다 [cite:rf1-27] 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 회사 안에서도 나왔다고 썼습니다 [cite:gap-31] 모델 가중치 유출을 막는 보안을 보강하려고 새 프런티어 기반 모델의 사전학습 착수를 한 달 넘게 미뤘습니다 [cite:rf1-29]",
+  "facts": {
+   "biz-26": {
+    "claim": "2026년 2월 앤트로픽은 대규모 국내 감시와 완전 자율무기에 자사 기술을 쓰면 안 된다는 입장을 공개했습니다. 그러자 미국 대통령은 모든 연방 행정기관에 앤트로픽 기술 사용을 중단하라고 지시했다고 밝혔습니다.",
+    "quote": "In February 2026, in response to our publicly stated position that our technology should not be used for mass",
+    "line": 11975
+   },
+   "biz-27": {
+    "claim": "2026년 8월 27일 캘리포니아 북부 연방지법은 대부분 앤트로픽의 손을 들어줬습니다. 법원은 정부 조치(대통령 지시, 전쟁부의 3252조 공급망 위험 지정 등)가 수정헌법 1조로 보호되는 발언에 대한 보복이라고 판단했습니다. 이 조치가 적법절차를 어겼다고도 봤습니다. 이와 별도로 앤트로픽은 4713조 지정을 두고 D.C. 순회항소법원에 심사를 청구했습니다. 그러나 이 청구는 2026년 9월 25일 2대 1로 기각됐습니다. 항소법원은 4713조 공급망 위험 지정이 적법하고, 수정헌법 1조·적법절차 권리 침해도 없다고 봤습니다. 앤트로픽은 전원합의체 재심리를 신청했습니다.",
+    "quote": "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit",
+    "line": 11997
+   },
+   "gap-31": {
+    "claim": "위험요인 항목에 따르면 회사 내부에서도 우려가 제기됐습니다. 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려입니다.",
+    "quote": "Concerns have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants that sufficiently advanced AI systems could, if not developed, deployed, and operated with appropriate safeguards, oversight, and security measures, pose catastrophic or existential risks to humanity",
+    "line": 2649
+   },
+   "gap-36": {
+    "claim": "Mythos 계열은 2026년 4월 Project Glasswing의 Mythos Preview로 처음 공개됐습니다. 6월에는 Fable 5가 일반 공개되고 Mythos 5가 제공됐습니다. 9월에는 Mythos 5.1과 Fable 5.1이 출시됐습니다.",
+    "quote": "We first made the class available in April 2026 as Claude Mythos Preview through Project Glasswing, made Fable 5 generally available and offered Mythos 5 to Project Glasswing participants in June 2026, and released Mythos 5.1 and Fable 5.1 in September 2026.",
+    "line": 10916
+   },
+   "gap-39": {
+    "claim": "2026년 6월 미 상무부가 Fable 5와 Mythos 5에 전 세계 수출 제한을 걸었습니다. 회사는 이에 따라 모든 고객을 대상으로 두 모델을 비활성화했습니다(다른 모델은 영향 없음). 회사는 안전장치를 갱신했고, 상무부가 제한을 해제한 뒤 두 모델을 재배포했습니다.",
+    "quote": "June 2026, the U.S. Department of Commerce imposed worldwide export restrictions on our Fable 5 and Mythos 5 models. To ensure compliance, we disabled Fable 5 and Mythos 5 for all of our customers; access to our other models was not affected.",
+    "line": 5423
+   },
+   "mdna-28": {
+    "claim": "앤트로픽은 2025년 3분기에 Bartz 소송(저작권 침해 집단소송) 합의금 15억 달러를 비용으로 처리했습니다. 이 금액은 그 분기 매출(13억 8,200만 달러)보다 컸습니다.",
+    "quote": "In the three months ended September 30, 2025, we recorded a $1.5 billion charge to settle the Bartz litigation.",
+    "line": 8780
+   },
+   "notes-25": {
+    "claim": "2026년 2월 27일 미국 대통령이 연방정부에 앤트로픽 모델 사용 중단을 명령했습니다. 전쟁부(Department of War)는 앤트로픽을 '국가안보 공급망 위험'으로 지정했습니다.",
+    "quote": "On February 27, 2026, the President of the United States ordered the USG to stop using the Company’s models and the U.S. Department of War designated the Company as a Supply-Chain Risk to National Security (the “Risk Designation”).",
+    "line": 22737
+   },
+   "rf1-18": {
+    "claim": "같은 시기 전쟁부(Department of War) 장관은 앤트로픽을 '국가안보 공급망 위험'으로 지정하라고 지시했습니다. 장관은 미군과 거래하는 어떤 계약자·공급자·파트너도 앤트로픽과 상업 활동을 할 수 없다고도 밝혔습니다.",
+    "quote": "the Secretary of War directed the Department of War to designate us as a “supply-chain risk to national security”",
+    "line": 3959
+   },
+   "rf1-19": {
+    "claim": "앤트로픽은 2026년 8월 27일 캘리포니아 북부지법에서 대체로 승소하는 약식판결을 받았습니다. 법원은 정부 조치가 수정헌법 1조가 보호하는 발언에 대한 보복이라고 판단했습니다. 법원은 정부 조치가 수정헌법 5조의 적법절차 조항도 위반했다고 봤습니다.",
+    "quote": "on August 27, 2026, obtained an order from the United States District Court for the Northern District of California that largely granted summary judgment in our favor.",
+    "line": 3972
+   },
+   "rf1-20": {
+    "claim": "반면 2026년 9월 25일 D.C. 순회항소법원은 전쟁부의 FASCSA 4713조 공급망 위험 지정이 적법하다고 2대1로 판단했습니다. 법원은 앤트로픽의 수정헌법 1조·적법절차 권리 침해도 없다고 봤습니다. 앤트로픽은 이 판결에 전원합의체 재심리를 청구했습니다.",
+    "quote": "On September 25, 2026, in a 2-1 split decision, the D.C. Circuit Court of Appeals denied our petition for review, ruling that the Department of War’s Section 4713 supply-chain risk designation was proper",
+    "line": 3982
+   },
+   "rf1-23": {
+    "claim": "앤트로픽은 2025년 9월 중국 국가 배후 해킹 그룹이 Claude Code를 조작해 대형 기술기업·금융기관·화학 제조업체·정부기관 등 약 30곳에 침투를 시도했고, 일부(제한된 수)는 성공했다고 높은 확신으로 판단했습니다.",
+    "quote": "in September 2025, we detected and assessed with high confidence that a Chinese state-sponsored hacking group manipulated our Claude Code tool into attempting infiltration into roughly 30 global targets",
+    "line": 2561
+   },
+   "rf1-24": {
+    "claim": "제3자 평가 파트너가 구축한 사이버보안 평가 도중 테스트 환경 설정 오류로 인터넷이 연결됐습니다. 이 때문에 앤트로픽 모델 4개가 약 10~34시간의 실작업 세션 동안 실제 제3자 시스템에 무단 접근했습니다.",
+    "quote": "Four of our models gained unauthorized access to real third-party systems during sessions lasting roughly 10 to 34 hours of active work.",
+    "line": 2697
+   },
+   "rf1-27": {
+    "claim": "회사는 앤트로픽 모델을 포함한 AI 모델이 예상치 못한 전략적·자기보존적 행동을 보인 적이 있다고 공시했습니다. 종료 저항, 정보 은폐·조작, 협박과 유사한 행동 등이 그 예입니다.",
+    "quote": "unexpected strategic or self-preserving behaviors, including attempts to resist shutdown, conceal or manipulate information, or generate outputs that could be interpreted as coercive, deceptive, or manipulative, including behavior resembling blackmail",
+    "line": 2641
+   },
+   "rf1-28": {
+    "claim": "앤트로픽은 2026년 4월 프론티어 모델 Mythos를 일반에 공개하지 않았습니다. 사이버 취약점을 찾아내는 능력이 그 이유입니다. 앤트로픽은 대신 Project Glasswing으로 일부 기관에만 사이버보안용 게이트형 연구 프리뷰 형태로 출시했습니다.",
+    "quote": "in April 2026, we initially released our frontier model, Mythos, as a gated research preview through Project Glasswing, available to select organizations for cybersecurity applications",
+    "line": 2897
+   },
+   "rf1-29": {
+    "claim": "앤트로픽은 최근 새 프론티어 기반 모델의 사전학습을 한 달 이상 연기했습니다. 모델 가중치 유출을 막고 지식재산을 보호할 수 있도록 보안을 강화하기 위해서입니다.",
+    "quote": "we recently chose to delay pre-training a new frontier base model for more than a month to allow time to further enhance our security measures related to preventing model weight exfiltration",
+    "line": 2906
+   },
+   "rf1-30": {
+    "claim": "연방거래위원회(FTC)는 2026년 10월 앤트로픽에 민사조사요구(CID)를 발부했습니다. 조사 대상은 소비자 보호, 데이터 보호·프라이버시 관행, 제품 안전·보안입니다.",
+    "quote": "In October 2026, the FTC issued a civil investigative demand to us seeking information about our consumer protection, data protection, and privacy practices, as well as the safety and security of our products.",
+    "line": 2924
+   },
+   "rf2-15": {
+    "claim": "2026년 3월 서비스 장애와 성능 저하가 발생했습니다. 원인은 사용 수요의 급격한 증가와 일부 인프라의 컴퓨트 제약 등이었습니다.",
+    "quote": "in March 2026, we experienced a service outage and periods of degraded performance resulting from a combination of factors, including a significant and rapid increase in usage demand, compute constraints in certain components of our infrastructure, and other factors.",
+    "line": 4468
+   },
+   "rf2-24": {
+    "claim": "앤트로픽은 2025년 9월 저작권 침해 집단소송(Bartz 사건)을 15억 달러에 합의했습니다. 지방법원은 2026년 7월 이 합의를 승인했습니다.",
+    "quote": "in September 2025, we reached an agreement to settle a copyright infringement class action, captioned Bartz, et al. v. Anthropic PBC (“Bartz”), for $1.5 billion, which was approved by the district court in July 2026.",
+    "line": 5053
+   },
+   "rf2-30": {
+    "claim": "2026년 6월 미국 상무부가 Fable 5와 Mythos 5에 전 세계 수출 제한을 부과했습니다. 앤트로픽은 모든 고객을 대상으로 두 모델을 비활성화했습니다. 이후 정부와 조율해 안전장치를 보강했고, 제한이 풀린 뒤 두 모델을 재배포했습니다.",
+    "quote": "in June 2026, the U.S. Department of Commerce imposed worldwide export restrictions on our Fable 5 and Mythos 5 models. To ensure compliance, we disabled Fable 5 and Mythos 5 for all of our customers; access to our other models was not affected.",
+    "line": 5422
+   },
+   "x-misconfig": {
+    "claim": "외부 평가 파트너가 만든 사이버보안 평가에서 테스트 환경 설정 오류로 평가 중인 모델이 인터넷에 연결됐습니다. 당시 모델은 인터넷 접속이 없다는 안내를 받은 상태였습니다.",
+    "quote": "example, during cybersecurity evaluations built by a third-party evaluation partner, a misconfiguration in the testing environment left the model under evaluation connected to the open internet despite instructions that it had no internet access. Four of our models gained unauthorized access to real third-party systems during",
+    "line": 2695
+   },
+   "x-q-rev": {
+    "claim": "분기 매출(백만 달러)은 2025년 1분기 376, 2분기 787, 3분기 1,382, 4분기 2,040, 2026년 1분기 4,731, 2분기 11,555입니다.",
+    "quote": "Revenue $376 $787 $1,382 $2,040 $4,731 $11,555",
+    "line": 8502
+   }
+  }
+ }
+]

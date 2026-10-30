@@ -1,0 +1,169 @@
+[
+ {
+  "id": "c8",
+  "text": "08 지배구조의 실험 2 경제적 지분 없는 신탁이 이사회 과반을 선임합니다 7석 중 4석 상장 후 이사회에서 장기이익신탁(LTBT)이 Class T 1주로 선임·해임하는 자리 [cite:mgmt-01] 남은 한 종류인 Class T 주식은 장기이익신탁(LTBT)이 보유합니다. 신탁은 금전적 이해관계가 없는 수탁자 5명이 운영하도록 설계됐습니다 [cite:gov-04] . 현재 재임 중인 수탁자는 4명입니다. 2023년 6월부터 의장을 맡은 버디 샤 [cite:gap-01] , 2025년 4월 합류한 리처드 폰테인 [cite:gap-03] , 2026년 6월 합류한 벤 버냉키 전 연준 의장 [cite:gap-04] , 2026년 10월 합류한 크리스토퍼 스텁스입니다 [cite:gap-05] . 한 자리는 비어 있습니다. 수탁자 임기는 1년이고 연임 제한이 없습니다 [cite:gap-02] . 수탁자는 실적과 상관없이 연 40만 달러를 현금으로 받습니다. 신탁 정책상 앤트로픽 증권을 직접 사거나 보유할 수도 없습니다 [cite:biz-38] . 회사에 금전적 이해관계가 없는 사람들이 이사회 과반을 선임하는 구조 입니다. 다만 신탁에는 일상 경영이나 전략을 결정할 권한이 없습니다 [cite:gov-06] . 상장 후 이사회 7석 가운데 신탁이 Class T로 선임하는 4석은 리드 헤이스팅스, 바스 나라심한, 크리스토퍼 리델과 공석 1석입니다 [cite:gap-07] . 나머지 3석은 다리오 아모데이, 다니엘라 아모데이, 야스민 라자비입니다 [cite:gap-08] . 신탁의 이사 선임을 견제하는 수단도 있습니다. 신탁이 지정하는 특정 이사의 선임·해임·변경에 지배구조위원회가 15일 안에 동의하지 않으면, 이 안건을 직원 주식인 Class E의 투표에 부칠 수 있습니다 [cite:mgmt-07] . Class E는 근속 6개월마다 직원에게 1주씩 발행됩니다 [cite:gap-53] . 이런 견제가 있어도 신탁의 권한에는 시한이 없습니다. 창업자 지배와 달리 신탁의 권한은 시간이 지나도 저절로 사라지지 않습니다 [cite:cap-07] . Class T 주식이 남아 있는 동안 회사가 지켜야 할 의무도 있습니다. 이사회가 정한 역량 기준을 넘는 AI 모델의 통제권을 넘길 때는 신탁에 미리 서면으로 알려야 합니다 [cite:rpt-11] . 상장 후 이사회 7석 흰색은 LTBT가 Class T로 뽑는 자리, 노란색은 Class F·A가 뽑는 자리. [cite:gap-07] [cite:gap-08] LTBT 수탁자 5석 취임 순서. 1석 공석. 1년 임기 · 연임 제한 없음 · 연 40만 달러 현금 · 앤트로픽 증권 보유 금지 [cite:gap-01] [cite:gap-03] [cite:gap-04] [cite:gap-05]",
+  "facts": {
+   "biz-38": {
+    "claim": "LTBT 수탁자는 1인당 연 40만 달러를 현금으로 받습니다. 의장인 버디 샤는 2만 5,000달러를 추가로 받습니다. 수탁자는 앤트로픽 증권을 직접 매입하거나 보유할 수 없습니다. 회사가 LTBT에 지급한 금액은 2023년 271만 6,750달러, 2024년 0달러, 2025년 90만 6,089달러, 2026년 1~9월 842만 5,213달러입니다.",
+    "quote": "compensation of its Trustees. In the years ended December 31, 2023, 2024, and 2025, we paid $2,716,750, $0,",
+    "line": 12198
+   },
+   "cap-07": {
+    "claim": "LTBT의 Class T 지배권(Class T Sunset Time)은 시간이 지나거나 특정 사건이 생겨도 자동으로 소멸하지 않습니다. 소멸하려면 신탁 개정 기준(Trust Amendment Threshold)의 승인이 필요합니다. Class T 주식의 소각 요건은 신탁 이사들의 찬성 여부에 따라 다릅니다. 신탁 이사들이 찬성하면 이사회 80%와 신탁 이사 80%의 승인이 필요합니다. 신탁 이사들이 찬성하지 않으면 Class F·E·A의 다중 승인이 필요합니다. 이때 Class F가 없으면 Class A 발행주식 85%의 동의가 필요합니다.",
+    "quote": "The Class T Sunset Time does not occur automatically upon the lapse of time or the occurrence of specific events.",
+    "line": 15277
+   },
+   "gap-01": {
+    "claim": "LTBT 수탁자 정원은 5석이며 현재 1석이 비어 있습니다. 닐 '버디' 샤 의장은 2023년 6월부터 수탁자 겸 의장을 맡고 있습니다.",
+    "quote": "Of the five authorized seats for Trustees, one is currently vacant. Dr. Neil “Buddy” Shah has served as a Trustee and Chair of the LTBT since June 2023.",
+    "line": 12140
+   },
+   "gap-02": {
+    "claim": "LTBT 수탁자 임기는 1년이며, 연임 횟수 제한은 없습니다.",
+    "quote": "Trustees will serve annual terms, and there is no limit to the number of terms a Trustee may serve.",
+    "line": 12136
+   },
+   "gap-03": {
+    "claim": "리처드 폰테인(CNAS CEO)은 2025년 4월부터 LTBT 수탁자로 재직하고 있습니다.",
+    "quote": "Richard Fontaine has served as a Trustee since April 2025. Mr. Fontaine has served as Chief Executive Officer of the Center for a New American Security (“CNAS”), a bipartisan national security research institution, since February 2019",
+    "line": 12154
+   },
+   "gap-04": {
+    "claim": "벤 버냉키 전 연준 의장은 2026년 6월부터 LTBT 수탁자를 맡고 있습니다.",
+    "quote": "Dr. Ben S. Bernanke has served as a Trustee since June 2026.",
+    "line": 12167
+   },
+   "gap-05": {
+    "claim": "네 번째 수탁자는 하버드 물리학·천문학 교수 크리스토퍼 스텁스입니다. 스텁스 교수는 2026년 10월부터 재직하고 있습니다.",
+    "quote": "Dr. Christopher Stubbs has served as a Trustee since October 2026. Dr. Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard University",
+    "line": 12182
+   },
+   "gap-07": {
+    "claim": "상장 후 이사회는 7석입니다. 이 가운데 Class T 이사 4석은 리드 헤이스팅스, 바스 나라심한, 크리스토퍼 리델과 공석 1석입니다. 리델은 Specified Class T Director입니다.",
+    "quote": "The initial Class T directors will be Mr. Hastings, Dr. Narasimhan, Mr. Liddell, and one vacancy. Mr. Liddell will serve as the Specified Class T Director.",
+    "line": 12802
+   },
+   "gap-08": {
+    "claim": "나머지 3석은 Class F·Class A 주주가 함께 선임합니다. 이 3석의 이사는 다리오 아모데이, 다니엘라 아모데이, 야스민 라자비(Spark Capital)입니다.",
+    "quote": "will have the authority to elect and remove the remaining three directors, who will initially be Dr. Amodei, Ms. Amodei, and Ms. Razavi.",
+    "line": 12805
+   },
+   "gap-53": {
+    "claim": "Class E는 직원에게 근속 6개월마다 1주씩 발행됩니다. 기부 매칭 프로그램에 따라 기부를 서약한 Class A 1주당 1주씩도 발행됩니다. 발행 시점은 상장 후 정합니다. 공동창업자는 Class E를 받지 않습니다.",
+    "quote": "one share of Class E common stock for each six months of employment completed with us and (ii) one share of Class E common stock for each share of Class A common stock that such employee has pledged to donate through our donation matching program",
+    "line": 12373
+   },
+   "gov-04": {
+    "claim": "Long-Term Benefit Trust(LTBT)는 금전적 이해관계가 없는 의결권 수탁자 5명으로 구성됩니다. 수탁자는 AI 안전, 국가안보, 공공정책, 사회적 기업 분야의 전문가입니다.",
+    "quote": "The LTBT is intended to operate as an independent body of five financially disinterested voting trustees (“Trustees”) with expertise in AI safety, national security, public policy, and social enterprise.",
+    "line": 788
+   },
+   "gov-06": {
+    "claim": "LTBT와 수탁자는 이사회 과반을 선임하지만, 일상 경영이나 전략 수립에는 결정 권한이 없습니다.",
+    "quote": "neither the LTBT nor the Trustees have decision-making authority in the day-to-day management or strategy setting of the company.",
+    "line": 812
+   },
+   "mgmt-01": {
+    "claim": "상장 후 이사회 정원은 7명입니다. 장기이익신탁(LTBT)은 Class T 주식 1주로 이사 4명(과반)을 선임·해임합니다.",
+    "quote": "The holder of our Class T common stock, the LTBT, will generally have the authority to elect and remove the four Class T directors",
+    "line": 12799
+   },
+   "mgmt-07": {
+    "claim": "LTBT는 'Specified Class T 이사'를 지정합니다. 지배구조위원회(NGC)가 이 이사의 선임·해임에 15일 안에 동의하지 않으면 직원 주식인 Class E 주주 투표에 부칠 수 있습니다.",
+    "quote": "if our NGC does not concur with such nomination, removal, or change within 15 days of receiving notice, the matter may be submitted to a vote of the holders of our Class E common stock.",
+    "line": 12988
+   },
+   "rpt-11": {
+    "claim": "Class T 주식이 남아 있는 동안 회사는 AI 모델의 통제권을 이전하기 전에 LTBT에 서면으로 통지해야 합니다. 대상은 이사회가 정한 역량 기준을 넘는 모델입니다.",
+    "quote": "a transfer of control of an AI model exceeding capabilities thresholds established by our board of directors",
+    "line": 14469
+   }
+  }
+ },
+ {
+  "id": "c9",
+  "text": "09 사람들 2026년 9월, 코드 기여의 90% 이상을 Claude가 썼습니다 2026년 9월 앤트로픽 코드베이스에 들어간 기여의 90% 이상을 Claude가 썼습니다 [cite:mdna-12] . 3분기 엔지니어 1인당 하루 평균 코드 기여량은 2024년 평균의 45배를 넘었습니다 [cite:mdna-13] . 사내 Claude 사용량을 정가로 환산한 가치는 2026년 1월에서 9월 사이 250배 넘게 늘었습니다. 이 가치는 4월에 처음으로 월 인건비(주식보상 제외)를 넘었습니다 [cite:biz-20] . 직원 1인당 최근 12개월 매출은 1년 새 140만 달러에서 660만 달러 이상으로 늘었습니다 [cite:mdna-14] . 공동창업자 7명은 모두 지금도 회사에 있습니다 [cite:biz-43] . S-1에는 공동창업자 일곱 명이 같은 보상을 받는다고 적혀 있습니다. 보상표에 나오는 다리오와 다니엘라는 급여와 주식·옵션이 같고, 경호비 같은 기타 보상만 다릅니다 [cite:comp-02] . 보상뿐 아니라 지분도 거의 같습니다. 각자의 실질 보유 주식(신탁, 곧 행사할 수 있는 옵션과 RSU(양도제한조건부주식) 포함)은 2억 3,181만~2억 4,417만 주입니다. 이 기준으로 가장 많이 가진 사람은 CEO가 아니라 톰 브라운입니다 [cite:x-own-5] . 다리오 아모데이는 기부자조언기금이 가진 462만 주의 의결권도 위임받았습니다. 이를 합치면 그의 실질 보유 주식은 2억 4,526만 주로 늘어납니다 [cite:x-own-dd] . 창업자들은 각자 개인 지분의 80%를 자선에 쓰겠다고 서약했습니다 [cite:mdna-27] . 다만 S-1 위험요인 항목에는 이 서약이 자발적이고 철회할 수 있으며 법적 구속력이 없다고 적혀 있습니다 [cite:rf2-50] . 기부로 개인 지분이 줄어도 Founder LLC를 거쳐 행사하는 의결권은 유지될 수 있습니다 [cite:rf2-51] . 2025년 다리오 아모데이의 총보수는 1,795만 8,298달러였습니다 [cite:comp-04] . 이 가운데 개인 경호비가 274만 5,874달러입니다 [cite:comp-05] . 이사회는 외부 보안 컨설팅사의 신변 위험 조사 등을 근거로 CEO와 사장의 경호(가족 포함)와 자택 보안 강화를 의무로 정했습니다 [cite:comp-06] . 90%+ 2026년 9월 코드베이스 기여 중 Claude 작성분 [cite:mdna-12] 45배+ 엔지니어 1인당 일평균 코드 기여량, 2024년 평균 대비 [cite:mdna-13] 250배+ 사내 Claude 사용가치 증가, 2026년 1월→9월 [cite:biz-20] 660만 달러+ 직원 1인당 최근 12개월 매출. 1년 전 140만 달러 [cite:biz-17] 공동창업자 7인, 실질 보유 Class A 주식 (백만 주) 2026년 9월 30일 기준, 공모 전. 신탁·60일 내 옵션·RSU 포함, 다리오 아모데이의 위임 의결권 462만 주는 제외. 버튼을 누르면 자선 서약 80%를 겹쳐 볼 수 있습니다. 80% 서약 겹쳐 보기 축은 0에서 시작합니다. [cite:x-own-dd] [cite:x-own-5] [cite:rf2-50]",
+  "facts": {
+   "biz-17": {
+    "claim": "2026년 9월 30일 기준 TTM 직원 1인당 매출은 660만 달러를 넘습니다. 1년 전에는 140만 달러였습니다. 직원 수는 약 5,300명입니다.",
+    "quote": "demonstrated by TTM revenue per employee of over $6.6 million as of September 30, 2026, compared",
+    "line": 10130
+   },
+   "biz-20": {
+    "claim": "사내 Claude 사용량을 정가로 환산한 가치는 2026년 1월부터 9월까지 250배 넘게 늘었습니다. 이 가치는 2026년 4월 월간 기준으로 처음 인건비(주식보상 제외)를 넘어섰습니다.",
+    "quote": "usage at list prices has grown by over 250 times from January 2026 to September 2026, and in April 2026, this",
+    "line": 10195
+   },
+   "biz-43": {
+    "claim": "앤트로픽 공동창업자 7명은 모두 지금도 회사를 이끌고 있습니다. 회사는 주요 AI 연구소를 포함한 테크 기업 가운데 드문 사례라고 강조했습니다.",
+    "quote": "All seven of Anthropic’s co-founders remain active leaders in the organization.",
+    "line": 11320
+   },
+   "comp-02": {
+    "claim": "공동창업자 7명은 모두 동일한 보상을 받습니다. 다리오와 다니엘라는 2025년 급여·주식·옵션 보상과 이후 연봉 인상분까지 같았습니다. 기타 보상(경호비 등)만 달랐습니다.",
+    "quote": "Each co-founder is paid equal compensation.",
+    "line": 13157
+   },
+   "comp-04": {
+    "claim": "2025년 다리오 아모데이의 총보수는 1,795만 8,298달러였습니다. 이 가운데 급여는 65만 4,167달러, 주식·옵션 보상은 약 1,329만 달러였습니다. 다니엘라의 총보수는 1,640만 8,998달러, CFO 크리슈나 라오는 72만 250달러였습니다.",
+    "quote": "17,958,298",
+    "line": 13493
+   },
+   "comp-05": {
+    "claim": "2025년 다리오 아모데이의 '기타 보상' 401만 달러 중 개인 경호 비용은 274만 5,874달러였습니다. 기타 보상에는 개인 용도 전용기 비용 9만 7,055달러도 포함됐습니다. 다니엘라의 경호·자택 보안·교통 비용은 129만 3,629달러였습니다.",
+    "quote": "(ii) $2,745,874 in connection with personal security services",
+    "line": 13525
+   },
+   "comp-06": {
+    "claim": "2025년 외부 보안 컨설팅사가 CEO와 사장의 신변 위험을 조사했습니다. 이사회는 이 조사 결과를 근거로 가족 경호와 자택 보안 강화를 의무화했습니다.",
+    "quote": "In 2025, a leading security consulting firm conducted independent, third-party security studies regarding the personal and security risks of our Chief Executive Officer and our President.",
+    "line": 13352
+   },
+   "mdna-12": {
+    "claim": "2026년 9월 앤트로픽 코드베이스 기여분의 90% 이상은 Claude가 작성했습니다.",
+    "quote": "over 90% of the contributions to our codebase in September 2026 were written by Claude.",
+    "line": 7039
+   },
+   "mdna-13": {
+    "claim": "2026년 3분기 엔지니어 1인당 일평균 코드 기여량은 2024년 연간 평균의 45배를 넘었습니다.",
+    "quote": "the average daily volume of code contributed to our codebase per engineer in the three months ended September 30, 2026 was over 45 times the average daily volume in the year ended December 31, 2024.",
+    "line": 7040
+   },
+   "mdna-14": {
+    "claim": "2025년 9월 30일부터 2026년 9월 30일까지 TTM 매출은 약 1,200% 늘었습니다. 같은 기간 인원 증가율은 약 170%였습니다. 그 결과 직원 1인당 TTM 매출은 140만 달러에서 660만 달러 이상으로 올랐습니다.",
+    "quote": "From September 30, 2025 to September 30, 2026, TTM revenue increased approximately 1,200% while headcount increased approximately 170%, driving TTM revenue per employee from $1.4 million to over $6.6 million",
+    "line": 7042
+   },
+   "mdna-27": {
+    "claim": "공동창업자들은 각자 보유한 앤트로픽 개인 지분의 80%를 자선 목적에 쓰겠다고 서약했습니다. 이 서약은 회사의 기부 매칭 프로그램과 별개입니다.",
+    "quote": "our co-founders have each pledged to dedicate 80% of their personal equity in Anthropic to philanthropic causes, separate from and not eligible for our donation matching program.",
+    "line": 7408
+   },
+   "rf2-50": {
+    "claim": "공동창업자들은 각자 개인 지분의 80%를 자선에 쓰겠다고 서약했습니다. 다만 이 서약은 자발적이고 철회할 수 있으며, 법적 구속력이 없습니다.",
+    "quote": "our co-founders have each pledged to dedicate 80% of their personal equity in Anthropic to philanthropic causes. These commitments are voluntary, revocable expressions of each co-founder’s philanthropic intent and do not constitute legally binding obligations.",
+    "line": 6387
+   },
+   "rf2-51": {
+    "claim": "공동창업자가 기부해 개인 경제적 지분이 줄어도 Founder LLC를 통한 의결권은 그대로 유지됩니다. 다만 각자 Founder LLC에 남기 위한 최소 보유 지분 조건을 충족하는 경우에 한합니다.",
+    "quote": "their personal economic interests in us will decrease while their voting control through the Founder LLC will remain unchanged for so long as each co-founder continues to satisfy the minimum retained ownership condition",
+    "line": 6404
+   },
+   "x-own-5": {
+    "claim": "공모 전 본인 명의 Class A 주식은 톰 브라운 244,173,040주, 잭 클라크 242,271,840주, 재러드 캐플런 242,351,170주, 샘 맥캔들리시 231,809,780주, 크리스토퍼 올라 242,882,420주입니다.",
+    "quote": "Tom Brown(12)†† 244,173,040 — — Jack Clark(13)†† 242,271,840 — — Jared Kaplan(14)†† 242,351,170 — — Sam McCandlish(15)†† 231,809,780 — — Christopher Olah(16)†† 242,882,420 — —",
+    "line": 14743
+   },
+   "x-own-dd": {
+    "claim": "공모 전 본인 명의 Class A 주식: 다리오 아모데이 240,637,980주(의결권 위임분 4,621,120주 포함 시 245,259,100주), 다니엘라 아모데이 241,408,940주.",
+    "quote": "Dario Amodei(1) †† 240,637,980 — — Shares subject to voting proxies(2) 4,621,120 — — Total 245,259,100 — — —",
+    "line": 14661
+   }
+  }
+ },
+ {
+  "id": "act4",
+  "text": "PART 4 위험·언론·빈칸 10 위험과 싸움 11 언론이 본 것 12 엔딩",
+  "facts": {}
+ }
+]

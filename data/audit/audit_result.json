@@ -1,0 +1,452 @@
+[
+ {
+  "chunk": 0,
+  "checked": 42,
+  "issues": [
+   {
+    "section": "top",
+    "page_text": "앤트로픽이 2026년 10월 26일 미국 증권거래위원회(SEC)에 상장 증권신고서 S-1을 공개 제출했다 [cite:cover-01]",
+    "problem": "이 문장의 핵심은 제출 날짜인데, 붙은 인용 cover-01은 나스닥 티커 'ANT' 상장 신청만 뒷받침한다. 10월 26일이라는 날짜는 cover-01의 claim과 quote 어디에도 없다. 날짜 근거는 EDGAR 제출 이력(edgar-hist)이다.",
+    "evidence": "s1.txt 107~108줄 \"We have applied to list our Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.”\" (날짜 언급 없음)",
+    "fix": "앤트로픽이 2026년 10월 26일 미국 증권거래위원회(SEC)에 상장 증권신고서 S-1을 공개 제출했다 [cite:edgar-hist]. 나스닥 티커는 ANT다 [cite:cover-01].",
+    "severity": "misleading"
+   },
+   {
+    "section": "top",
+    "page_text": "1주 = 50.1% 창업자 몫 Class F 주식과 그 의결권 [cite:gov-01]",
+    "problem": "'창업자 몫 50.1%'는 지분이나 전체 의결권의 50.1%로 읽힐 수 있다. 원문은 주주 일반 안건 의결권의 50.1%이고, Class T 이사 선임은 빠지며 경제적 권리도 없다. 인용 노트에도 이 범위를 고쳤다고 적혀 있는데 KPI 라벨에는 그 내용이 없다.",
+    "evidence": "s1.txt 122~124줄 \"50.1% of the total voting power ... with respect to matters submitted to stockholders generally, including the election of our directors other than the Class T directors. Our Class F common stock will not have any economic rights.\"",
+    "fix": "1주 = 의결권 50.1%. 창업자 LLC의 Class F 주식 1주가 주주 일반 안건에서 갖는 의결권이다(경제적 권리 없음, Class T 이사 선임 제외).",
+    "severity": "misleading"
+   },
+   {
+    "section": "c2",
+    "page_text": "꺾이는 지점은 모델 출시다. 2025년 11월 Opus 4.5를 내놓은 뒤 전 분기 대비 매출 성장률이 48%에서 132%로 뛰었다 [cite:biz-15] .",
+    "problem": "성장률이 뛴 원인을 모델 출시 하나로 못 박았다. 원문은 출시 '이후'라고만 쓰고, 바로 다음 문장에서 가격 인하, 성능 향상, 신제품, 고객 확대가 합쳐진 결과라고 밝힌다. 원문보다 인과를 세게 말한다. 48%(2,040/1,382)와 132%(4,731/2,040)는 다시 계산해도 맞다.",
+    "evidence": "s1.txt 10731~10735줄 \"Following that launch, our total quarter-over-quarter revenue growth accelerated from 48% ... to 132% ... This growth reflected the combined effect of several factors. These included lower prices and improved capability that unlocked new use cases, the emergence of new products, and expanded customer adoption.\"",
+    "fix": "성장이 빨라진 시점은 모델 출시와 겹친다. 2025년 11월 Opus 4.5를 내놓은 뒤 전 분기 대비 매출 성장률이 48%에서 132%로 올랐다. 회사는 이를 가격 인하, 성능 향상, 신제품, 고객 확대가 합쳐진 결과로 설명한다 [cite:biz-15].",
+    "severity": "misleading"
+   },
+   {
+    "section": "c2",
+    "page_text": "2026년 3분기 매출의 80% 이상은 직전 6개월 안에 출시된 모델 버전에서 나왔다 [cite:gap-40] .",
+    "problem": "'직전 6개월'은 3분기 앞의 6개월(1~6월)로 읽힌다. 원문 기간은 2026년 9월 30일로 끝나는 6개월, 곧 4~9월이라 3분기 자체가 들어간다.",
+    "evidence": "s1.txt 7350~7351줄 \"model versions released in the six months ended September 30, 2026 accounted for over 80% of our revenue for the three months ended September 30, 2026.\"",
+    "fix": "2026년 3분기 매출의 80% 이상은 2026년 4~9월 6개월 사이에 출시된 모델 버전에서 나왔다 [cite:gap-40].",
+    "severity": "misleading"
+   },
+   {
+    "section": "c2",
+    "page_text": "매출의 엔진이 반년마다 갈아 끼워진다는 뜻이다.",
+    "problem": "한 기간(2026년 3분기)의 수치를 '반년마다'라는 규칙으로 넓혔다. 원문은 모델 출시가 계속 겹쳐 이어진다고만 쓰고, 반년 주기를 말하지 않는다.",
+    "evidence": "s1.txt 7348~7349줄 \"The continuous and overlapping cadence of new model version releases is inherent to remaining at the frontier of AI development.\"",
+    "fix": "새 모델이 나오면 매출의 주력이 빠르게 새 모델로 옮겨 간다는 뜻이다.",
+    "severity": "nit"
+   },
+   {
+    "section": "top",
+    "page_text": "≈4,170억$ 2025년 말 이후 맺은 계약의 최소 지급 의무 [cite:notes-03]",
+    "problem": "원문은 새로 맺은 계약과 기존 계약을 수정한 것을 합친 금액이다. '맺은 계약'만으로는 전부 새 계약처럼 읽힌다. 인용 claim도 '새로 맺거나 수정한'으로 적었다.",
+    "evidence": "s1.txt 22696~22698줄 \"the Company entered into new, and amended existing, lease and commercial agreements ... approximately $417 billion.\"",
+    "fix": "≈4,170억$ 2025년 말 이후 새로 맺거나 수정한 계약의 미래 최소 지급 의무",
+    "severity": "nit"
+   },
+   {
+    "section": "c1",
+    "page_text": "86이 반올림한 배수라 근사치지만, 2026년 상반기 6개월 매출 162억 8,600만 달러보다 큰 숫자를 석 달 만에 벌었다는 계산이 된다.",
+    "problem": "S-1은 86배가 반올림한 값이라고 쓰지 않았다. 페이지가 원문에 없는 사실을 단정한다. 결론은 맞다. 두 값을 가장 낮게 잡아도(85.5×1억 9,650만=약 168억 달러) 162억 8,600만 달러보다 크다.",
+    "evidence": "s1.txt 10186~10187줄 \"was 86 times our revenue for the three months ended December 31, 2024.\" (반올림 언급 없음), 3538줄 \"$197 million\"",
+    "fix": "86배와 1억 9,700만 달러 모두 반올림했을 수 있어 근사치다. 그래도 가장 낮게 잡아도 2026년 상반기 6개월 매출 162억 8,600만 달러보다 큰 숫자를 석 달 만에 벌었다는 계산이 된다.",
+    "severity": "nit"
+   },
+   {
+    "section": "misc",
+    "page_text": "회사가 잘될수록 장부의 적자는 커졌고, 창업자의 주식 한 장은 신주를 아무리 찍어도 희석되지 않는다.",
+    "problem": "(1) 적자가 커진 주된 이유는 영업 실적이 아니라 기업가치 상승에 따른 전환사채 공정가치 증가다. 원문은 'primarily'라고 쓰는데, '회사가 잘될수록'은 주어도 흐리고 원문보다 세다. (2) 희석되지 않는 것은 주식이 아니라 일반 안건 의결권 50.1%다. 이 보장은 Class F Sunset Time까지만 이어지는데 '아무리'는 이를 무조건처럼 말한다.",
+    "evidence": "s1.txt 1437~1438줄 \"These changes were primarily driven by an increase in the fair value of our outstanding convertible promissory notes resulting from an increase in our enterprise valuation\", 6327~6328줄 \"will not dilute the voting power of our Class F common stock\", 5906~5914줄 \"Our Class F common stock will remain outstanding until the earlier of ... (the “Class F Sunset Time”)\"",
+    "fix": "기업가치가 오를수록 장부상 손실이 주로 커졌다. 그리고 창업자 LLC가 가진 Class F 주식 한 장의 의결권 50.1%는, Class F가 남아 있는 동안 신주를 찍어도 희석되지 않는다.",
+    "severity": "nit"
+   }
+  ]
+ },
+ {
+  "chunk": 1,
+  "checked": 42,
+  "issues": [
+   {
+    "section": "c4 (04 컴퓨트 효율)",
+    "page_text": "2026년 상반기 매출의 80%는 약정 없이 쓰는 만큼 내는 종량제 매출이다 [cite:mdna-20]",
+    "problem": "종량제(consumption-based) 매출을 '약정 없이' 내는 매출로 정의한 것은 원문과 다르다. S-1은 최소 지출 약정이 붙은 해지 불가 연간·다년 기업 계약도 주로 종량제 매출로 잡힌다고 적는다. 원문이 말하는 것은 종량제 매출의 '상당 부분(much of it)'이 장기 약정에 묶이지 않는다는 것이지 80% 전부가 약정이 없다는 것이 아니다.",
+    "evidence": "s1.txt 7124~7126행 'A growing number of enterprise customers agree to non-cancelable annual or multi-year contracts with minimum spend commitments ... These contracts result primarily in consumption-based revenue.' / 1877행 'our revenue is primarily consumption-based, and much of it is not subject to long-term contractual commitments'",
+    "fix": "2026년 상반기 매출의 80%는 쓴 만큼 내는 종량제 매출이고, S-1은 이 매출의 상당 부분이 장기 약정에 묶여 있지 않다고 적는다.",
+    "severity": "error"
+   },
+   {
+    "section": "c4 (04 컴퓨트 효율)",
+    "page_text": "약정은 2031년부터 2045년까지 이어지는데 [cite:rf1-13]",
+    "problem": "약정이 2031년에 시작하는 것처럼 읽힌다. 원문은 2030년 12월 31일 이전 집행분(금액 빈칸)이 따로 있고, 그 나머지의 사실상 전부가 2031~2045년에 집행된다고 적는다. MS·구글·아마존 약정도 2026년부터 시작한다.",
+    "evidence": "s1.txt 1869~1870행 'These commitments include approximately $ expected to be incurred before December 31, 2030, and substantially all of the remainder is expected to be incurred between 2031 and 2045.'",
+    "fix": "약정 가운데 2030년 이후분은 사실상 전부 2031년부터 2045년 사이에 집행될 예정인데,",
+    "severity": "misleading"
+   },
+   {
+    "section": "c3 (03 적자의 역설)",
+    "page_text": "807억 달러 적자, 그 89.6%는 몸값이 올라서 생겼다",
+    "problem": "89.6%(723억 8,800만 달러)는 전환사채·파생부채·SAFE 공정가치 변동 전체다. S-1은 이 변동이 '주로(primarily)' 기업가치 상승에 따른 전환사채 공정가치 증가 때문이라고 적을 뿐, 89.6% 전부를 몸값 상승 탓으로 단정하지 않는다. 제목이 원문보다 세게 말한다.",
+    "evidence": "s1.txt 1437~1439행 'These changes were primarily driven by an increase in the fair value of our outstanding convertible promissory notes resulting from an increase in our enterprise valuation'",
+    "fix": "807억 달러 적자, 그 89.6%는 공정가치 평가손실이고 주된 원인은 몸값 상승이다",
+    "severity": "misleading"
+   },
+   {
+    "section": "c3 (03 적자의 역설)",
+    "page_text": "현금이 나간 손실은 따로 봐야 한다. 같은 반기 영업손실은 6억 9,300만 달러로, 전년 동기 21억 3,500만 달러에서 줄었다 [cite:fin-06]",
+    "problem": "영업손실을 '현금이 나간 손실'로 소개했지만 영업손실에는 2026년 상반기 주식보상비용 22억 달러와 기부 매칭 비현금 비용 같은 비현금 항목이 들어 있다. 영업손실과 현금 유출은 같은 것이 아니다(같은 반기 영업현금흐름은 오히려 +39억 달러).",
+    "evidence": "s1.txt 1431~1433행 '(1)Includes stock-based compensation expense of ... $286 million and $2.2 billion for the six months ended June 30, 2025 and 2026' / 8478~8479행 'non-cash charges from our donation matching program ... recorded in other operating and administrative expenses'",
+    "fix": "평가손실을 걷어낸 본업 성적은 따로 봐야 한다. 같은 반기 영업손실은 6억 9,300만 달러로, 전년 동기 21억 3,500만 달러에서 줄었다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c3 (03 적자의 역설) 차트",
+    "page_text": "기타 영업외 −8,757 ... 빗금은 현금이 나가지 않는 평가손실이다.",
+    "problem": "−8,757(기타 영업외)도 S-1 설명으로는 주로 노트 매입 계약(note purchase agreements)에 따른 자산·부채의 최초 공정가치 인식과 공정가치 변동에서 나온 평가성 항목이다. 빗금(평가손실)을 공정가치 변동 줄에만 칠하면 비현금 평가손실 규모가 작게 보인다.",
+    "evidence": "s1.txt 7935~7938행 'The decrease was primarily driven by the initial fair value recognition and change in fair value of the assets and liabilities recognized under the note purchase agreements described in Note 4'",
+    "fix": "기타 영업외 −8,757(주로 노트 매입 계약 관련 공정가치 인식분)도 평가성 항목으로 표시하거나, 차트 주석에 '기타 영업외도 대부분 공정가치 인식에서 나왔다'를 덧붙인다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c3 (03 적자의 역설)",
+    "page_text": "조정영업이익률은 2023년 −1,273%에서 +10%까지 올라왔다 [cite:fin-15]",
+    "problem": "+10%의 기간이 빠져 있다. +10%는 2026년 상반기 값이고, 연간(2023년)과 반기 값을 비교한다는 점이 드러나지 않는다.",
+    "evidence": "s1.txt 1581~1586행 'Adjusted Operating Margin (1,273)% (722)% (106)% (159)% 10%' (열 순서 2023, 2024, 2025, 1H2025, 1H2026)",
+    "fix": "조정영업이익률은 2023년 −1,273%에서 2026년 상반기 +10%까지 올라왔다.",
+    "severity": "nit"
+   }
+  ]
+ },
+ {
+  "chunk": 2,
+  "checked": 44,
+  "issues": [
+   {
+    "section": "c5 고객과 제품",
+    "page_text": "쏠림은 줄었다. 2023년에는 고객 한 곳(Customer C)이 매출의 43%였지만 [cite:gap-25] , 2026년 1~9월에는 상위 5곳을 합쳐 약 25%였다 [cite:rf1-07] .",
+    "problem": "서로 다른 지표(단일 고객 비중 vs 상위 5곳 합계)와 다른 기간(연간 vs 9개월)을 맞대어 '쏠림이 줄었다'고 단정한다. 같은 표에서 Customer C는 2026년 상반기에도 11%로 10%를 넘었고, 2023년에는 Customer D(11%)까지 두 곳이 10%를 넘었다. 원문은 오히려 특정 고객 비중이 앞으로 커질 수 있다고 적는다.",
+    "evidence": "18876~18885줄 표(열 순서 2023·2024·2025·2025H1·2026H1): 'Customer C 43% * * * 11%', 'Customer D 11%'. 3186~3188줄 'no single customer represented more than 10% ... top five customers represented approximately 25%'. 3196~3197줄 'the portion of our revenue attributable to certain customers may increase in the future.'",
+    "fix": "2023년에는 한 고객(Customer C)이 매출의 43%를 차지했다. 2026년 1~9월에는 10%를 넘는 단일 고객이 없지만, 상위 5곳이 매출의 약 25%를 차지한다(같은 고객은 2026년 상반기 기준으로는 11%였다).",
+    "severity": "misleading"
+   },
+   {
+    "section": "c5 고객과 제품",
+    "page_text": "지출을 끌어올린 제품은 코딩 에이전트다. 2026년 3분기 Claude Code를 쓰지 않는 Claude Enterprise 사용자는 한 달에 평균 75달러 미만을 썼고, Claude Code를 쓰는 상위 5% 사용자는 그 약 20배를 썼다 [cite:biz-14] .",
+    "problem": "원문은 Claude Code 같은 에이전트 제품 채택에서 확장이 '보인다'는 예시를 든 것이다. 비교도 Claude Code 비사용자의 평균과 사용자 중 상위 5%를 맞댄 것이라 인과를 보여 주지 못한다. '지출을 끌어올린 제품'이라는 단정은 원문보다 세다.",
+    "evidence": "10714~10717줄 'We see this expansion as customers adopt agentic products like Claude Code. For example, ... Claude Enterprise users who did not use Claude Code spent less than $75 per month on average, while the top 5% of Claude Enterprise users who used Claude Code spent approximately 20 times that amount.'",
+    "fix": "회사는 고객이 Claude Code 같은 에이전트 제품을 쓰면서 지출이 커진다고 설명한다. 예로 2026년 3분기 Claude Code를 쓰지 않는 Claude Enterprise 사용자는 월평균 75달러 미만을 썼고, Claude Code를 쓰는 사용자 가운데 상위 5%는 그 약 20배를 썼다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c6 파트너와 자금",
+    "page_text": "지배권은 막아 두었다. 전환이 끝나면 아마존과 구글은 각각 발행주식의 5% 넘게 갖게 되지만, 그 주식은 의결권이 없는 Class N이다 [cite:rf2-46] [cite:gov-08] .",
+    "problem": "'지배권은 막아 두었다'는 페이지의 해석이다. 인용한 위험요인 자체가 Class N이 관계없는 제3자에게 넘어가면 Class A로 전환되어 의결권에 의미 있는 영향을 줄 수 있고, Class A 주주의 의결권을 희석한다고 경고한다. 무의결권만 보여 주고 이 단서를 빼면 원문보다 안심시키는 쪽으로 기운다.",
+    "evidence": "6284~6286줄 소제목 'A substantial number of shares of our Class N common stock ... which will dilute the voting power of the holders of our Class A common stock upon conversion.' 6294~6297줄 'Although our Class N common stock is non-voting, their holdings represent a significant economic interest ... because our Class N common stock converts into Class A common stock upon transfer to an unaffiliated third party, these shares could also become significant to the voting power'.",
+    "fix": "전환이 끝나면 아마존과 구글은 각각 발행주식의 5% 넘게 갖게 된다. 그 주식은 의결권이 없는 Class N이지만, 관계없는 제3자에게 넘어가면 Class A로 바뀌어 의결권에 영향을 줄 수 있다고 S-1은 적는다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c6 파트너와 자금",
+    "page_text": "아마존의 2023년 전환사채는 주당 2.0928달러와 공모가 중 낮은 값으로 바뀐다 [cite:notes-10] .",
+    "problem": "전환은 아마존 소유 상한(자본의 12%)의 제약을 받고, 상한을 넘는 부분은 무이자 롤오버 노트로 남아 분기마다 전환된다는 조건이 빠졌다. 또 2.0928달러는 Class N 보통주 기준 가격(우선주 기준 20.9280달러의 10분의 1)인데, 바로 아래 차트는 '주식분할 이전 기준' 우선주 가격이라 독자가 시리즈 C(11.2261달러)보다 훨씬 싸게 전환되는 것으로 오해할 수 있다.",
+    "evidence": "9150~9160줄 'no portion of a note converts to the extent that ... Amazon would hold more than 12% of our capitalization', 9166~9180줄 표 'Amazon 2023 NPA $2,186 $2.0928'. 20898~20900줄 'convertible into non-voting redeemable convertible preferred stock at a conversion price equal to the lesser of (i) $20.9280 per share'.",
+    "fix": "아마존의 2023년 전환사채(원금 21억 8,600만 달러)는 상장 때 Class N 보통주 주당 2.0928달러(분할 전 기준 20.928달러)와 공모가 중 낮은 값으로 바뀐다. 다만 아마존 지분이 12%를 넘는 부분은 롤오버 노트로 남는다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c6 파트너와 자금",
+    "page_text": "구글 200억, 아마존 150억, 브로드컴 420억 달러, 합계 770억 달러의 전환사채 매입 약정은 들어온 돈이 아니다. 6월 말 기준 아직 꺼내 쓰지 않은 한도다 [cite:mdna-36] .",
+    "problem": "구글 한도 200억 달러는 구글이 공모와 동시 사모로 Class N을 사면 최대 100억 달러 줄어든다는 각주가 있다. 합계 770억 달러가 고정된 한도처럼 읽힌다.",
+    "evidence": "9252~9254줄 '(1)Subject to reduction by up to $10.0 billion if Google exercises its option to purchase shares of our Class N common stock in a private placement concurrent with this offering'.",
+    "fix": "구글 200억(동시 사모 행사 시 최대 100억 달러 감액), 아마존 150억, 브로드컴 420억 달러, 합계 770억 달러의 전환사채 매입 약정은 들어온 돈이 아니다. 6월 말 기준 아직 꺼내 쓰지 않은 한도다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c5 고객과 제품",
+    "page_text": "이 고객군에는 포춘 10에 드는 회사가 전부 들어 있고, 포춘 500의 절반 이상, 미국 10대 은행 전부와 10대 제약사 중 9곳이 들어 있다 [cite:biz-12] .",
+    "problem": "원문의 '10대 은행·10대 제약사'는 '포춘 500 안에서'라는 범위가 붙어 있다. '미국 10대 은행'은 은행에만 국적을 붙이고 제약사는 범위 없이 써서, 제약사가 세계 10대로 읽힌다.",
+    "evidence": "10686~10689줄 'Within the Fortune 500, these customers included ... nine of the 10 largest pharmaceutical companies, the 10 largest banks'.",
+    "fix": "이 고객군에는 포춘 10 전부와 포춘 500의 절반 이상이 들어 있다. 포춘 500 안에서 보면 10대 은행 전부와 10대 제약사 중 9곳이 들어 있다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c5 고객과 제품",
+    "page_text": "최근 12개월 동안 10만 달러 넘게 쓴 고객은",
+    "problem": "원문 기준은 '10만 달러 이상($100,000 or more)'이다. 같은 섹션 차트는 '10만 달러 이상'으로 써서 표현이 섞여 있다.",
+    "evidence": "7316줄 'The number of customers with $100,000 or more of revenue on a TTM basis grew from approximately 20'.",
+    "fix": "최근 12개월 동안 10만 달러 이상 쓴 고객은",
+    "severity": "nit"
+   }
+  ]
+ },
+ {
+  "chunk": 3,
+  "checked": 42,
+  "issues": [
+   {
+    "section": "c7 지배구조의 실험 1",
+    "page_text": "일몰 장치는 사람 수에 걸려 있다. 회사에 남은 창업자가 90일 연속 3명 미만이면 450일의 전환 기간이 시작되고, 끝나면 Class F는 무상 소각된다",
+    "problem": "기준은 '회사에 재직 중인 창업자'가 아니라 Founder LLC의 Continuing Founders(창업자 7명과 승계 멤버, 비적격 승계자는 제외)다. 인용 사실의 note에서도 이 오해를 고쳤다고 했는데 페이지 문구에는 반영되지 않았다. 전환 기간이 끝나면 Class F와 함께 Class E도 소각되는데 이 내용도 빠져 있다.",
+    "evidence": "s1.txt 12239~12244: \"We refer to our seven co-founders and any successors in the Founder LLC as 'Continuing Founders.' When there have been fewer than three Continuing Founders ... for 90 consecutive calendar days, a 450-day transition period will commence ... all of our Class F common stock and Class E common stock then issued and outstanding will be redeemed by us for no consideration\"",
+    "fix": "일몰 장치는 사람 수에 걸려 있다. Founder LLC의 창업자 멤버(승계 멤버 포함)가 90일 연속 3명 미만이면 450일의 전환 기간이 시작되고, 끝나면 Class F와 Class E는 무상 소각된다.",
+    "severity": "error"
+   },
+   {
+    "section": "c8 지배구조의 실험 2",
+    "page_text": "신탁이 지정하는 특정 이사의 선임을 지배구조위원회가 15일 안에 동의하지 않으면, 직원 주식 Class E의 투표로 넘어간다",
+    "problem": "원문은 Class E 투표에 '부칠 수 있다(may be submitted)'이고, 자동으로 넘어간다는 뜻이 아니다. 대상도 선임만이 아니라 해임과 지정 변경을 포함한다.",
+    "evidence": "s1.txt 12988~12989: \"if our NGC does not concur with such nomination, removal, or change within 15 days of receiving notice, the matter may be submitted to a vote of the holders of our Class E common stock.\"",
+    "fix": "신탁이 지정하는 특정 이사(Specified Class T Director)의 선임·해임·변경에 지배구조위원회가 15일 안에 동의하지 않으면, 직원 주식 Class E의 투표에 부칠 수 있다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c7 지배구조의 실험 1",
+    "page_text": "아마존과 구글이 의결권 없는 주식을 받는 사이, 단 한 장짜리 주식이 새로 생긴다.",
+    "problem": "이 주장에는 인용 버튼이 없다. 바로 뒤에 붙은 gov-03은 창업자 7명만 뒷받침한다. 내용 자체는 S-1에 있으므로 근거 인용을 붙여야 한다.",
+    "evidence": "s1.txt 6299~6300: \"Amazon will hold shares of our Class N common stock and Google will hold shares of our Class N common stock.\" (주식 수는 공란)",
+    "fix": "아마존과 구글이 의결권 없는 Class N 주식을 받는 사이, 단 한 장짜리 주식이 새로 생긴다. (6299줄 근거 인용 추가)",
+    "severity": "nit"
+   },
+   {
+    "section": "c7 지배구조의 실험 1",
+    "page_text": "창업자 과반이 합의하지 못할 때만 Class F 표가 Class A 투표 비율대로 나뉘어 행사된다",
+    "problem": "주어는 창업자 일반이 아니라 Continuing Founders(승계 멤버 포함)다. 비례 행사에도 원문의 'generally'(대체로)라는 단서가 붙어 있다.",
+    "evidence": "s1.txt 5871~5873: \"unless a majority of the Continuing Founders ... cannot agree on how our Class F common stock will be voted (in which case our Class F common stock will generally be voted proportionately with the votes of our Class A common stock\"",
+    "fix": "Founder LLC의 창업자 멤버 과반이 합의하지 못할 때만 Class F 표가 대체로 Class A 투표 비율대로 나뉘어 행사된다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c8 지배구조의 실험 2",
+    "page_text": "실적과 상관없이 연 40만 달러를 현금으로 받으며, 앤트로픽 증권을 사거나 가질 수 없다",
+    "problem": "원문은 LTBT 정책이 수탁자의 '직접(directly)' 매수·보유를 금지한다고 적었다. '직접'이 빠지면 금지 범위가 원문보다 넓어진다.",
+    "evidence": "s1.txt 12207: \"The policies of the LTBT prohibit a Trustee from directly purchasing or holding any of our securities.\"",
+    "fix": "실적과 상관없이 연 40만 달러를 현금으로 받으며, 신탁 정책상 앤트로픽 증권을 직접 사거나 가질 수 없다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c8 지배구조의 실험 2",
+    "page_text": "지분 없는 신탁이 이사회 과반을 고른다",
+    "problem": "LTBT는 Class T 주식 1주를 실제로 보유한다. 같은 섹션에도 'Class T 1주로'라고 적혀 있어서 '지분 없는'은 모순으로 읽힌다. 원문이 말하는 것은 경제적 권리가 없다는 점이다.",
+    "evidence": "s1.txt 12196: \"the LTBT, which holds all of our Class T common stock\"; 12070: \"Class T common stock has no economic rights.\"",
+    "fix": "경제적 지분 없는 신탁이 이사회 과반을 고른다",
+    "severity": "nit"
+   },
+   {
+    "section": "c8 지배구조의 실험 2",
+    "page_text": "돈이 걸리지 않은 사람들이 이사회 과반을 고르는 구조 다.",
+    "problem": "수탁자는 연 40만 달러를 받으므로 '돈이 걸리지 않은'은 보수를 받지 않는다는 뜻으로 오독될 수 있다. 원문 표현은 회사에 금전적 이해관계가 없다(financially disinterested)는 것이다.",
+    "evidence": "s1.txt 788: \"five financially disinterested voting trustees\"; 12203: \"Each Trustee receives annual cash compensation of $400,000\"",
+    "fix": "회사에 금전적 이해관계가 없는 사람들이 이사회 과반을 고르는 구조다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c8 지배구조의 실험 2",
+    "page_text": "이사회가 정한 역량 기준을 넘는 AI 모델의 통제권을 넘길 때는 신탁에 미리 서면으로 알려야 한다",
+    "problem": "원문은 이 의무에 'Class T 주식이 남아 있는 한'이라는 조건을 달았고, 통지 기간은 면제할 수 있다. 이 문장만 보면 조건 없는 영구 의무처럼 읽힌다.",
+    "evidence": "s1.txt 14468~14472: \"for so long as our Class T common stock remains outstanding ... a transfer of control of an AI model exceeding capabilities thresholds ... without providing advance written notice to the LTBT, which notice period may be waived.\"",
+    "fix": "Class T 주식이 남아 있는 한, 이사회가 정한 역량 기준을 넘는 AI 모델의 통제권을 넘길 때는 신탁에 미리 서면으로 알려야 한다(통지 기간은 면제될 수 있다).",
+    "severity": "nit"
+   }
+  ]
+ },
+ {
+  "chunk": 4,
+  "checked": 47,
+  "issues": [
+   {
+    "section": "c9 (09 사람들)",
+    "page_text": "지분도 거의 같다. 본인 명의 주식은 2억 3,181만~2억 4,417만 주이고, 그 기준 최다 보유자는 CEO가 아니라 톰 브라운이다",
+    "problem": "표의 수치는 '본인 명의(held of record)'가 아니라 SEC 기준 실질 보유(beneficial ownership)다. 각자 신탁 보유분, 60일 안에 행사할 수 있는 옵션 218만 5,400주, 60일 안에 정산되는 RSU 63만 9,500주가 들어 있다. 맥캔들리시는 본인 명의 주식이 없고 전량이 신탁 보유분이다. 최다 보유자가 브라운이라는 결론은 명의 보유 기준(2억 4,135만 주)으로 봐도 같다.",
+    "evidence": "14592~14593줄 \"beneficial ownership in accordance with the rules of the SEC\". 14825줄 (12) \"241,348,140 shares ... held of record by Mr. Brown or by trusts ... (ii) 2,185,400 shares ... subject to stock options exercisable within 60 days\". 14846줄 (15) \"228,984,880 shares ... held of record by trusts over which Dr. McCandlish exercises shared investment or voting control\"",
+    "fix": "지분도 거의 같다. 실질 보유 주식(신탁·곧 행사할 수 있는 옵션·RSU 포함)은 2억 3,181만~2억 4,417만 주이고, 그 기준 최다 보유자는 CEO가 아니라 톰 브라운이다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c9 차트 캡션",
+    "page_text": "공동창업자 7인, 본인 명의 Class A 주식 (백만 주) 2026년 9월 30일 기준, 공모 전.",
+    "problem": "본문과 같은 문제다. 차트 수치는 신탁·옵션·RSU가 들어간 실질 보유 주식이지 본인 명의 주식이 아니다.",
+    "evidence": "14592줄 \"We have determined beneficial ownership in accordance with the rules of the SEC\". 14778~14780줄 (1)에서 다리오 수치는 명의·신탁분 237,813,080주, 옵션 2,185,400주, RSU 639,500주를 합한 값이다",
+    "fix": "공동창업자 7인, 실질 보유 Class A 주식(신탁·60일 내 옵션·RSU 포함, 백만 주). 2026년 9월 30일 기준, 공모 전.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c9 (09 사람들)",
+    "page_text": "일곱 명은 같은 보상을 받는다 [cite:comp-02] .",
+    "problem": "S-1 문장을 그대로 옮긴 것이지만 같은 단락에서 다리오의 총보수(1,795만 달러)를 보여 주는데, 다니엘라의 총보수는 1,640만 달러로 다르다. 급여·주식·옵션은 같고 경호비가 들어간 기타 보상이 다르다. 독자가 총보수까지 같다고 읽을 수 있다.",
+    "evidence": "13157줄 \"Each co-founder is paid equal compensation.\" 13484~13503줄 보상표: 급여 654,167, 주식 9,264,932, 옵션 4,028,558은 같다. 기타 보상은 4,010,641과 2,461,341, 총액은 17,958,298과 16,408,998로 다르다",
+    "fix": "S-1은 공동창업자 일곱 명에게 같은 보상을 준다고 적었다(급여·주식·옵션 기준이며, 경호비 같은 기타 보상은 사람마다 다르다).",
+    "severity": "misleading"
+   },
+   {
+    "section": "c9 (09 사람들)",
+    "page_text": "S-1은 같은 자리에서 이 서약이 자발적이고 철회할 수 있으며 법적 구속력이 없다고 적었다 [cite:rf2-50] .",
+    "problem": "앞 문장은 MD&A(7408줄, mdna-27)를 인용하는데, 그곳에는 철회 가능·구속력 없음이라는 단서가 없다. 단서는 위험요인 항목(6387~6389줄)에 있다. '같은 자리에서'는 사실과 다르다.",
+    "evidence": "7408~7410줄 \"our co-founders have each pledged to dedicate 80% ... separate from and not eligible for our donation matching program.\"(단서 없음). 6388줄 \"These commitments are voluntary, revocable expressions\"",
+    "fix": "S-1은 위험요인 항목에서 이 서약이 자발적이고 철회할 수 있으며 법적 구속력이 없다고 적었다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c9 (09 사람들)",
+    "page_text": "다리오 아모데이는 의결권 위임분 462만 주를 더하면 2억 4,526만 주가 된다 [cite:x-own-dd] .",
+    "problem": "462만 주는 기부자조언기금(DAF)이 보유한 주식이고, 다리오는 그 의결권만 위임받았다. '주식이 2억 4,526만 주가 된다'는 문장은 다리오가 그만큼을 보유하는 것처럼 읽힌다.",
+    "evidence": "14800줄 (2) \"Dr. Amodei has entered into the Voting Proxy Agreements with the DAFs ... authority (and irrevocable proxy) to direct the vote ... shares of Class A common stock held by the DAFs\"",
+    "fix": "다리오 아모데이는 기부자조언기금(DAF) 보유분 462만 주의 의결권도 위임받아, 의결권을 행사할 수 있는 주식은 2억 4,526만 주다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c9 (09 사람들)",
+    "page_text": "외부 보안 컨설팅사가 CEO와 사장의 신변 위험을 조사한 뒤, 이사회가 가족 경호와 자택 보안 강화를 의무로 정했다 [cite:comp-06] .",
+    "problem": "원문의 조치는 본인 경호(가족 보호 포함), 자택 보안·감시 강화, 차량과 기사, 다리오의 전용기다. '가족 경호'를 앞세우면 조치의 중심이 가족인 것처럼 읽힌다. 이사회의 근거도 보안 조사만이 아니라 언론 노출 증가와 실제 보안 우려까지 셋이었다.",
+    "evidence": "13355~13357줄 \"Based on these security studies, increased media attention for Anthropic, and the identification of bona fide ... heightened security concerns\". 13361~13364줄 \"individual protection services ... which included the protection of family members, as well as enhanced home security systems ... private car and driver ... private aircraft\". 13365줄 \"our board of directors required the security measures\"",
+    "fix": "외부 보안 컨설팅사의 신변 위험 조사, 언론 노출 증가, 실제 보안 우려를 근거로 이사회는 CEO와 사장의 경호(가족 포함)와 자택 보안 강화를 의무로 정했다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c9 (09 사람들)",
+    "page_text": "사람들 코드의 90%를 Claude가 쓰는 회사",
+    "problem": "원문은 '2026년 9월 한 달' 코드베이스 '기여(contributions)'의 90% 이상이다. 제목은 이를 현재형 일반 사실로 넓혔다. 본문에는 기간이 적혀 있어 큰 오류는 아니다.",
+    "evidence": "7039줄 \"over 90% of the contributions to our codebase in September 2026 were written by Claude.\"",
+    "fix": "사람들 2026년 9월, 코드 기여의 90%를 Claude가 썼다",
+    "severity": "nit"
+   },
+   {
+    "section": "c9 (09 사람들)",
+    "page_text": "그 가운데 개인 경호비가 274만 5,874달러 다 [cite:comp-05] .",
+    "problem": "'달러 다'에 띄어쓰기 오류가 있다.",
+    "evidence": "13525~13526줄 \"(ii) $2,745,874 in connection with personal security services\"",
+    "fix": "그 가운데 개인 경호비가 274만 5,874달러다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c10 타임라인",
+    "page_text": "2026.06 상무부 수출 제한. Fable 5·Mythos 5 전면 비활성화 후 재배포 [cite:gap-39]",
+    "problem": "S-1은 수출 제한과 비활성화가 6월이라고만 적었다. 재배포 시점은 밝히지 않았다. 타임라인 한 칸에 넣으면 6월 안에 재배포까지 끝난 것처럼 읽힌다.",
+    "evidence": "5423~5427줄 \"June 2026, the U.S. Department of Commerce imposed worldwide export restrictions ... We re-deployed the Fable 5 and Mythos 5 models after we updated our safeguards ... and once the U.S. Department of Commerce lifted its restrictions.\"(재배포 날짜 없음)",
+    "fix": "2026.06 상무부 수출 제한. Fable 5·Mythos 5 전면 비활성화(이후 제한 해제 뒤 재배포, 시점은 공개하지 않음)",
+    "severity": "nit"
+   }
+  ]
+ },
+ {
+  "chunk": 5,
+  "checked": 46,
+  "issues": [
+   {
+    "section": "c11 보호예수가 풀리는 순서",
+    "page_text": "비창업자 임원·직원 물량부터 상장 첫 거래일에 풀리기 시작해 투자설명서 일자 후 27·48·62·76일차에 단계적으로 해제된다.",
+    "problem": "주어가 섞였다. 비창업자 이사·임원·직원은 첫 거래일 10%, FY26 연간실적 발표 후 추가 35%가 풀리는 구조다. 27·48·62·76일차 단계 해제는 별도 주주군('Certain of our stockholders', 0.5% 초과 보유 주주군) 조항이다. 문장대로면 비창업자 임원·직원 물량이 27~76일차에 풀리는 것으로 읽힌다. 또 FY26 연간실적 발표 후 둘째 거래일과 그 뒤 13·27·41·55·69일차 해제 회차가 문장과 막대(76일 다음이 곧바로 180일)에서 모두 빠져 있다.",
+    "evidence": "16606~16620행 'Our non-founder directors, officers, and certain current or former employees ... up to 10% ... up to an additional 35%' / 16621~16626행 'Certain of our stockholders ... 27 and 48 days ... up to 6%' / 15909~15934행 'FY26 Earnings Release Date', '13th day after the FY26 Earnings Release Date' ... '69th day after'",
+    "fix": "첫 거래일에 비창업자 이사·임원과 일부 직원 물량(최대 10%)부터 풀린다. 이어 일부 주주 물량이 투자설명서 일자 후 27·48·62·76일차에, 2026년 연간실적 발표 뒤 둘째 거래일과 13~69일차에 단계적으로 해제된다. 창업자는 최대 365일 묶이고, 2027년 1분기 실적 발표 후와 180일째 중 이른 시점부터 최대 29%를 팔 수 있다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c11 보호예수가 풀리는 순서(차트 인용)",
+    "page_text": "[cite:uw-02] [cite:gap-44] [cite:gap-46] [cite:uw-01] [cite:cover-04]",
+    "problem": "cover-04는 표지 인수단 22곳 나열에 대한 인용이라 보호예수 일정을 뒷받침하지 못한다. 엉뚱한 인용 버튼이다.",
+    "evidence": "cover-04 claim '표지에는 Goldman Sachs를 시작으로 ... 22개 인수 금융사가 나열돼 있다', 158행 'Goldman Sachs & Co. LLC'",
+    "fix": "차트 인용에서 cover-04를 빼고, 필요하면 FY26 실적 발표 회차를 보여 주는 15909~15934행 인용으로 바꾼다.",
+    "severity": "error"
+   },
+   {
+    "section": "c11 팩트체크: 컴퓨트 약정 총액",
+    "page_text": "총액 칸은 \"more than $ \"로 비어 있다. 직접 적힌 숫자는 하위 항목뿐이다 [cite:rf1-12]",
+    "problem": "인용한 rf1-12 문단에서는 하위 항목(2030년 이전분, 향후 12개월분)도 빈칸이다. 그래서 '하위 항목에는 숫자가 있다'는 말을 이 인용이 뒷받침하지 못하고, 오히려 반대로 읽힌다. 원문에 실제 숫자가 있는 것은 개별 계약(Microsoft 449억, Google 1,145억, Amazon 1,100억 달러 등)과 감사 재무제표 후속사건 4,170억 달러다.",
+    "evidence": "1868~1869행 'These commitments include approximately $ expected to be incurred before December 31, 2030 ... Approximately $ of these commitments are due in the next 12 months' / 9669~9690행 'at least $44.9 billion', 'approximately $114.5 billion', 'at least $110.0 billion'",
+    "fix": "총액 칸은 \"more than $ \"로 비어 있고, 2030년 이전분과 향후 12개월분도 빈칸이다. 원문에 숫자가 직접 적힌 것은 Microsoft(449억 달러), Google(1,145억 달러), Amazon(1,100억 달러) 같은 개별 계약뿐이다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "c11 언론 도입",
+    "page_text": "Bloomberg는 프런티어 AI 연구소의 첫 상장이라는 사실을 앞세웠다.",
+    "problem": "'첫 상장'은 S-1에 없는 보도 측 규정인데, '사실'이라고 써서 페이지가 이를 검증된 사실로 단정하는 것처럼 읽힌다.",
+    "evidence": "S-1 원문에 해당 진술 없음(이 문장에는 인용 버튼도 없음).",
+    "fix": "Bloomberg는 프런티어 AI 연구소의 첫 상장이라는 점을 앞세웠다(보도 기준).",
+    "severity": "nit"
+   },
+   {
+    "section": "c11 팩트체크: 20배의 단위",
+    "page_text": "원문 단위는 고객사가 아니라 사용자(users)다",
+    "problem": "단위 지적은 맞다. 다만 20배는 Claude Code를 쓰는 Claude Enterprise 사용자 중 '상위 5%'의 지출이고, 비교 기준은 Claude Code를 쓰지 않는 사용자의 월평균(75달러 미만)이다. 이 조건이 빠지면 Claude Code 사용자 전체가 20배를 쓰는 것으로 읽힐 수 있다.",
+    "evidence": "10716~10718행 'Claude Enterprise users who did not use Claude Code spent less than $75 per month on average, while the top 5% of Claude Enterprise users who used Claude Code spent approximately 20 times that amount.'",
+    "fix": "원문 단위는 고객사가 아니라 사용자(users)이고, 그중에서도 Claude Code를 쓰는 상위 5% 사용자다. 비교 기준은 Claude Code를 쓰지 않는 사용자의 월평균 75달러 미만이다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c11 한국 독자에게: HBM",
+    "page_text": "HBM 공급사 SK하이닉스와 삼성전자",
+    "problem": "원문은 HBM과 고성능 메모리를 이 회사들이 '대부분 생산한다'는 산업 구조를 말할 뿐이다. 앤트로픽의 직접 공급사라고 적지 않았다. 제목의 '공급사'는 원문보다 세다. 마이크론도 함께 나열돼 있다.",
+    "evidence": "1942~1944행 'are largely manufactured by SK hynix Inc., Samsung Electronics Co., and Micron Technology, Inc.'",
+    "fix": "HBM 주요 제조사로 적힌 SK하이닉스와 삼성전자",
+    "severity": "nit"
+   },
+   {
+    "section": "c12 공모 후 창업자 의결권",
+    "page_text": "공모 후 창업자 의결권 % Class F 50.1%와 별도 개인 몫 [cite:gap-14]",
+    "problem": "원문 빈칸은 둘이다. (i) Founder LLC 지분을 뺀 비율과 (ii) Founder LLC 지분을 포함한 비율이다. '별도 개인 몫'은 (i)만 가리킨다. 또 50.1%는 창업자 개인이 아니라 Founder LLC가 Class F로 갖는 의결권이고, 인용 gap-14의 claim에는 50.1%가 없다.",
+    "evidence": "5903행 'Our Class F common stock will entitle the Founder LLC to an aggregate number of votes that equals 50.1%' / 5914~5918행 '(i) % ... excluding through their interests in the Founder LLC, and (ii) % ... including through their interests in the Founder LLC'",
+    "fix": "공모 후 창업자 의결권 %(Founder LLC 몫 제외·포함 두 칸). Founder LLC의 Class F 의결권은 50.1%로 고정이다.",
+    "severity": "nit"
+   },
+   {
+    "section": "c12 엔딩",
+    "page_text": "골드만삭스와 모건스탠리를 앞세운 인수단 22곳 이 가격을 정하면, 아래 칸이 하나씩 채워진다.",
+    "problem": "공모가는 인수단 혼자 정하지 않는다. 회사와 인수단 대표가 협의해 정한다. 주어를 인수단으로만 두면 원문보다 단정적이다.",
+    "evidence": "cover-04(158~179행)는 인수단 명단만 뒷받침한다. 가격 결정 주체를 인수단 단독으로 쓴 원문은 없다.",
+    "fix": "회사와 골드만삭스·모건스탠리를 앞세운 인수단 22곳이 공모가를 정하면, 아래 칸이 하나씩 채워진다.",
+    "severity": "nit"
+   }
+  ]
+ },
+ {
+  "chunk": 6,
+  "checked": 78,
+  "issues": [
+   {
+    "section": "ch3 waterfall (토글 문구)",
+    "page_text": "평가손실을 걷어내면 회사의 비GAAP 조정순이익은 +2,671",
+    "problem": "토글은 공정가치 변동(-72,388)과 기타 영업외(-8,757)만 숨기는데, 이 두 항목만 걷어내면 순손실 -80,748은 +397이 된다. +2,671은 주식보상비용 2,185와 비현금 기부 126까지 더하고, 기타 영업외도 8,757 전체가 아니라 시가평가 금융상품 변동분 8,720만 되돌린 값이다. 차트에서 걷어낸 항목만으로는 +2,671이 나오지 않는다.",
+    "evidence": "s1.txt 8407-8409 'net loss excluding (i) stock-based compensation expense, (ii) non-cash charitable contributions, (iii) the Bartz settlement, (iv) the change in fair value...'; 8443-8461 SBC 2,185 / 기부 126 / 공정가치 72,388 / mark-to-market 8,720 / Adjusted Net Income $2,671; 1393 Other income (expense), net (8,757)",
+    "fix": "평가손실 두 항목을 걷어내면 +397이다. 여기에 주식보상비용(2,185)과 비현금 기부(126)까지 되돌린 회사의 비GAAP 조정순이익은 +2,671이다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "ch6 network (역할 구분)",
+    "page_text": "[\"브로드컴\",90,[\"inv\",\"cmp\"]], [\"AMD\",150,[\"inv\",\"cmp\"]]",
+    "problem": "브로드컴과 AMD를 아마존·구글·마이크로소프트와 같은 '투자자(inv)' 선으로 그렸다. 하지만 6월 30일 기준 브로드컴 NPA는 미인출(발행 잔액 $0)이고, AMD는 2027년 이후 마일스톤에 따라 Class N을 최대 50억 달러까지 매입하겠다는 조건부 약정만 있다. 지분을 이미 투자한 회사처럼 읽힌다.",
+    "evidence": "s1.txt 9242-9250 'Broadcom(3) Infrastructure Partner 2026 NPA 42,000 —'(Principal Amount Outstanding 없음); 9119-9122 'AMD has provided a commitment to purchase up to $5.0 billion of our Class N common stock, which becomes available ... following the achievement of specified AMD GPU delivery and deployment milestones ... expect the first of such milestones to be achieved in 2027'; 4055-4056 'Amazon, Google, and Microsoft ... have made significant equity investments'",
+    "fix": "브로드컴과 AMD의 투자 선은 점선 같은 별도 '조건부 자금 약정' 표시로 구분한다. 노드 메모는 '조건부 자금 약정(미인출)'으로 적는다.",
+    "severity": "misleading"
+   },
+   {
+    "section": "ch4 squares (컴퓨트 계약 상자)",
+    "page_text": "items=[브로드컴 1,612, SpaceXAI 최대 1,205, 구글 ≈1,145, 아마존 1,100, 추가 TPU 1,250~1,500, 마이크로소프트 449]",
+    "problem": "S-1이 같은 절에서 공개한 Nscale(최대 약 446억 달러, 2033년까지), Lambda(약 413억 달러, 2034년까지), AMD(200억 달러 초과 예상)가 빠졌다. 마이크로소프트(449)와 규모가 비슷한데 상자로 넣지 않아, 약정 전체가 이 여섯 개뿐인 것처럼 읽힐 수 있다.",
+    "evidence": "s1.txt 9710-9712 'Nscale ... aggregate of up to approximately $44.6 billion over terms extending into 2033'; 9720-9721 'Lambda ... approximately $41.3 billion over terms extending into 2034'; 9702-9703 'AMD ... expect aggregate expenditures to exceed $20.0 billion'",
+    "fix": "Nscale 최대 446, Lambda 413, AMD 200+ 상자를 추가하거나, '이 밖에 Nscale·Lambda·AMD 약정이 있다'는 각주를 단다.",
+    "severity": "nit"
+   },
+   {
+    "section": "ch2 quarterly revenue (주석선 위치)",
+    "page_text": "const nx=L+4*bw+bw*.5; ... 'Opus 4.5 출시 뒤' / 'QoQ 48% → 132%'",
+    "problem": "주석 세로선이 26Q1 막대 한가운데 그어져 있다. Opus 4.5는 2025년 11월, 곧 25Q4 안에 출시됐다. 출시 시점이 26Q1 중간처럼 보이고, 25Q4의 48%도 출시 뒤 분기라는 점이 흐려진다.",
+    "evidence": "s1.txt 10730-10732 'we launched Opus 4.5 in November 2025 ... accelerated from 48% for the three months ended December 31, 2025 to 132% for the three months ended March 31, 2026'",
+    "fix": "세로선을 25Q4 막대 안쪽(11월 위치)으로 옮기거나 문구를 'Opus 4.5 출시(2025.11) 뒤 QoQ 48% → 132%'로 바꾼다.",
+    "severity": "nit"
+   },
+   {
+    "section": "ch9 founders (창업자 주식 수)",
+    "page_text": "[\"다리오 아모데이\",240.63798] ... r.className='fbar'+(i===0?' top':'') (톰 브라운을 1위로 강조)",
+    "problem": "다리오 아모데이 수치는 본인 보유분만이다. S-1 표는 DAF 의결권 위임 4,621,120주를 더한 합계 245,259,100주를 함께 적는데, 이 합계는 톰 브라운(244.17)보다 많다. 수치 자체는 맞지만 기준(본인 보유, 위임 제외)을 밝히지 않으면 '톰 브라운 최다'라는 강조가 오해를 부를 수 있다.",
+    "evidence": "s1.txt 14681-14687 'Dario Amodei(1) 240,637,980 / Shares subject to voting proxies(2) 4,621,120 / Total 245,259,100'; 14716 'Tom Brown(12) 244,173,040'",
+    "fix": "막대 단위와 기준을 '백만 주, 본인 실질보유 기준(다리오 아모데이의 위임 의결권 462만 주 제외)'으로 명시한다.",
+    "severity": "nit"
+   }
+  ]
+ }
+]

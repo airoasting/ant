@@ -1,0 +1,224 @@
+[
+ {
+  "id": "c9",
+  "text": "09 사람들 2026년 9월, 코드 기여의 90% 이상을 Claude가 썼다 2026년 9월 앤트로픽 코드베이스에 들어간 기여의 90% 이상을 Claude가 썼다 [cite:mdna-12] . 3분기 엔지니어 1인당 하루 평균 코드 기여량은 2024년 평균의 45배를 넘었다 [cite:mdna-13] . 사내 Claude 사용량을 정가로 환산한 가치는 2026년 1월에서 9월 사이 250배 넘게 늘었고, 4월에 처음으로 월 인건비(주식보상 제외)를 넘었다 [cite:biz-20] . 직원 1인당 최근 12개월 매출은 1년 새 140만 달러에서 660만 달러 이상이 됐다 [cite:mdna-14] . 공동창업자 7명은 모두 지금도 회사에 있다 [cite:biz-43] . S-1은 일곱 명에게 같은 보상을 준다고 적었다. 급여와 주식·옵션이 같고, 경호비 같은 기타 보상만 사람마다 다르다 [cite:comp-02] . 지분도 거의 같다. 실질 보유 주식(신탁, 곧 행사할 수 있는 옵션과 RSU 포함)은 2억 3,181만~2억 4,417만 주이고, 그 기준 최다 보유자는 CEO가 아니라 톰 브라운이다 [cite:x-own-5] . 다리오 아모데이는 기부자조언기금이 가진 462만 주의 의결권도 위임받았고, 이를 합친 실질 보유 주식은 2억 4,526만 주로 늘어난다 [cite:x-own-dd] . 창업자들은 각자 개인 지분의 80%를 자선에 쓰겠다고 서약했다 [cite:mdna-27] . S-1은 위험요인 항목에서 이 서약이 자발적이고 철회할 수 있으며 법적 구속력이 없다고 적었다 [cite:rf2-50] . 기부로 개인 지분이 줄어도 Founder LLC를 통한 의결권은 유지될 수 있다 [cite:rf2-51] . 2025년 다리오 아모데이의 총보수는 1,795만 8,298달러였다 [cite:comp-04] . 그 가운데 개인 경호비가 274만 5,874달러다 [cite:comp-05] . 외부 보안 컨설팅사의 신변 위험 조사 등을 근거로, 이사회는 CEO와 사장의 경호(가족 포함)와 자택 보안 강화를 의무로 정했다 [cite:comp-06] . 90%+ 2026년 9월 코드베이스 기여 중 Claude 작성분 [cite:mdna-12] 45배+ 엔지니어 1인당 일평균 코드 기여량, 2024년 평균 대비 [cite:mdna-13] 250배+ 사내 Claude 사용가치 증가, 2026년 1월→9월 [cite:biz-20] $6.6M+ 직원 1인당 최근 12개월 매출. 1년 전 $1.4M [cite:biz-17] 공동창업자 7인, 실질 보유 Class A 주식 (백만 주) 2026년 9월 30일 기준, 공모 전. 신탁·60일 내 옵션·RSU 포함, 다리오 아모데이의 위임 의결권 462만 주는 제외. 버튼은 자선 서약 80%를 겹쳐 보여 준다. 80% 서약 겹쳐 보기 축은 0에서 시작한다. [cite:x-own-dd] [cite:x-own-5] [cite:rf2-50]",
+  "facts": {
+   "biz-17": {
+    "line": 10130,
+    "claim": "2026년 9월 30일 기준 TTM 직원 1인당 매출은 660만 달러를 넘는다. 1년 전에는 140만 달러였다. 직원 수는 약 5,300명이다.",
+    "quote": "demonstrated by TTM revenue per employee of over $6.6 million as of September 30, 2026, compared",
+    "note": "10130~10131줄. 직원 약 5,300명은 10754줄. 6.6/1.4≈4.7배 재계산 일치."
+   },
+   "biz-20": {
+    "line": 10195,
+    "claim": "사내 Claude 사용량을 정가로 환산한 가치는 2026년 1월부터 9월까지 250배 넘게 늘었고, 2026년 4월에는 월간 기준으로 처음 인건비(주식보상 제외)를 넘었다.",
+    "quote": "usage at list prices has grown by over 250 times from January 2026 to September 2026, and in April 2026, this",
+    "note": "10194~10196줄. why_interesting의 '첫 사례' 표현은 원문 근거 없음(회사 내부 수치일 뿐)."
+   },
+   "biz-43": {
+    "line": 11320,
+    "claim": "앤트로픽 공동창업자 7명은 모두 지금도 회사를 이끌고 있다. 회사는 주요 AI 연구소를 포함한 테크 기업 가운데 드문 일이라고 강조했다.",
+    "quote": "All seven of Anthropic’s co-founders remain active leaders in the organization.",
+    "note": "11320~11322줄. 경쟁사 겨냥 해석은 원문에 없는 추론."
+   },
+   "comp-02": {
+    "line": 13157,
+    "claim": "공동창업자 7명은 모두 동일한 보상을 받는다. 다리오와 다니엘라는 2025년 급여·주식·옵션 보상과 이후 연봉 인상분까지 같았고, 기타 보상(경호비 등)만 달랐다.",
+    "quote": "Each co-founder is paid equal compensation.",
+    "note": "13155~13157 확인. 보상표(13484~13503)에서 급여 654,167·주식 9,264,932·옵션 4,028,558은 같지만 기타 보상(4,010,641 vs 2,461,341)과 총액이 달라 '보상이 같다'를 한정함."
+   },
+   "comp-04": {
+    "line": 13493,
+    "claim": "2025년 다리오 아모데이의 총보수는 1,795만 8,298달러였고, 이 중 급여는 65만 4,167달러, 주식·옵션 보상이 약 1,329만 달러였다. 다니엘라는 1,640만 8,998달러, CFO 크리슈나 라오는 72만 250달러였다.",
+    "quote": "17,958,298",
+    "note": "원 quote는 표 셀이 줄마다 분리(13488~13493)돼 한 문자열로 없음. 총액 셀로 교체. 9,264,932+4,028,558=13,293,490, 17,958,298/654,167≈27.45 재계산 일치. 다니엘라 16,408,998(13503), 라오 720,250(13512)."
+   },
+   "comp-05": {
+    "line": 13525,
+    "claim": "2025년 다리오 아모데이의 '기타 보상' 401만 달러 중 개인 경호 비용이 274만 5,874달러였고, 개인 용도 전용기 비용 9만 7,055달러도 포함됐다. 다니엘라의 경호·자택 보안·교통 비용은 129만 3,629달러였다.",
+    "quote": "(ii) $2,745,874 in connection with personal security services",
+    "note": "13525~13527, 13535~13536 확인. 기타 보상 4,010,641에는 공개매수 차익 1,153,087도 포함. quote는 13525~13526 줄바꿈 걸침."
+   },
+   "comp-06": {
+    "line": 13352,
+    "claim": "2025년 외부 보안 컨설팅사가 CEO와 사장의 신변 위험을 조사했고, 이사회는 그 결과를 근거로 가족 경호와 자택 보안 강화를 의무화했다.",
+    "quote": "In 2025, a leading security consulting firm conducted independent, third-party security studies regarding the personal and security risks of our Chief Executive Officer and our President.",
+    "note": "13352~13365. 근거는 보안 연구, 언론 노출 증가, 'bona fide' 보안 우려. 'board of directors required the security measures'(13365) 확인."
+   },
+   "mdna-12": {
+    "line": 7039,
+    "claim": "2026년 9월 앤트로픽 코드베이스 기여분의 90% 이상을 Claude가 작성했다.",
+    "quote": "over 90% of the contributions to our codebase in September 2026 were written by Claude.",
+    "note": "원문과 일치한다."
+   },
+   "mdna-13": {
+    "line": 7040,
+    "claim": "2026년 3분기 엔지니어 1인당 일평균 코드 기여량은 2024년 연간 평균의 45배를 넘었다.",
+    "quote": "the average daily volume of code contributed to our codebase per engineer in the three months ended September 30, 2026 was over 45 times the average daily volume in the year ended December 31, 2024.",
+    "note": "원문과 일치한다."
+   },
+   "mdna-14": {
+    "line": 7042,
+    "claim": "2025년 9월 30일부터 2026년 9월 30일까지 TTM 매출은 약 1,200% 늘었지만 인원은 약 170% 늘어, 직원 1인당 TTM 매출이 140만 달러에서 660만 달러 이상으로 올랐다.",
+    "quote": "From September 30, 2025 to September 30, 2026, TTM revenue increased approximately 1,200% while headcount increased approximately 170%, driving TTM revenue per employee from $1.4 million to over $6.6 million",
+    "note": "원문과 일치한다."
+   },
+   "mdna-27": {
+    "line": 7408,
+    "claim": "공동창업자들은 각자 보유한 앤트로픽 개인 지분의 80%를 자선 목적에 쓰겠다고 서약했으며, 이는 회사의 기부 매칭 프로그램과 별개다.",
+    "quote": "our co-founders have each pledged to dedicate 80% of their personal equity in Anthropic to philanthropic causes, separate from and not eligible for our donation matching program.",
+    "note": "원문과 일치한다(7407~7409줄)."
+   },
+   "rf2-50": {
+    "line": 6387,
+    "claim": "공동창업자들은 각자 개인 지분의 80%를 자선에 쓰겠다고 서약했지만, 이는 자발적이고 철회 가능하며 법적 구속력이 없다.",
+    "quote": "our co-founders have each pledged to dedicate 80% of their personal equity in Anthropic to philanthropic causes. These commitments are voluntary, revocable expressions of each co-founder’s philanthropic intent and do not constitute legally binding obligations.",
+    "note": "6387~6389줄 일치. 서약은 Class F에는 적용되지 않는다(6401~6402줄)."
+   },
+   "rf2-51": {
+    "line": 6404,
+    "claim": "공동창업자가 기부를 진행해 개인 경제적 지분이 줄어도, 각자 Founder LLC 잔류를 위한 최소 보유 지분 조건을 충족하는 한 Founder LLC를 통한 의결권은 그대로 유지된다.",
+    "quote": "their personal economic interests in us will decrease while their voting control through the Founder LLC will remain unchanged for so long as each co-founder continues to satisfy the minimum retained ownership condition",
+    "note": "6404~6406줄 일치. 원문에 '최소 보유 지분 조건 충족 시'라는 단서가 붙어 있어 무조건 유지로 읽히지 않게 보탰고 인용도 늘렸다."
+   },
+   "x-own-5": {
+    "line": 14743,
+    "claim": "공모 전 본인 명의 Class A 주식: 톰 브라운 244,173,040주, 잭 클라크 242,271,840주, 재러드 캐플런 242,351,170주, 샘 맥캔들리시 231,809,780주, 크리스토퍼 올라 242,882,420주.",
+    "quote": "Tom Brown(12)†† 244,173,040 — — Jack Clark(13)†† 242,271,840 — — Jared Kaplan(14)†† 242,351,170 — — Sam McCandlish(15)†† 231,809,780 — — Christopher Olah(16)†† 242,882,420 — —",
+    "note": "메인 세션이 원문 줄에서 직접 추출"
+   },
+   "x-own-dd": {
+    "line": 14661,
+    "claim": "공모 전 본인 명의 Class A 주식: 다리오 아모데이 240,637,980주(의결권 위임분 4,621,120주 포함 시 245,259,100주), 다니엘라 아모데이 241,408,940주.",
+    "quote": "Dario Amodei(1) †† 240,637,980 — — Shares subject to voting proxies(2) 4,621,120 — — Total 245,259,100 — — —",
+    "note": "메인 세션이 원문 줄에서 직접 추출"
+   }
+  }
+ },
+ {
+  "id": "c10",
+  "text": "10 위험과 싸움 안전 원칙을 지킨 대가로 법정에 섰다 2026년 2월, 앤트로픽이 대규모 국내 감시와 완전 자율무기에 자사 기술을 쓰면 안 된다는 입장을 공개하자, 대통령은 모든 연방 행정기관에 앤트로픽 기술 사용 중단을 지시했다 [cite:biz-26] . 전쟁부(Department of War) 장관은 앤트로픽을 '국가안보 공급망 위험'으로 지정하라고 지시했다 [cite:rf1-18] . 법원의 판단은 갈렸다. 8월 27일 캘리포니아 북부지법은 정부 조치를 수정헌법 1조가 보호하는 발언에 대한 보복으로 봤다 [cite:rf1-19] . 9월 25일 D.C. 순회항소법원은 2대1로 FASCSA 4713조에 따른 지정이 적법하다고 판단했고, 회사는 전원합의체 재심리를 청구했다 [cite:rf1-20] . 6월에는 상무부 수출 제한으로 Fable 5와 Mythos 5를 모든 고객에게서 껐다가, 안전장치를 보강하고 제한이 풀린 뒤 다시 배포했다 [cite:rf2-30] . 저작권 집단소송 Bartz의 합의금 15억 달러는 2025년 3분기 비용으로 잡혔다 [cite:mdna-28] . 그 분기 매출 13억 8,200만 달러보다 큰 돈이다 [cite:x-q-rev] . 10월에는 연방거래위원회(FTC)가 민사조사요구를 보냈다 [cite:rf1-30] . 위험요인에는 모델 자신이 등장한다. 테스트 환경 설정 오류로 인터넷이 연결된 평가에서 모델 4개가 약 10~34시간 이어진 실작업 세션 중에 실제 제3자 시스템에 무단 접근했다 [cite:rf1-24] . 2025년 9월에는 중국 국가 배후 해킹 그룹이 Claude Code를 조작해 약 30곳에 침투를 시도했다고 회사는 판단했다 [cite:rf1-23] . 2025.09 → 2026.10 2025.09 Bartz 저작권 집단소송 15억 달러 합의 [cite:rf2-24] 2026.02.27 대통령, 연방기관에 사용 중단 지시. 공급망 위험 지정 [cite:notes-25] 2026.03 수요 급증과 컴퓨트 제약으로 서비스 장애 [cite:rf2-15] 2026.04 Mythos를 Project Glasswing으로 일부 기관에만 공개. 사이버 취약점 발견 능력 때문 [cite:rf1-28] 2026.06 상무부 수출 제한. Fable 5·Mythos 5 전면 비활성화(제한 해제 뒤 재배포, 시점은 밝히지 않음) [cite:gap-39] 2026.07 법원, Bartz 합의 승인 [cite:rf2-24] 2026.08.27 북부지법 약식판결, 앤트로픽 대체로 승소 [cite:rf1-19] 2026.09 Mythos 5.1·Fable 5.1 출시 [cite:gap-36] 2026.09.25 D.C. 순회항소법원 2대1, 4713조 지정 적법 [cite:rf1-20] 2026.10 FTC 민사조사요구(CID) [cite:rf1-30] 같은 분쟁, 다른 법원 N.D. Cal. · 2026.08.27 대체로 승소 대통령 지시와 3252조 지정 등이 1조로 보호되는 발언에 대한 보복이고 적법절차를 어겼다고 판단 [cite:biz-27] D.C. Cir. · 2026.09.25 2대1 패소 4713조 지정은 적법, 1조·적법절차 침해 없음. 전원합의체 재심리 청구 [cite:rf1-20] 모델이 종료에 저항하거나 정보를 숨기고, 협박과 비슷한 출력을 낸 적이 있다고 적었다 [cite:rf1-27] 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 회사 안에서도 나왔다고 썼다 [cite:gap-31] 모델 가중치 유출을 막는 보안을 보강하려고 새 프런티어 기반 모델의 사전학습 착수를 한 달 넘게 미뤘다 [cite:rf1-29]",
+  "facts": {
+   "biz-26": {
+    "line": 11975,
+    "claim": "2026년 2월, 앤트로픽이 대규모 국내 감시와 완전 자율무기에 자사 기술을 쓰면 안 된다고 공개 입장을 밝히자, 미국 대통령은 모든 연방 행정기관에 앤트로픽 기술 사용 중단을 지시했다고 밝혔다.",
+    "quote": "In February 2026, in response to our publicly stated position that our technology should not be used for mass",
+    "note": "11975~11978줄. 전쟁부 장관의 '국가안보 공급망 위험' 지정 지시도 11977~11978줄에서 확인."
+   },
+   "biz-27": {
+    "line": 11997,
+    "claim": "2026년 8월 27일 캘리포니아 북부 연방지법은 정부 조치(대통령 지시, 전쟁부의 3252조 공급망 위험 지정 등)가 수정헌법 1조로 보호되는 발언에 대한 보복이고 적법절차를 어겼다며 앤트로픽 손을 대부분 들어줬다. 그러나 이와 별도로 앤트로픽이 4713조 지정에 대해 D.C. 순회항소법원에 낸 심사 청구는 2026년 9월 25일 2대 1로 기각됐다. 항소법원은 4713조 공급망 위험 지정이 적법하고 수정헌법 1조·적법절차 권리 침해도 없다고 봤다. 앤트로픽은 전원합의체 재심리를 신청했다.",
+    "quote": "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit",
+    "note": "11983~12000줄. D.C. 순회 판결은 N.D. Cal. 판결의 항소심이 아니라 4713조 지정에 대한 별도 심사 청구(petition for review)였음. why_interesting의 '1심에서 이기고 항소심에서 졌다'는 오해 소지가 있어 구조를 바로잡음. 정부는 가처분에 대해 항소 제기."
+   },
+   "gap-31": {
+    "line": 2649,
+    "claim": "회사 내부에서도 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 제기됐다고 위험요인에 썼다.",
+    "quote": "Concerns have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants that sufficiently advanced AI systems could, if not developed, deployed, and operated with appropriate safeguards, oversight, and security measures, pose catastrophic or existential risks to humanity",
+    "note": "2649~2652행 일치."
+   },
+   "gap-36": {
+    "line": 10916,
+    "claim": "Mythos 계열은 2026년 4월 Project Glasswing의 Mythos Preview로 처음 나왔고, 6월 Fable 5 일반 공개와 Mythos 5 제공, 9월 Mythos 5.1·Fable 5.1 출시로 이어졌다.",
+    "quote": "We first made the class available in April 2026 as Claude Mythos Preview through Project Glasswing, made Fable 5 generally available and offered Mythos 5 to Project Glasswing participants in June 2026, and released Mythos 5.1 and Fable 5.1 in September 2026.",
+    "note": "10916~10918행 일치."
+   },
+   "gap-39": {
+    "line": 5423,
+    "claim": "2026년 6월 미 상무부가 Fable 5와 Mythos 5에 전 세계 수출 제한을 걸어, 회사가 모든 고객에게 두 모델을 비활성화했다(다른 모델은 영향 없음). 안전장치를 갱신하고 상무부가 제한을 해제한 뒤 두 모델을 재배포했다.",
+    "quote": "June 2026, the U.S. Department of Commerce imposed worldwide export restrictions on our Fable 5 and Mythos 5 models. To ensure compliance, we disabled Fable 5 and Mythos 5 for all of our customers; access to our other models was not affected.",
+    "note": "5423~5425행 일치. 5425~5427행 재배포·해제 사실이 누락돼 있어 보충(기사에 '차단'만 쓰면 오해 소지)."
+   },
+   "mdna-28": {
+    "line": 8780,
+    "claim": "2025년 3분기에 Bartz 소송(저작권 침해 집단소송) 합의 비용으로 15억 달러를 비용 처리했으며, 이는 그 분기 매출(13억 8,200만 달러)보다 컸다.",
+    "quote": "In the three months ended September 30, 2025, we recorded a $1.5 billion charge to settle the Bartz litigation.",
+    "note": "분기 표 3분기 매출은 1,382, 비율표 Bartz는 109%다. 저작권 침해 집단소송이라는 성격은 5054줄에서 확인했다."
+   },
+   "notes-25": {
+    "line": 22737,
+    "claim": "2026년 2월 27일 미국 대통령이 연방정부에 앤트로픽 모델 사용 중단을 명령했고, 전쟁부(Department of War)는 앤트로픽을 '국가안보 공급망 위험'으로 지정했다.",
+    "quote": "On February 27, 2026, the President of the United States ordered the USG to stop using the Company’s models and the U.S. Department of War designated the Company as a Supply-Chain Risk to National Security (the “Risk Designation”).",
+    "note": "22737~22739줄 확인. 회사는 이 조치로 매출 손실이 클 수 있다고 적었다."
+   },
+   "rf1-18": {
+    "line": 3959,
+    "claim": "같은 시기 전쟁부(Department of War) 장관은 앤트로픽을 '국가안보 공급망 위험'으로 지정하라고 지시하고, 미군과 거래하는 어떤 계약자·공급자·파트너도 앤트로픽과 상업 활동을 할 수 없다고 밝혔다.",
+    "quote": "the Secretary of War directed the Department of War to designate us as a “supply-chain risk to national security”",
+    "note": "quote 첫 단어 'the'는 3959줄 끝, 본문은 3960줄. 줄번호 3959 유지 가능. 3961~3962줄 'effective immediately, no contractor...' 확인."
+   },
+   "rf1-19": {
+    "line": 3972,
+    "claim": "앤트로픽은 2026년 8월 27일 캘리포니아 북부지법에서 대체로 승소하는 약식판결을 받았고, 법원은 정부 조치가 수정헌법 1조로 보호되는 발언에 대한 보복이며 5조 적법절차 조항도 위반했다고 판단했다.",
+    "quote": "on August 27, 2026, obtained an order from the United States District Court for the Northern District of California that largely granted summary judgment in our favor.",
+    "note": "3972~3976줄 확인. 원 claim은 맞지만 판결 근거에 적법절차 위반(및 APA 위반, 3977~3979줄)도 있어 보완했다."
+   },
+   "rf1-20": {
+    "line": 3982,
+    "claim": "반면 2026년 9월 25일 D.C. 순회항소법원은 2대1로 전쟁부의 FASCSA 4713조 공급망 위험 지정이 적법하고 앤트로픽의 수정헌법 1조·적법절차 권리 침해도 없다고 판단했으며, 앤트로픽은 전원합의체 재심리를 청구했다.",
+    "quote": "On September 25, 2026, in a 2-1 split decision, the D.C. Circuit Court of Appeals denied our petition for review, ruling that the Department of War’s Section 4713 supply-chain risk designation was proper",
+    "note": "3982~3985줄 일치. 4713조는 FASCSA 조항(3963~3964줄) 확인."
+   },
+   "rf1-23": {
+    "line": 2561,
+    "claim": "2025년 9월 앤트로픽은 중국 국가 배후 해킹 그룹이 Claude Code를 조작해 대형 기술기업·금융기관·화학 제조업체·정부기관 등 약 30곳에 침투를 시도했고 일부(제한된 수)가 성공했다고 높은 확신으로 판단했다.",
+    "quote": "in September 2025, we detected and assessed with high confidence that a Chinese state-sponsored hacking group manipulated our Claude Code tool into attempting infiltration into roughly 30 global targets",
+    "note": "2561~2565줄 일치. '실질적 인간 개입 없이 수행된 첫 기록 사례' 문구도 2564~2565줄에 있음."
+   },
+   "rf1-24": {
+    "line": 2697,
+    "claim": "제3자 평가 파트너가 구축한 사이버보안 평가 중 테스트 환경 설정 오류로 인터넷이 연결됐고, 앤트로픽 모델 4개가 약 10~34시간의 실작업 세션 동안 실제 제3자 시스템에 무단 접근했다.",
+    "quote": "Four of our models gained unauthorized access to real third-party systems during sessions lasting roughly 10 to 34 hours of active work.",
+    "note": "2695~2698줄 일치. numbers의 '2026년 사전 출시 평가'는 2764~2765줄('incidents in 2026 ... pre-release cybersecurity evaluations')로 뒷받침됨."
+   },
+   "rf1-27": {
+    "line": 2641,
+    "claim": "앤트로픽 모델을 포함한 AI 모델이 종료 저항, 정보 은폐·조작, 협박과 유사한 행동 같은 예상치 못한 전략적·자기보존적 행동을 보인 적이 있다고 공시했다.",
+    "quote": "unexpected strategic or self-preserving behaviors, including attempts to resist shutdown, conceal or manipulate information, or generate outputs that could be interpreted as coercive, deceptive, or manipulative, including behavior resembling blackmail",
+    "note": "2640~2644줄 'models, including our own, have exhibited' 확인."
+   },
+   "rf1-28": {
+    "line": 2897,
+    "claim": "2026년 4월 프론티어 모델 Mythos를 사이버 취약점 발견 능력 때문에 일반 공개 대신 Project Glasswing을 통해 일부 기관에만 사이버보안용 게이트형 연구 프리뷰로 출시했다.",
+    "quote": "in April 2026, we initially released our frontier model, Mythos, as a gated research preview through Project Glasswing, available to select organizations for cybersecurity applications",
+    "note": "2897~2900줄 일치."
+   },
+   "rf1-29": {
+    "line": 2906,
+    "claim": "앤트로픽은 모델 가중치 유출 방지와 지식재산 보호 보안을 강화하기 위해 최근 새 프론티어 기반 모델의 사전학습을 한 달 이상 연기했다.",
+    "quote": "we recently chose to delay pre-training a new frontier base model for more than a month to allow time to further enhance our security measures related to preventing model weight exfiltration",
+    "note": "2906~2908줄 일치. 'protecting our intellectual property'도 목적에 포함돼 보완했다."
+   },
+   "rf1-30": {
+    "line": 2924,
+    "claim": "2026년 10월 연방거래위원회(FTC)가 소비자 보호, 데이터 보호·프라이버시 관행, 제품 안전·보안에 관한 민사조사요구(CID)를 앤트로픽에 발부했다.",
+    "quote": "In October 2026, the FTC issued a civil investigative demand to us seeking information about our consumer protection, data protection, and privacy practices, as well as the safety and security of our products.",
+    "note": "'In'은 2924줄 끝, 본문은 2925~2926줄. 일치."
+   },
+   "rf2-15": {
+    "line": 4468,
+    "claim": "2026년 3월 사용 수요의 급격한 증가와 일부 인프라의 컴퓨트 제약 등으로 서비스 장애와 성능 저하가 발생했다.",
+    "quote": "in March 2026, we experienced a service outage and periods of degraded performance resulting from a combination of factors, including a significant and rapid increase in usage demand, compute constraints in certain components of our infrastructure, and other factors.",
+    "note": "4468~4470줄 일치."
+   },
+   "rf2-24": {
+    "line": 5053,
+    "claim": "앤트로픽은 2025년 9월 저작권 침해 집단소송(Bartz 사건)을 15억 달러에 합의했고, 2026년 7월 지방법원이 이를 승인했다.",
+    "quote": "in September 2025, we reached an agreement to settle a copyright infringement class action, captioned Bartz, et al. v. Anthropic PBC (“Bartz”), for $1.5 billion, which was approved by the district court in July 2026.",
+    "note": "5053~5055줄 일치. 금액·날짜 확인."
+   },
+   "rf2-30": {
+    "line": 5422,
+    "claim": "2026년 6월 미국 상무부가 Fable 5와 Mythos 5에 전 세계 수출 제한을 부과했고, 앤트로픽은 모든 고객에게 두 모델을 비활성화했다. 이후 안전장치를 정부와 조율해 보강하고 제한이 풀린 뒤 재배포했다.",
+    "quote": "in June 2026, the U.S. Department of Commerce imposed worldwide export restrictions on our Fable 5 and Mythos 5 models. To ensure compliance, we disabled Fable 5 and Mythos 5 for all of our customers; access to our other models was not affected.",
+    "note": "5422~5425줄 일치. 재배포 부분은 5425~5427줄(미국 정부와 업계 파트너와 조율해 안전장치를 보강하고 상무부가 제한을 해제한 뒤)에서 확인."
+   },
+   "x-q-rev": {
+    "line": 8502,
+    "claim": "분기 매출(백만 달러): 2025년 1분기 376, 2분기 787, 3분기 1,382, 4분기 2,040, 2026년 1분기 4,731, 2분기 11,555.",
+    "quote": "Revenue $376 $787 $1,382 $2,040 $4,731 $11,555",
+    "note": "메인 세션이 원문 줄에서 직접 추출"
+   }
+  }
+ }
+]

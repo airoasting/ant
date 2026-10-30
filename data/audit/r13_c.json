@@ -1,0 +1,49 @@
+[
+ {
+  "id": "c2",
+  "text": "02 성장의 속도 4,100만 달러에서 반기 163억 달러로 1,300% 2026년 상반기 매출의 전년 동기 대비 성장률. 11억 6,300만 달러에서 162억 8,600만 달러로 늘었습니다 [cite:rf1-02] [cite:fin-01] 연간 매출은 2023년 4,100만 달러에서 2024년 3억 8,600만 달러, 2025년 45억 8,500만 달러로 늘었습니다 [cite:fin-01] . 해마다 약 9.4배, 11.9배씩 커졌습니다 [cite:fs-02] . 2026년에는 상반기 6개월 매출만으로 2025년 한 해 매출의 3.5배를 넘습니다. 분기 매출로 보면 상승세가 더 가파릅니다. 2025년 1분기 3억 7,600만 달러였던 분기 매출은 한 번도 줄지 않고 2026년 2분기 115억 5,500만 달러까지 늘었습니다 [cite:x-q-rev] . 다섯 분기 만에 약 30.7배로 커졌습니다 [cite:mdna-04] . 성장에 가속이 붙은 시점은 모델 출시와 겹칩니다. 2025년 11월 Opus 4.5를 출시한 뒤 전 분기 대비 매출 성장률이 48%에서 132%로 올랐습니다 [cite:biz-15] . 회사는 이를 가격 인하와 성능 향상, 신제품, 고객 확대가 합쳐진 결과로 설명합니다 [cite:x-opus-factors] . 2026년 3분기 매출의 80% 이상은 2026년 4~9월에 출시된 모델 버전에서 나왔습니다 [cite:gap-40] . 새 모델이 나오면 매출의 중심이 빠르게 새 모델로 옮겨 간다는 뜻입니다. 분기 매출 (백만 달러) 점선 막대는 S-1이 비워 둔 2026년 3분기입니다. 높이는 1억 9,700만 달러 × 86으로 추정했습니다. 선형 축 로그 축 출처 S-1 분기 손익표(8502행). 3분기 추정치는 계산값이며 S-1에 나온 숫자가 아닙니다.",
+  "text_before_polish": "02 성장의 속도 4,100만 달러에서 반기 163억 달러로 1,300% 2026년 상반기 매출의 전년 동기 대비 성장률. 11억 6,300만 달러가 162억 8,600만 달러로 늘었습니다 [cite:rf1-02] [cite:fin-01] 연간 매출은 2023년 4,100만 달러, 2024년 3억 8,600만 달러, 2025년 45억 8,500만 달러였습니다 [cite:fin-01] . 해마다 약 9.4배, 11.9배씩 커졌습니다 [cite:fs-02] . 2026년 상반기 6개월 매출은 2025년 한 해 매출의 3.5배를 넘습니다. 분기로 나눠 보면 계단이 더 가파릅니다. 2025년 1분기 3억 7,600만 달러에서 시작해 한 번도 꺾이지 않고 2026년 2분기 115억 5,500만 달러까지 올랐습니다 [cite:x-q-rev] . 다섯 분기 만에 약 30.7배입니다 [cite:mdna-04] . 가속이 붙은 시점은 모델 출시와 겹칩니다. 2025년 11월 Opus 4.5를 출시한 뒤 전 분기 대비 매출 성장률이 48%에서 132%로 올랐습니다 [cite:biz-15] . 회사는 이를 가격 인하와 성능 향상, 신제품, 고객 확대가 합쳐진 결과로 설명합니다 [cite:x-opus-factors] . 2026년 3분기 매출의 80% 이상은 2026년 4~9월에 출시된 모델 버전에서 나왔습니다 [cite:gap-40] . 새 모델이 나오면 매출의 중심이 빠르게 새 모델로 옮겨 간다는 뜻입니다. 분기 매출 (백만 달러) 점선 막대는 S-1이 비워 둔 2026년 3분기입니다. 높이는 1억 9,700만 달러 × 86으로 추정했습니다. 선형 축 로그 축 출처 S-1 분기 손익표(8502행). 3분기 추정치는 계산값이며 S-1에 나온 숫자가 아닙니다.",
+  "facts": {
+   "biz-15": {
+    "claim": "Opus 4.5는 2025년 11월 출시됐습니다. 이후 전 분기 대비 매출 성장률은 2025년 4분기 48%에서 2026년 1분기 132%로 높아졌습니다.",
+    "quote": "48% for the three months ended December 31, 2025 to 132% for the three months ended March 31, 2026.",
+    "line": 10732
+   },
+   "fin-01": {
+    "claim": "연간 매출은 2023년 4,100만 달러, 2024년 3억 8,600만 달러, 2025년 45억 8,500만 달러였습니다. 2026년 상반기 매출은 162억 8,600만 달러입니다. 전년 동기(11억 6,300만 달러)의 약 14배입니다(계산).",
+    "quote": "Revenue $41 $386 $4,585 $1,163 $16,286",
+    "line": 1326
+   },
+   "fs-02": {
+    "claim": "(계산) 2026년 상반기 매출은 전년 동기 대비 약 14배로 늘었습니다. 2025년 연간 매출은 2024년 대비 약 11.9배, 2024년 매출은 2023년 대비 약 9.4배로 증가했습니다.",
+    "quote": "Revenue $41 $386 $4,585 $1,163 $16,286",
+    "line": 17628
+   },
+   "gap-40": {
+    "claim": "2026년 3분기 매출의 80% 이상은 2026년 9월 30일로 끝난 6개월 안에 출시된 모델 버전에서 나왔습니다.",
+    "quote": "model versions released in the six months ended September 30, 2026 accounted for over 80% of our revenue for the three months ended September 30, 2026.",
+    "line": 7350
+   },
+   "mdna-04": {
+    "claim": "분기 매출은 2025년 1분기 3억 7,600만 달러에서 2026년 2분기 115억 5,500만 달러까지 매 분기 늘었습니다. 다섯 분기 만에 약 30.7배가 됐습니다(계산).",
+    "quote": "Revenue increased sequentially in each of the quarters presented, from $376 million for the three months ended March 31, 2025 to $11.6 billion for the three months ended June 30, 2026.",
+    "line": 8758
+   },
+   "rf1-02": {
+    "claim": "2026년 상반기(6월 30일 종료 6개월) 매출은 163억 달러로 전년 동기보다 1,300% 늘었습니다.",
+    "quote": "In the six months ended June 30, 2026, our revenue was $16.3 billion, representing a year-over-year growth rate of 1,300%.",
+    "line": 3496
+   },
+   "x-opus-factors": {
+    "claim": "Opus 4.5 출시 뒤 전 분기 대비 성장률은 48%에서 132%로 올랐습니다. 회사는 이 상승을 가격 인하와 성능 향상, 신제품 등장, 고객 확대가 합쳐진 결과로 설명합니다.",
+    "quote": "predecessor Opus 4.1. Following that launch, our total quarter-over-quarter revenue growth accelerated from 48% for the three months ended December 31, 2025 to 132% for the three months ended March 31, 2026. This growth reflected the combined effect of several factors. These included lower prices and improved capability that unlocked new use cases, the emergence of new products, and expanded customer adoption. More recently,",
+    "line": 10731
+   },
+   "x-q-rev": {
+    "claim": "분기 매출(백만 달러)은 2025년 1분기 376, 2분기 787, 3분기 1,382, 4분기 2,040, 2026년 1분기 4,731, 2분기 11,555입니다.",
+    "quote": "Revenue $376 $787 $1,382 $2,040 $4,731 $11,555",
+    "line": 8502
+   }
+  }
+ }
+]

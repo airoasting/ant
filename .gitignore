@@ -1,0 +1,7 @@
+# 로컬 산출물: 캡처와 발행용 조각은 tools/build.py, tools/capture.py로 다시 만든다
+build/
+# 개편 전 백업 (로컬 보관)
+_archive/
+.DS_Store
+__pycache__/
+*.pyc

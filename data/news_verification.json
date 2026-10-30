@@ -1,0 +1,93 @@
+{
+ "verified_by_main_session_2026-10-27": [
+  [
+   "Bloomberg (Bloomberg Law)",
+   "Anthropic Files for IPO in Global Race to Raise Cash for AI",
+   "2026-10-26",
+   "Bailey Lipschultz, Shirin Ghaffary",
+   "https://news.bloomberglaw.com/artificial-intelligence/anthropic-files-for-ipo-to-become-first-frontier-ai-lab-to-list"
+  ],
+  [
+   "Bloomberg (Yahoo 전재)",
+   "Anthropic Is Said to Plan Public Filing for Mega-IPO Monday",
+   "2026-10-26",
+   "Ed Ludlow",
+   "https://finance.yahoo.com/technology/ai/articles/anthropic-said-plan-public-filing-115338000.html"
+  ],
+  [
+   "Reuters (Yahoo 전재)",
+   "Anthropic's IPO prospectus shows sweeping AI vision, surging costs",
+   "2026-09-28",
+   "Echo Wang",
+   "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropics-ipo-prospectus-shows-231722972.html"
+  ],
+  [
+   "AP (Investment Executive 전재)",
+   "Anthropic races toward Wall Street debut with a confidential SEC filing",
+   "2026-06-01",
+   "Matt O'Brien",
+   "https://www.investmentexecutive.com/news/markets/anthropic-races-toward-wall-street-debut-with-a-confidential-sec-filing/"
+  ],
+  [
+   "Bloomberg",
+   "Anthropic Raises at $965 Billion Valuation, Eclipsing OpenAI",
+   "2026-05-28",
+   "Shirin Ghaffary, Rebecca Torrence",
+   "https://news.bgov.com/private-equity/anthropic-raises-at-965-billion-valuation-eclipsing-openai-1"
+  ],
+  [
+   "Fortune",
+   "Anthropic's IPO prospectus shows $16.3 billion in revenue, an $80.7 billion net loss, and goal of an 'age of miracles'",
+   "2026-10-26",
+   "Beatrice Nolan",
+   "https://fortune.com/2026/10/26/anthropics-s-1/"
+  ],
+  [
+   "Fortune",
+   "Anthropic plans to spend up to $567 billion on compute. Its IPO prospectus reveals plans to set up its own data centers",
+   "2026-10-26",
+   "Emily Forlini",
+   "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/"
+  ],
+  [
+   "Fortune",
+   "Anthropic's risk factors include the end of humanity, a feud with the Pentagon, and CEO Dario Amodei's reputation",
+   "2026-10-26",
+   "Beatrice Nolan",
+   "https://fortune.com/2026/10/26/anthropic-s1-risk-factors-existential-risk-pentagon-dario-amodei/"
+  ],
+  [
+   "Fortune",
+   "Anthropic's S-1 makes clear it's on the hook for billions in compute. Its customers can walk at any time",
+   "2026-10-26",
+   "Sebastian Herrera, Jeremy Kahn",
+   "https://fortune.com/2026/10/26/anthropics-s-1-makes-clear-its-on-the-hook-for-billions-in-compute-its-customers-can-walk-at-any-time-2/"
+  ],
+  [
+   "TechCrunch",
+   "Anthropic officially files for its public debut",
+   "2026-10-26",
+   "Rebecca Bellan",
+   "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+  ],
+  [
+   "TechCrunch",
+   "Anthropic's IPO filing reveals its strategy for keeping enterprise customers hooked",
+   "2026-10-26",
+   "Rebecca Bellan",
+   "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+  ],
+  [
+   "Semafor",
+   "Anthropic IPO filing discloses first-of-its-kind governance structure",
+   "2026-10-26",
+   "Brendan Ruberry",
+   "https://www.semafor.com/article/10/26/2026/anthropic-ipo-filing-discloses-first-of-its-kind-governance-structure"
+  ]
+ ],
+ "excluded_not_openable": [
+  "CNBC live updates (403)",
+  "CNBC prediction markets (403)",
+  "Bloomberg 2026-06-01 confidential filing (403)"
+ ]
+}

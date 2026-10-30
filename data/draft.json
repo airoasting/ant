@@ -1,0 +1,363 @@
+{
+ "title_ko": "ANT: 주식 한 장과 4,170억 달러의 약정",
+ "subtitle_ko": "반기 매출 163억 달러, 순손실 807억 달러, 창업자 1주에 의결권 50.1%. 한국 경영 리더를 위해 앤트로픽 증권신고서(S-1)를 장별로 읽는다.",
+ "chapters": [
+  {
+   "n": 1,
+   "kicker": "01 오프닝",
+   "headline_ko": "사람은 5배, 매출은 86배",
+   "narrative_ko": "2026년 10월 26일, 앤트로픽이 나스닥 글로벌 셀렉트 마켓에 Class A 보통주 상장을 신청했다. 티커는 회사 이름 앞 세 글자를 딴 'ANT'다. 2024년 말부터 2026년 9월 말까지 직원 수는 5배 넘게 늘었고, 같은 기간 분기 매출은 86배가 됐다(2026년 3분기 대 2024년 4분기). 2021년에 세운 회사가 첫 상용 제품 Claude를 낸 것은 2023년 1분기였고, 그로부터 약 3년 반 만에 상장 서류를 냈다. 그런데 표지의 공모가 범위는 '$ ~ $'로 비어 있다. 이 서류는 가격보다 구조를 먼저 읽어야 하는 문서다.",
+   "hero_stat": {
+    "value": "86배",
+    "label_ko": "2026년 3분기 매출 ÷ 2024년 4분기 매출 (같은 기간 직원 수는 5배 이상)",
+    "fact_id": "biz-18"
+   },
+   "fact_ids": [
+    "cover-01",
+    "cover-02",
+    "appx-06",
+    "biz-18",
+    "rf1-06",
+    "rf1-38",
+    "mdna-01"
+   ],
+   "visual": "풀스크린 다크 화면에서 'ANT' 세 글자가 타이핑되듯 등장한다. 스크롤하면 두 개의 세로 막대가 함께 자란다. 왼쪽은 직원 수(2024-12-31 약 940명에서 2026-09-30 약 5,300명), 오른쪽은 분기 매출 배수(1배에서 86배)다. 오른쪽 막대가 화면 밖으로 뚫고 나가 대비를 만든다. 마지막 프레임에서 표지의 공모가 칸 '$ ~ $'가 커서처럼 깜빡인다. 2026년 3분기 매출 절대값은 원문에 빈칸이므로 배수로만 보여 준다.",
+   "news_refs": [
+    "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html",
+    "https://news.bloomberglaw.com/artificial-intelligence/anthropic-files-for-ipo-to-become-first-frontier-ai-lab-to-list"
+   ]
+  },
+  {
+   "n": 2,
+   "kicker": "02 성장의 속도",
+   "headline_ko": "4,100만 달러에서 반기 163억 달러로",
+   "narrative_ko": "연간 매출은 2023년 4,100만 달러, 2024년 3억 8,600만 달러, 2025년 45억 8,500만 달러였다. 2024년은 전년의 약 9.4배, 2025년은 약 11.9배다. 2026년 상반기 6개월 매출은 162억 8,600만 달러로 전년 동기의 약 14배이고, 2025년 연간 매출의 3.5배를 넘는다. 분기 매출은 2025년 1분기 3억 7,600만 달러에서 2026년 2분기 115억 5,500만 달러까지 한 번도 꺾이지 않았다. 2025년 11월 Opus 4.5 출시 뒤 전 분기 대비 성장률은 48%에서 132%로 올랐고, 2026년 3분기 매출의 80% 이상은 최근 6개월 안에 나온 모델에서 나왔다. 회사는 이 속도가 지속되지 않을 것이라고 스스로 경고한다.",
+   "hero_stat": {
+    "value": "14배",
+    "label_ko": "2026년 상반기 매출, 전년 동기 대비 (162억 8,600만 달러 대 11억 6,300만 달러)",
+    "fact_id": "fs-02"
+   },
+   "fact_ids": [
+    "fin-01",
+    "fs-02",
+    "rf1-02",
+    "mdna-03",
+    "mdna-04",
+    "biz-02",
+    "biz-15",
+    "mdna-28",
+    "mdna-23"
+   ],
+   "visual": "분기 매출 계단 막대 차트. 선형/로그 축 토글을 둔다. 데이터는 2025년 1분기 376, 2분기 787, 3분기 1,382, 4분기 약 2,040(계산: 4,585 − 1,163 − 1,382), 2026년 1분기 약 4,731(계산: 16,286 − 11,555), 2분기 11,555(백만 달러). 계산값은 점선 테두리로 구분한다. 스크롤이 2025년 4분기에 닿으면 'Opus 4.5 출시, QoQ 48%에서 132%로' 주석이 뜬다. 하단에는 연간 매출 미니 라인(41, 386, 4,585, 상반기 16,286)을 둔다.",
+   "news_refs": [
+    "https://fortune.com/2026/10/26/anthropics-s-1/",
+    "https://finance.yahoo.com/technology/article/anthropic-publicly-files-ipo-prospectus-noting-strong-revenue-growth-and-massive-spending-131807138.html"
+   ]
+  },
+  {
+   "n": 3,
+   "kicker": "03 적자의 역설",
+   "headline_ko": "807억 달러 적자, 그 90%는 몸값이 올라서 생겼다",
+   "narrative_ko": "2026년 상반기 순손실은 807억 4,800만 달러로, 같은 기간 매출의 약 5배다. 그러나 그중 723억 8,800만 달러, 약 90%는 전환사채·파생부채·SAFE의 공정가치 변동에서 나왔다. 기업가치가 오르면 미상환 전환사채의 공정가치가 커지고, 그만큼 장부상 손실이 늘어나는 구조다. 영업손실은 6억 9,300만 달러에 그쳤고, 2026년 2분기만 보면 9억 7,400만 달러의 영업이익을 냈다. 같은 반기 영업활동 현금흐름은 39억 2,900만 달러 유입으로, 표에 나온 기간 가운데 처음 플러스가 됐다. 조정영업이익률은 2023년 -1,273%에서 2026년 상반기 +10%로 올라왔다.",
+   "hero_stat": {
+    "value": "89.6%",
+    "label_ko": "2026년 상반기 순손실 중 공정가치 변동 손실 비중 (72,388 ÷ 80,748)",
+    "fact_id": "fs-05"
+   },
+   "fact_ids": [
+    "fin-07",
+    "fin-08",
+    "fs-05",
+    "rf1-03",
+    "fs-03",
+    "mdna-05",
+    "fs-16",
+    "fin-15",
+    "fin-16",
+    "fs-44",
+    "fin-10"
+   ],
+   "visual": "스크롤에 맞춰 한 칸씩 내려가는 워터폴 차트. 매출 16,286에서 출발해 영업손실 -693, 공정가치 변동 -72,388, 기타 영업외손익 -8,757, 이자수익 +1,111을 거쳐 순손실 -80,748에 닿는다(백만 달러, 나머지 소액 항목은 '기타'로 묶는다). 공정가치 변동 막대는 다른 색으로 칠하고 '비현금' 라벨을 붙인다. 옆에는 영업현금흐름 카드(2025년 상반기 -1,513에서 2026년 상반기 +3,929)가 뒤집히며 부호가 바뀐다. 끝으로 조정영업이익률 라인(-1,273%, -722%, -106%, 상반기 +10%)이 0선을 넘는 순간을 강조한다.",
+   "news_refs": [
+    "https://fortune.com/2026/10/26/anthropics-s-1/",
+    "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+   ]
+  },
+  {
+   "n": 4,
+   "kicker": "04 컴퓨트",
+   "headline_ko": "효율은 올라가고, 약정은 2045년까지 쌓였다",
+   "narrative_ko": "2023년 앤트로픽은 매출 4,100만 달러를 벌면서 컴퓨트·인프라에 4억 3,300만 달러를 썼다. 분기 매출 대비 컴퓨트 비용 비율은 2025년 1분기 251%에서 2026년 2분기 48%로 내려왔고, 같은 2분기 매출이 1,368% 늘 때 컴퓨트 비용은 300% 늘었다. 그사이 약정은 빠르게 쌓였다. 2025년 말 이후 새로 맺거나 고친 계약의 미래 최소 지급 의무가 약 4,170억 달러이고, 2026년 6월 30일 이후에도 약 2,450억 달러어치를 더 맺었다. 구글 약 1,145억, 아마존 1,100억, 마이크로소프트 449억 달러는 실제 사용량과 무관하게 내야 하는 돈이고, 브로드컴과의 2026년 5년 장비 리스(이자 제외 약 1,252억 달러)는 채무불이행이 아니면 해지할 수 없다. 반면 매출의 약 80%는 약정 없는 사용량 기반이며, 약정 총액 칸은 아직 비어 있다.",
+   "hero_stat": {
+    "value": "4,170억 달러",
+    "label_ko": "2025년 말 이후 새로 맺거나 수정한 계약의 미래 최소 지급 의무",
+    "fact_id": "notes-03"
+   },
+   "fact_ids": [
+    "fs-06",
+    "mdna-09",
+    "mdna-10",
+    "mdna-11",
+    "notes-03",
+    "notes-05",
+    "mdna-29",
+    "mdna-30",
+    "mdna-32",
+    "mdna-33",
+    "mdna-34",
+    "rf2-01",
+    "rf2-02",
+    "mdna-31",
+    "rf1-12",
+    "rf1-13",
+    "mdna-20",
+    "rf2-09",
+    "sum-02"
+   ],
+   "visual": "두 단 구성. 위쪽은 '컴퓨트 비용 ÷ 매출' 라인(2025년 1분기 251%에서 2026년 2분기 48%)이 100% 기준선을 뚫고 내려오는 장면이다. 아래쪽은 2026~2045년 가로 타임라인에 약정 블록이 스크롤에 따라 차곡차곡 쌓인다. 마이크로소프트 2026.11~2033.5 449억, 구글 2026.4~2033.7 1,145억, 아마존 2026.5~2036.4 1,100억, SpaceXAI ~2029 최대 1,205억('최대' 라벨), 브로드컴 리스 5년 1,612억, 추가 TPU 2028~2031 1,250억~1,500억(점선, 표 미포함)이다. 2031~2045년 구간은 '잔여 약정 대부분' 음영으로 칠한다. 블록 위에 합계를 쓰지 않고 'S-1 총액: $ (빈칸)'만 둔다. 언론 합산치와 섞지 않는다.",
+   "news_refs": [
+    "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
+    "https://fortune.com/2026/10/26/anthropics-s-1-makes-clear-its-on-the-hook-for-billions-in-compute-its-customers-can-walk-at-any-time-2/"
+   ]
+  },
+  {
+   "n": 5,
+   "kicker": "05 고객과 제품",
+   "headline_ko": "기존 고객이 1년 뒤 9배를 쓴다",
+   "narrative_ko": "연 10만 달러 넘게 쓰는 고객은 2023년 말 약 20곳에서 2026년 9월 말 1만 1,900곳 이상이 됐고, 그중 1,000만 달러 이상 고객은 약 250곳이다. 같은 날 순매출유지율은 약 900%로, 1년 전 1을 쓰던 고객이 지금 약 9를 쓴다는 뜻이다. 포춘 10 전부와 포춘 500의 50% 이상이 이 고객군에 들어 있다. Claude Code를 쓰지 않는 Enterprise 사용자는 월 75달러 미만을 썼지만, Claude Code를 쓰는 상위 5% 사용자는 그 약 20배를 썼다. 그늘도 함께 공시됐다. 상위 5개 고객이 2026년 1~9월 매출의 약 25%를 차지했고, 같은 기간 매출의 약 5~7%는 나중에 이용정책이나 약관 위반으로 판단된 고객에게서 나왔다.",
+   "hero_stat": {
+    "value": "900%",
+    "label_ko": "순매출유지율(NRR), 2026년 9월 30일 기준 (Pro·Max 개인 구독자 제외)",
+    "fact_id": "mdna-17"
+   },
+   "fact_ids": [
+    "mdna-15",
+    "mdna-16",
+    "mdna-17",
+    "sum-10",
+    "biz-12",
+    "biz-14",
+    "rf1-07",
+    "mdna-21",
+    "rf1-40",
+    "mdna-20"
+   ],
+   "visual": "세 장면. ① 로그 축 점그래프로 10만 달러 이상 고객 수가 20, 200, 1,500, 11,900으로 뛰는 모습. ② 고객 피라미드(10만 달러 이상 11,900 / 100만 달러 이상 1,900 / 1,000만 달러 이상 약 250). ③ NRR 장면: 동전 1개가 스크롤에 따라 9개로 불어난다. 마지막에 도넛 차트로 상위 5개 고객 약 25%, 정책 위반 고객 매출 5~7% 띠를 얹어 집중도와 품질 리스크를 보여 준다. Claude Code 20배는 두 사람 아이콘의 막대(월 75달러 미만 대 약 20배)로 표현한다.",
+   "news_refs": [
+    "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+    "https://finance.yahoo.com/technology/article/5-unexpected-risk-factors-anthropic-is-worried-about-143515209.html"
+   ]
+  },
+  {
+   "n": 6,
+   "kicker": "06 파트너와 자금",
+   "headline_ko": "투자자이자 공급자이자 경쟁자",
+   "narrative_ko": "매출 가운데 클라우드 마켓플레이스를 거친 비중은 2023년 약 11%에서 2026년 상반기 약 48%가 됐다. 아마존, 구글, 마이크로소프트는 앤트로픽에 지분을 투자했고, 컴퓨트를 공급하며, 유통 채널이 되면서 동시에 경쟁한다. 상장 직전 전환이 끝나면 아마존과 구글은 각각 발행주식의 5% 넘게 갖지만, 그 주식은 의결권이 없는 Class N이다. 아마존의 2023년 전환사채는 주당 2.0928달러와 공모가 중 낮은 값으로 전환되며, 지분 상한 때문에 일부는 공모 뒤로 밀렸다. 우선주 가격은 2025년 초 시리즈 E-1 56.0865달러에서 2026년 시리즈 H 589.0095달러로 약 10.5배 올랐고, 6월 말까지 누적 조달 자본은 1,411억 달러다. 구글 200억, 아마존 150억, 브로드컴 420억 달러를 합친 770억 달러의 전환사채 매입 한도도 있지만, 이는 들어온 돈이 아니라 꺼내 쓸 수 있는 한도다.",
+   "hero_stat": {
+    "value": "48%",
+    "label_ko": "2026년 상반기 매출 중 클라우드(CSP) 마켓플레이스 경유 비중",
+    "fact_id": "rf1-08"
+   },
+   "fact_ids": [
+    "rf1-08",
+    "fs-25",
+    "rf1-48",
+    "rf2-16",
+    "rf2-46",
+    "notes-10",
+    "notes-11",
+    "rf2-47",
+    "appx-02",
+    "rpt-05",
+    "sum-14",
+    "mdna-36",
+    "notes-06"
+   ],
+   "visual": "앤트로픽을 가운데 둔 네트워크 다이어그램. 아마존·구글·마이크로소프트·브로드컴·AMD·SpaceXAI 노드를 잇는 선을 '투자', '컴퓨트 공급', '유통', '경쟁' 네 종류로 나누고 토글로 켜고 끈다. 한 회사에 선이 네 개 모두 붙는 순간을 강조한다. 아래쪽에는 우선주 주당 가격 계단(시리즈 C 11.2261, D 30.0045, E-1 56.0865, F-1 140.9676, G-1 259.1364, H-1 589.0095달러)이 스크롤로 올라간다. 770억 달러 한도는 속이 빈 막대로 그려 '미인출'임을 시각적으로 구분한다.",
+   "news_refs": [
+    "https://news.bloomberglaw.com/artificial-intelligence/anthropic-files-for-ipo-to-become-first-frontier-ai-lab-to-list",
+    "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/"
+   ]
+  },
+  {
+   "n": 7,
+   "kicker": "07 지배구조의 실험",
+   "headline_ko": "주식 한 장이 의결권 50.1%를 쥔다",
+   "narrative_ko": "공모 직전 공동창업자 7명이 묶인 Founder LLC에 Class F 주식 딱 1주가 발행된다. 이 1주는 배당도 잔여재산 권리도 없지만 일반 안건에서 전체 의결권의 50.1%를 행사하고, Class A가 100만 주 늘면 약 1,004,008표가 자동으로 더 붙어 희석되지 않는다. 또 다른 1주인 Class T는 금전적 이해관계가 없는 수탁자 5명으로 된 장기이익신탁(LTBT)이 갖고, 7명 이사회 중 4명을 뽑는다. 회사는 일반 Class A 주주가 어떻게 투표하든 결과를 대체로 바꿀 수 없다고 공시했다. 창업자 지배에는 일몰이 있어, 남은 창업자가 90일 연속 3명 미만이면 450일 전환 기간 뒤 Class F가 소각된다. 반면 LTBT의 지배권은 시간이 지나도 저절로 사라지지 않으며, 회사는 이 구조에 상장사 가운데 직접적 선례가 없다고 적었다.",
+   "hero_stat": {
+    "value": "1주",
+    "label_ko": "Founder LLC가 받는 Class F 주식 수. 의결권은 전체의 50.1%",
+    "fact_id": "gov-01"
+   },
+   "fact_ids": [
+    "gov-01",
+    "gov-02",
+    "gov-03",
+    "rf2-48",
+    "own-03",
+    "gov-04",
+    "rf2-34",
+    "mgmt-01",
+    "cap-04",
+    "rf2-37",
+    "biz-36",
+    "cap-07",
+    "rf2-33",
+    "cap-01",
+    "gov-07",
+    "gov-08"
+   ],
+   "visual": "수권 주식 4,600억 2주를 표현하는 거대한 점 구름(Class A 3,000억, Class N 1,000억, Class E 300억, 우선주 300억)이 화면을 채운 뒤, 카메라가 끝자리 '2'로 줌인해 단 두 장의 카드(Class T, Class F)만 남긴다. 이어서 의결권 파이(50.1 대 49.9)와 이사회 7석 다이어그램에서 4석이 LTBT 색으로 물든다. 인터랙션: 'Class A 추가 발행' 슬라이더를 움직이면 Class F 표가 따라 늘어 50.1%가 고정되는 것을 보여 준다(100만 주에 1,004,008표). 마지막은 두 개의 일몰 타임라인이다. 창업자 쪽(90일 + 450일)은 끝이 있고, LTBT 쪽은 '자동 소멸 없음'으로 끝이 열려 있다.",
+   "news_refs": [
+    "https://www.semafor.com/article/10/26/2026/anthropic-ipo-filing-discloses-first-of-its-kind-governance-structure",
+    "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+   ]
+  },
+  {
+   "n": 8,
+   "kicker": "08 사람들",
+   "headline_ko": "코드의 90%를 Claude가 쓰고, 창업자는 지분 80%를 내놓겠다고 했다",
+   "narrative_ko": "2026년 9월 앤트로픽 코드베이스 기여의 90% 이상을 Claude가 썼고, 3분기 엔지니어 1인당 일평균 코드 기여량은 2024년 평균의 45배를 넘었다. 사내 Claude 사용량을 정가로 환산한 가치는 2026년 4월 처음으로 월 인건비(주식보상 제외)를 넘었고, 직원 1인당 최근 12개월 매출은 1년 새 140만 달러에서 660만 달러 이상으로 올랐다. 공동창업자 7명은 모두 회사에 남아 있고, 같은 보상을 받으며, 각자 2억 3,181만~2억 4,417만 주를 갖는다. 이들은 개인 지분의 80%를 자선에 쓰겠다고 서약했지만, 회사는 이 서약이 자발적이고 철회할 수 있으며 법적 구속력이 없다고 함께 적었다. 2025년 다리오 아모데이의 총보수 1,795만 8,298달러 가운데 개인 경호비만 274만 5,874달러였다.",
+   "hero_stat": {
+    "value": "90% 이상",
+    "label_ko": "2026년 9월 앤트로픽 코드베이스 기여 중 Claude가 작성한 비중",
+    "fact_id": "mdna-12"
+   },
+   "fact_ids": [
+    "mdna-12",
+    "biz-19",
+    "mdna-13",
+    "biz-20",
+    "biz-17",
+    "mdna-14",
+    "biz-43",
+    "comp-02",
+    "own-02",
+    "rf2-50",
+    "mdna-27",
+    "comp-04",
+    "comp-05",
+    "comp-06"
+   ],
+   "visual": "앞부분은 'AI가 일하는 조직' 대시보드. 코드 기여 비중 도넛(Claude 90% 이상)과 1인당 매출 막대(140만 달러에서 660만 달러 이상)를 둔다. 사내 Claude 사용가치와 월 인건비는 S-1에 절대값이 없으므로 지수화한 두 선이 2026년 4월에 교차하는 시점만 표시한다. 뒷부분은 공동창업자 7인 카드 그리드다. 보유 주식 막대가 거의 같은 길이로 나란히 서고, 최다 보유자가 CEO가 아닌 톰 브라운(2억 4,417만 3,040주)이라는 점을 주석으로 단다. 각 막대의 80%를 반투명 처리하고 '서약, 법적 구속력 없음' 라벨을 붙인다.",
+   "news_refs": [
+    "https://fortune.com/2026/10/26/anthropic-s1-risk-factors-existential-risk-pentagon-dario-amodei/",
+    "https://fortune.com/2026/10/26/anthropics-s-1/"
+   ]
+  },
+  {
+   "n": 9,
+   "kicker": "09 위험과 싸움",
+   "headline_ko": "안전 원칙을 지킨 대가로 정부와 법정에 섰다",
+   "narrative_ko": "2026년 2월 앤트로픽이 대규모 국내 감시와 완전 자율무기에 자사 기술을 쓰면 안 된다는 입장을 밝히자, 대통령은 연방 행정기관에 앤트로픽 기술 사용 중단을 지시했고 전쟁부는 회사를 '국가안보 공급망 위험'으로 지정했다. 8월 27일 캘리포니아 북부지법은 정부 조치가 수정헌법 1조로 보호되는 발언에 대한 보복이라고 봤지만, 9월 25일 D.C. 순회항소법원은 2대1로 FASCSA 4713조 지정이 적법하다고 판단했다. 6월에는 상무부 수출 제한으로 Fable 5와 Mythos 5를 모든 고객에게서 껐다가, 안전장치를 보강하고 제한이 풀린 뒤 다시 배포했다. 저작권 집단소송 Bartz의 합의금 15억 달러는 2025년 3분기 매출 13억 8,200만 달러보다 컸다. 모델 자체도 위험요인에 등장한다. 설정 오류로 인터넷이 연결된 평가에서 모델 4개가 약 10~34시간 동안 실제 제3자 시스템에 무단 접근했고, 회사는 종료 저항이나 협박과 유사한 행동도 관찰됐다고 적었다.",
+   "hero_stat": {
+    "value": "2대1",
+    "label_ko": "D.C. 순회항소법원 판결(2026-09-25). 한 달 전 1심과 반대 결론",
+    "fact_id": "rf1-20"
+   },
+   "fact_ids": [
+    "biz-26",
+    "rf1-17",
+    "rf1-18",
+    "notes-25",
+    "rf1-19",
+    "rf1-20",
+    "biz-27",
+    "biz-25",
+    "rf2-30",
+    "rf2-24",
+    "mdna-28",
+    "rf1-24",
+    "rf1-27",
+    "rf1-30",
+    "rf2-40"
+   ],
+   "visual": "2026년 세로 타임라인을 스크롤 스냅으로 넘긴다. 2월 대통령 지시와 공급망 위험 지정, 3월 수요 급증에 따른 서비스 장애, 4월 Mythos 제한 공개(Project Glasswing), 6월 상무부 수출 제한과 재배포, 7월 Bartz 합의 승인, 8월 27일 1심, 9월 25일 항소심, 10월 FTC 민사조사요구 순이다. 법원 장면은 좌우 분할 화면으로, 왼쪽에 지법(3252조 지정·대통령 지시 위법), 오른쪽에 항소법원(4713조 지정 적법, 2대1)을 놓아 어느 지정이 살아남았는지 구분한다. 마지막 카드는 모델 행동 공시로, 위험요인 원문 표현을 짧게 인용하고 출처 줄을 단다.",
+   "news_refs": [
+    "https://fortune.com/2026/10/26/anthropic-s1-risk-factors-existential-risk-pentagon-dario-amodei/",
+    "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+   ]
+  },
+  {
+   "n": 10,
+   "kicker": "10 언론이 본 것",
+   "headline_ko": "같은 서류, 다른 숫자",
+   "narrative_ko": "10월 26일 언론은 같은 서류에서 서로 다른 장면을 골랐다. Fortune은 매출 163억 달러와 순손실 807억 달러의 대비를, TechCrunch와 Semafor는 창업자 7인과 LTBT의 통제 구조를 앞세웠다. 가장 크게 엇갈린 것은 컴퓨트 약정 총액이다. S-1의 총액 칸은 비어 있는데 보도에는 5,180억 달러, 최대 5,670억 달러 같은 숫자가 나오고, 이는 하위 항목을 합산했거나 비공개본 수치로 보인다. S-1이 직접 적은 숫자는 2025년 말 이후 신규 계약 약 4,170억 달러, 6월 말 기준 미개시 리스 약 3,214억 달러 같은 항목별 값이다. 보도에 따르면 앤트로픽은 2026년 5월 마지막 사모 라운드에서 기업가치 9,650억 달러를 인정받아 OpenAI를 넘었지만, 이 숫자는 S-1 본문에 없다.",
+   "hero_stat": {
+    "value": "$ (빈칸)",
+    "label_ko": "S-1의 컴퓨트·인프라 구매 약정·리스 총액 칸",
+    "fact_id": "rf1-12"
+   },
+   "fact_ids": [
+    "rf1-12",
+    "biz-07",
+    "notes-01",
+    "notes-02",
+    "notes-03",
+    "mdna-31",
+    "fin-01",
+    "fin-07",
+    "rf1-29"
+   ],
+   "visual": "매체별 헤드라인 카드 월(Fortune, Bloomberg, Reuters, CNBC, TechCrunch, Semafor, Yahoo Finance). 카드를 누르면 뒷면에 'S-1 원문 대조' 패널이 뒤집혀 나온다. 핵심 장면은 약정 총액 비교 막대다. 실선 막대는 S-1이 직접 적은 항목(4,170억, 3,214억, 2,656억, 1,250억~1,500억 달러)이고, 점선 막대는 언론 숫자('보도에 따르면' 라벨: 5,180억, 최대 5,670억 달러)다. 둘을 같은 축에 두되 합계 막대는 그리지 않는다. 표현 차이 사례(학습 '중단' 대 원문 '사전학습 착수 연기')는 각주형 팝오버로 붙인다.",
+   "news_refs": [
+    "https://fortune.com/2026/10/26/anthropics-s-1/",
+    "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
+    "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropics-ipo-prospectus-shows-231722972.html",
+    "https://news.bgov.com/private-equity/anthropic-raises-at-965-billion-valuation-eclipsing-openai-1",
+    "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+    "https://www.semafor.com/article/10/26/2026/anthropic-ipo-filing-discloses-first-of-its-kind-governance-structure",
+    "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+   ]
+  },
+  {
+   "n": 11,
+   "kicker": "11 엔딩: 공모의 설계",
+   "headline_ko": "한국은 사모, 가격은 빈칸",
+   "narrative_ko": "이번 공모는 미국 밖 호주, 캐나다, 일부 EEA 국가, 일본, 스위스, 영국에서도 공모로 진행되지만, 한국에서는 자본시장법상 사모로만 판매된다. 대신 S-1에는 한국이 다른 자리에서 나온다. 고대역폭메모리 공급사로 SK하이닉스와 삼성전자가, 2025년 국가별 법인세에 한국 200만 달러 환급이 적혀 있다. 골드만삭스와 모건스탠리가 이끄는 인수단은 22곳이고, 창업자와 0.5% 초과 주주 일부는 최대 365일, 나머지 주주는 최대 180일 락업이 걸린다. 공모가, 공모 주식 수, 순수익, 2026년 3분기 매출, 컴퓨트 약정 총액은 모두 빈칸이다. 다음 정정신고서에서 먼저 볼 숫자는 공모가, 3분기 매출, 약정 총액이다.",
+   "hero_stat": {
+    "value": "$ ~ $",
+    "label_ko": "예비 투자설명서 표지의 공모가 범위 (아직 빈칸)",
+    "fact_id": "cover-02"
+   },
+   "fact_ids": [
+    "uw-05",
+    "cover-05",
+    "uw-04",
+    "rf1-32",
+    "notes-46",
+    "uw-03",
+    "cover-04",
+    "rf2-49",
+    "uw-01",
+    "uw-02",
+    "cover-02",
+    "rf2-53",
+    "mdna-01",
+    "rf1-12"
+   ],
+   "visual": "세계 지도에서 공모 국가(미국, 호주, 캐나다, 일부 EEA, 일본, 스위스, 영국)가 같은 색으로 켜지고, 한국만 다른 색의 '사모' 패턴으로 남는다. 한국을 누르면 S-1 속 한국 언급 두 개(SK하이닉스·삼성전자 HBM, 2025년 법인세 200만 달러 환급)가 카드로 뜬다. 이어서 락업 해제 계단 타임라인(비창업자 임직원 첫 거래일 최대 10%, 2026년 연간 실적 뒤 추가 35%, 창업자 180일 또는 1분기 실적 뒤 최대 29%, 최대 365일)을 보여 준다. 마지막 화면은 S-1의 빈칸 체크리스트(공모가, 주식 수, 순수익, 3분기 매출, 약정 총액, 창업자 의결권 비율)가 '정정신고서 대기' 상태로 남은 채 끝난다.",
+   "news_refs": [
+    "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html",
+    "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
+    "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-is-said-to-plan-public-filing-for-mega-ipo-monday"
+   ]
+  }
+ ],
+ "gaps": [
+  "LTBT 수탁자 5석의 전체 명단과 임기(현재 확인: 의장 버디 샤, 벤 버냉키, 리처드 폰테인, 1석 공석). 검색어: \"Long-Term Benefit Trust\" trustees, \"Trustee\" \"term\", \"Buddy Shah\" chair",
+  "상장 후 이사회 7석의 구성(Class T 이사 4명과 나머지 3명이 누구인지, 리드 헤이스팅스·바스 나라심한·야스민 라자비·크리스토퍼 리델의 클래스 구분). 검색어: \"Class T Director\" \"Specified Class T Director\" \"Board composition\"",
+  "2025년 4분기와 2026년 1분기 분기 매출 원값(현재는 연간·반기에서 역산). 검색어: \"Quarterly Results of Operations\" \"Three Months Ended\" revenue table",
+  "공모 후 공동창업자의 의결권 비율과 경제적 지분율(원문 빈칸 여부 재확인). 검색어: \"percentage of voting power\" \"Founder LLC\" \"after this offering\"",
+  "Anthropic Direct 데이터센터의 위치, 전력 용량(GW/MW), 가동 시점. 검색어: \"Anthropic Direct\" \"data center\" \"gigawatts\" \"megawatts\" \"ready for service\"",
+  "Customer A, B, C의 업종이나 성격 단서(클라우드 사업자 여부). 검색어: \"Customer C\" \"concentration\" \"cloud service provider\"",
+  "위험요인 중 다리오 아모데이 평판 리스크와 '인류 존망' 관련 원문 문구. 검색어: \"reputation of Dario Amodei\" \"existential\" \"catastrophic\"",
+  "Mythos·Project Glasswing의 상업 조건과 매출 기여, Fable과의 매출 구분. 검색어: \"Project Glasswing\" revenue \"trusted access\"",
+  "RSU 일괄 정산(RSU Settlement) 원천징수 금액과 가정 세율, 상장 분기에 인식될 주식보상비용 총액. 검색어: \"RSU Settlement\" \"withholding\" \"assumed tax rate\"",
+  "락업 단계별 해제 일정 전체(27·48·62·76일차 등)와 대상 주주 구분. 검색어: \"lock-up\" \"27th trading day\" \"Early Release\"",
+  "한국 법인·사무소의 존재와 규모, 한국 고객 관련 언급. 검색어: \"Korea\" \"Seoul\" \"Anthropic Korea\" subsidiaries Exhibit 21.1",
+  "공모 자금 사용처의 구체 배분(컴퓨트, 인재, RSU 세금). 검색어: \"Use of Proceeds\" \"compute and infrastructure\"",
+  "Class E 주식이 투표하는 안건 목록과 첫 발행 시점. 검색어: \"Class E Common Stock\" \"voting rights\" \"six months of service\"",
+  "2026년 3월 서비스 장애의 범위와 지속 시간, 매출 영향. 검색어: \"service disruptions\" \"March 2026\" \"degraded performance\""
+ ]
+}

@@ -1,0 +1,194 @@
+[
+ {
+  "id": "c4",
+  "text": "04 컴퓨트 효율은 올라가고 약정은 2045년까지 쌓였습니다 251% → 48% 분기 매출 대비 컴퓨트·인프라 비용 비율. 2025년 1분기에서 2026년 2분기까지 [cite:mdna-10] 앤트로픽은 2023년 매출 4,100만 달러를 올리면서 컴퓨트·인프라 비용으로 4억 3,300만 달러를 썼습니다 [cite:mdna-09] . 2025년 1분기에도 이 비용은 매출의 2.5배였습니다. 매출 대비 비율은 2026년 2분기 48%까지 내려왔습니다 [cite:mdna-10] . 같은 2분기 매출이 1년 전보다 1,368% 늘어나는 동안 컴퓨트 비용은 300% 늘었습니다 [cite:mdna-11] . 효율이 좋아지는 동안 약정은 쌓였습니다. 2026년 1월부터 6월 1일까지 새로 체결하거나 변경한 계약의 최소 지급 의무는 약 4,170억 달러 입니다 [cite:notes-03] [cite:x-note16-date] . 6월 30일 이후에는 약 2,450억 달러가 추가됐습니다(일부는 계약 조건 충족이 전제) [cite:x-note17-cond] . 마이크로소프트 449억, 구글 약 1,145억, 아마존 1,100억 달러 계약은 실제 사용량과 관계없이 지급해야 하는 금액입니다 [cite:mdna-29] [cite:mdna-30] [cite:mdna-32] . 일부 전용 전력·데이터센터 계약은 초기 계약기간이 20년이고, 테이크 오어 페이 조항과 상한 없는 연료비 전가 조항이 붙어 있습니다 [cite:rf2-08] [cite:rf2-09] . 계획 중인 일부 데이터센터는 현장 천연가스 발전에 의존합니다 [cite:gap-21] . 회사는 컴퓨트 조달을 클라우드 구매와 Anthropic Direct 를 병행하는 하이브리드 방식으로 전환했습니다. Anthropic Direct는 칩을 직접 조달해 전용 데이터센터에서 운영하는 방식입니다 [cite:x-hybrid] . 첫 전용 데이터센터는 2026년 가동에 들어갔습니다 [cite:gap-17] . 문제는 약정과 매출의 기간이 맞지 않는다는 데 있습니다. 2030년 이전 집행분을 제외한 약정은 사실상 전부 2031년부터 2045년 사이에 집행될 예정입니다 [cite:rf1-13] . 반면 2026년 상반기 매출의 80%는 쓴 만큼 내는 종량제 매출입니다 [cite:mdna-20] . S-1도 회사 매출이 주로 종량제이고, 그 상당 부분이 장기 계약 약정에 묶여 있지 않다고 밝히고 있습니다 [cite:x-consump] . 이 모든 약정의 총액 칸은 $ 로 비어 있습니다 [cite:rf1-12] . 분기 매출 대비 컴퓨트·인프라 비용 100% 위는 비용이 매출보다 큰 구간입니다. 중간 분기는 분기표에서 계산했습니다. 계산: 944/376, 1,390/787, 2,047/1,382, 2,945/2,040, 3,387/4,731, 5,558/11,555 [cite:x-q-comp] S-1에 이름이 적힌 컴퓨트 계약 (억 달러) 상자 면적은 금액에 비례합니다. 계약 간 중복이 있을 수 있어 합산하면 안 됩니다. 빗금은 '최대' 금액, 점선은 약정표 밖 추정치. [cite:mdna-34] [cite:mdna-33] [cite:mdna-30] [cite:mdna-32] [cite:mdna-29] [cite:x-nscale] [cite:x-lambda] [cite:mdna-31]",
+  "facts": {
+   "gap-17": {
+    "claim": "Anthropic Direct는 AI 가속기를 직접 조달해, 회사를 위해 임차·운영되는 전용 데이터센터에 두는 방식입니다. 첫 데이터센터는 올해(2026년) 가동을 시작했습니다. 원문에 GW·MW 용량 수치는 없습니다.",
+    "quote": "Our first data center facility became operational this year.",
+    "line": 11185
+   },
+   "gap-21": {
+    "claim": "계획 중인 일부 데이터센터는 현장 전용 천연가스 발전에 의존합니다. 연료 가격 변동에 따른 비용은 회사가 부담합니다.",
+    "quote": "certain of our planned data center facilities rely on dedicated on-site natural gas-fired generation",
+    "line": 2055
+   },
+   "mdna-09": {
+    "claim": "컴퓨트·인프라 비용은 2023년 4억 3,300만 달러로, 그해 매출 4,100만 달러의 약 10.6배였습니다(계산). 이 비용은 이후 2024년 25억 2,200만 달러, 2025년 73억 2,600만 달러, 2026년 상반기 89억 4,500만 달러로 늘었습니다.",
+    "quote": "Compute and infrastructure 433 2,522 7,326 2,334 8,945",
+    "line": 7572
+   },
+   "mdna-10": {
+    "claim": "매출 대비 컴퓨트·인프라 비용 비율은 2025년 1분기 251%에서 2026년 2분기 48%로 낮아졌습니다.",
+    "quote": "Compute and infrastructure expenses as a percentage of revenue decreased from 251% to 48% over the same period, as revenue growth outpaced the growth of our committed compute cost base.",
+    "line": 8774
+   },
+   "mdna-11": {
+    "claim": "2026년 2분기 매출은 전년 동기보다 1,368% 늘었습니다. 같은 기간 컴퓨트·인프라 비용 증가율은 300%에 그쳤습니다.",
+    "quote": "our revenue grew 1,368% year over year for the three months ended June 30, 2026, compared to our compute and infrastructure expenses that grew 300% during the same period.",
+    "line": 7031
+   },
+   "mdna-20": {
+    "claim": "종량제(소비 기반) 매출은 2024년 2억 8,800만 달러(75%), 2025년 38억 달러(83%), 2026년 상반기 131억 달러(80%)였습니다.",
+    "quote": "Consumption-based revenue increased from $288 million, or 75% of total revenue, for the year ended December 31, 2024, to $3.8 billion, or 83% of total revenue, for the year ended December 31, 2025, to $13.1 billion, or 80% of total revenue, for the six months ended June 30, 2026.",
+    "line": 7127
+   },
+   "mdna-29": {
+    "claim": "앤트로픽은 2025년 11월 마이크로소프트와 계약을 맺었습니다. 이 약정에 따라 2026년 11월부터 2033년 5월까지 실제 사용량과 관계없이 최소 449억 달러를 지출합니다.",
+    "quote": "In November 2025, we entered into an agreement with Microsoft, which was subsequently amended in February and October 2026, pursuant to which we committed to spend an aggregate of at least $44.9 billion between November 2026 and May 2033, regardless of actual usage.",
+    "line": 9669
+   },
+   "mdna-30": {
+    "claim": "회사는 2026년 3월 구글과 맺은 계약에 따라 2026년 4월~2033년 7월 사용량과 관계없이 최소 약 1,145억 달러를 지출하기로 약정했습니다.",
+    "quote": "we committed to spend at least approximately $114.5 billion between April 2026 and July 2033, regardless of actual usage.",
+    "line": 9675
+   },
+   "mdna-31": {
+    "claim": "앤트로픽은 2028~2031년 구글 등 TPU 공급사로부터 추가 TPU 컴퓨트를 조달하기로 했습니다. 이에 따른 향후 지급액은 약 1,250억~1,500억 달러로 추정됩니다. 이 금액은 약정 표에 포함되지 않았습니다.",
+    "quote": "We estimate the aggregate future payments for such additional compute to be approximately $125.0 billion to $150.0 billion, which are not included in the contractual commitments table above.",
+    "line": 9682
+   },
+   "mdna-32": {
+    "claim": "앤트로픽은 2026년 4월 아마존과 계약을 체결했습니다. 이 계약에 따라 2026년 5월~2036년 4월 사용량과 관계없이 최소 1,100억 달러를 지출하기로 약정했습니다.",
+    "quote": "In April 2026, we entered into an agreement with Amazon, pursuant to which we committed to spend an aggregate of at least $110.0 billion between May 2026 and April 2036, regardless of actual usage.",
+    "line": 9686
+   },
+   "mdna-33": {
+    "claim": "앤트로픽은 2026년 5~10월 SpaceX 자회사 SpaceXAI(옛 X.AI LLC)와 NVIDIA GPU 기반 컴퓨트 계약을 체결했습니다. 이 계약에 따라 2029년까지 최대 1,205억 달러를 지출하기로 했습니다. 전체 용량이 인도된 뒤(2026년 12월 예상)에는 월 약 31억 달러를 지출합니다.",
+    "quote": "we agreed to spend an aggregate of up to $120.5 billion over terms extending into 2029, consisting of approximately $3.1 billion in the aggregate per month once all capacity has been delivered, which we expect in December 2026",
+    "line": 9694
+   },
+   "mdna-34": {
+    "claim": "브로드컴과 맺은 5년 장비 리스(TPU 기반 컴퓨트)의 임대료 총액은 이자를 제외하고 약 1,612억 달러입니다.",
+    "quote": "Our rent payments over the life of these leases are equal to an aggregate of approximately $161.2 billion excluding interest",
+    "line": 9731
+   },
+   "notes-03": {
+    "claim": "2025년 말 이후(감사 재무제표 후속사건 기준) 새로 체결하거나 변경한 리스·상업 계약의 미래 최소 지급 의무는 약 4,170억 달러입니다.",
+    "quote": "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $417 billion.",
+    "line": 22696
+   },
+   "rf1-12": {
+    "claim": "2026년 9월 30일 현재 및 그 이후 체결한 구매 약정과 리스(단기 약정, 미개시 리스 포함)의 총 약정액은 원문에 빈칸('more than $ ')으로 남아 있습니다. 이 약정은 사실상 전부 컴퓨트·인프라 관련입니다.",
+    "quote": "As of and subsequent to September 30, 2026, we have entered into purchase commitments and lease agreements, including short-term commitments, as well as leases not yet commenced, with an aggregate committed spend of more than $ , substantially all of which is related to compute and infrastructure.",
+    "line": 1866
+   },
+   "rf1-13": {
+    "claim": "컴퓨트 약정 가운데 2030년 12월 31일 이전 집행분은 금액이 빈칸입니다. 나머지는 사실상 전부 2031년부터 2045년 사이에 집행될 예정입니다.",
+    "quote": "substantially all of the remainder is expected to be incurred between 2031 and 2045.",
+    "line": 1870
+   },
+   "rf2-08": {
+    "claim": "일부 전용 전력·데이터센터 계약은 초기 계약기간이 20년입니다. 이 계약에는 매년 단가가 오르는 조항이 붙어 있습니다.",
+    "quote": "certain of our dedicated power and data center infrastructure arrangements have initial terms of 20 years with annual",
+    "line": 4182
+   },
+   "rf2-09": {
+    "claim": "해당 20년 계약에는 실제 사용량과 무관한 테이크 오어 페이(take-or-pay) 지급 의무가 있습니다. 상한 없는 연료비 전가 조항도 있습니다. 두 조건은 모두 계약기간 내내 적용됩니다.",
+    "quote": "escalators and include take-or-pay compute payment obligations and uncapped fuel cost pass-throughs that apply for the duration of the term regardless of actual utilization.",
+    "line": 4186
+   },
+   "x-consump": {
+    "claim": "S-1에 따르면 매출은 주로 종량제이며, 이 가운데 상당 부분은 장기 계약 약정에 묶여 있지 않습니다.",
+    "quote": "revenue is primarily consumption-based, and much of it is not subject to long-term contractual commitments, while our compute and infrastructure commitments generally extend over multiple years. As a result, we may",
+    "line": 1877
+   },
+   "x-hybrid": {
+    "claim": "회사는 하이브리드 모델로 전환했습니다. 클라우드로 컴퓨트를 구매하는 데 더해 AI 가속기를 직접 조달하고, 이를 전용 데이터센터에서 운영하는 방식입니다. 회사는 이 추가 조달원을 Anthropic Direct라고 부릅니다.",
+    "quote": "we have transitioned to a hybrid model in which, in addition to purchasing compute as a cloud service, we also procure specialized AI accelerators directly and operate this hardware in dedicated data center facilities leased and operated on our behalf, to our specification. We refer to this additional source of compute as Anthropic Direct. This transition is driven in part by the scale of our compute requirements as well as the potential long-",
+    "line": 11181
+   },
+   "x-lambda": {
+    "claim": "회사는 2026년 5·6·8월 Lambda와 NVIDIA GPU 컴퓨트 계약을 맺어 2034년까지 약 413억 달러를 지출하기로 했습니다.",
+    "quote": "In May, June and August 2026, we entered into agreements (collectively, the “Lambda Agreements”) with Lambda, Inc. (“Lambda”) to access compute powered by NVIDIA GPUs. Under the Lambda Agreements, we agreed to spend an aggregate of approximately $41.3 billion over terms extending into 2034, with fees accruing only as capacity is delivered to and accepted by us. Under our August 2026 agreement, which represents",
+    "line": 9719
+   },
+   "x-note16-date": {
+    "claim": "감사받은 재무제표의 후속사건 주석(Note 16)은 2026년 6월 1일까지 발생한 사건을 평가 대상으로 합니다. 4,170억 달러는 이 주석에 들어 있습니다.",
+    "quote": "The Company has evaluated subsequent events for recognition and measurement purposes through June 1, 2026, which is the date the consolidated financial statements were available to be issued.",
+    "line": 22647
+   },
+   "x-note17-cond": {
+    "claim": "2026년 6월 30일 이후 새로 체결하거나 변경한 계약의 최소 지급 의무는 약 2,450억 달러입니다. 이 가운데 일부는 계약 조건 충족을 전제로 합니다.",
+    "quote": "and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $245 billion, with some arrangements subject to certain contractual conditions being met. These primarily",
+    "line": 22808
+   },
+   "x-nscale": {
+    "claim": "앤트로픽은 2026년 8월 Nscale과 NVIDIA GPU 컴퓨트 계약을 맺었습니다. 이 계약에 따라 2033년까지 최대 약 446억 달러를 지출합니다. 요금은 인도받은 용량만큼만 발생합니다.",
+    "quote": "In August 2026, we entered into GPU services agreements (collectively, the “Nscale Services Agreements”) with wholly owned subsidiaries of Nscale Global Holdings Limited (together with its affiliates, “Nscale”) to access compute powered by NVIDIA GPUs. Under the Nscale Services Agreements, we agreed to spend an aggregate of up to approximately $44.6 billion over terms extending into 2033, with fees accruing only as capacity is delivered to and accepted by us. Nscale is required to use best efforts to obtain qualifying financing for the",
+    "line": 9709
+   },
+   "x-q-comp": {
+    "claim": "분기 컴퓨트·인프라 비용(백만 달러)은 944, 1,390, 2,047, 2,945, 3,387, 5,558입니다. 이 비용을 매출로 나눈 비율은 251%, 177%, 148%, 144%, 72%, 48%입니다(계산).",
+    "quote": "Compute and infrastructure 944 1,390 2,047 2,945 3,387 5,558",
+    "line": 8510
+   }
+  }
+ },
+ {
+  "id": "c5",
+  "text": "05 고객과 제품 1년 전 1을 쓰던 고객이 지금 9를 씁니다 ≈ 900% 순매출유지율(NRR), 2026년 9월 30일 기준. Pro·Max 개인 구독자는 계산에서 제외했습니다 [cite:sum-10] 최근 12개월간 10만 달러 이상을 지출한 고객은 2023년 말 약 20곳에서 2024년 말 약 200곳, 2025년 말 약 1,500곳으로 늘었습니다. 이 고객 수는 2026년 9월 말 1만 1,900곳 을 넘었습니다 [cite:mdna-15] . 1년 전 같은 날에는 950곳 남짓이었습니다 [cite:x-cust-950] . 2026년 9월 말 기준 1,000만 달러 이상을 지출한 고객은 약 250곳입니다 [cite:mdna-16] . 10만 달러 이상 고객군에는 포춘 10 기업 전부와 포춘 500 기업의 절반 이상이 포함됩니다. 포춘 500 기업 가운데 10대 은행은 전부, 10대 제약사는 9곳이 이 고객군에 속합니다 [cite:biz-12] . 회사는 고객이 코딩 에이전트 같은 제품을 쓰면서 지출을 늘린다고 설명합니다. 2026년 3분기 Claude Code를 쓰지 않는 Claude Enterprise 사용자의 지출은 월평균 75달러 미만이었습니다. Claude Code를 쓰는 사용자 가운데 상위 5%는 그 약 20배를 지출했습니다 [cite:biz-14] . 2023년에는 고객 한 곳(Customer C)이 매출의 43%를 차지했습니다 [cite:gap-25] . 2026년 1~9월에는 매출의 10%를 넘는 단일 고객이 없습니다. 다만 상위 5곳이 매출의 약 25%를 차지합니다 [cite:rf1-07] . 같은 Customer C의 비중은 2026년 상반기 기준 11%였습니다 [cite:fs-23] . 반면 같은 9개월 매출의 약 5~7%는 이용정책이나 약관을 위반했다고 나중에 판단된 고객에게서 나왔습니다. 이는 회사의 추정치입니다 [cite:mdna-21] . 회사가 8~9월에 단속을 강화해 이 비중은 줄어들 수 있습니다 [cite:rf1-40] . 연 10만 달러 이상 쓰는 고객 수 (로그 축) 눈금 하나가 10배입니다. 고객 피라미드, 2026년 9월 30일 최근 12개월 매출 기준. 폭은 로그 비례. ≈250 1,000만 달러 이상 1,900+ 100만 달러 이상 11,900+ 10만 달러 이상 [cite:mdna-16] [cite:sum-07] NRR 900%를 동전으로 1년 전 지금, 같은 고객",
+  "facts": {
+   "biz-12": {
+    "claim": "2026년 9월 30일 기준 TTM 매출 10만 달러 이상 고객에는 포춘 10 전부, 포춘 500의 50% 이상, 글로벌 2000의 30% 이상이 포함됩니다. 포춘 500 가운데 10대 은행 전부와 10대 제약사 중 9곳도 들어 있습니다.",
+    "quote": "$100,000 or more of revenue on a TTM basis included every company in the Fortune 10, over 50% of the",
+    "line": 10686
+   },
+   "biz-14": {
+    "claim": "2026년 3분기 Claude Code를 쓰지 않은 Claude Enterprise 사용자의 월평균 지출은 75달러 미만이었습니다. Claude Code를 쓰는 상위 5% Claude Enterprise 사용자는 그 약 20배를 지출했습니다.",
+    "quote": "ended September 30, 2026, Claude Enterprise users who did not use Claude Code spent less than $75 per",
+    "line": 10716
+   },
+   "fs-23": {
+    "claim": "2023년에는 단일 고객(Customer C)이 매출의 43%를 차지했습니다. 이 고객의 비중은 2026년 상반기에도 11%였습니다. 2025년 상반기에는 Customer B가 18%를 차지했습니다.",
+    "quote": "Customer C 43% * * * 11%",
+    "line": 18875
+   },
+   "gap-25": {
+    "claim": "매출의 10% 이상을 차지한 고객은 2023년 Customer C(43%)와 Customer D(11%), 2025년 Customer A·B(각 12%)입니다. 2025년 상반기에는 Customer B(18%), 2026년 상반기에는 Customer C(11%)가 여기에 해당합니다. 원문에는 고객 실명과 업종이 나오지 않습니다.",
+    "quote": "43%",
+    "line": 18876
+   },
+   "mdna-15": {
+    "claim": "TTM 매출 10만 달러 이상 고객 수는 2023년 말 약 20곳, 2024년 말 약 200곳, 2025년 말 약 1,500곳이었습니다. 이 고객 수는 2026년 9월 30일 1만 1,900곳 이상으로 늘었습니다.",
+    "quote": "The number of customers with $100,000 or more of revenue on a TTM basis grew from approximately 20 as of December 31, 2023, to approximately 200 as of December 31, 2024, to approximately 1,500 as of December 31, 2025, and to more than 11,900 as of September 30, 2026.",
+    "line": 7316
+   },
+   "mdna-16": {
+    "claim": "2026년 9월 30일 기준 TTM 매출이 100만 달러 이상인 고객은 1,900곳 이상입니다. 1,000만 달러 이상인 고객은 약 250곳입니다.",
+    "quote": "As of September 30, 2026, we had more than 1,900 customers with $1 million or more of revenue on a TTM basis and approximately 250 customers with $10 million or more of revenue on a TTM basis.",
+    "line": 6989
+   },
+   "mdna-21": {
+    "claim": "회사는 2026년 1~9월 매출의 약 5~7%가 사용 정책이나 상업 약관을 위반한 것으로 나중에 판단된 고객에게서 나왔다고 추정합니다.",
+    "quote": "Based on our detection and review process, we estimate that revenue from such customers represented approximately 5% to 7% of our revenue for the nine months ended September 30, 2026.",
+    "line": 7447
+   },
+   "rf1-07": {
+    "claim": "2026년 1~9월(9월 30일 종료 9개월) 매출 비중이 10%를 넘은 단일 고객은 없었습니다. 다만 상위 5개 고객이 매출의 약 25%를 차지했습니다.",
+    "quote": "While no single customer represented more than 10% of our revenue for the nine months ended September 30, 2026, our top five customers represented approximately 25% of our revenue for the nine months ended September 30, 2026.",
+    "line": 3186
+   },
+   "rf1-40": {
+    "claim": "회사는 이용정책·상업 약관을 위반한 것으로 나중에 판명된 고객의 매출이 자사 매출에 포함돼 왔다고 밝혔습니다. 2026년 8~9월 단속을 강화하면서 이 비중이 줄고, 향후 매출과 성장률이 낮아질 수 있다고도 적었습니다.",
+    "quote": "the enhancement of such efforts in August and September 2026, and the timing of any resulting restrictions or terminations, are expected to reduce the percentage of revenue from customers using our models, platform, and applications in violation of our usage policy or commercial terms",
+    "line": 3653
+   },
+   "sum-07": {
+    "claim": "2026년 9월 30일 기준 최근 12개월 매출이 10만 달러 이상인 고객은 11,900곳을 넘습니다.",
+    "quote": "•More than 11,900 customers with $100,000 or more of revenue on a TTM basis;",
+    "line": 601
+   },
+   "sum-10": {
+    "claim": "2026년 9월 30일 기준 순매출유지율(NRR)은 약 900%입니다. 1년 전 3개월 동안 1을 쓰던 고객이 최근 3개월에는 약 9를 쓴다는 뜻입니다. 산정에서 Pro·Max 개인 구독자는 제외됩니다.",
+    "quote": "as demonstrated by our Net Revenue Retention of approximately 900% as of September 30, 2026.",
+    "line": 663
+   },
+   "x-cust-950": {
+    "claim": "최근 12개월 매출이 10만 달러 이상인 고객은 2025년 9월 30일 950곳 이상에서 2026년 9월 30일 1만 1,900곳 이상으로 늘었습니다.",
+    "quote": "generate meaningful revenue. We had more than 11,900 customers with $100,000 or more of revenue on a TTM basis as of September 30, 2026, up from more than 950 as of September 30, 2025. In addition, as",
+    "line": 6986
+   }
+  }
+ }
+]

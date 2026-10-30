@@ -1,0 +1,210 @@
+[
+ {
+  "id": "c5",
+  "text": "05 고객과 제품 1년 전 1을 쓰던 고객이 지금 9를 쓴다 ≈ 900% 순매출유지율(NRR), 2026년 9월 30일 기준. Pro·Max 개인 구독자는 계산에서 뺐다 [cite:sum-10] 최근 12개월 동안 10만 달러 이상 쓴 고객은 2023년 말 약 20곳, 2024년 말 약 200곳, 2025년 말 약 1,500곳이었고, 2026년 9월 말 1만 1,900곳 을 넘었다 [cite:mdna-15] . 1년 전 같은 날에는 950곳 남짓이었다 [cite:x-cust-950] . 그중 1,000만 달러 이상 고객이 약 250곳이다 [cite:mdna-16] . 이 고객군에는 포춘 10 전부와 포춘 500의 절반 이상이 들어 있다. 포춘 500 안에서 보면 10대 은행 전부와 10대 제약사 중 9곳이 들어 있다 [cite:biz-12] . 회사는 고객이 코딩 에이전트 같은 제품을 쓰면서 지출이 커진다고 설명한다. 2026년 3분기 Claude Code를 쓰지 않는 Claude Enterprise 사용자는 한 달에 평균 75달러 미만을 썼고, Claude Code를 쓰는 사용자 가운데 상위 5%는 그 약 20배를 썼다 [cite:biz-14] . 2023년에는 고객 한 곳(Customer C)이 매출의 43%를 차지했다 [cite:gap-25] . 2026년 1~9월에는 10%를 넘는 단일 고객이 없지만, 상위 5곳이 매출의 약 25%를 차지한다 [cite:rf1-07] . 같은 Customer C는 2026년 상반기 기준으로는 11%였다 [cite:fs-23] . 대신 같은 9개월 매출의 약 5~7%는 나중에 이용정책이나 약관을 어긴 것으로 판단된 고객에게서 나왔다고 회사는 추정한다 [cite:mdna-21] . 8~9월에 단속을 강화해 이 몫은 줄어들 수 있다 [cite:rf1-40] . 연 10만 달러 이상 쓰는 고객 수 (로그 축) 눈금 하나가 10배다. 고객 피라미드, 2026년 9월 30일 최근 12개월 매출 기준. 폭은 로그 비례. ≈250 1,000만$+ 1,900+ 100만$+ 11,900+ 10만$+ [cite:mdna-16] [cite:sum-07] NRR 900%를 동전으로 1년 전 지금, 같은 고객",
+  "facts": {
+   "biz-12": {
+    "line": 10686,
+    "claim": "2026년 9월 30일 기준 TTM 매출 10만 달러 이상 고객에는 포춘 10 전부, 포춘 500의 50% 이상, 글로벌 2000의 30% 이상이 포함된다. 포춘 500 안에서는 10대 은행 전부와 10대 제약사 중 9곳도 포함된다.",
+    "quote": "$100,000 or more of revenue on a TTM basis included every company in the Fortune 10, over 50% of the",
+    "note": "10685~10689줄. 'nine of the 10 largest pharmaceutical companies, the 10 largest banks' 확인. quote 축약."
+   },
+   "biz-14": {
+    "line": 10716,
+    "claim": "2026년 3분기 Claude Code를 쓰지 않는 Claude Enterprise 사용자는 월평균 75달러 미만을 썼고, Claude Code를 쓰는 상위 5% Claude Enterprise 사용자는 그 약 20배를 썼다.",
+    "quote": "ended September 30, 2026, Claude Enterprise users who did not use Claude Code spent less than $75 per",
+    "note": "10715~10717줄. 75×20≈1,500달러는 '미만' 기준 상한 근사임에 유의."
+   },
+   "fs-23": {
+    "line": 18875,
+    "claim": "2023년 단일 고객(Customer C)이 매출의 43%를 차지했고, 2026년 상반기에도 11%였다. 2025년 상반기에는 Customer B가 18%였다.",
+    "quote": "Customer C 43% * * * 11%",
+    "note": "매출 집중도 표(18853~18886)의 열 순서는 2023·2024·2025 연간, 2025·2026 상반기. Customer A와 B는 2025년 연간 각 12%. 2023년에는 Customer D도 11%였다. 같은 이름의 행이 매출채권 표 18847에도 있으니 혼동하지 말 것."
+   },
+   "gap-25": {
+    "line": 18876,
+    "claim": "매출 10% 이상 고객은 Customer C가 2023년 43%, Customer D가 2023년 11%, Customer A·B가 2025년 각 12%, Customer B가 2025년 상반기 18%, Customer C가 2026년 상반기 11%다. 원문에 고객 실명·업종은 없다.",
+    "quote": "43%",
+    "note": "표(18853~18885행) 열 순서 2023·2024·2025·2025H1·2026H1 확인. 원 claim이 Customer D(2023년 11%)를 누락. 원 quote는 줄 단위 표라 실제 문자열이 아니어서 교체."
+   },
+   "mdna-15": {
+    "line": 7316,
+    "claim": "TTM 매출 10만 달러 이상 고객 수는 2023년 말 약 20곳, 2024년 말 약 200곳, 2025년 말 약 1,500곳, 2026년 9월 30일 1만 1,900곳 이상으로 늘었다.",
+    "quote": "The number of customers with $100,000 or more of revenue on a TTM basis grew from approximately 20 as of December 31, 2023, to approximately 200 as of December 31, 2024, to approximately 1,500 as of December 31, 2025, and to more than 11,900 as of September 30, 2026.",
+    "note": "원문과 일치한다. 같은 단락의 2026년 9월 TTM 매출액과 비중은 빈칸이다. 11,900/20=595배이므로 why_interesting의 '약 600배'도 맞다. 다만 10만 달러를 '1억 원'으로 쓴 것은 환율상 약 1.4억 원이다."
+   },
+   "mdna-16": {
+    "line": 6989,
+    "claim": "2026년 9월 30일 기준 TTM 매출 100만 달러 이상 고객은 1,900곳 이상, 1,000만 달러 이상 고객은 약 250곳이다.",
+    "quote": "As of September 30, 2026, we had more than 1,900 customers with $1 million or more of revenue on a TTM basis and approximately 250 customers with $10 million or more of revenue on a TTM basis.",
+    "note": "6989~6991줄이 일치하고, 7324줄에도 같은 내용이 있다."
+   },
+   "mdna-21": {
+    "line": 7447,
+    "claim": "2026년 1~9월 매출의 약 5~7%는 사용 정책이나 상업 약관을 위반한 것으로 나중에 판단된 고객에게서 나온 것으로 회사는 추정한다.",
+    "quote": "Based on our detection and review process, we estimate that revenue from such customers represented approximately 5% to 7% of our revenue for the nine months ended September 30, 2026.",
+    "note": "원문과 일치한다. 8~9월에 단속을 강화했다는 문장도 바로 뒤에 있다."
+   },
+   "rf1-07": {
+    "line": 3186,
+    "claim": "2026년 1~9월(9월 30일 종료 9개월) 단일 고객 매출 비중이 10%를 넘는 곳은 없지만, 상위 5개 고객이 매출의 약 25%를 차지했다.",
+    "quote": "While no single customer represented more than 10% of our revenue for the nine months ended September 30, 2026, our top five customers represented approximately 25% of our revenue for the nine months ended September 30, 2026.",
+    "note": "3186~3188줄 일치. 기간은 9개월 누적."
+   },
+   "rf1-40": {
+    "line": 3653,
+    "claim": "매출에는 이용정책·상업 약관을 위반한 것으로 나중에 판명된 고객의 매출이 포함되어 왔으며, 2026년 8~9월 단속 강화로 이 비중이 줄고 향후 매출과 성장률이 낮아질 수 있다고 밝혔다.",
+    "quote": "the enhancement of such efforts in August and September 2026, and the timing of any resulting restrictions or terminations, are expected to reduce the percentage of revenue from customers using our models, platform, and applications in violation of our usage policy or commercial terms",
+    "note": "전제(위반 고객 매출 포함)는 3645~3647줄, 단속 강화와 영향은 3652~3656줄에서 확인."
+   },
+   "sum-07": {
+    "line": 601,
+    "claim": "2026년 9월 30일 기준 최근 12개월 매출 10만 달러 이상 고객은 11,900곳이 넘는다.",
+    "quote": "•More than 11,900 customers with $100,000 or more of revenue on a TTM basis;",
+    "note": "601줄 확인. why_interesting의 '척도로 쓴다고 정의했다'는 과한 표현이다. 원문은 'Enterprise Adoption of Claude' 소제목 아래 고객 구성을 나열할 뿐이다."
+   },
+   "sum-10": {
+    "line": 663,
+    "claim": "2026년 9월 30일 기준 순매출유지율(NRR)은 약 900%다. 1년 전 3개월 매출이 1이던 고객이 지금 3개월에 약 9를 쓴다는 뜻이다(Pro·Max 개인 구독자는 제외).",
+    "quote": "as demonstrated by our Net Revenue Retention of approximately 900% as of September 30, 2026.",
+    "note": "663~664줄 확인. 해석은 347~355줄 정의와 맞는다. 측정일 1년 전에 끝난 3개월 매출(Base Period) 대비 측정일까지의 3개월 매출(Current Period)이고, 대상은 Base Period 매출이 1달러 이상인 고객이며 Pro와 Max 구독자는 빠진다. why_interesting의 SaaS 벤치마크 120~130%는 원문에 없는 외부 지식이다."
+   },
+   "x-cust-950": {
+    "line": 6986,
+    "claim": "최근 12개월 매출 10만 달러 이상 고객은 2025년 9월 30일 950곳 이상에서 2026년 9월 30일 1만 1,900곳 이상이 됐다.",
+    "quote": "generate meaningful revenue. We had more than 11,900 customers with $100,000 or more of revenue on a TTM basis as of September 30, 2026, up from more than 950 as of September 30, 2025. In addition, as",
+    "note": "메인 세션이 원문 줄에서 직접 추출"
+   }
+  }
+ },
+ {
+  "id": "c6",
+  "text": "06 파트너와 자금 투자자이자 고객이자 경쟁자 S-1은 아마존·구글·마이크로소프트를 한 문장 안에 네 가지 역할로 적는다. 투자자이자 고객이자 유통 파트너이자 경쟁자 다. 브로드컴은 공급자이자 임대인이다 [cite:x-csp-roles] . 세 클라우드는 앤트로픽이 모델과 사내 도구를 돌리는 컴퓨트의 상당 부분도 댄다 [cite:rf2-16] . 매출 가운데 이들 클라우드 마켓플레이스를 거친 비중은 2023년 약 11%에서 2026년 상반기 약 48%가 됐다 [cite:rf1-08] . 전환이 끝나면 아마존과 구글은 각각 발행주식의 5% 넘게 갖게 된다. 그 주식은 의결권이 없는 Class N이지만, 관계없는 제3자에게 팔리면 Class A로 바뀐다 [cite:rf2-46] [cite:gov-08] . 아마존의 2023년 전환사채는 Class N 보통주 기준 주당 2.0928달러(2026년 9월 10대1 분할을 반영한 값)와 공모가 중 낮은 값으로 바뀌고 [cite:notes-10] [cite:gov-10] , 지분 상한을 넘는 부분은 롤오버 노트로 남는다 [cite:notes-11] . 몸값의 계단은 우선주 가격에 남아 있다. 분할 전 기준으로 2023년 시리즈 C 주당 11.2261달러에서 2026년 5~6월 시리즈 H 589.0095달러까지, 약 52배다 [cite:rpt-05] . 2026년 6월 말까지 누적 조달 자본은 1,411억 달러다 [cite:sum-14] . 보도에 따르면 2026년 5월 마지막 사모 라운드의 기업가치는 9,650억 달러였다 [cite:news-bbg-965] . 이 숫자는 S-1에 없다. 구글 200억, 아마존 150억, 브로드컴 420억 달러, 합계 770억 달러의 전환사채 매입 약정은 들어온 돈이 아니다. 6월 말 기준 아직 꺼내 쓰지 않은 한도다 [cite:mdna-36] . AMD는 조건이 맞으면 Class N을 최대 50억 달러어치 사기로 했다 [cite:notes-06] . 한 회사, 여러 개의 선 관계 종류를 눌러 켜고 끈다. 점선은 아직 집행되지 않은 조건부 자금 약정이다. 지분·자금 컴퓨트 공급 고객·유통 경쟁 [cite:x-csp-roles] [cite:rf2-16] [cite:mdna-36] [cite:notes-06] [cite:mdna-33] [cite:sum-02] 우선주 주당 가격 (달러) 시리즈별 첫 번째 클래스 가격. 2026년 9월 10대1 주식분할 이전 기준이다. [cite:rpt-05] [cite:x-ser-d] [cite:appx-02] [cite:rpt-03] [cite:rpt-02] [cite:rpt-01] [cite:gov-10]",
+  "facts": {
+   "appx-02": {
+    "line": 22924,
+    "claim": "(계산) 우선주 주당 가격은 2025년 초 시리즈 E-1의 56.0865달러에서 2026년 5~6월 시리즈 H의 589.0095달러로 약 10.5배 올랐다.",
+    "quote": "we sold an aggregate of 63,610,106 shares of our Series E-1 redeemable convertible preferred stock to 72 accredited investors at a purchase price of $56.0865 per share",
+    "note": "E-1(22924~22925줄), F-1 140.9676달러(22940~22941줄), G-1 259.1364달러(22949~22950줄), H-1 589.0095달러(22962~22963줄)를 확인했다. 589.0095/56.0865=10.50이다."
+   },
+   "gov-08": {
+    "line": 129,
+    "claim": "Class N 주식은 의결권이 없고 주로 전략적 사업 파트너가 보유한다. 관계없는 제3자에게 팔리면 Class A로 전환된다.",
+    "quote": "The holders of our Class N common stock are primarily strategic business partners, and shares of Class N common stock will generally convert to Class A common stock upon a sale or transfer to an unaffiliated third party.",
+    "note": "129~130줄 확인. 원문은 'generally convert'라서 '대체로 전환된다'가 정확하다. why_interesting에서 Google을 보유자로 든 것은 이 구간에 근거가 없는 추정이다. 1231줄에서 확인되는 것은 AWS가 Class N을 받는다는 사실뿐이다."
+   },
+   "gov-10": {
+    "line": 1294,
+    "claim": "2026년 9월 17일 Class A와 Class N은 10대1 주식분할을 했고, Class T는 1,000대1 역분할로 1주가 됐다.",
+    "quote": "•a one-for-1,000 reverse split of our Class T common stock effected on September 17, 2026;",
+    "note": "1290~1294줄 확인. Class T 1주는 1219줄 'one share of our Class T common stock'로 확인."
+   },
+   "mdna-33": {
+    "line": 9694,
+    "claim": "앤트로픽은 2026년 5~10월 SpaceX 자회사 SpaceXAI(옛 X.AI LLC)와 NVIDIA GPU 기반 컴퓨트 계약을 맺어 2029년까지 최대 1,205억 달러, 전 용량 인도 후(2026년 12월 예상) 월 약 31억 달러를 지출하기로 했다.",
+    "quote": "we agreed to spend an aggregate of up to $120.5 billion over terms extending into 2029, consisting of approximately $3.1 billion in the aggregate per month once all capacity has been delivered, which we expect in December 2026",
+    "note": "SpaceX.AI LLC는 Space Exploration Technologies Corp.의 100% 자회사다. 비취소 기간 이후 90일 통지로 해지할 수 있다는 조항도 확인했다."
+   },
+   "mdna-36": {
+    "line": 9249,
+    "claim": "2026년 6월 30일 기준 구글(200억 달러), 아마존(150억 달러), 브로드컴(420억 달러)과의 미인출 전환사채 매입 약정(NPA) 한도는 총 770억 달러다.",
+    "quote": "Total $77,000 $—",
+    "note": "표 제목(9213줄 부근)에 'undrawn NPA facilities as of June 30, 2026'이라고 되어 있고 단위는 in millions다. 구글 한도는 동시 사모 행사 시 최대 100억 달러 줄어들 수 있다(각주 1). 인용문은 줄바꿈을 공백으로 바꿨을 때 일치한다."
+   },
+   "news-bbg-965": {
+    "ext": true,
+    "label": "Bloomberg",
+    "head": "Bloomberg · 2026-05-28",
+    "claim": "Bloomberg는 2026년 5월 28일 앤트로픽이 9,650억 달러 기업가치로 자금을 조달해 OpenAI의 기업가치를 넘어섰다고 보도했다. 이 숫자는 S-1에 없다.",
+    "quote": "Anthropic Raises at $965 Billion Valuation, Eclipsing OpenAI",
+    "note": "검증 에이전트가 기사 페이지를 열어 제목, 바이라인, 날짜를 확인했다. S-1 밖 정보다.",
+    "url": "https://news.bgov.com/private-equity/anthropic-raises-at-965-billion-valuation-eclipsing-openai-1",
+    "urlLabel": "Bloomberg (2026-05-28)"
+   },
+   "notes-06": {
+    "line": 22802,
+    "claim": "2026년 7월 AMD와 MI450 GPU 기반 Helios 랙 시스템 공급 계약을 맺었고, AMD는 조건 충족 시 앤트로픽 Class N 보통주를 최대 50억 달러어치 사들이기로 했다.",
+    "quote": "In July 2026, the Company entered into a hardware supply framework agreement (the “Hardware Supply Agreement”) with Advanced Micro Devices, Inc. (“AMD”) to purchase, lease, or access AMD Helios rack-scale systems featuring AMD Instinct MI450 series GPUs. Pursuant to the terms of the Hardware Supply Agreement, AMD committed to purchase up to $5.0 billion of the Company’s Class N common stock, if certain conditions are achieved.",
+    "note": "22802~22806줄에서 원문과 일치함을 확인했다. 계약의 성격은 '프레임워크' 계약이다."
+   },
+   "notes-10": {
+    "line": 20908,
+    "claim": "아마존의 2023·2024년 전환사채는 IPO 시 주당 2.0928달러(2023년분) 또는 5.0478달러(2024년분)와 공모가 중 낮은 가격으로 Class N 보통주에 자동 전환된다.",
+    "quote": "in connection with an initial public offering, direct listing, or special purpose acquisition company transaction, any outstanding principal amount and accrued but unpaid interest thereon under the applicable Amazon NPA will automatically convert into shares of the Company’s Class N common stock at a conversion price equal to the lower of (i) $2.0928 per share, in the case of Amazon 2023 NPA, or $5.0478 per share, in the case of Amazon 2024 NPA",
+    "note": "20908~20913줄 확인. 이 전환도 ownership cap의 적용을 받는다. 우선주 기준 전환가 20.9280·50.4779달러(20899~20900줄)의 10분의 1이므로 분할 조정된 보통주 가격으로 보인다."
+   },
+   "notes-11": {
+    "line": 20966,
+    "claim": "아마존의 전환은 '지분 상한(ownership cap)'에 묶여 있다. 2023년분 중 상한 때문에 전환하지 못한 부분은 무이자 롤오버 노트(약 22억 달러, 2034년 3월 만기)로 재발행됐다. 2024년분 40억 달러는 같은 상한 때문에 시리즈 G-1 때 전환되지 않고 그대로 남았다(2026년 6월 말 기준).",
+    "quote": "As of June 30, 2026 (unaudited), the amended and restated rollover note issued under Amazon 2023 NPA remained outstanding with an aggregate principal amount of approximately $2.2 billion, and all notes issued under Amazon 2024 NPA remained outstanding with an aggregate principal balance of $4.0 billion.",
+    "note": "원 진술은 두 노트를 모두 롤오버 노트처럼 묘사했다. 원문상 롤오버 재발행은 2023 NPA분(20962~20963줄)뿐이다. 2024 NPA 노트는 상한 때문에 전환되지 않고 원래 노트 그대로 남아 있다(20963~20965줄). 상한은 아마존이 원하면 포기할 수 있다(20921줄)."
+   },
+   "rf1-08": {
+    "line": 3203,
+    "claim": "클라우드(CSP) 마켓플레이스를 통한 매출 비중은 2023년 약 11%, 2024년 약 32%, 2025년 약 47%, 2026년 상반기 약 48%로 커졌다.",
+    "quote": "revenue generated from sales to customers through CSP marketplaces represented approximately 11%, 32%, 47%, and 48%, respectively, of total revenue.",
+    "note": "3203~3205줄. 기간 순서 '2023, 2024, 2025 연간 및 2026년 6월 30일 종료 6개월'과 숫자 순서 일치."
+   },
+   "rf2-16": {
+    "line": 4492,
+    "claim": "아마존, 구글, 마이크로소프트는 앤트로픽이 모델·플랫폼·애플리케이션과 사내 운영 도구 다수를 호스팅하는 데 쓰는 컴퓨트 인프라의 상당 부분을 제공한다.",
+    "quote": "Amazon, Google, and Microsoft provide substantial portions of the compute infrastructure that we use to host our models, platform, and applications and many of the internal tools we use to operate our business.",
+    "note": "4492~4494줄 일치. 원문 구문상 3사가 제공하는 것은 '인프라'이고 사내 도구는 그 인프라에 호스팅되는 대상이다. '사내 운영 도구 다수를 제공'은 오독이라 고쳤다."
+   },
+   "rf2-46": {
+    "line": 6293,
+    "claim": "우선주와 전환사채 전환 후 아마존과 구글은 각각 앤트로픽 발행주식의 5% 넘게 보유하게 되며, 이들의 지분은 의결권이 없는 Class N이다(구체 주식 수는 빈칸).",
+    "quote": "Amazon and Google will each hold greater than five percent of our outstanding capital stock.",
+    "note": "6293~6294줄 일치. Class N 무의결권은 6294줄, 주식 수 빈칸은 6298~6299줄에서 확인."
+   },
+   "rpt-01": {
+    "line": 14259,
+    "claim": "2026년 5~6월 시리즈 H-1 우선주 7,763만 7,878주를 주당 589.0095달러에 팔아 약 457억 2,945만 달러를 조달했다.",
+    "quote": "From May 2026 to June 2026, we sold an aggregate of 77,637,878 shares of our Series H-1 redeemable convertible preferred stock at a purchase price of $589.0095 per share, for an aggregate purchase price of $45,729,447,703.",
+    "note": "14259~14261. 45,729,447,703/12,999,992,602=3.52 재계산 일치."
+   },
+   "rpt-02": {
+    "line": 14285,
+    "claim": "2026년 1~2월 시리즈 G-1 우선주를 주당 259.1364달러에 팔아 약 234억 5,455만 달러를 조달했다.",
+    "quote": "From January 2026 to February 2026, we sold an aggregate of 90,510,425 shares of our Series G-1 redeemable convertible preferred stock at a purchase price of $259.1364 per share, for an aggregate purchase price of $23,454,545,698.",
+    "note": "14285~14287. 589.0095/259.1364=2.27 재계산 일치."
+   },
+   "rpt-03": {
+    "line": 14309,
+    "claim": "2025년 8~9월 시리즈 F-1 우선주를 주당 140.9676달러에 팔아 약 130억 달러를 조달했다.",
+    "quote": "From August 2025 to September 2025, we sold an aggregate of 92,219,720 shares of our Series F-1 redeemable convertible preferred stock at a purchase price of $140.9676 per share, for an aggregate purchase price of $12,999,992,602.",
+    "note": "14309~14311. E+F+G+H 합계 85,751,654,213달러 재계산 일치."
+   },
+   "rpt-05": {
+    "line": 14375,
+    "claim": "(계산) 2023년 시리즈 C 주당 11.2261달러(총 4억 4,534만 달러 조달)에서 2026년 시리즈 H 589.0095달러까지 우선주 가격이 약 52배 올랐다.",
+    "quote": "From March 2023 to June 2023, we sold an aggregate of 39,669,823 shares of our Series C-1 and C-2 redeemable convertible preferred stock at a purchase price of $11.2261 per share, for an aggregate purchase price of $445,337,400.",
+    "note": "14375~14377. 589.0095/11.2261=52.47 재계산 일치. 시리즈 D 30.0045(14352)."
+   },
+   "sum-02": {
+    "line": 456,
+    "claim": "컴퓨트는 AWS Trainium, Google TPU, NVIDIA GPU, AMD GPU를 아우르는 멀티칩 구조로 운영하며, 여러 전략 파트너의 컴퓨트를 하나의 대체 가능한 풀처럼 관리한다.",
+    "quote": "our multi-chip compute architecture across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs",
+    "note": "456~457줄 확인. '하나의 풀'은 450줄 'We manage compute as a single, fungible pool from multiple strategic partners'에 있다."
+   },
+   "sum-14": {
+    "line": 681,
+    "claim": "2026년 6월 30일까지 누적 조달 자본은 1,411억 달러다. 같은 날 현금 및 현금성 자산은 1,124억 달러, 단기투자는 193억 달러였다.",
+    "quote": "As of June 30, 2026, we had raised an aggregate of $141.1 billion of capital and had cash and cash equivalents of $112.4 billion",
+    "note": "681~683줄 확인. 112.4+19.3=131.7로 1499줄 $131,651과 맞는다. why_interesting의 '사상 최대 규모의 비상장 자금 조달'과 '약 200조 원'은 원문 근거가 없다."
+   },
+   "x-csp-roles": {
+    "line": 4076,
+    "claim": "S-1은 아마존·구글·마이크로소프트(CSP)를 투자자이자 고객, 유통 파트너, 경쟁자로 동시에 적고, 브로드컴은 공급자이자 임대인(lessor)이라고 썼다.",
+    "quote": "Our relationships with our strategic partners—whether with these CSPs, who simultaneously serve as our investors, customers, distribution partners, and competitors, or with Broadcom, which simultaneously serves as a supplier and lessor—create potential conflicts of interest that are difficult to fully anticipate or mitigate. These",
+    "note": "메인 세션이 원문 줄에서 직접 추출"
+   },
+   "x-ser-d": {
+    "line": 14351,
+    "claim": "2024년 1~5월 시리즈 D-1·D-3 우선주를 주당 30.0045달러에 총 11억 9,954만 달러어치 팔았다.",
+    "quote": "From January 2024 to May 2024, we sold an aggregate of 39,978,675 shares of our Series D-1 and D-3 redeemable convertible preferred stock at a purchase price of $30.0045 per share, for an aggregate purchase price of $1,199,540,154. In January 2024, we issued 33,328 shares of our Series D-1 redeemable convertible",
+    "note": "메인 세션이 원문 줄에서 직접 추출"
+   }
+  }
+ }
+]

@@ -1,0 +1,186 @@
+[
+ {
+  "id": "c11",
+  "text": "11 언론이 본 것 같은 서류, 다른 헤드라인 10월 26일 하루 동안 tier 1 매체는 같은 S-1에서 서로 다른 장면을 골랐다. Fortune은 매출과 손실의 대비를, Semafor와 TechCrunch는 창업자 7인과 LTBT의 통제 구조를, Bloomberg는 프런티어 AI 연구소의 첫 상장이라는 점을 앞세웠다. 아래 카드는 원문을 직접 열어 제목·날짜·바이라인을 확인한 기사 12건이다. 오른쪽으로 넘겨 보라. 팩트체크 보도와 원문이 엇갈린 곳 컴퓨트 약정 총액 5,180억 달러(Reuters 9월 단독, 비공개본), 5,420억~5,670억 달러(Fortune 합산), 4,300억·6,370억 달러(Yahoo Finance 합산) 총액 칸은 \"more than $ \"로 비어 있고, 2030년 이전분과 향후 12개월분도 빈칸이다 [cite:rf1-12] . 숫자가 적힌 것은 마이크로소프트 449억 달러 같은 개별 계약 [cite:mdna-29] 과, 6월 30일 기준 확정·최소 약정 약 2,656억 달러 [cite:notes-02] , 미개시 리스 약 3,214억 달러 [cite:notes-01] 처럼 기준이 서로 다른 부분 합계다 4,170억 달러의 시점 \"2025년 12월 31일 기준\" 약정으로 쓴 기사가 있다 원문은 \"Subsequent to December 31, 2025\", 그 이후 새로 맺거나 고친 계약이다 [cite:notes-03] 학습 중단? \"halted training\"(학습 중단)으로 옮긴 기사가 있다 원문은 \"delay pre-training\", 사전학습 착수를 한 달 넘게 미뤘다는 뜻이다 [cite:rf1-29] 20배의 단위 Claude Code 고객이 20배를 쓴다고 옮긴 기사가 있다 원문 단위는 고객사가 아니라 사용자(users)이고, 그중 Claude Code를 쓰는 상위 5%다. 비교 기준은 쓰지 않는 사용자의 월평균 75달러 미만이다 [cite:biz-14] 컴퓨트 1달러당 2.08달러 Fortune이 2분기 매출을 컴퓨트 비용으로 나눠 낸 값 S-1에 없는 계산값이다. S-1은 비율 251%→48%를 쓴다 [cite:mdna-10] 고객 집중 매출의 약 5분의 1이 고객 2곳이라는 보도가 있다 2025년은 Customer A·B 각 12%, 2026년 상반기는 Customer C 11% 한 곳이다 [cite:gap-25] 한국 독자에게 S-1 속의 한국은 세 줄이다 공모는 일본까지, 한국은 사모 호주, 캐나다, 일부 EEA 국가, 일본, 스위스, 영국에서는 공모로 진행된다 [cite:cover-05] . 한국에서는 자본시장법상 사모로만 판매되고, 허용되는 경우가 아니면 한국 거주자에게 되팔 수 없다 [cite:uw-05] HBM 주요 제조사로 적힌 SK하이닉스와 삼성전자 고대역폭메모리와 고성능 메모리는 대부분 SK하이닉스, 삼성전자, 마이크론이 생산한다고 적었다 [cite:rf1-32] 법인세 200만 달러 환급 2025년 국가별 현금 법인세에서 한국은 200만 달러 환급으로 나온다 [cite:notes-46] . 한국 법인명이나 서울 사무소는 원문에 없다 [cite:gap-48] 보호예수가 풀리는 순서 첫 거래일에 비창업자 이사·임원과 일부 직원 물량(최대 10%)부터 풀린다. 이어 일부 주주 물량이 투자설명서 일자 후 27·48·62·76일차에, 2026년 연간 실적 발표 뒤 단계적으로 해제된다. 창업자는 최대 365일 묶이고, 2027년 1분기 실적 발표 후와 180일째 중 이른 시점부터 최대 29%를 팔 수 있다. 막대 높이는 순서만 나타낸다(물량은 빈칸). 첫날 27일 48일 62일 76일 FY26 180일 365일 최대 10% 일부 주주 일부 주주 일부 주주 일부 주주 연간 실적 후 1분기 실적 후 창업자 [cite:uw-02] [cite:gap-44] [cite:gap-45] [cite:gap-46] [cite:uw-01]",
+  "facts": {
+   "biz-14": {
+    "line": 10716,
+    "claim": "2026년 3분기 Claude Code를 쓰지 않는 Claude Enterprise 사용자는 월평균 75달러 미만을 썼고, Claude Code를 쓰는 상위 5% Claude Enterprise 사용자는 그 약 20배를 썼다.",
+    "quote": "ended September 30, 2026, Claude Enterprise users who did not use Claude Code spent less than $75 per",
+    "note": "10715~10717줄. 75×20≈1,500달러는 '미만' 기준 상한 근사임에 유의."
+   },
+   "cover-05": {
+    "line": 249,
+    "claim": "미국 밖에서도 호주, 캐나다, 일부 EEA 회원국, 일본, 스위스, 영국에서 공모가 함께 진행된다. 다만 이들 국가 거래소에 상장할 계획은 없다.",
+    "quote": "This offering includes public offerings in Australia, Canada, certain member states of the European Economic Area, Japan, Switzerland, and the United Kingdom.",
+    "note": "249~250줄 확인. 250~251줄 'We do not currently intend to list our Class A common stock on any exchange in such jurisdictions'도 맞다. 목록에 한국은 없다."
+   },
+   "gap-25": {
+    "line": 18876,
+    "claim": "매출 10% 이상 고객은 Customer C가 2023년 43%, Customer D가 2023년 11%, Customer A·B가 2025년 각 12%, Customer B가 2025년 상반기 18%, Customer C가 2026년 상반기 11%다. 원문에 고객 실명·업종은 없다.",
+    "quote": "43%",
+    "note": "표(18853~18885행) 열 순서 2023·2024·2025·2025H1·2026H1 확인. 원 claim이 Customer D(2023년 11%)를 누락. 원 quote는 줄 단위 표라 실제 문자열이 아니어서 교체."
+   },
+   "gap-44": {
+    "line": 15874,
+    "claim": "락업은 투자설명서 일자 다음 첫 거래일에 비창업자 이사·임원과 일부 전현직 직원·컨설턴트 물량부터 풀리고, 투자설명서 일자 후 27·48·62·76일차에 단계적으로 해제된다. 주식 수와 비율은 빈칸이다.",
+    "quote": "Up to shares of Class A common stock held by our non-founder directors and officers and certain of our current and former employees and consultants, representing % of the shares subject to the 180-day lock-up and market standoff period",
+    "note": "15872~15899행 확인. 주식 수·% 공란."
+   },
+   "gap-45": {
+    "line": 15900,
+    "claim": "2단계로 2026년 연간 실적 발표 후 나스닥 둘째 완전 거래일과 발표일로부터 13·27·41·55·69일차에 추가 해제된다.",
+    "quote": "The second full trading day on Nasdaq immediately",
+    "note": "15900~15931행 확인. quote를 한 줄 실제 문자열로 정리(원 quote는 15900~15902행 걸침)."
+   },
+   "gap-46": {
+    "line": 15938,
+    "claim": "2027년 1분기 실적 발표 후 둘째 완전 거래일 또는 상장 180일 후 중 빠른 시점에 180일 락업 물량이 모두 풀리고, 이후 1분기 발표일로부터 34·48·62·76일차, 2분기 실적 발표 후 둘째 완전 거래일과 27·41·55·69·83일차에 365일 연장 락업 물량이 단계 해제되며, 3분기 실적 발표 후 또는 365일 후 잔여분이 풀린다.",
+    "quote": "Up to shares of Class A common stock, representing all",
+    "note": "15933~15990행 확인. 원 claim은 2분기 발표 직후 해제 회차와 최종 365일 잔여 해제를 누락. quote는 15938~15939행에 걸쳐 있어 한 줄 문자열로 정리."
+   },
+   "gap-48": {
+    "line": 11937,
+    "claim": "한국 법인명이나 서울 사무소는 원문에 없고, 국제 사무소는 유럽과 아시아태평양에 있다고만 적혀 있다.",
+    "quote": "Our headquarters is located in San Francisco, California. We also maintain international offices in Europe and",
+    "note": "11937~11938행 확인. Seoul grep 0건, Korea는 판매제한 고지(17115~)와 세금표(22263)뿐."
+   },
+   "mdna-10": {
+    "line": 8774,
+    "claim": "매출 대비 컴퓨트·인프라 비용 비율은 2025년 1분기 251%에서 2026년 2분기 48%로 떨어졌다.",
+    "quote": "Compute and infrastructure expenses as a percentage of revenue decreased from 251% to 48% over the same period, as revenue growth outpaced the growth of our committed compute cost base.",
+    "note": "분기 비율표의 251, 177, 148, 144, 72, 48과 맞다. 'same period'는 2025년 1분기부터 2026년 2분기까지다."
+   },
+   "mdna-29": {
+    "line": 9669,
+    "claim": "앤트로픽은 2025년 11월 마이크로소프트와 계약해 2026년 11월부터 2033년 5월까지 실제 사용량과 무관하게 최소 449억 달러를 지출하기로 약정했다.",
+    "quote": "In November 2025, we entered into an agreement with Microsoft, which was subsequently amended in February and October 2026, pursuant to which we committed to spend an aggregate of at least $44.9 billion between November 2026 and May 2033, regardless of actual usage.",
+    "note": "원문과 일치한다."
+   },
+   "notes-01": {
+    "line": 20475,
+    "claim": "아직 개시되지 않은 컴퓨트·인프라 리스 계약의 미래 미할인 의무 총액은 2025년 12월 31일 약 502억 달러에서 2026년 6월 30일 약 3,214억 달러로 늘었다.",
+    "quote": "primarily related to compute and infrastructure capacity that had not yet commenced, with total estimated future undiscounted lease obligations of approximately $50.2 billion and $321.4 billion, respectively",
+    "note": "20474~20477줄 확인. 순서가 Dec 31 2025, Jun 30 2026 순이다. 321.4/50.2=6.40으로 계산도 맞다. 일부 계약은 계약상 조건 충족이 전제다."
+   },
+   "notes-02": {
+    "line": 22445,
+    "claim": "해지 불가 구매 약정(주로 CSP 호스팅 등 제3자 인프라 서비스)의 미래 최소 지급액은 2025년 말 545억 5,900만 달러였다(잔여 기간 1년 초과분). 2026년 6월 30일 기준 고정·최소보장 약정은 약 2,656억 달러로 늘었다(약 4.9배, 계산).",
+    "quote": "As of June 30, 2026 (unaudited), expected future fixed or minimum guaranteed commitments under these agreements were approximately $265.6 billion with terms ranging from one to 20 years.",
+    "note": "22422~22446줄 확인. 54,559는 잔여 기간 1년 초과 약정의 2025-12-31 기준 합계(22427~22428줄)라서 그 범위를 명시했다. 265.6/54.559=4.87, 약 4.9배다. 고정 금액이 없는 약정은 이 금액에 들어가지 않는다."
+   },
+   "notes-03": {
+    "line": 22696,
+    "claim": "2025년 말 이후(감사 재무제표 후속사건 기준) 새로 맺거나 수정한 리스·상업 계약의 미래 최소 지급 의무는 약 4,170억 달러다.",
+    "quote": "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $417 billion.",
+    "note": "22696~22698줄에서 문구와 금액을 확인했다. 개시 시점은 2026~2027년이고 기간은 1년 미만에서 20년까지다."
+   },
+   "notes-46": {
+    "line": 22261,
+    "claim": "2025년 국가별 현금 법인세는 영국 1,000만 달러 납부, 한국 200만 달러 환급으로, 순 현금 법인세는 800만 달러였다.",
+    "quote": "United Kingdom 10 South Korea (2)",
+    "note": "22252~22266줄 확인. 연방과 주는 0이고 순액은 $8이다. 연방 NOL 82억 달러는 22196줄에서 확인했다. 표라서 원문은 줄마다 나뉘어 있다."
+   },
+   "rf1-12": {
+    "line": 1866,
+    "claim": "2026년 9월 30일 현재 및 그 이후 체결한 구매 약정과 리스(단기 약정, 미개시 리스 포함)의 총 약정액은 원문에 빈칸('more than $ ')이며, 사실상 전부가 컴퓨트와 인프라 관련이다.",
+    "quote": "As of and subsequent to September 30, 2026, we have entered into purchase commitments and lease agreements, including short-term commitments, as well as leases not yet commenced, with an aggregate committed spend of more than $ , substantially all of which is related to compute and infrastructure.",
+    "note": "원문은 'As of and subsequent to'로 '전후'가 아니라 '현재 및 이후'다. 'substantially all'은 '대부분'보다 '사실상 전부'에 가깝다. quote에 시점 구절을 넣어 시작 줄을 1866으로 고쳤다. 2030년 이전분과 향후 12개월분도 빈칸 확인(1869~1870줄)."
+   },
+   "rf1-29": {
+    "line": 2906,
+    "claim": "앤트로픽은 모델 가중치 유출 방지와 지식재산 보호 보안을 강화하기 위해 최근 새 프론티어 기반 모델의 사전학습을 한 달 이상 연기했다.",
+    "quote": "we recently chose to delay pre-training a new frontier base model for more than a month to allow time to further enhance our security measures related to preventing model weight exfiltration",
+    "note": "2906~2908줄 일치. 'protecting our intellectual property'도 목적에 포함돼 보완했다."
+   },
+   "rf1-32": {
+    "line": 1943,
+    "claim": "고대역폭메모리(HBM)와 컴퓨트 인프라용 기타 고성능 메모리는 대부분 SK하이닉스, 삼성전자, 마이크론이 생산한다고 명시했다.",
+    "quote": "are largely manufactured by SK hynix Inc., Samsung Electronics Co., and Micron Technology, Inc.",
+    "note": "1942~1944줄 일치('SK'는 1943줄 끝, 'hynix'는 1944줄)."
+   },
+   "uw-01": {
+    "line": 16691,
+    "claim": "창업자들은 365일 또는 2027년 3분기 실적 발표 중 이른 시점까지 보호예수를 받지만, 1분기 실적 발표 후 또는 180일째 중 이른 시점부터 보유 지분의 최대 29%를 팔 수 있다.",
+    "quote": "may Transfer up to 29% of the aggregate number of lock-up securities held by them",
+    "note": "16686~16695. 두 기간 모두 'earlier to occur'. 원문 주어는 'Our founders'(7명 명시 없음)."
+   },
+   "uw-02": {
+    "line": 16613,
+    "claim": "비창업자 임원·직원은 상장 첫 거래일부터 보호예수 주식의 최대 10%를, 2026년 연간 실적 발표 후 추가 35%를 팔 수 있다. 일부 주주는 27·48·62·76일차 등 날짜별로 단계적으로 풀린다.",
+    "quote": "up to 10% of the aggregate number of lock-up securities held by",
+    "note": "16606~16620 확인. 27·48·62·76일 단계는 'Certain of our stockholders'와 0.5% 초과 보유 주주군(16621~16678). '대주주'를 '일부 주주'로 표현 완화."
+   },
+   "uw-05": {
+    "line": 17118,
+    "claim": "한국에서는 공모가 아니라 자본시장법상 사모로만 판매하며, 허용되는 경우를 빼고 한국 내 또는 한국 거주자에게 재매출·재판매 목적으로 팔 수 없다.",
+    "quote": "the shares of Class A common stock have been and will be offered in Korea as a private placement under the FSCMA",
+    "note": "17115~17124 확인. quote는 17118~17119 걸침. '한국 개인은 상장 후 시장에서 사야 한다'는 why_interesting의 추론."
+   }
+  }
+ },
+ {
+  "id": "c12",
+  "text": "엔딩 다음 정정신고서가 채울 칸들 S-1 첫 공개본은 숫자보다 빈칸이 더 많은 이야기를 한다. 회사와 골드만삭스·모건스탠리를 앞세운 인수단 22곳 [cite:cover-04] 이 공모가를 정하면, 아래 칸이 하나씩 채워진다. 3분기 매출은 이미 역산할 수 있고, 나머지는 기다려야 한다. 공모가 범위 $ ~ $ 표지 [cite:cover-02] 신주 수 · 구주매출 수 구주매출 대금은 회사로 오지 않는다 [cite:cover-03] 2026년 3분기 매출 $ 계산하면 약 169억 달러 [cite:x-calc-q3] 컴퓨트·인프라 총 약정액 >$ 2031~2045년까지 이어진다 [cite:biz-07] 공모 후 창업자 의결권 % Founder LLC 몫을 뺀 비율과 포함한 비율 두 칸. Class F 몫은 50.1%로 고정 [cite:gap-14] [cite:gov-01] 공모 순수익 $ 컴퓨트·인프라 투자, 인재 등 일반 목적 [cite:rf2-53]",
+  "facts": {
+   "biz-07": {
+    "line": 10051,
+    "claim": "2026년 9월 30일 기준(및 이후) 체결한 구매 약정과 리스의 총 약정 지출액은 원문에서 빈칸이며, 거의 전부가 컴퓨트와 인프라 관련이다. 2030년 12월 31일 이전 발생분과 12개월 내 만기분도 빈칸이고, 나머지는 거의 전부 2031~2045년에 발생한다.",
+    "quote": "commenced, with an aggregate committed spend of more than $ , substantially all of which is related to",
+    "note": "10049~10054줄 확인. 'before December 31, 2030', 'substantially all of the remainder ... between 2031 and 2045' 반영해 표현만 정밀화."
+   },
+   "cover-02": {
+    "line": 106,
+    "claim": "예비 투자설명서 표지에서 공모가 범위는 비어 있다($ ~ $). 회사가 새로 파는 신주 수와 구주매출 주식 수도 빈칸이다.",
+    "quote": "It is currently estimated that the initial public offering price per share will be between $ and $ .",
+    "note": "106~107줄에 걸친 문장 확인. 숫자는 맞다. '회사 매출 공모 주식 수'는 '매출(revenue)'로 오해될 수 있어 '회사가 새로 파는 신주 수'로 고쳤다."
+   },
+   "cover-03": {
+    "line": 103,
+    "claim": "이번 공모에는 회사가 새로 발행하는 주식과 기존 주주(selling stockholders)가 파는 주식이 함께 들어 있다. 두 물량 모두 원문에서 빈칸이다.",
+    "quote": "We are selling shares of Class A common stock and the selling stockholders identified in this prospectus are selling an additional shares of Class A common stock.",
+    "note": "103~104줄 확인. 105줄 'We will not receive any proceeds from the sale ... by any of the selling stockholders'로 구주매출 대금이 회사로 오지 않는다는 점도 맞다."
+   },
+   "cover-04": {
+    "line": 158,
+    "claim": "표지에는 Goldman Sachs를 시작으로 Morgan Stanley, J.P. Morgan, Citigroup 등 22개 인수 금융사가 나열돼 있다.",
+    "quote": "Goldman Sachs & Co. LLC",
+    "note": "158줄(Goldman Sachs)부터 179줄(Macquarie Capital)까지 한 줄에 한 곳씩 직접 세어 22곳 확인. 바로 다음 180줄이 'Prospectus dated'라 표지 범위 안이다. 순서도 Goldman, Morgan Stanley, J.P. Morgan, Citigroup 순이 맞다."
+   },
+   "gap-14": {
+    "line": 5915,
+    "claim": "공모 후 공동창업자의 의결권 비율(Founder LLC 포함·제외)은 원문에서 여전히 빈칸으로 남아 있다.",
+    "quote": "founders will collectively hold approximately (i) % of the total voting power of our outstanding capital",
+    "note": "5914~5918행 (i) %, (ii) % 공란 확인."
+   },
+   "gov-01": {
+    "line": 122,
+    "claim": "공모 직전 창업자 LLC(Founder LLC)에 Class F 주식 딱 1주가 발행된다. 이 1주는 주주 일반 안건에서 발행 주식 전체 의결권의 50.1%를 행사한다. 이 안건에는 이사 선임도 들어가지만, LTBT가 뽑는 Class T 이사의 선임은 빠진다.",
+    "quote": "will be entitled to an aggregate number of votes that equals 50.1% of the total voting power of our outstanding shares of capital stock",
+    "note": "122~124줄과 800~802줄 확인. 숫자 50.1%와 1주는 맞다. 다만 원문에 'including the election of our directors other than the Class T directors'가 붙어 있다. 이사회 과반인 Class T 이사의 선임은 이 의결권 밖이라 '주주총회 안건 전체'라는 표현을 고쳤다."
+   },
+   "rf2-53": {
+    "line": 6576,
+    "claim": "공모 순수익 추정액과 가정 공모가는 원문에 빈칸이며, 자금은 컴퓨트·인프라 투자와 인재 채용 등 일반 목적에 쓴다.",
+    "quote": "We estimate that the net proceeds to us from the sale of shares of our Class A common stock in this offering will be approximately $ , based upon the assumed initial public offering price of $ per share",
+    "note": "6576~6577줄 일치. 용도는 6596~6598줄(general corporate purposes, compute and infrastructure, hiring and retention)에서 확인."
+   },
+   "x-calc-q3": {
+    "line": 10186,
+    "claim": "(계산) 2024년 4분기 매출 1억 9,700만 달러에 S-1이 밝힌 86배를 곱하면 2026년 3분기 매출은 약 169억 달러다. S-1 본문의 3분기 매출 칸은 비어 있다.",
+    "quote": "2026, our headcount grew over five times, while our revenue for the three months ended September 30, 2026 was 86 times our revenue for the three months ended December 31, 2024.",
+    "note": "메인 세션이 원문 줄에서 직접 추출"
+   }
+  }
+ },
+ {
+  "id": "method",
+  "text": "이 페이지를 만든 방법 숫자 하나에 검증자 둘 23,197 S-1 원문을 텍스트로 바꾼 줄 수. 여덟 구간으로 나눠 에이전트 8명이 끝까지 읽었다 474 뽑은 사실(구간 에이전트 461건, 메인 세션이 원문 줄에서 직접 보강한 13건). 구간 에이전트 사실은 별도 반증 검증자가 숫자·단위·기간을 다시 대조했고, 61건을 고쳤다 474/474 모든 인용문을 원문 텍스트와 기계적으로 대조했다. 1건은 줄바꿈 위치 차이로 수동 확인했다 12 원문을 직접 열어 제목·날짜·바이라인을 확인한 tier 1 기사. 열리지 않은 3건은 뺐다. 보도 숫자를 S-1과 맞대 엇갈린 곳을 따로 적었다 51 → 0 발행 전 1차 감사가 페이지 주장 341개에서 지적한 51곳을 고쳤고, 2차 감사(292개 재대조)에서 숫자 오류 0건을 확인한 뒤 남은 표현 4곳을 고쳤다 원문: Anthropic, PBC Form S-1 (SEC EDGAR, 2026년 10월 26일) · 제출 이력 § 줄번호는 S-1 HTML을 텍스트로 변환한 파일 기준이다. 등호 아이콘은 S-1 숫자로 한 계산, 화살표 아이콘은 S-1 밖 출처다. 이 페이지는 투자 권유가 아니며, 공모가 확정 전 예비 투자설명서를 기준으로 했다. S-1은 아직 효력이 발생하지 않았다. 2026년 10월 27일 작성.",
+  "facts": {}
+ },
+ {
+  "id": "news-cards",
+  "text": "[{\"outlet\": \"Bloomberg\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic Files for IPO in Global Race to Raise Cash for AI\", \"url\": \"https://news.bloomberglaw.com/artificial-intelligence/anthropic-files-for-ipo-to-become-first-frontier-ai-lab-to-list\", \"angle\": \"프런티어 AI 모델 개발사가 처음으로 상장하는 사례로 규정하고, AI 자금 조달 경쟁의 일부로 해석했다. 검색 노출 제목은 'Anthropic Flags Existential Risks in Long-Awaited IPO Filing'로, 위험 공시도 함께 부각했다.\", \"check\": \"S-1 대조 · 티커 ANT, 나스닥 글로벌 셀렉트, 인수단 \\\"GS·MS 외 20곳\\\"이 S-1 표지와 일치한다.\", \"pre\": false}, {\"outlet\": \"Fortune\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic’s IPO prospectus shows $16.3 billion in revenue, an $80.7 billion net loss, and goal of an 'age of miracles'\", \"url\": \"https://fortune.com/2026/10/26/anthropics-s-1/\", \"angle\": \"S-1 전체를 훑는 종합 기사다. 매출 급증과 장부상 거대 손실의 대비를 축으로 삼고, 영업 현금흐름이 처음 플러스로 돌아선 점, 컴퓨트 효율, 창업자 의결권과 고객 의존 구조까지 한 번에 정리했다.\", \"check\": \"S-1 대조 · 매출, 순손실, 영업현금흐름이 S-1과 일치한다. 컴퓨트 1달러당 2.08달러는 기자 계산이다.\", \"pre\": false}, {\"outlet\": \"Fortune\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic plans to spend up to $567 billion on compute. Its IPO prospectus reveals plans to set up its own data centers\", \"url\": \"https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/\", \"angle\": \"컴퓨트 약정 규모와 공급자 구성을 해부했다. 경쟁사이자 투자자인 빅테크 클라우드에 기대던 구조에서 'Anthropic Direct'라는 자체 데이터센터 전략으로 옮겨 가는 흐름을 핵심으로 봤다.\", \"check\": \"S-1 대조 · 4,170억 달러의 시점 표현과 5,420억~5,670억 달러 합산은 S-1 원문과 다르다.\", \"pre\": false}, {\"outlet\": \"Fortune\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic's risk factors include the end of humanity, a feud with the Pentagon, and CEO Dario Amodei's reputation\", \"url\": \"https://fortune.com/2026/10/26/anthropic-s1-risk-factors-existential-risk-pentagon-dario-amodei/\", \"angle\": \"위험요인 섹션만 따로 읽었다. 인류 존망 위험, 국방부(Department of War)와의 분쟁, 안전 우선 결정의 비용, 창업자 의존과 지배구조까지 전형적 공시를 넘어서는 경고를 묶어 보여 줬다.\", \"check\": \"S-1 대조 · 존망 위험 문구는 일치. \\\"halted training\\\"은 원문 \\\"delay pre-training\\\"과 다르다.\", \"pre\": false}, {\"outlet\": \"Fortune\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic's S-1 makes clear it's on the hook for billions in compute. Its customers can walk at any time.\", \"url\": \"https://fortune.com/2026/10/26/anthropics-s-1-makes-clear-its-on-the-hook-for-billions-in-compute-its-customers-can-walk-at-any-time-2/\", \"angle\": \"비용과 수요의 기간 불일치를 짚었다. 컴퓨트는 수년짜리 확정 약정인데 매출의 80%는 언제든 줄일 수 있는 사용량 기반이라는 구조적 긴장을 핵심 위험으로 봤다.\", \"check\": \"S-1 대조 · 인용문은 S-1과 일치. \\\"R&D용 컴퓨트 97억 달러\\\"는 기능별 R&D 비용 총액이다.\", \"pre\": false}, {\"outlet\": \"TechCrunch\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic officially files for its public debut\", \"url\": \"https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/\", \"angle\": \"유출 초안이 이어진 뒤 나온 공식 제출 소식을 전하며, 숫자보다 창업자 7인의 'Founder LLC'와 LTBT로 짜인 통제 구조가 논쟁적이라는 점에 무게를 뒀다.\", \"check\": \"S-1 대조 · 매출, 영업손실, 고객 구간, 50.1%가 모두 S-1과 일치한다.\", \"pre\": false}, {\"outlet\": \"TechCrunch\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked\", \"url\": \"https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/\", \"angle\": \"고객 지표와 기업 영업 구조에 집중했다. API와 Claude Code·Cowork 같은 자체 앱을 함께 쓰게 만드는 교차 채택이 지출 확대를 이끈다는 점을 핵심으로 봤다.\", \"check\": \"S-1 대조 · NRR 900%는 일치. 20배 비교의 단위는 고객사가 아니라 사용자다.\", \"pre\": false}, {\"outlet\": \"Semafor\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic IPO filing discloses first-of-its-kind governance structure\", \"url\": \"https://www.semafor.com/article/10/26/2026/anthropic-ipo-filing-discloses-first-of-its-kind-governance-structure\", \"angle\": \"재무보다 지배구조에 초점을 맞췄다. 창업자 7인이 단 한 주의 초다수 의결권 주식으로 회사를 통제하고, 대형 투자자는 의결권이 없는 구조를 상장사로서 전례 없는 형태로 봤다.\", \"check\": \"S-1 대조 · Class F 1주 50.1%는 일치. \\\"94쪽이 AI 위험\\\"은 위험요인 섹션 전체 분량이다.\", \"pre\": false}, {\"outlet\": \"Bloomberg\", \"date\": \"2026.10.26\", \"headline\": \"Anthropic Is Said to Plan Public Filing for Mega-IPO Monday\", \"url\": \"https://finance.yahoo.com/technology/ai/articles/anthropic-said-plan-public-filing-115338000.html\", \"angle\": \"공개 제출 직전 예고 기사. 제출 시각과 공모 규모 기대를 소식통 기반으로 전했고, 다른 IPO 연기 흐름 속에서도 앤트로픽은 강행한다는 시장 맥락을 붙였다.\", \"check\": \"S-1 대조 · 제출 직전 예고 기사. 제출 시각과 공모 규모 기대는 소식통 기반이라 S-1로 대조할 수 없다.\", \"pre\": true}, {\"outlet\": \"Reuters\", \"date\": \"2026.09.28\", \"headline\": \"Anthropic's IPO prospectus shows sweeping AI vision, surging costs\", \"url\": \"https://finance.yahoo.com/technology/ai/articles/exclusive-anthropics-ipo-prospectus-shows-231722972.html\", \"angle\": \"공개 제출 한 달 전 비공개 투자설명서를 단독 입수한 기사. 2025년 실적과 5,180억 달러 인프라 약정을 처음 드러내, 이후 S-1 보도의 비교 기준이 됐다.\", \"check\": \"S-1 대조 · 비공개본 단독. 2025년 매출·순손실은 공개 S-1과 일치하지만 5,180억 달러 총액은 공개본에 없다.\", \"pre\": true}, {\"outlet\": \"AP\", \"date\": \"2026.06.01\", \"headline\": \"Anthropic races toward Wall Street debut with a confidential SEC filing\", \"url\": \"https://www.investmentexecutive.com/news/markets/anthropic-races-toward-wall-street-debut-with-a-confidential-sec-filing/\", \"angle\": \"DRS 제출을 올해 예정된 메가 IPO 세 건(앤트로픽, OpenAI, SpaceX) 중 하나로 보고, 세 회사 모두 적자라는 점에서 AI 버블 우려를 함께 짚었다.\", \"check\": \"S-1 대조 · DRS 보도. 전재본으로 확인했다. 연환산 매출 470억 달러는 S-1 숫자가 아니다.\", \"pre\": true}, {\"outlet\": \"Bloomberg\", \"date\": \"2026.05.28\", \"headline\": \"Anthropic Raises at $965 Billion Valuation, Eclipsing OpenAI\", \"url\": \"https://news.bgov.com/private-equity/anthropic-raises-at-965-billion-valuation-eclipsing-openai-1\", \"angle\": \"IPO 직전 마지막 사모 라운드. 앤트로픽 기업가치가 처음 OpenAI를 넘어선 순간으로 보도했다.\", \"check\": \"S-1 대조 · 마지막 사모 라운드 9,650억 달러. S-1에는 없는 숫자다.\", \"pre\": true}]",
+  "facts": {}
+ }
+]

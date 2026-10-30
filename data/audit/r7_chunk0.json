@@ -1,0 +1,152 @@
+[
+ {
+  "id": "top",
+  "text": "Form S-1 Anthropic, PBC 2026.10.26 SEC 공개 제출 Nasdaq ANT 주식 한 장, 그리고 아직 비어 있는 칸들 앤트로픽이 2026년 10월 26일 미국 증권거래위원회(SEC)에 상장 증권신고서 S-1을 공개 제출했습니다 [cite:edgar-hist] . 나스닥 티커는 ANT입니다 [cite:cover-01] . 원문을 여덟 구간으로 나눠 읽고 보강해 사실 479개 를 모았습니다. 이 사실을 하나씩 원문과 대조한 뒤 열한 개 장면으로 엮은 것이 이 페이지입니다. 숫자 옆의 줄번호 를 누르면 S-1 원문이 열립니다. 공모가는 아직 $ ~ $ 입니다 [cite:cover-02] . 162억 8,600만$ 2026년 상반기 6개월 매출 [cite:fin-01] 807억 4,800만$ 같은 기간 순손실 [cite:fin-07] 1주 = 50.1% 창업자 LLC의 Class F 1주가 일반 안건에서 갖는 의결권 [cite:gov-01] ≈4,170억$ 2026년 1월~6월 1일에 새로 맺거나 고친 계약의 최소 지급 의무 [cite:notes-03] [cite:x-note16-date] 스크롤해서 읽기",
+  "facts": {
+   "cover-01": {
+    "claim": "Anthropic은 Class A 보통주를 나스닥 글로벌 셀렉트 마켓에 티커 'ANT'로 상장 신청했습니다.",
+    "quote": "symbol “ANT.”",
+    "line": 108
+   },
+   "cover-02": {
+    "claim": "예비 투자설명서 표지에서 공모가 범위는 비어 있습니다($ ~ $). 회사가 새로 파는 신주 수와 구주매출 주식 수도 빈칸입니다.",
+    "quote": "It is currently estimated that the initial public offering price per share will be between $ and $ .",
+    "line": 106
+   },
+   "edgar-hist": {
+    "claim": "SEC EDGAR에 따르면 앤트로픽은 2026년 6월 1일 비공개 초안(DRS)을 냈습니다. 이어 7월 13일·8월 10일·9월 4일·10월 1일·10월 9일 다섯 차례 수정 초안(DRS/A)을 냈고 10월 26일 S-1을 공개 제출했습니다.",
+    "quote": "2026-10-26 S-1 · 2026-10-09 DRS/A · 2026-10-01 DRS/A · 2026-09-04 DRS/A · 2026-08-10 DRS/A · 2026-07-13 DRS/A · 2026-06-01 DRS",
+    "line": null
+   },
+   "fin-01": {
+    "claim": "연간 매출은 2023년 4,100만 달러, 2024년 3억 8,600만 달러, 2025년 45억 8,500만 달러였습니다. 2026년 상반기 매출은 162억 8,600만 달러로 전년 동기(11억 6,300만 달러)의 약 14배입니다(계산).",
+    "quote": "Revenue $41 $386 $4,585 $1,163 $16,286",
+    "line": 1326
+   },
+   "fin-07": {
+    "claim": "2026년 상반기 순손실은 807억 4,800만 달러입니다. 이 가운데 723억 8,800만 달러는 전환사채·파생부채·SAFE의 공정가치 변동에서 생겼습니다.",
+    "quote": "Change in fair value of convertible notes, derivative liabilities, and SAFEs (1,045) (5,434) (34,308) (10,942) (72,388)",
+    "line": 1381
+   },
+   "gov-01": {
+    "claim": "공모 직전 창업자 LLC(Founder LLC)에 Class F 주식 딱 1주가 발행됩니다. 이 1주는 주주 일반 안건에서 발행 주식 전체 의결권의 50.1%를 행사합니다. 이 안건에는 이사 선임도 들어갑니다. 다만 LTBT가 뽑는 Class T 이사의 선임은 빠집니다.",
+    "quote": "will be entitled to an aggregate number of votes that equals 50.1% of the total voting power of our outstanding shares of capital stock",
+    "line": 122
+   },
+   "notes-03": {
+    "claim": "2025년 말 이후(감사 재무제표 후속사건 기준) 새로 맺거나 수정한 리스·상업 계약의 미래 최소 지급 의무는 약 4,170억 달러입니다.",
+    "quote": "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $417 billion.",
+    "line": 22696
+   },
+   "x-note16-date": {
+    "claim": "감사받은 재무제표의 후속사건 주석(Note 16)의 평가 대상은 2026년 6월 1일까지 일어난 일입니다. 4,170억 달러는 이 주석에 들어 있습니다.",
+    "quote": "The Company has evaluated subsequent events for recognition and measurement purposes through June 1, 2026, which is the date the consolidated financial statements were available to be issued.",
+    "line": 22647
+   }
+  }
+ },
+ {
+  "id": "ftrack",
+  "text": "비공개 초안 여섯 번, 공개본 한 번 SEC EDGAR 제출 이력 [cite:edgar-hist] DRS 06.01 DRS/A 07.13 DRS/A 08.10 DRS/A 09.04 DRS/A 10.01 DRS/A 10.09 S-1 10.26",
+  "facts": {
+   "edgar-hist": {
+    "claim": "SEC EDGAR에 따르면 앤트로픽은 2026년 6월 1일 비공개 초안(DRS)을 냈습니다. 이어 7월 13일·8월 10일·9월 4일·10월 1일·10월 9일 다섯 차례 수정 초안(DRS/A)을 냈고 10월 26일 S-1을 공개 제출했습니다.",
+    "quote": "2026-10-26 S-1 · 2026-10-09 DRS/A · 2026-10-01 DRS/A · 2026-09-04 DRS/A · 2026-08-10 DRS/A · 2026-07-13 DRS/A · 2026-06-01 DRS",
+    "line": null
+   }
+  }
+ },
+ {
+  "id": "c1",
+  "text": "01 오프닝 직원은 5배 넘게, 매출은 86배 앤트로픽은 2021년에 세워졌고 첫 상용 제품 Claude를 2023년 1분기에 내놓았습니다 [cite:rf1-38] . 2024년 말 약 940명이던 직원은 2026년 9월 말 약 5,300명으로 늘었습니다 [cite:rf1-06] . S-1은 같은 기간을 한 문장으로 요약합니다. 직원은 5배 넘게 늘었고 2026년 3분기 매출은 2024년 4분기 매출의 86배였습니다 [cite:biz-18] . 회사는 이 차이를 사내에서 Claude를 쓴 결과로 설명합니다. 그런데 정작 그 3분기 매출의 절대값은 본문에 $ 로 비어 있습니다 [cite:mdna-01] . 다른 페이지에 적힌 2024년 4분기 매출 1억 9,700만 달러 [cite:rf1-06] 에 86을 곱하면 약 169억 달러 가 나옵니다 [cite:x-calc-q3] . 두 숫자 모두 반올림됐을 수 있어 근사치입니다. 그래도 가장 낮게 잡으면 2026년 상반기 6개월 매출 162억 8,600만 달러보다 큽니다. 석 달 만에 그보다 많이 벌었다는 계산입니다. 그래서 이 이야기의 장치는 두 가지입니다. 이미 채워진 숫자와 아직 비어 있는 칸. 같은 21개월, 두 개의 배수 2024년 12월 31일 대비 2026년 9월 30일. 막대 높이는 배수에 비례합니다. 5배+ 직원 수 약 940명 → 약 5,300명 86배 분기 매출 2024년 4분기 → 2026년 3분기 출처 S-1 10186행, 3536행. 직원 막대는 940명에서 5,300명(약 5.6배)으로 그렸습니다.",
+  "facts": {
+   "biz-18": {
+    "claim": "2024년 12월 31일부터 2026년 9월 30일까지 직원 수는 5배 넘게 늘었습니다. 반면 2026년 3분기 매출은 2024년 4분기 매출의 86배였습니다.",
+    "quote": "2026, our headcount grew over five times, while our revenue for the three months ended September 30, 2026",
+    "line": 10186
+   },
+   "mdna-01": {
+    "claim": "S-1은 매출이 상업 출시(2023년 1분기) 당시 0달러에서 2026년 3분기(9월 30일 종료 3개월)까지 성장했다고 씁니다. 하지만 3분기 매출 숫자 자체는 원문에 빈칸으로 남아 있습니다.",
+    "quote": "revenue growing from $0 at commercial launch in the first quarter of 2023 to $ for the three months ended September 30, 2026.",
+    "line": 6933
+   },
+   "rf1-06": {
+    "claim": "직원 수는 2024년 12월 31일 약 940명에서 2026년 9월 30일 약 5,300명으로 늘었습니다. 분기 매출은 2024년 4분기 1억 9,700만 달러였습니다(2026년 3분기 분기 매출은 원문에서 빈칸입니다).",
+    "quote": "the number of our employees increased from approximately 940 as of December 31, 2024 to approximately 5,300 as of September 30, 2026, and our revenue increased from $197 million for the three months ended December 31, 2024 to $ for the three months ended September 30, 2026.",
+    "line": 3536
+   },
+   "rf1-38": {
+    "claim": "앤트로픽은 2021년에 설립됐고 첫 상용 제품 Claude를 2023년 1분기에 공개 출시했습니다.",
+    "quote": "We were founded in 2021 and launched our first commercial product, Claude, publicly in the first quarter of 2023.",
+    "line": 3457
+   },
+   "x-calc-q3": {
+    "claim": "(계산) 2024년 4분기 매출 1억 9,700만 달러에 S-1이 밝힌 86배를 곱하면 2026년 3분기 매출은 약 169억 달러입니다. S-1 본문의 3분기 매출 칸은 비어 있습니다.",
+    "quote": "2026, our headcount grew over five times, while our revenue for the three months ended September 30, 2026 was 86 times our revenue for the three months ended December 31, 2024.",
+    "line": 10186
+   }
+  }
+ },
+ {
+  "id": "c2",
+  "text": "02 성장의 속도 4,100만 달러에서 반기 163억 달러로 1,300% 2026년 상반기 매출의 전년 동기 대비 성장률. 11억 6,300만 달러가 162억 8,600만 달러로 늘었습니다 [cite:rf1-02] [cite:fin-01] 연간 매출은 2023년 4,100만 달러, 2024년 3억 8,600만 달러, 2025년 45억 8,500만 달러였습니다 [cite:fin-01] . 해마다 약 9.4배, 11.9배씩 커졌습니다 [cite:fs-02] . 2026년 상반기 6개월 매출은 2025년 한 해 매출의 3.5배를 넘습니다. 분기로 나눠 보면 계단이 더 가파릅니다. 2025년 1분기 3억 7,600만 달러에서 시작해 한 번도 꺾이지 않고 2026년 2분기 115억 5,500만 달러까지 올랐습니다 [cite:x-q-rev] . 다섯 분기 만에 약 30.7배입니다 [cite:mdna-04] . 가속이 붙은 시점은 모델 출시와 겹칩니다. 2025년 11월 Opus 4.5를 내놓은 뒤 전 분기 대비 매출 성장률이 48%에서 132%로 올랐습니다 [cite:biz-15] . 회사는 이를 가격 인하와 성능 향상, 신제품, 고객 확대가 합쳐진 결과로 설명합니다 [cite:x-opus-factors] . 2026년 3분기 매출의 80% 이상은 2026년 4~9월에 출시된 모델 버전에서 나왔습니다 [cite:gap-40] . 새 모델이 나오면 매출의 중심이 빠르게 새 모델로 옮겨 간다는 뜻입니다. 분기 매출 (백만 달러) 점선 막대는 S-1이 비워 둔 2026년 3분기입니다. 높이는 1억 9,700만 달러 × 86으로 추정했습니다. 선형 축 로그 축 출처 S-1 분기 손익표(8502행). 3분기 추정치는 계산값이며 S-1에 나온 숫자가 아닙니다.",
+  "facts": {
+   "biz-15": {
+    "claim": "Opus 4.5는 2025년 11월에 출시됐습니다. 그 뒤 전 분기 대비 매출 성장률이 2025년 4분기 48%에서 2026년 1분기 132%로 올랐습니다.",
+    "quote": "48% for the three months ended December 31, 2025 to 132% for the three months ended March 31, 2026.",
+    "line": 10732
+   },
+   "fin-01": {
+    "claim": "연간 매출은 2023년 4,100만 달러, 2024년 3억 8,600만 달러, 2025년 45억 8,500만 달러였습니다. 2026년 상반기 매출은 162억 8,600만 달러로 전년 동기(11억 6,300만 달러)의 약 14배입니다(계산).",
+    "quote": "Revenue $41 $386 $4,585 $1,163 $16,286",
+    "line": 1326
+   },
+   "fs-02": {
+    "claim": "(계산) 2026년 상반기 매출은 전년 동기 대비 약 14배로 늘었습니다. 2025년 연간 매출은 2024년 대비 약 11.9배, 2024년 매출은 2023년 대비 약 9.4배로 늘었습니다.",
+    "quote": "Revenue $41 $386 $4,585 $1,163 $16,286",
+    "line": 17628
+   },
+   "gap-40": {
+    "claim": "2026년 3분기 매출의 80% 이상은 2026년 9월 30일로 끝난 6개월 안에 출시된 모델 버전에서 나왔습니다.",
+    "quote": "model versions released in the six months ended September 30, 2026 accounted for over 80% of our revenue for the three months ended September 30, 2026.",
+    "line": 7350
+   },
+   "mdna-04": {
+    "claim": "분기 매출은 2025년 1분기 3억 7,600만 달러에서 2026년 2분기 115억 5,500만 달러로 매 분기 늘었습니다. 다섯 분기 만에 약 30.7배가 됐습니다(계산).",
+    "quote": "Revenue increased sequentially in each of the quarters presented, from $376 million for the three months ended March 31, 2025 to $11.6 billion for the three months ended June 30, 2026.",
+    "line": 8758
+   },
+   "rf1-02": {
+    "claim": "2026년 상반기(6월 30일 종료 6개월) 매출은 163억 달러로 전년 동기 대비 1,300% 늘었습니다.",
+    "quote": "In the six months ended June 30, 2026, our revenue was $16.3 billion, representing a year-over-year growth rate of 1,300%.",
+    "line": 3496
+   },
+   "x-opus-factors": {
+    "claim": "회사는 Opus 4.5 출시 뒤 전 분기 대비 성장률이 48%에서 132%로 오른 것을 가격 인하와 성능 향상, 신제품 등장, 고객 확대가 합쳐진 결과로 설명합니다.",
+    "quote": "predecessor Opus 4.1. Following that launch, our total quarter-over-quarter revenue growth accelerated from 48% for the three months ended December 31, 2025 to 132% for the three months ended March 31, 2026. This growth reflected the combined effect of several factors. These included lower prices and improved capability that unlocked new use cases, the emergence of new products, and expanded customer adoption. More recently,",
+    "line": 10731
+   },
+   "x-q-rev": {
+    "claim": "분기 매출(백만 달러)은 2025년 1분기 376, 2분기 787, 3분기 1,382, 4분기 2,040, 2026년 1분기 4,731, 2분기 11,555입니다.",
+    "quote": "Revenue $376 $787 $1,382 $2,040 $4,731 $11,555",
+    "line": 8502
+   }
+  }
+ },
+ {
+  "id": "misc",
+  "text": "기업가치가 오를수록 장부의 손실이 커졌습니다. 창업자 주식 한 장에 걸린 50.1%는 신주를 찍어도 희석되지 않습니다. 근거 [cite:fin-08] [cite:rf2-48]",
+  "facts": {
+   "fin-08": {
+    "claim": "공정가치 변동 손실은 기업가치가 올라 미상환 전환사채의 공정가치가 커지면서 생겼습니다. 회사 가치가 오를수록 장부상 손실이 커지는 구조입니다.",
+    "quote": "These changes were primarily driven by an increase in the fair value of our outstanding convertible promissory notes resulting from an increase in our enterprise valuation during each of the respective periods.",
+    "line": 1437
+   },
+   "rf2-48": {
+    "claim": "Class A 100만 주를 추가 발행하면 Class F는 50.1%를 유지하도록 약 1,004,008표를 자동으로 더 받습니다. 신주 발행으로 Class F 의결권이 희석되지 않는다는 뜻입니다.",
+    "quote": "or approximately 1,004,008 additional votes.",
+    "line": 6338
+   }
+  }
+ }
+]

@@ -1,6 +1,6 @@
 # 문장 단위 근거 원장
 
-문장 669개, 인용 연결 274개, 숫자 327개, 문제 0건
+문장 669개, 인용 연결 274개, 숫자 328개, 문제 0건
 
 - **[top]** AI ROASTING
 - **[top]** Form S-1 Anthropic, PBC 2026.10.26 SEC 공개 제출 Nasdaq ANT
@@ -76,15 +76,15 @@
 - **[kband]** 약 4,170억 달러
   - 숫자 `4,170억 달러` → s1 text
 - **[kband]** 6월 30일 이후 약 2,450억 달러 추가
-  - 근거 `x-note17-cond` S-1 22808행, 원문 대조 OK: "and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment "
-  - 숫자 `2,450억 달러` → cited fact
-- **[kband]** 2026년 1월~6월 1일에 새로 체결하거나 변경한 계약의 최소 지급 의무  6월 1일까지 4,170억 6월 30일 이후 2,450억 진한 부분은 6월 1일까지 체결분 4,170억, 옅은 부분은 6월 30일 이후 추가분 2,450억 달러 사실 05 →
+  - 숫자 `2,450억 달러` → s1 text
+- **[kband]** 2026년 1월~6월 1일에 새로 체결하거나 변경한 계약의 최소 지급 의무   6월 1일까지 4,170억 6월 30일 이후 2,450억 진한 부분은 6월 1일까지 체결분 4,170억, 옅은 부분은 6월 30일 이후 추가분 2,450억 달러 사실 05 →
   - 근거 `notes-03` S-1 22696행, 원문 대조 OK: "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and "
+  - 근거 `x-note17-cond` S-1 22808행, 원문 대조 OK: "and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment "
   - 근거 `x-note16-date` S-1 22647행, 원문 대조 OK: "The Company has evaluated subsequent events for recognition and measurement purposes through June 1, 2026, which is the date the consolidated financial statemen"
   - 숫자 `4,170` → cited fact
   - 숫자 `2,450` → reviewed: x-note17-cond (6월 30일 이후 추가 약 2,450억 달러, 같은 KPI 카드 .dl에 근거 표시)
   - 숫자 `4,170` → cited fact
-  - 숫자 `2,450억 달러` → s1 text
+  - 숫자 `2,450억 달러` → cited fact
 - **[kband]** 창업자 의결권
 - **[kband]** 1주 = 50.1%
   - 숫자 `50.1%` → s1 text
@@ -122,11 +122,10 @@
 - **[c2]** 반기 매출이 1년 새 14배로 늘었습니다
   - 숫자 `14배` → calc: 162억 8,600만 ÷ 11억 6,300만 = 14.0 (2026년 상반기 vs 2025년 상반기, S-1 1,300%)
 - **[c2]** 2026년 상반기 매출 · 전년 동기 대비
-- **[c2]** 14배 1년 전 11억 6,300만 2026년 상반기 162억 8,600만
+- **[c2]** 14배 1년 전 11억 6,300만 달러 2026년 상반기 162억 8,600만 달러
   - 숫자 `14배` → calc: 162억 8,600만 ÷ 11억 6,300만 = 14.0 (2026년 상반기 vs 2025년 상반기, S-1 1,300%)
-  - 숫자 `6,300` → reviewed: 사실 01 리드 행 .k의 반기 매출 11억 6,300만 달러(근거 표시 있음)를 막대 끝 라벨에 반복
-  - 숫자 `162` → s1 text
-  - 숫자 `8,600` → reviewed: 사실 01 리드 행 .k의 반기 매출 162억 8,600만 달러(근거 표시 있음)를 막대 끝 라벨에 반복
+  - 숫자 `11억 6,300만 달러` → s1 text
+  - 숫자 `162억 8,600만 달러` → s1 text
 - **[c2]** 분기 매출 · 2025년 1분기 → 2026년 2분기 30.7배 분기 매출은 2025년 1분기 3억 7,600만 달러에서 2026년 2분기 115억 5,500만 달러로 늘었습니다
   - 숫자 `30.7배` → calc: 11,555 ÷ 376
   - 숫자 `3억 7,600만 달러` → s1 text
@@ -184,12 +183,12 @@
   - 숫자 `80%` → reviewed: rf2-50·mdna-27 (자선 서약 80%)
 - **[c2]** 새 모델이 나오면 매출의 중심이 빠르게 새 모델로 옮겨 간다는 뜻입니다.
 - **[c2]** 분기 매출 (백만 달러)
-- **[c2]** 점선 막대는 S-1이 비워 둔 2026년 3분기입니다
-- **[c2]** 1,000은 10억 달러입니다.
-  - 숫자 `1,000` → s1 text
-  - 숫자 `10억 달러` → s1 text
+- **[c2]** 점선 막대는 S-1이 비워 둔 2026년 3분기입니다.
 - **[c2]** 2025년 상반기 2025년 하반기 2026년 상반기 3분기 · S-1 공란
 - **[c2]** 선형 축 로그 축
+- **[c2]** 1,000은 10억 달러입니다
+  - 숫자 `1,000` → s1 text
+  - 숫자 `10억 달러` → s1 text
 - **[c2]** 3분기 높이는 1억 9,700만 달러 × 86으로 추정한 계산값이며 S-1에 나온 숫자가 아닙니다
   - 숫자 `1억 9,700만 달러` → s1 text
 - **[c2]** 11,555는 115억 5,500만 달러입니다
@@ -264,7 +263,7 @@
   - 숫자 `10만 달러` → s1 text
 - **[c5]** 눈금 하나가 10배입니다
   - 숫자 `10배` → calc: 로그 축 눈금 설명
-- **[c5]** 두 원은 1년 간격(2025.09 → 2026.09)입니다.
+- **[c5]** 두 원은 1년 간격(2025.09 → 2026.09) 입니다.
 - **[c5]** 
   - 근거 `mdna-15` S-1 7316행, 원문 대조 OK: "The number of customers with $100,000 or more of revenue on a TTM basis grew from approximately 20 as of December 31, 2023, to approximately 200 as of December "
   - 근거 `x-cust-950` S-1 6986행, 원문 대조 OK: "generate meaningful revenue. We had more than 11,900 customers with $100,000 or more of revenue on a TTM basis as of September 30, 2026, up from more than 950 a"
@@ -272,14 +271,14 @@
 - **[c5]** 최근 12개월 매출 기준.
 - **[c5]** 막대 길이는 고객 수에 비례합니다
 - **[c5]** 각 구간은 그 금액 이상 고객이라, 큰 금액 구간의 고객은 작은 금액 구간에도 들어갑니다.
-- **[c5]** ≈250 1,000만 달러 이상
-  - 숫자 `250` → s1 text
+- **[c5]** ≈250곳 1,000만 달러 이상
+  - 숫자 `250곳` → s1 text
   - 숫자 `1,000만 달러` → s1 text
-- **[c5]** 1,900+ 100만 달러 이상
-  - 숫자 `1,900` → s1 text
+- **[c5]** 1,900곳+ 100만 달러 이상
+  - 숫자 `1,900곳` → s1 text
   - 숫자 `100만 달러` → s1 text
-- **[c5]** 11,900+ 10만 달러 이상
-  - 숫자 `11,900` → s1 text
+- **[c5]** 1만 1,900곳+ 10만 달러 이상
+  - 숫자 `1,900곳` → s1 text
   - 숫자 `10만 달러` → s1 text
 - **[c5]** 
   - 근거 `mdna-16` S-1 6989행, 원문 대조 OK: "As of September 30, 2026, we had more than 1,900 customers with $1 million or more of revenue on a TTM basis and approximately 250 customers with $10 million or"
@@ -424,27 +423,27 @@
   - 근거 `rf1-03` S-1 3564행, 원문 대조 OK: "We have incurred net losses in each year since our founding, including a net loss of $1.5 billion, $8.3 billion, and $42.0 billion for the years ended December "
 - **[c3]** 2026년 상반기, 영업손실에서 순손실까지 (백만 달러)
 - **[c3]** 항목을 한 줄씩 쌓았습니다
-- **[c3]** 기타 영업외 항목도 주로 노트 매입 계약의 공정가치 인식분입니다
-- **[c3]** −72,388은 723억 8,800만 달러입니다
-  - 숫자 `72,388` → s1 text
-  - 숫자 `723억 8,800만 달러` → s1 text
-- **[c3]** 1,000은 10억 달러입니다.
-  - 숫자 `1,000` → s1 text
-  - 숫자 `10억 달러` → s1 text
+- **[c3]** 기타 영업외 항목도 주로 노트 매입 계약의 공정가치 인식분입니다.
 - **[c3]** 공정가치 평가 항목 그 외 손실 이익 순손실
 - **[c3]** 평가손실 제외하기
 - **[c3]** 평가손실 두 줄을 걷어내면 +397(계산)입니다
   - 숫자 `397` → calc: 같은 계산
 - **[c3]** 주식보상비용 등까지 되돌린 비GAAP 조정순이익은 +2,671입니다.
   - 숫자 `2,671` → s1 text
+- **[c3]** −72,388은 723억 8,800만 달러입니다
+  - 숫자 `72,388` → s1 text
+  - 숫자 `723억 8,800만 달러` → s1 text
+- **[c3]** 1,000은 10억 달러입니다
+  - 숫자 `1,000` → s1 text
+  - 숫자 `10억 달러` → s1 text
 - **[c3]** 
   - 근거 `fin-01` S-1 1326행, 원문 대조 OK: "Revenue $41 $386 $4,585 $1,163 $16,286"
 - **[c3]** 우선주 주당 가격 (달러)
 - **[c3]** 로그 축입니다
-- **[c3]** 눈금 하나가 약 3배이고, 가로 간격은 시간이 아니라 라운드 순서입니다
+- **[c3]** 눈금 하나가 약 3배이고, 가로 간격은 시간이 아니라 라운드 순서입니다.
   - 숫자 `3배` → calc: 제외한 기사 수
 - **[c3]** 시리즈별 첫 번째 클래스 가격이며, 2026년 9월 10대1 주식분할 이전 기준입니다
-- **[c3]** 가격은 센트 단위로 반올림했습니다.
+- **[c3]** 가격은 센트 단위로 반올림했습니다
 - **[c3]** 
   - 근거 `rpt-05` S-1 14375행, 원문 대조 OK: "From March 2023 to June 2023, we sold an aggregate of 39,669,823 shares of our Series C-1 and C-2 redeemable convertible preferred stock at a purchase price of "
   - 근거 `x-ser-d` S-1 14351행, 원문 대조 OK: "From January 2024 to May 2024, we sold an aggregate of 39,978,675 shares of our Series D-1 and D-3 redeemable convertible preferred stock at a purchase price of"
@@ -454,13 +453,13 @@
   - 근거 `rpt-01` S-1 14259행, 원문 대조 OK: "From May 2026 to June 2026, we sold an aggregate of 77,637,878 shares of our Series H-1 redeemable convertible preferred stock at a purchase price of $589.0095 "
   - 근거 `gov-10` S-1 1294행, 원문 대조 OK: "•a one-for-1,000 reverse split of our Class T common stock effected on September 17, 2026;"
 - **[c3]** 분기 영업손익 (백만 달러)
-- **[c3]** 2025년 3분기에는 저작권 소송 합의금 15억 달러가 반영돼 있습니다
+- **[c3]** 2025년 3분기에는 저작권 소송 합의금 15억 달러가 반영돼 있습니다.
   - 숫자 `15억 달러` → s1 text
-- **[c3]** 974는 9억 7,400만 달러입니다.
-  - 숫자 `974` → s1 text
-  - 숫자 `9억 7,400만 달러` → s1 text
 - **[c3]** 빗금: Bartz 저작권 소송 합의금 1,500
   - 숫자 `1,500` → s1 text
+- **[c3]** 974는 9억 7,400만 달러입니다
+  - 숫자 `974` → s1 text
+  - 숫자 `9억 7,400만 달러` → s1 text
 - **[c3]** 
   - 근거 `x-q-op` S-1 8556행, 원문 대조 OK: "Operating income (loss) (935) (1,200) (3,089) (2,836) (1,667) 974"
   - 근거 `mdna-28` S-1 8780행, 원문 대조 OK: "In the three months ended September 30, 2025, we recorded a $1.5 billion charge to settle the Bartz litigation."
@@ -523,22 +522,22 @@
 - **[c4]** 분기 매출 대비 컴퓨트·인프라 비용 (%)
 - **[c4]** 100% 위는 비용이 매출보다 큰 구간입니다
   - 숫자 `100%` → s1 text
-- **[c4]** 2026년 1분기부터 100% 아래이고, 초록 원이 그 분기입니다
+- **[c4]** 2026년 1분기부터 100% 아래이고, 초록 원이 그 분기입니다.
   - 숫자 `100%` → s1 text
-- **[c4]** 중간 분기는 분기표에서 계산했습니다.
+- **[c4]** 중간 분기는 분기표에서 계산했습니다
 - **[c4]** 아래 두 줄의 단위는 백만 달러이고, 비율 = 비용 ÷ 매출입니다
 - **[c4]** 
   - 근거 `mdna-10` S-1 8774행, 원문 대조 OK: "Compute and infrastructure expenses as a percentage of revenue decreased from 251% to 48% over the same period, as revenue growth outpaced the growth of our com"
   - 근거 `x-q-comp` S-1 8510행, 원문 대조 OK: "Compute and infrastructure 944 1,390 2,047 2,945 3,387 5,558"
 - **[c4]** S-1에 이름이 적힌 컴퓨트 계약 (억 달러)
-- **[c4]** 상자 면적은 금액에 비례합니다
+- **[c4]** 막대 길이는 금액에 비례합니다
 - **[c4]** 계약 간 중복이 있을 수 있어 합산하면 안 됩니다.
-- **[c4]** 약정 집행 시점
-- **[c4]** 2026 2030 2031 2045
-- **[c4]** 진한 구간: 2030년 이후 남은 약정이 집행되는 2031~2045년
+- **[c4]** 빗금: 최대 금액 또는 추정치
+- **[c4]** 2030년 이후 남은 약정은 사실상 전부 2031~2045년에 집행됩니다
+- **[c4]** 추가 TPU는 진한 막대가 1,250, 빗금 끝이 1,500입니다
   - 근거 `rf1-13` S-1 1870행, 원문 대조 OK: "substantially all of the remainder is expected to be incurred between 2031 and 2045."
-- **[c4]** 빗금은 최대 금액이거나 추정치입니다
-- **[c4]** 점선 칸은 비어 있는 총액입니다
+  - 숫자 `1,250` → s1 text
+  - 숫자 `1,500` → s1 text
 - **[c4]** 
   - 근거 `mdna-34` S-1 9731행, 원문 대조 OK: "Our rent payments over the life of these leases are equal to an aggregate of approximately $161.2 billion excluding interest"
   - 근거 `mdna-33` S-1 9694행, 원문 대조 OK: "we agreed to spend an aggregate of up to $120.5 billion over terms extending into 2029, consisting of approximately $3.1 billion in the aggregate per month once"
@@ -595,12 +594,13 @@
   - 근거 `notes-06` S-1 22802행, 원문 대조 OK: "In July 2026, the Company entered into a hardware supply framework agreement (the “Hardware Supply Agreement”) with Advanced Micro Devices, Inc. (“AMD”) to purc"
   - 숫자 `50억 달러` → cited fact
 - **[c6]** 아마존·구글·마이크로소프트와의 관계
-- **[c6]** 관계 종류를 눌러 켜고 끌 수 있습니다
-- **[c6]** 원의 크기와 안의 숫자는 지분·자금, 컴퓨트 공급, 고객·유통, 경쟁 가운데 해당하는 관계 수입니다
+- **[c6]** 관계 종류를 눌러 켜고 끌 수 있습니다.
+- **[c6]** 지분·자금 컴퓨트 공급 고객·유통 경쟁
+- **[c6]** 원의 크기와 안의 숫자는 지분·자금 , 컴퓨트 공급 , 고객·유통 , 경쟁 가운데 해당하는 관계 수입니다
 - **[c6]** 위 4가지 역할 가운데 고객과 유통 파트너는 고객·유통 하나로 묶었고, 역할 목록에 없는 컴퓨트 공급을 더했습니다
 - **[c6]** 점선은 아직 집행되지 않은 조건부 자금 약정입니다
-- **[c6]** 채운 점은 관계가 있다는 뜻이고, 점선 원은 조건부 지분·자금입니다.
-- **[c6]** 지분·자금 컴퓨트 공급 고객·유통 경쟁
+- **[c6]** 위 4가지 역할 가운데 고객과 유통 파트너는 고객·유통 하나로 묶었고, 역할 목록에 없는 컴퓨트 공급을 더했습니다
+- **[c6]** 채운 점은 관계가 있다는 뜻이고, 점선 원은 조건부 지분·자금입니다
 - **[c6]** 
   - 근거 `x-csp-roles` S-1 4076행, 원문 대조 OK: "Our relationships with our strategic partners—whether with these CSPs, who simultaneously serve as our investors, customers, distribution partners, and competit"
   - 근거 `rf2-16` S-1 4492행, 원문 대조 OK: "Amazon, Google, and Microsoft provide substantial portions of the compute infrastructure that we use to host our models, platform, and applications and many of "
@@ -817,16 +817,17 @@
 - **[c9]** 이사회는 외부 보안 컨설팅사의 신변 위험 조사 등을 근거로 CEO와 사장의 경호(가족 포함)와 자택 보안 강화를 의무로 정했습니다 .
   - 근거 `comp-06` S-1 13352행, 원문 대조 OK: "In 2025, a leading security consulting firm conducted independent, third-party security studies regarding the personal and security risks of our Chief Executive"
 - **[c9]** 공동창업자 7인, 실질 보유 Class A 주식 (주)
-- **[c9]** 2026년 9월 30일 기준, 공모 전.
-- **[c9]** 신탁·60일 내 옵션·RSU 포함, 다리오 아모데이의 위임 의결권 462만 주는 제외.
-  - 숫자 `462` → s1 text
 - **[c9]** 버튼을 누르면 자선 서약 80%를 겹쳐 볼 수 있습니다.
   - 숫자 `80%` → reviewed: rf2-50·mdna-27 (자선 서약 80%)
 - **[c9]** 80% 서약 겹쳐 보기 차이 확대
   - 숫자 `80%` → reviewed: rf2-50·mdna-27 (자선 서약 80%)
-- **[c9]** 축은 0에서 시작합니다
-- **[c9]** 빗금은 다리오 아모데이의 위임 의결권 462만 주이고, 점선은 톰 브라운의 보유량 위치입니다
+- **[c9]** 2026년 9월 30일 기준, 공모 전.
+- **[c9]** 신탁·60일 내 옵션·RSU 포함, 다리오 아모데이의 위임 의결권 462만 주는 제외.
   - 숫자 `462` → s1 text
+- **[c9]** 축은 0에서 시작합니다
+- **[c9]** 빗금은 다리오 아모데이의 위임 의결권 462만 주입니다
+  - 숫자 `462` → s1 text
+- **[c9]** 점선은 톰 브라운의 보유량 위치입니다
 - **[c9]** 
   - 근거 `x-own-dd` S-1 14661행, 원문 대조 OK: "Dario Amodei(1) †† 240,637,980 — — Shares subject to voting proxies(2) 4,621,120 — — Total 245,259,100 — — —"
   - 근거 `x-own-5` S-1 14743행, 원문 대조 OK: "Tom Brown(12)†† 244,173,040 — — Jack Clark(13)†† 242,271,840 — — Jared Kaplan(14)†† 242,351,170 — — Sam McCandlish(15)†† 231,809,780 — — Christopher Olah(16)†† "
@@ -838,8 +839,8 @@
 - **[c10]** 10 정부 분쟁
 - **[c10]** 연방정부의 사용 중단 조치를 두고 두 법원의 판단이 엇갈렸습니다
 - **[c10]** D.C.
-- **[c10]** 연방순회항소법원 판결 · 지정 적법
-- **[c10]** 2대1 8월 27일 연방지법 · 대체로 승소 9월 25일 항소법원 · 2대1 패소
+- **[c10]** 연방순회항소법원 판결 · 지정 적법 · 한 칸이 판사 1명
+- **[c10]** 2대1 9월 25일 항소법원 · 2대1 패소 반대 1 8월 27일 연방지법 · 대체로 승소
 - **[c10]** 두 판결 사이 · 8월 27일 → 9월 25일 29일 D.C.
 - **[c10]** 연방순회항소법원은 2026년 9월 25일 2대1로 지정이 적법하다고 판결했습니다
 - **[c10]** 캘리포니아 북부 연방지법은 8월 27일 대체로 앤트로픽의 손을 들었습니다
@@ -872,18 +873,18 @@
   - 근거 `rf1-30` S-1 2924행, 원문 대조 OK: "In October 2026, the FTC issued a civil investigative demand to us seeking information about our consumer protection, data protection, and privacy practices, as"
   - 숫자 `13억 8,200만 달러` → s1 text
 - **[c10]** 두 법원의 판단
-- **[c10]** 캘리포니아 북부 연방지법 · 2026.08.27
-- **[c10]** 대체로 승소
-- **[c10]** 대통령 지시와 3252조 지정 등을 1조가 보호하는 발언에 대한 보복이자 적법절차 위반으로 판단
-  - 근거 `biz-27` S-1 11997행, 원문 대조 OK: "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit"
-  - 숫자 `3252` → cited fact
 - **[c10]** D.C.
-- **[c10]** 연방순회항소법원 · 2026.09.25
+- **[c10]** 연방순회항소법원 2026.09.25
 - **[c10]** 2대1 패소
 - **[c10]** 4713조 지정은 적법, 1조·적법절차 침해 없음.
   - 숫자 `4713` → s1 text
 - **[c10]** 전원합의체 재심리 청구
   - 근거 `rf1-20` S-1 3982행, 원문 대조 OK: "On September 25, 2026, in a 2-1 split decision, the D.C. Circuit Court of Appeals denied our petition for review, ruling that the Department of War’s Section 47"
+- **[c10]** 캘리포니아 북부 연방지법 2026.08.27
+- **[c10]** 대체로 승소
+- **[c10]** 대통령 지시와 3252조 지정 등을 1조가 보호하는 발언에 대한 보복이자 적법절차 위반으로 판단
+  - 근거 `biz-27` S-1 11997행, 원문 대조 OK: "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit"
+  - 숫자 `3252` → cited fact
 - **[c10]** 정부·법원 관련 주요 사건 (2025.09 → 2026.10)
 - **[c10]** 정부 조치·불리한 판단 앤트로픽에 유리한 판단 기타 사건
 - **[c10]** 2025.09
@@ -1088,7 +1089,7 @@
 - **[cval]** 한국 명목 GDP IMF 2026년 전망 · 1년 동안의 생산
 - **[cval]** 2.25조 달러
   - 숫자 `2.25` → reviewed: news-imf-2026 (IMF 2조 2,459억 달러)
-- **[cval]** 삼성전자 + SK하이닉스 10월 28일 종가
+- **[cval]** 삼성전자+SK하이닉스 10월 28일 종가
 - **[cval]** 삼성전자 1.06 SK하이닉스 0.79
   - 숫자 `1.06` → calc: 1,414.8조 원 ÷ 1,337.7원 = 1조 576억 달러
   - 숫자 `0.79` → calc: 1,059.8조 원 ÷ 1,337.7원 = 7,922억 달러

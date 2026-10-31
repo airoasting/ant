@@ -1,9 +1,9 @@
 {
  "summary": {
   "sentences": 669,
-  "with_cites": 202,
+  "with_cites": 201,
   "cite_links": 274,
-  "numbers": 327,
+  "numbers": 328,
   "problems": 0
  },
  "problems": [],
@@ -463,32 +463,31 @@
   {
    "section": "kband",
    "sentence": "6월 30일 이후 약 2,450억 달러 추가",
-   "cites": [
-    {
-     "id": "x-note17-cond",
-     "line": 22808,
-     "claim": "2026년 6월 30일 이후 새로 체결하거나 변경한 계약의 최소 지급 의무는 약 2,450억 달러입니다. 이 가운데 일부는 계약 조건 충족을 전제로 합니다.",
-     "quote": "and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $245 billion, with some arrangements subject to certain contractual conditions being met. These primarily",
-     "quote_in_s1": true,
-     "external": false
-    }
-   ],
+   "cites": [],
    "numbers": [
     {
      "token": "2,450억 달러",
-     "verified_by": "cited fact"
+     "verified_by": "s1 text"
     }
    ]
   },
   {
    "section": "kband",
-   "sentence": "2026년 1월~6월 1일에 새로 체결하거나 변경한 계약의 최소 지급 의무  6월 1일까지 4,170억 6월 30일 이후 2,450억 진한 부분은 6월 1일까지 체결분 4,170억, 옅은 부분은 6월 30일 이후 추가분 2,450억 달러 사실 05 →",
+   "sentence": "2026년 1월~6월 1일에 새로 체결하거나 변경한 계약의 최소 지급 의무   6월 1일까지 4,170억 6월 30일 이후 2,450억 진한 부분은 6월 1일까지 체결분 4,170억, 옅은 부분은 6월 30일 이후 추가분 2,450억 달러 사실 05 →",
    "cites": [
     {
      "id": "notes-03",
      "line": 22696,
      "claim": "2025년 말 이후(감사 재무제표 후속사건 기준) 새로 체결하거나 변경한 리스·상업 계약의 미래 최소 지급 의무는 약 4,170억 달러입니다.",
      "quote": "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $417 billion.",
+     "quote_in_s1": true,
+     "external": false
+    },
+    {
+     "id": "x-note17-cond",
+     "line": 22808,
+     "claim": "2026년 6월 30일 이후 새로 체결하거나 변경한 계약의 최소 지급 의무는 약 2,450억 달러입니다. 이 가운데 일부는 계약 조건 충족을 전제로 합니다.",
+     "quote": "and amended existing, lease and commercial agreements primarily to secure additional compute and infrastructure capacity, with aggregate future minimum payment obligations of approximately $245 billion, with some arrangements subject to certain contractual conditions being met. These primarily",
      "quote_in_s1": true,
      "external": false
     },
@@ -516,7 +515,7 @@
     },
     {
      "token": "2,450억 달러",
-     "verified_by": "s1 text"
+     "verified_by": "cited fact"
     }
    ]
   },
@@ -745,7 +744,7 @@
   },
   {
    "section": "c2",
-   "sentence": "14배 1년 전 11억 6,300만 2026년 상반기 162억 8,600만",
+   "sentence": "14배 1년 전 11억 6,300만 달러 2026년 상반기 162억 8,600만 달러",
    "cites": [],
    "numbers": [
     {
@@ -753,16 +752,12 @@
      "verified_by": "calc: 162억 8,600만 ÷ 11억 6,300만 = 14.0 (2026년 상반기 vs 2025년 상반기, S-1 1,300%)"
     },
     {
-     "token": "6,300",
-     "verified_by": "reviewed: 사실 01 리드 행 .k의 반기 매출 11억 6,300만 달러(근거 표시 있음)를 막대 끝 라벨에 반복"
-    },
-    {
-     "token": "162",
+     "token": "11억 6,300만 달러",
      "verified_by": "s1 text"
     },
     {
-     "token": "8,600",
-     "verified_by": "reviewed: 사실 01 리드 행 .k의 반기 매출 162억 8,600만 달러(근거 표시 있음)를 막대 끝 라벨에 반복"
+     "token": "162억 8,600만 달러",
+     "verified_by": "s1 text"
     }
    ]
   },
@@ -1118,24 +1113,9 @@
   },
   {
    "section": "c2",
-   "sentence": "점선 막대는 S-1이 비워 둔 2026년 3분기입니다",
+   "sentence": "점선 막대는 S-1이 비워 둔 2026년 3분기입니다.",
    "cites": [],
    "numbers": []
-  },
-  {
-   "section": "c2",
-   "sentence": "1,000은 10억 달러입니다.",
-   "cites": [],
-   "numbers": [
-    {
-     "token": "1,000",
-     "verified_by": "s1 text"
-    },
-    {
-     "token": "10억 달러",
-     "verified_by": "s1 text"
-    }
-   ]
   },
   {
    "section": "c2",
@@ -1148,6 +1128,21 @@
    "sentence": "선형 축 로그 축",
    "cites": [],
    "numbers": []
+  },
+  {
+   "section": "c2",
+   "sentence": "1,000은 10억 달러입니다",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "1,000",
+     "verified_by": "s1 text"
+    },
+    {
+     "token": "10억 달러",
+     "verified_by": "s1 text"
+    }
+   ]
   },
   {
    "section": "c2",
@@ -1591,7 +1586,7 @@
   },
   {
    "section": "c5",
-   "sentence": "두 원은 1년 간격(2025.09 → 2026.09)입니다.",
+   "sentence": "두 원은 1년 간격(2025.09 → 2026.09) 입니다.",
    "cites": [],
    "numbers": []
   },
@@ -1644,11 +1639,11 @@
   },
   {
    "section": "c5",
-   "sentence": "≈250 1,000만 달러 이상",
+   "sentence": "≈250곳 1,000만 달러 이상",
    "cites": [],
    "numbers": [
     {
-     "token": "250",
+     "token": "250곳",
      "verified_by": "s1 text"
     },
     {
@@ -1659,11 +1654,11 @@
   },
   {
    "section": "c5",
-   "sentence": "1,900+ 100만 달러 이상",
+   "sentence": "1,900곳+ 100만 달러 이상",
    "cites": [],
    "numbers": [
     {
-     "token": "1,900",
+     "token": "1,900곳",
      "verified_by": "s1 text"
     },
     {
@@ -1674,11 +1669,11 @@
   },
   {
    "section": "c5",
-   "sentence": "11,900+ 10만 달러 이상",
+   "sentence": "1만 1,900곳+ 10만 달러 이상",
    "cites": [],
    "numbers": [
     {
-     "token": "11,900",
+     "token": "1,900곳",
      "verified_by": "s1 text"
     },
     {
@@ -2573,39 +2568,9 @@
   },
   {
    "section": "c3",
-   "sentence": "기타 영업외 항목도 주로 노트 매입 계약의 공정가치 인식분입니다",
+   "sentence": "기타 영업외 항목도 주로 노트 매입 계약의 공정가치 인식분입니다.",
    "cites": [],
    "numbers": []
-  },
-  {
-   "section": "c3",
-   "sentence": "−72,388은 723억 8,800만 달러입니다",
-   "cites": [],
-   "numbers": [
-    {
-     "token": "72,388",
-     "verified_by": "s1 text"
-    },
-    {
-     "token": "723억 8,800만 달러",
-     "verified_by": "s1 text"
-    }
-   ]
-  },
-  {
-   "section": "c3",
-   "sentence": "1,000은 10억 달러입니다.",
-   "cites": [],
-   "numbers": [
-    {
-     "token": "1,000",
-     "verified_by": "s1 text"
-    },
-    {
-     "token": "10억 달러",
-     "verified_by": "s1 text"
-    }
-   ]
   },
   {
    "section": "c3",
@@ -2643,6 +2608,36 @@
   },
   {
    "section": "c3",
+   "sentence": "−72,388은 723억 8,800만 달러입니다",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "72,388",
+     "verified_by": "s1 text"
+    },
+    {
+     "token": "723억 8,800만 달러",
+     "verified_by": "s1 text"
+    }
+   ]
+  },
+  {
+   "section": "c3",
+   "sentence": "1,000은 10억 달러입니다",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "1,000",
+     "verified_by": "s1 text"
+    },
+    {
+     "token": "10억 달러",
+     "verified_by": "s1 text"
+    }
+   ]
+  },
+  {
+   "section": "c3",
    "sentence": "",
    "cites": [
     {
@@ -2670,7 +2665,7 @@
   },
   {
    "section": "c3",
-   "sentence": "눈금 하나가 약 3배이고, 가로 간격은 시간이 아니라 라운드 순서입니다",
+   "sentence": "눈금 하나가 약 3배이고, 가로 간격은 시간이 아니라 라운드 순서입니다.",
    "cites": [],
    "numbers": [
     {
@@ -2687,7 +2682,7 @@
   },
   {
    "section": "c3",
-   "sentence": "가격은 센트 단위로 반올림했습니다.",
+   "sentence": "가격은 센트 단위로 반올림했습니다",
    "cites": [],
    "numbers": []
   },
@@ -2762,26 +2757,11 @@
   },
   {
    "section": "c3",
-   "sentence": "2025년 3분기에는 저작권 소송 합의금 15억 달러가 반영돼 있습니다",
+   "sentence": "2025년 3분기에는 저작권 소송 합의금 15억 달러가 반영돼 있습니다.",
    "cites": [],
    "numbers": [
     {
      "token": "15억 달러",
-     "verified_by": "s1 text"
-    }
-   ]
-  },
-  {
-   "section": "c3",
-   "sentence": "974는 9억 7,400만 달러입니다.",
-   "cites": [],
-   "numbers": [
-    {
-     "token": "974",
-     "verified_by": "s1 text"
-    },
-    {
-     "token": "9억 7,400만 달러",
      "verified_by": "s1 text"
     }
    ]
@@ -2793,6 +2773,21 @@
    "numbers": [
     {
      "token": "1,500",
+     "verified_by": "s1 text"
+    }
+   ]
+  },
+  {
+   "section": "c3",
+   "sentence": "974는 9억 7,400만 달러입니다",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "974",
+     "verified_by": "s1 text"
+    },
+    {
+     "token": "9억 7,400만 달러",
      "verified_by": "s1 text"
     }
    ]
@@ -3213,7 +3208,7 @@
   },
   {
    "section": "c4",
-   "sentence": "2026년 1분기부터 100% 아래이고, 초록 원이 그 분기입니다",
+   "sentence": "2026년 1분기부터 100% 아래이고, 초록 원이 그 분기입니다.",
    "cites": [],
    "numbers": [
     {
@@ -3224,7 +3219,7 @@
   },
   {
    "section": "c4",
-   "sentence": "중간 분기는 분기표에서 계산했습니다.",
+   "sentence": "중간 분기는 분기표에서 계산했습니다",
    "cites": [],
    "numbers": []
   },
@@ -3265,7 +3260,7 @@
   },
   {
    "section": "c4",
-   "sentence": "상자 면적은 금액에 비례합니다",
+   "sentence": "막대 길이는 금액에 비례합니다",
    "cites": [],
    "numbers": []
   },
@@ -3277,19 +3272,19 @@
   },
   {
    "section": "c4",
-   "sentence": "약정 집행 시점",
+   "sentence": "빗금: 최대 금액 또는 추정치",
    "cites": [],
    "numbers": []
   },
   {
    "section": "c4",
-   "sentence": "2026 2030 2031 2045",
+   "sentence": "2030년 이후 남은 약정은 사실상 전부 2031~2045년에 집행됩니다",
    "cites": [],
    "numbers": []
   },
   {
    "section": "c4",
-   "sentence": "진한 구간: 2030년 이후 남은 약정이 집행되는 2031~2045년",
+   "sentence": "추가 TPU는 진한 막대가 1,250, 빗금 끝이 1,500입니다",
    "cites": [
     {
      "id": "rf1-13",
@@ -3300,19 +3295,16 @@
      "external": false
     }
    ],
-   "numbers": []
-  },
-  {
-   "section": "c4",
-   "sentence": "빗금은 최대 금액이거나 추정치입니다",
-   "cites": [],
-   "numbers": []
-  },
-  {
-   "section": "c4",
-   "sentence": "점선 칸은 비어 있는 총액입니다",
-   "cites": [],
-   "numbers": []
+   "numbers": [
+    {
+     "token": "1,250",
+     "verified_by": "s1 text"
+    },
+    {
+     "token": "1,500",
+     "verified_by": "s1 text"
+    }
+   ]
   },
   {
    "section": "c4",
@@ -3686,13 +3678,19 @@
   },
   {
    "section": "c6",
-   "sentence": "관계 종류를 눌러 켜고 끌 수 있습니다",
+   "sentence": "관계 종류를 눌러 켜고 끌 수 있습니다.",
    "cites": [],
    "numbers": []
   },
   {
    "section": "c6",
-   "sentence": "원의 크기와 안의 숫자는 지분·자금, 컴퓨트 공급, 고객·유통, 경쟁 가운데 해당하는 관계 수입니다",
+   "sentence": "지분·자금 컴퓨트 공급 고객·유통 경쟁",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c6",
+   "sentence": "원의 크기와 안의 숫자는 지분·자금 , 컴퓨트 공급 , 고객·유통 , 경쟁 가운데 해당하는 관계 수입니다",
    "cites": [],
    "numbers": []
   },
@@ -3710,13 +3708,13 @@
   },
   {
    "section": "c6",
-   "sentence": "채운 점은 관계가 있다는 뜻이고, 점선 원은 조건부 지분·자금입니다.",
+   "sentence": "위 4가지 역할 가운데 고객과 유통 파트너는 고객·유통 하나로 묶었고, 역할 목록에 없는 컴퓨트 공급을 더했습니다",
    "cites": [],
    "numbers": []
   },
   {
    "section": "c6",
-   "sentence": "지분·자금 컴퓨트 공급 고객·유통 경쟁",
+   "sentence": "채운 점은 관계가 있다는 뜻이고, 점선 원은 조건부 지분·자금입니다",
    "cites": [],
    "numbers": []
   },
@@ -5125,23 +5123,6 @@
   },
   {
    "section": "c9",
-   "sentence": "2026년 9월 30일 기준, 공모 전.",
-   "cites": [],
-   "numbers": []
-  },
-  {
-   "section": "c9",
-   "sentence": "신탁·60일 내 옵션·RSU 포함, 다리오 아모데이의 위임 의결권 462만 주는 제외.",
-   "cites": [],
-   "numbers": [
-    {
-     "token": "462",
-     "verified_by": "s1 text"
-    }
-   ]
-  },
-  {
-   "section": "c9",
    "sentence": "버튼을 누르면 자선 서약 80%를 겹쳐 볼 수 있습니다.",
    "cites": [],
    "numbers": [
@@ -5164,13 +5145,13 @@
   },
   {
    "section": "c9",
-   "sentence": "축은 0에서 시작합니다",
+   "sentence": "2026년 9월 30일 기준, 공모 전.",
    "cites": [],
    "numbers": []
   },
   {
    "section": "c9",
-   "sentence": "빗금은 다리오 아모데이의 위임 의결권 462만 주이고, 점선은 톰 브라운의 보유량 위치입니다",
+   "sentence": "신탁·60일 내 옵션·RSU 포함, 다리오 아모데이의 위임 의결권 462만 주는 제외.",
    "cites": [],
    "numbers": [
     {
@@ -5178,6 +5159,29 @@
      "verified_by": "s1 text"
     }
    ]
+  },
+  {
+   "section": "c9",
+   "sentence": "축은 0에서 시작합니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c9",
+   "sentence": "빗금은 다리오 아모데이의 위임 의결권 462만 주입니다",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "462",
+     "verified_by": "s1 text"
+    }
+   ]
+  },
+  {
+   "section": "c9",
+   "sentence": "점선은 톰 브라운의 보유량 위치입니다",
+   "cites": [],
+   "numbers": []
   },
   {
    "section": "c9",
@@ -5254,13 +5258,13 @@
   },
   {
    "section": "c10",
-   "sentence": "연방순회항소법원 판결 · 지정 적법",
+   "sentence": "연방순회항소법원 판결 · 지정 적법 · 한 칸이 판사 1명",
    "cites": [],
    "numbers": []
   },
   {
    "section": "c10",
-   "sentence": "2대1 8월 27일 연방지법 · 대체로 승소 9월 25일 항소법원 · 2대1 패소",
+   "sentence": "2대1 9월 25일 항소법원 · 2대1 패소 반대 1 8월 27일 연방지법 · 대체로 승소",
    "cites": [],
    "numbers": []
   },
@@ -5483,45 +5487,13 @@
   },
   {
    "section": "c10",
-   "sentence": "캘리포니아 북부 연방지법 · 2026.08.27",
-   "cites": [],
-   "numbers": []
-  },
-  {
-   "section": "c10",
-   "sentence": "대체로 승소",
-   "cites": [],
-   "numbers": []
-  },
-  {
-   "section": "c10",
-   "sentence": "대통령 지시와 3252조 지정 등을 1조가 보호하는 발언에 대한 보복이자 적법절차 위반으로 판단",
-   "cites": [
-    {
-     "id": "biz-27",
-     "line": 11997,
-     "claim": "2026년 8월 27일 캘리포니아 북부 연방지법은 대부분 앤트로픽의 손을 들어줬습니다. 법원은 정부 조치(대통령 지시, 전쟁부의 3252조 공급망 위험 지정 등)가 수정헌법 1조로 보호되는 발언에 대한 보복이라고 판단했습니다. 이 조치가 적법절차를 어겼다고도 봤습니다. 이와 별도로 앤트로픽은 4713조 지정을 두고 D.C. 순회항소법원에 심사를 청구했습니다. 그러나 이 청구는 2026년 9월 25일 2대 1로 기각됐습니다. 항소법원은 4713조 공급망 위험 지정이 적법하고, 수정헌법 1조·적법절차 권리 침해도 없다고 봤습니다. 앤트로픽은 전원합의체 재심리를 신청했습니다.",
-     "quote": "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit",
-     "quote_in_s1": true,
-     "external": false
-    }
-   ],
-   "numbers": [
-    {
-     "token": "3252",
-     "verified_by": "cited fact"
-    }
-   ]
-  },
-  {
-   "section": "c10",
    "sentence": "D.C.",
    "cites": [],
    "numbers": []
   },
   {
    "section": "c10",
-   "sentence": "연방순회항소법원 · 2026.09.25",
+   "sentence": "연방순회항소법원 2026.09.25",
    "cites": [],
    "numbers": []
   },
@@ -5556,6 +5528,38 @@
     }
    ],
    "numbers": []
+  },
+  {
+   "section": "c10",
+   "sentence": "캘리포니아 북부 연방지법 2026.08.27",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c10",
+   "sentence": "대체로 승소",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c10",
+   "sentence": "대통령 지시와 3252조 지정 등을 1조가 보호하는 발언에 대한 보복이자 적법절차 위반으로 판단",
+   "cites": [
+    {
+     "id": "biz-27",
+     "line": 11997,
+     "claim": "2026년 8월 27일 캘리포니아 북부 연방지법은 대부분 앤트로픽의 손을 들어줬습니다. 법원은 정부 조치(대통령 지시, 전쟁부의 3252조 공급망 위험 지정 등)가 수정헌법 1조로 보호되는 발언에 대한 보복이라고 판단했습니다. 이 조치가 적법절차를 어겼다고도 봤습니다. 이와 별도로 앤트로픽은 4713조 지정을 두고 D.C. 순회항소법원에 심사를 청구했습니다. 그러나 이 청구는 2026년 9월 25일 2대 1로 기각됐습니다. 항소법원은 4713조 공급망 위험 지정이 적법하고, 수정헌법 1조·적법절차 권리 침해도 없다고 봤습니다. 앤트로픽은 전원합의체 재심리를 신청했습니다.",
+     "quote": "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": [
+    {
+     "token": "3252",
+     "verified_by": "cited fact"
+    }
+   ]
   },
   {
    "section": "c10",
@@ -6851,7 +6855,7 @@
   },
   {
    "section": "cval",
-   "sentence": "삼성전자 + SK하이닉스 10월 28일 종가",
+   "sentence": "삼성전자+SK하이닉스 10월 28일 종가",
    "cites": [],
    "numbers": []
   },

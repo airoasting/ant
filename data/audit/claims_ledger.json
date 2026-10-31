@@ -1,9 +1,9 @@
 {
  "summary": {
-  "sentences": 669,
+  "sentences": 679,
   "with_cites": 201,
   "cite_links": 274,
-  "numbers": 328,
+  "numbers": 332,
   "problems": 0
  },
  "problems": [],
@@ -1739,7 +1739,7 @@
   },
   {
    "section": "c1",
-   "sentence": "90%+ Claude 90%+ 나머지",
+   "sentence": "90%+ Claude 90%+ 나머지 10% 이하",
    "cites": [],
    "numbers": [
     {
@@ -1749,6 +1749,10 @@
     {
      "token": "90%",
      "verified_by": "reviewed: mdna-12 (S-1 \"over 90%\"), 표기는 90% 이상·90%+"
+    },
+    {
+     "token": "10%",
+     "verified_by": "reviewed: uw-02 (첫 거래일 최대 10%)"
     }
    ]
   },
@@ -5264,7 +5268,7 @@
   },
   {
    "section": "c10",
-   "sentence": "2대1 9월 25일 항소법원 · 2대1 패소 반대 1 8월 27일 연방지법 · 대체로 승소",
+   "sentence": "2대1 9월 25일 항소법원 2대1 패소 · 반대 1 8월 27일 연방지법 대체로 승소",
    "cites": [],
    "numbers": []
   },
@@ -5569,6 +5573,18 @@
   },
   {
    "section": "c10",
+   "sentence": "날짜순으로 놓았습니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c10",
+   "sentence": "점 색은 판단이 앤트로픽에 불리했는지 유리했는지를 나눕니다.",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c10",
    "sentence": "정부 조치·불리한 판단 앤트로픽에 유리한 판단 기타 사건",
    "cites": [],
    "numbers": []
@@ -5598,6 +5614,12 @@
      "verified_by": "cited fact"
     }
    ]
+  },
+  {
+   "section": "c10",
+   "sentence": "2026",
+   "cites": [],
+   "numbers": []
   },
   {
    "section": "c10",
@@ -6405,6 +6427,106 @@
   },
   {
    "section": "c12",
+   "sentence": "점은 해제 순서이고, 간격은 기간과 무관합니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c12",
+   "sentence": "위에서 아래로 해제 순서입니다.",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c12",
+   "sentence": "첫날 최대 10%",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "10%",
+     "verified_by": "reviewed: uw-02 (첫 거래일 최대 10%)"
+    }
+   ]
+  },
+  {
+   "section": "c12",
+   "sentence": "27일 일부 주주",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c12",
+   "sentence": "48일 일부 주주",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c12",
+   "sentence": "62일 일부 주주",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c12",
+   "sentence": "76일 일부 주주",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c12",
+   "sentence": "26년 실적 연간 실적 후",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c12",
+   "sentence": "180일 창업자 최대 29%",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "180일",
+     "verified_by": "s1 text"
+    },
+    {
+     "token": "29%",
+     "verified_by": "reviewed: uw-01 (최대 29%)"
+    }
+   ]
+  },
+  {
+   "section": "c12",
+   "sentence": "365일 창업자",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "365일",
+     "verified_by": "s1 text"
+    }
+   ]
+  },
+  {
+   "section": "c12",
+   "sentence": "최대 10% 일부 주주 일부 주주 일부 주주 일부 주주 연간 실적 후 창업자 최대 29% 창업자",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "10%",
+     "verified_by": "reviewed: uw-02 (첫 거래일 최대 10%)"
+    },
+    {
+     "token": "29%",
+     "verified_by": "reviewed: uw-01 (최대 29%)"
+    }
+   ]
+  },
+  {
+   "section": "c12",
+   "sentence": "창업자 외 창업자 일부 창업자",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c12",
    "sentence": "첫 거래일에는 창업자가 아닌 이사·임원과 일부 직원 물량(최대 10%)부터 풀립니다",
    "cites": [],
    "numbers": [
@@ -6433,7 +6555,7 @@
   },
   {
    "section": "c12",
-   "sentence": "다만 2027년 1분기 실적 발표 후와 180일째 중 이른 시점부터는 최대 29%를 매도할 수 있습니다",
+   "sentence": "다만 2027년 1분기 실적 발표 후와 180일째 중 이른 시점부터는 최대 29%를 매도할 수 있습니다.",
    "cites": [],
    "numbers": [
     {
@@ -6443,51 +6565,6 @@
     {
      "token": "29%",
      "verified_by": "reviewed: uw-01 (최대 29%)"
-    }
-   ]
-  },
-  {
-   "section": "c12",
-   "sentence": "점은 해제 순서이고, 간격은 기간과 무관합니다(물량은 빈칸).",
-   "cites": [],
-   "numbers": []
-  },
-  {
-   "section": "c12",
-   "sentence": "26년 실적",
-   "cites": [],
-   "numbers": []
-  },
-  {
-   "section": "c12",
-   "sentence": "180일",
-   "cites": [],
-   "numbers": [
-    {
-     "token": "180일",
-     "verified_by": "s1 text"
-    }
-   ]
-  },
-  {
-   "section": "c12",
-   "sentence": "365일",
-   "cites": [],
-   "numbers": [
-    {
-     "token": "365일",
-     "verified_by": "s1 text"
-    }
-   ]
-  },
-  {
-   "section": "c12",
-   "sentence": "최대 10% 일부 주주 일부 주주 일부 주주 일부 주주 연간 실적 후 1분기 실적 후 창업자",
-   "cites": [],
-   "numbers": [
-    {
-     "token": "10%",
-     "verified_by": "reviewed: uw-02 (첫 거래일 최대 10%)"
     }
    ]
   },
@@ -7574,7 +7651,7 @@
   },
   {
    "section": "c11",
-   "sentence": "Fortune이 2분기 매출을 컴퓨트 비용으로 나눠 산출한 값",
+   "sentence": "Fortune이 2분기 매출을 컴퓨트 비용으로 나눠 산출한 값입니다.",
    "cites": [],
    "numbers": []
   },

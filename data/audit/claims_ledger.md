@@ -1,6 +1,6 @@
 # 문장 단위 근거 원장
 
-문장 669개, 인용 연결 274개, 숫자 328개, 문제 0건
+문장 679개, 인용 연결 274개, 숫자 332개, 문제 0건
 
 - **[top]** AI ROASTING
 - **[top]** Form S-1 Anthropic, PBC 2026.10.26 SEC 공개 제출 Nasdaq ANT
@@ -288,9 +288,10 @@
   - 숫자 `90%` → reviewed: mdna-12 (S-1 "over 90%"), 표기는 90% 이상·90%+
 - **[c1]** 2026년 9월 코드 기여 가운데 Claude 몫
   - 근거 `mdna-12` S-1 7039행, 원문 대조 OK: "over 90% of the contributions to our codebase in September 2026 were written by Claude."
-- **[c1]** 90%+ Claude 90%+ 나머지
+- **[c1]** 90%+ Claude 90%+ 나머지 10% 이하
   - 숫자 `90%` → reviewed: mdna-12 (S-1 "over 90%"), 표기는 90% 이상·90%+
   - 숫자 `90%` → reviewed: mdna-12 (S-1 "over 90%"), 표기는 90% 이상·90%+
+  - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
 - **[c1]** 2026년 3분기 매출 · 2024년 4분기 대비 86배 2026년 3분기 매출은 2024년 4분기 매출의 86배입니다
   - 숫자 `86배` → reviewed: biz-18 (S-1 10186행 "86 times")
   - 숫자 `86배` → reviewed: biz-18 (S-1 10186행 "86 times")
@@ -840,7 +841,7 @@
 - **[c10]** 연방정부의 사용 중단 조치를 두고 두 법원의 판단이 엇갈렸습니다
 - **[c10]** D.C.
 - **[c10]** 연방순회항소법원 판결 · 지정 적법 · 한 칸이 판사 1명
-- **[c10]** 2대1 9월 25일 항소법원 · 2대1 패소 반대 1 8월 27일 연방지법 · 대체로 승소
+- **[c10]** 2대1 9월 25일 항소법원 2대1 패소 · 반대 1 8월 27일 연방지법 대체로 승소
 - **[c10]** 두 판결 사이 · 8월 27일 → 9월 25일 29일 D.C.
 - **[c10]** 연방순회항소법원은 2026년 9월 25일 2대1로 지정이 적법하다고 판결했습니다
 - **[c10]** 캘리포니아 북부 연방지법은 8월 27일 대체로 앤트로픽의 손을 들었습니다
@@ -886,11 +887,14 @@
   - 근거 `biz-27` S-1 11997행, 원문 대조 OK: "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit"
   - 숫자 `3252` → cited fact
 - **[c10]** 정부·법원 관련 주요 사건 (2025.09 → 2026.10)
+- **[c10]** 날짜순으로 놓았습니다
+- **[c10]** 점 색은 판단이 앤트로픽에 불리했는지 유리했는지를 나눕니다.
 - **[c10]** 정부 조치·불리한 판단 앤트로픽에 유리한 판단 기타 사건
 - **[c10]** 2025.09
 - **[c10]** Bartz 저작권 집단소송 15억 달러 합의
   - 근거 `rf2-24` S-1 5053행, 원문 대조 OK: "in September 2025, we reached an agreement to settle a copyright infringement class action, captioned Bartz, et al. v. Anthropic PBC (“Bartz”), for $1.5 billion"
   - 숫자 `15억 달러` → cited fact
+- **[c10]** 2026
 - **[c10]** 2026.02.27
 - **[c10]** 대통령, 연방기관에 사용 중단 지시.
 - **[c10]** 공급망 위험 지정
@@ -1012,22 +1016,32 @@
 - **[c12]** 
   - 근거 `gap-48` S-1 11937행, 원문 대조 OK: "Our headquarters is located in San Francisco, California. We also maintain international offices in Europe and"
 - **[c12]** 보호예수 해제 순서
+- **[c12]** 점은 해제 순서이고, 간격은 기간과 무관합니다
+- **[c12]** 위에서 아래로 해제 순서입니다.
+- **[c12]** 첫날 최대 10%
+  - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
+- **[c12]** 27일 일부 주주
+- **[c12]** 48일 일부 주주
+- **[c12]** 62일 일부 주주
+- **[c12]** 76일 일부 주주
+- **[c12]** 26년 실적 연간 실적 후
+- **[c12]** 180일 창업자 최대 29%
+  - 숫자 `180일` → s1 text
+  - 숫자 `29%` → reviewed: uw-01 (최대 29%)
+- **[c12]** 365일 창업자
+  - 숫자 `365일` → s1 text
+- **[c12]** 최대 10% 일부 주주 일부 주주 일부 주주 일부 주주 연간 실적 후 창업자 최대 29% 창업자
+  - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
+  - 숫자 `29%` → reviewed: uw-01 (최대 29%)
+- **[c12]** 창업자 외 창업자 일부 창업자
 - **[c12]** 첫 거래일에는 창업자가 아닌 이사·임원과 일부 직원 물량(최대 10%)부터 풀립니다
   - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
 - **[c12]** 이후 일부 주주 물량은 투자설명서 일자 후 27·48·62·76일차와 2026년 연간 실적 발표 뒤에 단계적으로 해제됩니다
 - **[c12]** 창업자는 최대 365일 묶입니다
   - 숫자 `365일` → s1 text
-- **[c12]** 다만 2027년 1분기 실적 발표 후와 180일째 중 이른 시점부터는 최대 29%를 매도할 수 있습니다
+- **[c12]** 다만 2027년 1분기 실적 발표 후와 180일째 중 이른 시점부터는 최대 29%를 매도할 수 있습니다.
   - 숫자 `180일` → s1 text
   - 숫자 `29%` → reviewed: uw-01 (최대 29%)
-- **[c12]** 점은 해제 순서이고, 간격은 기간과 무관합니다(물량은 빈칸).
-- **[c12]** 26년 실적
-- **[c12]** 180일
-  - 숫자 `180일` → s1 text
-- **[c12]** 365일
-  - 숫자 `365일` → s1 text
-- **[c12]** 최대 10% 일부 주주 일부 주주 일부 주주 일부 주주 연간 실적 후 1분기 실적 후 창업자
-  - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
 - **[c12]** 
   - 근거 `uw-02` S-1 16613행, 원문 대조 OK: "up to 10% of the aggregate number of lock-up securities held by"
   - 근거 `gap-44` S-1 15874행, 원문 대조 OK: "Up to shares of Class A common stock held by our non-founder directors and officers and certain of our current and former employees and consultants, representin"
@@ -1214,7 +1228,7 @@
   - 근거 `biz-14` S-1 10716행, 원문 대조 OK: "ended September 30, 2026, Claude Enterprise users who did not use Claude Code spent less than $75 per"
 - **[c11]** 컴퓨트 1달러당 2.08달러
   - 숫자 `2.08` → reviewed: 보도 숫자: Fortune 계산 11,555 ÷ 5,558 = 2.079
-- **[c11]** Fortune이 2분기 매출을 컴퓨트 비용으로 나눠 산출한 값
+- **[c11]** Fortune이 2분기 매출을 컴퓨트 비용으로 나눠 산출한 값입니다.
 - **[c11]** S-1에는 없는 계산값입니다
 - **[c11]** S-1이 제시한 수치는 비율 251%→48%입니다
   - 숫자 `251%` → calc: 944 ÷ 376

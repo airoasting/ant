@@ -1,6 +1,6 @@
 # 문장 단위 근거 원장
 
-문장 679개, 인용 연결 274개, 숫자 332개, 문제 0건
+문장 679개, 인용 연결 273개, 숫자 353개, 문제 0건
 
 - **[top]** AI ROASTING
 - **[top]** Form S-1 Anthropic, PBC 2026.10.26 SEC 공개 제출 Nasdaq ANT
@@ -93,27 +93,27 @@
   - 근거 `gov-01` S-1 122행, 원문 대조 OK: "will be entitled to an aggregate number of votes that equals 50.1% of the total voting power of our outstanding shares of capital stock"
   - 숫자 `50.1%` → cited fact
   - 숫자 `49.9%` → calc: 100 − 50.1 (S-1 원문에도 49.9%)
-- **[ftrack]** 비공개 초안 여섯 번, 공개본 한 번 SEC 전자공시시스템(EDGAR) 제출 이력
+- **[ftrack]** 비공개 초안 여섯 번, 공개본 한 번 SEC 전자공시시스템(EDGAR) 제출 이력 · 2026년
   - 근거 `edgar-hist` (S-1 밖 출처): "2026-10-26 S-1 · 2026-10-09 DRS/A · 2026-10-01 DRS/A · 2026-09-04 DRS/A · 2026-08-10 DRS/A · 2026-07-13 DRS/A · 2026-06-01 DRS"
 - **[ftrack]** 비공개 초안
-- **[ftrack]** 06.01
+- **[ftrack]** 2026년 06.01
 - **[ftrack]** DRS/A
 - **[ftrack]** 비공개 수정 초안
-- **[ftrack]** 07.13
+- **[ftrack]** 2026년 07.13
 - **[ftrack]** DRS/A
 - **[ftrack]** 비공개 수정 초안
-- **[ftrack]** 08.10
+- **[ftrack]** 2026년 08.10
 - **[ftrack]** DRS/A
 - **[ftrack]** 비공개 수정 초안
-- **[ftrack]** 09.04
+- **[ftrack]** 2026년 09.04
 - **[ftrack]** DRS/A
 - **[ftrack]** 비공개 수정 초안
-- **[ftrack]** 10.01
+- **[ftrack]** 2026년 10.01
 - **[ftrack]** DRS/A
 - **[ftrack]** 비공개 수정 초안
-- **[ftrack]** 10.09
+- **[ftrack]** 2026년 10.09
 - **[ftrack]** 공개 증권신고서
-- **[ftrack]** 10.26
+- **[ftrack]** 2026년 10.26
 - **[act1]** 성장의 속도
 - **[act1]** 01 매출
 - **[act1]** 02 고객
@@ -126,7 +126,7 @@
   - 숫자 `14배` → calc: 162억 8,600만 ÷ 11억 6,300만 = 14.0 (2026년 상반기 vs 2025년 상반기, S-1 1,300%)
   - 숫자 `11억 6,300만 달러` → s1 text
   - 숫자 `162억 8,600만 달러` → s1 text
-- **[c2]** 분기 매출 · 2025년 1분기 → 2026년 2분기 30.7배 분기 매출은 2025년 1분기 3억 7,600만 달러에서 2026년 2분기 115억 5,500만 달러로 늘었습니다
+- **[c2]** 분기 매출 · 2025년 1분기 → 2026년 2분기 약 30.7배 분기 매출은 2025년 1분기 3억 7,600만 달러에서 2026년 2분기 115억 5,500만 달러로 늘었습니다
   - 숫자 `30.7배` → calc: 11,555 ÷ 376
   - 숫자 `3억 7,600만 달러` → s1 text
   - 숫자 `115억 5,500만 달러` → s1 text
@@ -159,7 +159,7 @@
   - 숫자 `30.7배` → calc: 11,555 ÷ 376
 - **[c2]** 2026년 3분기 매출은 본문에 $ S-1에 공란 로 비어 있습니다 .
   - 근거 `mdna-01` S-1 6933행, 원문 대조 OK: "revenue growing from $0 at commercial launch in the first quarter of 2023 to $ for the three months ended September 30, 2026."
-- **[c2]** 다만 S-1은 이 분기 매출이 2024년 4분기 매출의 86배라고 적었습니다 . 2024년 4분기 매출 1억 9,700만 달러 에 86을 곱하면 약 169억 달러 가 나옵니다 .
+- **[c2]** 다만 S-1은 이 분기 매출이 2024년 4분기 매출의 86배라고 적었습니다 . 2024년 4분기 매출 1억 9,700만 달러에 86을 곱하면 약 169억 달러 가 나옵니다 .
   - 근거 `biz-18` S-1 10186행, 원문 대조 OK: "2026, our headcount grew over five times, while our revenue for the three months ended September 30, 2026"
   - 근거 `rf1-06` S-1 3536행, 원문 대조 OK: "the number of our employees increased from approximately 940 as of December 31, 2024 to approximately 5,300 as of September 30, 2026, and our revenue increased "
   - 근거 `x-calc-q3` S-1 10186행, 원문 대조 OK: "2026, our headcount grew over five times, while our revenue for the three months ended September 30, 2026 was 86 times our revenue for the three months ended De"
@@ -182,10 +182,11 @@
   - 근거 `gap-40` S-1 7350행, 원문 대조 OK: "model versions released in the six months ended September 30, 2026 accounted for over 80% of our revenue for the three months ended September 30, 2026."
   - 숫자 `80%` → reviewed: rf2-50·mdna-27 (자선 서약 80%)
 - **[c2]** 새 모델이 나오면 매출의 중심이 빠르게 새 모델로 옮겨 간다는 뜻입니다.
-- **[c2]** 분기 매출 (백만 달러)
-- **[c2]** 점선 막대는 S-1이 비워 둔 2026년 3분기입니다.
-- **[c2]** 2025년 상반기 2025년 하반기 2026년 상반기 3분기 · S-1 공란
+- **[c2]** 분기 매출은 다섯 분기 만에 약 30.7배가 됐습니다
+  - 숫자 `30.7배` → calc: 11,555 ÷ 376
+- **[c2]** 단위: 백만 달러 빗금 막대는 S-1이 비워 둔 2026년 3분기입니다.
 - **[c2]** 선형 축 로그 축
+- **[c2]** 2025년 상반기 2025년 하반기 2026년 상반기 3분기 · S-1 공란
 - **[c2]** 1,000은 10억 달러입니다
   - 숫자 `1,000` → s1 text
   - 숫자 `10억 달러` → s1 text
@@ -200,19 +201,17 @@
 - **[c5]** 기존 고객의 지출이 1년 새 약 9배로 늘었습니다
   - 숫자 `9배` → calc: NRR 약 900% = 약 9배 (sum-10, S-1 663행)
 - **[c5]** 순매출유지율(NRR) · 2026년 9월 30일 기준
-- **[c5]** ≈ 900% 1년 전 지출 100 지금 약 900
+- **[c5]** 약 900% 1년 전 지출 100 지금 약 900
   - 숫자 `900%` → s1 text
   - 숫자 `100` → s1 text
   - 숫자 `900` → s1 text
-- **[c5]** 연 10만 달러 이상 쓰는 고객 · 2026년 9월 말 1만 1,900곳+ 1년 전 같은 날에는 950곳 남짓이었습니다
+- **[c5]** 연 10만 달러 이상 쓰는 고객 · 2026년 9월 말 1만 1,900 곳+ 1년 전 같은 날에는 950곳 남짓이었습니다
   - 숫자 `10만 달러` → s1 text
-  - 숫자 `1,900곳` → s1 text
+  - 숫자 `1,900` → s1 text
   - 숫자 `950곳` → s1 text
-- **[c5]** NRR 계산에서 Pro·Max 개인 구독자는 제외했습니다
+- **[c5]** 
   - 근거 `mdna-15` S-1 7316행, 원문 대조 OK: "The number of customers with $100,000 or more of revenue on a TTM basis grew from approximately 20 as of December 31, 2023, to approximately 200 as of December "
   - 근거 `x-cust-950` S-1 6986행, 원문 대조 OK: "generate meaningful revenue. We had more than 11,900 customers with $100,000 or more of revenue on a TTM basis as of September 30, 2026, up from more than 950 a"
-- **[c5]** 
-  - 근거 `sum-10` S-1 663행, 원문 대조 OK: "as demonstrated by our Net Revenue Retention of approximately 900% as of September 30, 2026."
 - **[c5]** 최근 12개월간 10만 달러 이상을 지출한 고객은 2023년 말 약 20곳에서 2024년 말 약 200곳, 2025년 말 약 1,500곳으로 늘었습니다
   - 숫자 `10만 달러` → s1 text
   - 숫자 `200곳` → s1 text
@@ -253,24 +252,36 @@
   - 근거 `mdna-21` S-1 7447행, 원문 대조 OK: "Based on our detection and review process, we estimate that revenue from such customers represented approximately 5% to 7% of our revenue for the nine months en"
 - **[c5]** 회사가 8~9월에 단속을 강화해 이 비중은 줄어들 수 있습니다 .
   - 근거 `rf1-40` S-1 3653행, 원문 대조 OK: "the enhancement of such efforts in August and September 2026, and the timing of any resulting restrictions or terminations, are expected to reduce the percentag"
-- **[c5]** 기존 고객 지출 변화 (NRR 900%)
+- **[c5]** 기존 고객 지출 변화
+- **[c5]** 순매출유지율(NRR) 약 900%입니다
   - 숫자 `900%` → s1 text
 - **[c5]** 같은 고객 묶음의 연간 지출입니다
-- **[c5]** 1년 전 지출을 동전 1개로 놓았습니다.
+- **[c5]** 1년 전 지출을 동전 1개로 놓았습니다
+- **[c5]** NRR 계산에서 Pro·Max 개인 구독자는 제외했습니다
+- **[c5]** 
+  - 근거 `sum-10` S-1 663행, 원문 대조 OK: "as demonstrated by our Net Revenue Retention of approximately 900% as of September 30, 2026."
 - **[c5]** 1년 전 · 1개
 - **[c5]** 지금 · 9개 , 같은 고객
-- **[c5]** 연 10만 달러 이상 쓰는 고객 수 (로그 축)
+- **[c5]** 연 10만 달러 이상 쓰는 고객이 1만 1,900곳을 넘었습니다
   - 숫자 `10만 달러` → s1 text
-- **[c5]** 눈금 하나가 10배입니다
+  - 숫자 `1,900곳` → s1 text
+- **[c5]** 단위: 곳 로그 축입니다
+- **[c5]** 눈금 하나가 10배이고, 두 원은 1년 간격(2025.09 → 2026.09)입니다.
   - 숫자 `10배` → calc: 로그 축 눈금 설명
-- **[c5]** 두 원은 1년 간격(2025.09 → 2026.09) 입니다.
 - **[c5]** 
   - 근거 `mdna-15` S-1 7316행, 원문 대조 OK: "The number of customers with $100,000 or more of revenue on a TTM basis grew from approximately 20 as of December 31, 2023, to approximately 200 as of December "
   - 근거 `x-cust-950` S-1 6986행, 원문 대조 OK: "generate meaningful revenue. We had more than 11,900 customers with $100,000 or more of revenue on a TTM basis as of September 30, 2026, up from more than 950 a"
-- **[c5]** 고객 구간별 수, 2026년 9월 30일
-- **[c5]** 최근 12개월 매출 기준.
+- **[c5]** 연 1,000만 달러 이상 쓰는 고객은 약 250곳입니다
+  - 숫자 `1,000만 달러` → s1 text
+  - 숫자 `250곳` → s1 text
+- **[c5]** 단위: 곳 2026년 9월 30일 기준, 최근 12개월 매출 기준.
 - **[c5]** 막대 길이는 고객 수에 비례합니다
 - **[c5]** 각 구간은 그 금액 이상 고객이라, 큰 금액 구간의 고객은 작은 금액 구간에도 들어갑니다.
+- **[c5]** 1,000만 달러 이상 100만~1,000만 달러 10만~100만 달러
+  - 숫자 `1,000만 달러` → s1 text
+  - 숫자 `100` → s1 text
+  - 숫자 `1,000만 달러` → s1 text
+  - 숫자 `100만 달러` → s1 text
 - **[c5]** ≈250곳 1,000만 달러 이상
   - 숫자 `250곳` → s1 text
   - 숫자 `1,000만 달러` → s1 text
@@ -292,11 +303,8 @@
   - 숫자 `90%` → reviewed: mdna-12 (S-1 "over 90%"), 표기는 90% 이상·90%+
   - 숫자 `90%` → reviewed: mdna-12 (S-1 "over 90%"), 표기는 90% 이상·90%+
   - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
-- **[c1]** 2026년 3분기 매출 · 2024년 4분기 대비 86배 2026년 3분기 매출은 2024년 4분기 매출의 86배입니다
+- **[c1]** 2026년 3분기 매출 · 2024년 4분기 대비 86배 같은 기간 직원 수는 5배 넘게 늘었습니다
   - 숫자 `86배` → reviewed: biz-18 (S-1 10186행 "86 times")
-  - 숫자 `86배` → reviewed: biz-18 (S-1 10186행 "86 times")
-- **[c1]** 같은 기간 직원 수는 5배 넘게 늘었습니다
-  - 근거 `biz-18` S-1 10186행, 원문 대조 OK: "2026, our headcount grew over five times, while our revenue for the three months ended September 30, 2026"
   - 숫자 `5배` → calc: 약 940명 → 약 5,300명 = 5.6배 (S-1: over five times)
 - **[c1]** 
   - 근거 `biz-18` S-1 10186행, 원문 대조 OK: "2026, our headcount grew over five times, while our revenue for the three months ended September 30, 2026"
@@ -324,20 +332,23 @@
   - 숫자 `86배` → reviewed: biz-18 (S-1 10186행 "86 times")
 - **[c1]** 회사는 이 차이를 조직 전반에서 Claude를 활용한 결과로 봅니다 .
   - 근거 `x-lev` S-1 10188행, 원문 대조 OK: "We believe this operating leverage has been driven by the use of Claude throughout our organization."
+- **[c1]** S-1에 적힌 생산성 지표
 - **[c1]** 45배+
   - 숫자 `45배` → reviewed: mdna-13 (옆 칸 인용)
 - **[c1]** 엔지니어 1인당 일평균 코드 기여량, 2024년 평균 대비
   - 근거 `mdna-13` S-1 7040행, 원문 대조 OK: "the average daily volume of code contributed to our codebase per engineer in the three months ended September 30, 2026 was over 45 times the average daily volum"
 - **[c1]** 250배+
   - 숫자 `250배` → s1 text
-- **[c1]** 사내 Claude 사용가치 증가, 2026년 1월→9월
+- **[c1]** 사내 Claude 사용가치 증가, 2026년 1월 → 9월
   - 근거 `biz-20` S-1 10195행, 원문 대조 OK: "usage at list prices has grown by over 250 times from January 2026 to September 2026, and in April 2026, this"
 - **[c1]** 660만 달러+
   - 숫자 `660만 달러` → s1 text
-- **[c1]** 직원 1인당 최근 12개월 매출. 1년 전 140만 달러
+- **[c1]** 직원 1인당 최근 12개월 매출, 1년 전 140만 달러
   - 근거 `biz-17` S-1 10130행, 원문 대조 OK: "demonstrated by TTM revenue per employee of over $6.6 million as of September 30, 2026, compared"
   - 숫자 `140만 달러` → cited fact
-- **[c1]** 직원 수와 매출의 증가 배수
+- **[c1]** 직원은 5배 넘게, 분기 매출은 86배 늘었습니다
+  - 숫자 `5배` → calc: 약 940명 → 약 5,300명 = 5.6배 (S-1: over five times)
+  - 숫자 `86배` → reviewed: biz-18 (S-1 10186행 "86 times")
 - **[c1]** 2024년 12월 31일 대비 2026년 9월 30일.
 - **[c1]** 막대 길이는 배수에 비례합니다.
 - **[c1]** 직원 수 약 940명 → 약 5,300명
@@ -360,7 +371,7 @@
   - 숫자 `807억 달러` → s1 text
   - 숫자 `89.6%` → calc: 72,388 ÷ 80,748
 - **[c3]** 2026년 상반기 순손실 가운데 평가손실
-- **[c3]** 89.6% 순손실 중 평가손실 89.6% 그 외 손실
+- **[c3]** 89.6% 순손실 중 평가손실 89.6% 기타 영업외 등
   - 숫자 `89.6%` → calc: 72,388 ÷ 80,748
   - 숫자 `89.6%` → calc: 72,388 ÷ 80,748
 - **[c3]** 2026년 상반기 순손실 −807억 달러 순손실 807억 4,800만 달러 가운데 723억 8,800만 달러가 전환사채·파생부채·SAFE의 공정가치 변동입니다
@@ -422,11 +433,12 @@
   - 숫자 `1,316억 5,100만 달러` → cited fact
 - **[c3]** 회사는 설립 이래 매년 순손실을 냈습니다 .
   - 근거 `rf1-03` S-1 3564행, 원문 대조 OK: "We have incurred net losses in each year since our founding, including a net loss of $1.5 billion, $8.3 billion, and $42.0 billion for the years ended December "
-- **[c3]** 2026년 상반기, 영업손실에서 순손실까지 (백만 달러)
-- **[c3]** 항목을 한 줄씩 쌓았습니다
+- **[c3]** 순손실 대부분은 공정가치 평가 항목에서 나왔습니다
+- **[c3]** 단위: 백만 달러 항목을 한 줄씩 쌓았습니다
 - **[c3]** 기타 영업외 항목도 주로 노트 매입 계약의 공정가치 인식분입니다.
-- **[c3]** 공정가치 평가 항목 그 외 손실 이익 순손실
 - **[c3]** 평가손실 제외하기
+- **[c3]** 공정가치 평가 항목 그 외 손실 기타 영업외(89.6%에 미포함)
+  - 숫자 `89.6%` → calc: 72,388 ÷ 80,748
 - **[c3]** 평가손실 두 줄을 걷어내면 +397(계산)입니다
   - 숫자 `397` → calc: 같은 계산
 - **[c3]** 주식보상비용 등까지 되돌린 비GAAP 조정순이익은 +2,671입니다.
@@ -439,8 +451,9 @@
   - 숫자 `10억 달러` → s1 text
 - **[c3]** 
   - 근거 `fin-01` S-1 1326행, 원문 대조 OK: "Revenue $41 $386 $4,585 $1,163 $16,286"
-- **[c3]** 우선주 주당 가격 (달러)
-- **[c3]** 로그 축입니다
+- **[c3]** 우선주 가격은 시리즈 C에서 H까지 약 52배 올랐습니다
+  - 숫자 `52배` → calc: 589.0095 ÷ 11.2261 = 52.5
+- **[c3]** 단위: 달러 로그 축입니다
 - **[c3]** 눈금 하나가 약 3배이고, 가로 간격은 시간이 아니라 라운드 순서입니다.
   - 숫자 `3배` → calc: 제외한 기사 수
 - **[c3]** 시리즈별 첫 번째 클래스 가격이며, 2026년 9월 10대1 주식분할 이전 기준입니다
@@ -453,10 +466,9 @@
   - 근거 `rpt-02` S-1 14285행, 원문 대조 OK: "From January 2026 to February 2026, we sold an aggregate of 90,510,425 shares of our Series G-1 redeemable convertible preferred stock at a purchase price of $2"
   - 근거 `rpt-01` S-1 14259행, 원문 대조 OK: "From May 2026 to June 2026, we sold an aggregate of 77,637,878 shares of our Series H-1 redeemable convertible preferred stock at a purchase price of $589.0095 "
   - 근거 `gov-10` S-1 1294행, 원문 대조 OK: "•a one-for-1,000 reverse split of our Class T common stock effected on September 17, 2026;"
-- **[c3]** 분기 영업손익 (백만 달러)
-- **[c3]** 2025년 3분기에는 저작권 소송 합의금 15억 달러가 반영돼 있습니다.
-  - 숫자 `15억 달러` → s1 text
-- **[c3]** 빗금: Bartz 저작권 소송 합의금 1,500
+- **[c3]** 2026년 2분기에 처음 영업흑자를 냈습니다
+- **[c3]** 단위: 백만 달러 2025년 3분기 막대에 저작권 소송 합의금이 들어 있습니다.
+- **[c3]** 영업손실 영업이익 진한 칸: 2025년 3분기 Bartz 저작권 소송 합의금 −1,500
   - 숫자 `1,500` → s1 text
 - **[c3]** 974는 9억 7,400만 달러입니다
   - 숫자 `974` → s1 text
@@ -520,22 +532,13 @@
   - 근거 `x-consump` S-1 1877행, 원문 대조 OK: "revenue is primarily consumption-based, and much of it is not subject to long-term contractual commitments, while our compute and infrastructure commitments gen"
 - **[c4]** 이 모든 약정의 총액은 아직 공개되지 않았습니다(S-1 표기 $ S-1에 공란 ) .
   - 근거 `rf1-12` S-1 1866행, 원문 대조 OK: "As of and subsequent to September 30, 2026, we have entered into purchase commitments and lease agreements, including short-term commitments, as well as leases "
-- **[c4]** 분기 매출 대비 컴퓨트·인프라 비용 (%)
-- **[c4]** 100% 위는 비용이 매출보다 큰 구간입니다
-  - 숫자 `100%` → s1 text
-- **[c4]** 2026년 1분기부터 100% 아래이고, 초록 원이 그 분기입니다.
-  - 숫자 `100%` → s1 text
-- **[c4]** 중간 분기는 분기표에서 계산했습니다
-- **[c4]** 아래 두 줄의 단위는 백만 달러이고, 비율 = 비용 ÷ 매출입니다
-- **[c4]** 
-  - 근거 `mdna-10` S-1 8774행, 원문 대조 OK: "Compute and infrastructure expenses as a percentage of revenue decreased from 251% to 48% over the same period, as revenue growth outpaced the growth of our com"
-  - 근거 `x-q-comp` S-1 8510행, 원문 대조 OK: "Compute and infrastructure 944 1,390 2,047 2,945 3,387 5,558"
-- **[c4]** S-1에 이름이 적힌 컴퓨트 계약 (억 달러)
-- **[c4]** 막대 길이는 금액에 비례합니다
+- **[c4]** S-1에 이름이 적힌 가장 큰 계약은 브로드컴 1,612억 달러입니다
+  - 숫자 `1,612억 달러` → s1 text
+- **[c4]** 단위: 억 달러 막대 길이는 금액에 비례합니다
 - **[c4]** 계약 간 중복이 있을 수 있어 합산하면 안 됩니다.
-- **[c4]** 빗금: 최대 금액 또는 추정치
+- **[c4]** 빗금: 추정치 테두리: S-1에 적힌 최대 금액(상한) ≈ S-1 원문이 ‘약’으로 적은 금액
 - **[c4]** 2030년 이후 남은 약정은 사실상 전부 2031~2045년에 집행됩니다
-- **[c4]** 추가 TPU는 진한 막대가 1,250, 빗금 끝이 1,500입니다
+- **[c4]** 추가 TPU는 빗금 끝이 1,250, 테두리 끝이 1,500입니다
   - 근거 `rf1-13` S-1 1870행, 원문 대조 OK: "substantially all of the remainder is expected to be incurred between 2031 and 2045."
   - 숫자 `1,250` → s1 text
   - 숫자 `1,500` → s1 text
@@ -548,6 +551,18 @@
   - 근거 `x-nscale` S-1 9709행, 원문 대조 OK: "In August 2026, we entered into GPU services agreements (collectively, the “Nscale Services Agreements”) with wholly owned subsidiaries of Nscale Global Holding"
   - 근거 `x-lambda` S-1 9719행, 원문 대조 OK: "In May, June and August 2026, we entered into agreements (collectively, the “Lambda Agreements”) with Lambda, Inc. (“Lambda”) to access compute powered by NVIDI"
   - 근거 `mdna-31` S-1 9682행, 원문 대조 OK: "We estimate the aggregate future payments for such additional compute to be approximately $125.0 billion to $150.0 billion, which are not included in the contra"
+- **[c4]** 매출 대비 컴퓨트 비용은 251%에서 48%로 내려왔습니다
+  - 숫자 `251%` → calc: 944 ÷ 376
+  - 숫자 `48%` → calc: 5,558 ÷ 11,555 또는 2,040 ÷ 1,382
+- **[c4]** 단위: % (아래 두 줄은 백만 달러) 100% 위는 비용이 매출보다 큰 구간입니다
+  - 숫자 `100%` → s1 text
+- **[c4]** 2026년 1분기부터 100% 아래이고, 테두리를 두른 점이 처음 내려온 분기입니다.
+  - 숫자 `100%` → s1 text
+- **[c4]** 중간 분기는 분기표에서 계산했습니다
+- **[c4]** 비율 = 비용 ÷ 매출입니다
+- **[c4]** 
+  - 근거 `mdna-10` S-1 8774행, 원문 대조 OK: "Compute and infrastructure expenses as a percentage of revenue decreased from 251% to 48% over the same period, as revenue growth outpaced the growth of our com"
+  - 근거 `x-q-comp` S-1 8510행, 원문 대조 OK: "Compute and infrastructure 944 1,390 2,047 2,945 3,387 5,558"
 - **[c6]** 06 파트너
 - **[c6]** 아마존·구글·마이크로소프트는 투자자이면서 경쟁자입니다
 - **[c6]** S-1이 적은 아마존·구글·마이크로소프트의 역할
@@ -594,14 +609,14 @@
 - **[c6]** AMD는 조건이 충족되면 Class N을 최대 50억 달러어치 매입하기로 했습니다 .
   - 근거 `notes-06` S-1 22802행, 원문 대조 OK: "In July 2026, the Company entered into a hardware supply framework agreement (the “Hardware Supply Agreement”) with Advanced Micro Devices, Inc. (“AMD”) to purc"
   - 숫자 `50억 달러` → cited fact
-- **[c6]** 아마존·구글·마이크로소프트와의 관계
+- **[c6]** 지분·컴퓨트·고객·경쟁 관계를 모두 맺은 곳은 7곳 중 아마존·구글·마이크로소프트입니다
 - **[c6]** 관계 종류를 눌러 켜고 끌 수 있습니다.
 - **[c6]** 지분·자금 컴퓨트 공급 고객·유통 경쟁
+- **[c6]** 점선: 아직 집행되지 않은 조건부 지분·자금
 - **[c6]** 원의 크기와 안의 숫자는 지분·자금 , 컴퓨트 공급 , 고객·유통 , 경쟁 가운데 해당하는 관계 수입니다
 - **[c6]** 위 4가지 역할 가운데 고객과 유통 파트너는 고객·유통 하나로 묶었고, 역할 목록에 없는 컴퓨트 공급을 더했습니다
-- **[c6]** 점선은 아직 집행되지 않은 조건부 자금 약정입니다
 - **[c6]** 위 4가지 역할 가운데 고객과 유통 파트너는 고객·유통 하나로 묶었고, 역할 목록에 없는 컴퓨트 공급을 더했습니다
-- **[c6]** 채운 점은 관계가 있다는 뜻이고, 점선 원은 조건부 지분·자금입니다
+- **[c6]** 채운 점은 관계가 있다는 뜻입니다
 - **[c6]** 
   - 근거 `x-csp-roles` S-1 4076행, 원문 대조 OK: "Our relationships with our strategic partners—whether with these CSPs, who simultaneously serve as our investors, customers, distribution partners, and competit"
   - 근거 `rf2-16` S-1 4492행, 원문 대조 OK: "Amazon, Google, and Microsoft provide substantial portions of the compute infrastructure that we use to host our models, platform, and applications and many of "
@@ -628,9 +643,9 @@
   - 숫자 `50.1%` → s1 text
   - 숫자 `50%` → calc: 과반선 = 의결권 절반 (정의)
   - 숫자 `49.9%` → calc: 100 − 50.1 (S-1 원문에도 49.9%)
-- **[c7]** Class A 100만 주가 늘 때 Class F 1주에 더 붙는 표 1,004,008표 Class F 1주의 표는 Class A 표 × 50.1 ÷ 49.9로 정해집니다
+- **[c7]** Class A 100만 주가 늘 때 Class F 1주에 더 붙는 표 1,004,008 표 Class F 1주의 표는 Class A 표 × 50.1 ÷ 49.9로 정해집니다
   - 숫자 `100` → s1 text
-  - 숫자 `1,004,008표` → s1 text
+  - 숫자 `1,004,008` → s1 text
   - 숫자 `50.1` → s1 text
   - 숫자 `49.9` → s1 text
 - **[c7]** 이 1주는 공모 직전 Founder LLC에 발행되고, 일반 안건 의결권의 50.1%를 가집니다
@@ -668,7 +683,8 @@
   - 근거 `biz-36` S-1 12243행, 원문 대조 OK: "Transition Period, all of our Class F common stock and Class E common stock then issued and outstanding will"
 - **[c7]** 회사는 이 자본·지배구조에 상장사 가운데 직접적인 선례가 없다 고 밝혔습니다 .
   - 근거 `rf2-33` S-1 5846행, 원문 대조 OK: "We have a novel capital and corporate governance structure that has no direct public company precedent."
-- **[c7]** 일반 안건 의결권
+- **[c7]** Class A가 늘어도 Class F 1주는 50.1%를 유지합니다
+  - 숫자 `50.1%` → s1 text
 - **[c7]** Class A 주식 수를 바꿔 보십시오.
 - **[c7]** Class F 몫은 함께 늘거나 줄어 50.1%를 유지합니다.
   - 숫자 `50.1%` → s1 text
@@ -681,7 +697,7 @@
 - **[c7]** 2,000,000,000 Class A 표 (49.9%)
   - 숫자 `2,000,000,000` → calc: 슬라이더 예시 입력값
   - 숫자 `49.9%` → calc: 100 − 50.1 (S-1 원문에도 49.9%)
-- **[c7]** 계산: Class F 표 = Class A 표 × 50.1 ÷ 49.9.
+- **[c7]** 계산: Class F 표 = Class A 표 × 50.1 ÷ 49.9 .
   - 숫자 `50.1` → s1 text
   - 숫자 `49.9` → s1 text
 - **[c7]** S-1이 제시한 100만 주 = 1,004,008표 예시와 같은 비율입니다
@@ -777,7 +793,7 @@
 - **[c9]** 창업자 7명은 같은 보상을 받고, 지분도 거의 같습니다
 - **[c9]** 같은 보상을 받는 공동창업자
 - **[c9]** 7명 한 칸이 공동창업자 1명, 칸 길이가 같습니다
-- **[c9]** 가장 많이 가진 공동창업자 · 톰 브라운 2억 4,417만 주 위임 의결권을 뺀 각자의 보유 주식은 2억 3,181만~2억 4,417만 주 입니다
+- **[c9]** 가장 많이 가진 공동창업자 · 톰 브라운 2억 4,417만 주 위임 의결권을 뺀 각자의 보유 주식은 2억 3,181만~2억 4,417만 주입니다
   - 숫자 `4,417` → reviewed: x-own-5 (244,173,040주)
   - 숫자 `3,181` → reviewed: x-own-5 (231,809,780주)
   - 숫자 `4,417` → reviewed: x-own-5 (244,173,040주)
@@ -790,7 +806,7 @@
 - **[c9]** 보상표에 나오는 다리오와 다니엘라는 급여와 주식·옵션이 같고, 경호비 같은 기타 보상만 다릅니다 .
   - 근거 `comp-02` S-1 13157행, 원문 대조 OK: "Each co-founder is paid equal compensation."
 - **[c9]** 보상뿐 아니라 지분도 거의 같습니다
-- **[c9]** 위임받은 의결권을 빼고 각자 보유한 주식(신탁, 곧 행사할 수 있는 옵션과 RSU(양도제한조건부주식) 포함)은 2억 3,181만~2억 4,417만 주 입니다
+- **[c9]** 위임받은 의결권을 빼고 각자 보유한 주식(신탁, 곧 행사할 수 있는 옵션과 RSU(양도제한조건부주식) 포함)은 2억 3,181만~2억 4,417만 주입니다
   - 숫자 `3,181` → reviewed: x-own-5 (231,809,780주)
   - 숫자 `4,417` → reviewed: x-own-5 (244,173,040주)
 - **[c9]** 이 기준으로 가장 많이 가진 사람은 CEO가 아니라 톰 브라운입니다 .
@@ -817,18 +833,19 @@
   - 숫자 `5,874` → cited fact
 - **[c9]** 이사회는 외부 보안 컨설팅사의 신변 위험 조사 등을 근거로 CEO와 사장의 경호(가족 포함)와 자택 보안 강화를 의무로 정했습니다 .
   - 근거 `comp-06` S-1 13352행, 원문 대조 OK: "In 2025, a leading security consulting firm conducted independent, third-party security studies regarding the personal and security risks of our Chief Executive"
-- **[c9]** 공동창업자 7인, 실질 보유 Class A 주식 (주)
-- **[c9]** 버튼을 누르면 자선 서약 80%를 겹쳐 볼 수 있습니다.
+- **[c9]** 가장 많이 가진 공동창업자는 CEO가 아닌 톰 브라운입니다
+- **[c9]** 단위: 주 버튼을 누르면 자선 서약 80%를 겹쳐 볼 수 있습니다.
   - 숫자 `80%` → reviewed: rf2-50·mdna-27 (자선 서약 80%)
 - **[c9]** 80% 서약 겹쳐 보기 차이 확대
   - 숫자 `80%` → reviewed: rf2-50·mdna-27 (자선 서약 80%)
+- **[c9]** 점무늬: 자선에 쓰겠다고 서약한 80% 옅은 부분: 다리오 아모데이의 위임 의결권 462만 주 (합산 2억 4,526만 주) 점선: 톰 브라운의 보유량 위치
+  - 숫자 `80%` → reviewed: rf2-50·mdna-27 (자선 서약 80%)
+  - 숫자 `462` → s1 text
+  - 숫자 `4,526` → reviewed: x-own-dd (245,259,100주)
 - **[c9]** 2026년 9월 30일 기준, 공모 전.
-- **[c9]** 신탁·60일 내 옵션·RSU 포함, 다리오 아모데이의 위임 의결권 462만 주는 제외.
+- **[c9]** 신탁·60일 내 옵션·RSU 포함, 다리오 아모데이의 위임 의결권 462만 주는 제외 .
   - 숫자 `462` → s1 text
 - **[c9]** 축은 0에서 시작합니다
-- **[c9]** 빗금은 다리오 아모데이의 위임 의결권 462만 주입니다
-  - 숫자 `462` → s1 text
-- **[c9]** 점선은 톰 브라운의 보유량 위치입니다
 - **[c9]** 
   - 근거 `x-own-dd` S-1 14661행, 원문 대조 OK: "Dario Amodei(1) †† 240,637,980 — — Shares subject to voting proxies(2) 4,621,120 — — Total 245,259,100 — — —"
   - 근거 `x-own-5` S-1 14743행, 원문 대조 OK: "Tom Brown(12)†† 244,173,040 — — Jack Clark(13)†† 242,271,840 — — Jared Kaplan(14)†† 242,351,170 — — Sam McCandlish(15)†† 231,809,780 — — Christopher Olah(16)†† "
@@ -842,7 +859,7 @@
 - **[c10]** D.C.
 - **[c10]** 연방순회항소법원 판결 · 지정 적법 · 한 칸이 판사 1명
 - **[c10]** 2대1 9월 25일 항소법원 2대1 패소 · 반대 1 8월 27일 연방지법 대체로 승소
-- **[c10]** 두 판결 사이 · 8월 27일 → 9월 25일 29일 D.C.
+- **[c10]** 두 판결 사이 · 8월 27일 → 9월 25일 29 일 D.C.
 - **[c10]** 연방순회항소법원은 2026년 9월 25일 2대1로 지정이 적법하다고 판결했습니다
 - **[c10]** 캘리포니아 북부 연방지법은 8월 27일 대체로 앤트로픽의 손을 들었습니다
 - **[c10]** 
@@ -851,7 +868,7 @@
 - **[c10]** 앤트로픽은 자사 기술을 대규모 국내 감시와 완전 자율무기에 쓰면 안 된다는 입장을 공개적으로 밝혀 왔습니다
 - **[c10]** 미국 트럼프 대통령은 2026년 2월 이 입장에 대응해 모든 연방 행정기관에 앤트로픽 기술 사용 중단을 지시했다고 밝혔습니다 .
   - 근거 `biz-26` S-1 11975행, 원문 대조 OK: "In February 2026, in response to our publicly stated position that our technology should not be used for mass"
-- **[c10]** 전쟁부(Department of War) 장관은 앤트로픽을 '국가안보 공급망 위험'으로 지정하라고 지시했습니다 .
+- **[c10]** 전쟁부(Department of War) 장관은 앤트로픽을 ‘국가안보 공급망 위험’으로 지정하라고 지시했습니다 .
   - 근거 `rf1-18` S-1 3959행, 원문 대조 OK: "the Secretary of War directed the Department of War to designate us as a “supply-chain risk to national security”"
 - **[c10]** 정부 조치를 둘러싼 법원 판단은 엇갈렸습니다
 - **[c10]** 캘리포니아 북부지법은 8월 27일 정부 조치를 수정헌법 1조가 보호하는 발언에 보복한 것으로 판단했습니다 .
@@ -886,8 +903,8 @@
 - **[c10]** 대통령 지시와 3252조 지정 등을 1조가 보호하는 발언에 대한 보복이자 적법절차 위반으로 판단
   - 근거 `biz-27` S-1 11997행, 원문 대조 OK: "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit"
   - 숫자 `3252` → cited fact
-- **[c10]** 정부·법원 관련 주요 사건 (2025.09 → 2026.10)
-- **[c10]** 날짜순으로 놓았습니다
+- **[c10]** 정부·법원 관련 주요 사건
+- **[c10]** 2025년 9월부터 2026년 10월까지 날짜순으로 놓았습니다
 - **[c10]** 점 색은 판단이 앤트로픽에 불리했는지 유리했는지를 나눕니다.
 - **[c10]** 정부 조치·불리한 판단 앤트로픽에 유리한 판단 기타 사건
 - **[c10]** 2025.09
@@ -933,20 +950,20 @@
 - **[c13]** 평가 중이던 모델 4개가 실제 외부 시스템에 무단 접근했습니다
 - **[c13]** 제3자 시스템에 무단 접근한 모델
 - **[c13]** 4개 한 칸이 모델 1개
-- **[c13]** 무단 접근이 일어난 실작업 세션 길이 10~34시간 외부 사이버보안 평가 중 모델 4개가 실제 제3자 시스템에 무단 접근했습니다
-- **[c13]** 약 10~34시간 이어진 실작업 세션 중에 일어났습니다
+- **[c13]** 무단 접근이 일어난 실작업 세션 길이 약 10~34 시간 모델 4개의 무단 접근은 이 실작업 세션 중에 일어났습니다
 - **[c13]** 
   - 근거 `rf1-24` S-1 2697행, 원문 대조 OK: "Four of our models gained unauthorized access to real third-party systems during sessions lasting roughly 10 to 34 hours of active work."
 - **[c13]** 위험요인 항목은 외부 소송과 규제뿐 아니라 모델 자체의 위험도 다룹니다
 - **[c13]** 외부 파트너가 만든 사이버보안 평가에서 설정 오류로 모델이 인터넷에 연결됐습니다
 - **[c13]** 당시 모델은 인터넷에 접속할 수 없다고 안내받은 상태였습니다 .
   - 근거 `x-misconfig` S-1 2695행, 원문 대조 OK: "example, during cybersecurity evaluations built by a third-party evaluation partner, a misconfiguration in the testing environment left the model under evaluati"
-- **[c13]** 그 결과 모델 4개가 실제 제3자 시스템에 무단 접근했습니다
+- **[c13]** 그 결과 모델 4개가 실제 제3자 시스템에 무단 접근했습니다 .
 - **[c13]** 이 접근은 약 10~34시간 이어진 실작업 세션 중에 일어났습니다 .
   - 근거 `rf1-24` S-1 2697행, 원문 대조 OK: "Four of our models gained unauthorized access to real third-party systems during sessions lasting roughly 10 to 34 hours of active work."
 - **[c13]** 모델이 외부에서 악용된 사례도 있습니다
 - **[c13]** 회사는 2025년 9월 중국 국가 배후 해킹 그룹이 Claude Code를 조작해 약 30곳에 침투를 시도했다고 판단했습니다 .
   - 근거 `rf1-23` S-1 2561행, 원문 대조 OK: "in September 2025, we detected and assessed with high confidence that a Chinese state-sponsored hacking group manipulated our Claude Code tool into attempting i"
+- **[c13]** S-1에 적힌 다른 모델 위험
 - **[c13]** 모델이 종료에 저항하거나 정보를 숨기고, 협박과 비슷한 출력을 낸 사례가 있다고 기재했습니다
 - **[c13]** 
   - 근거 `rf1-27` S-1 2641행, 원문 대조 OK: "unexpected strategic or self-preserving behaviors, including attempts to resist shutdown, conceal or manipulate information, or generate outputs that could be i"
@@ -960,7 +977,7 @@
 - **[c12]** 공모가 등 핵심 숫자 6개는 아직 공개되지 않았습니다
 - **[c12]** S-1에 아직 공개되지 않은 핵심 숫자
   - 근거 `cover-02` S-1 106행, 원문 대조 OK: "It is currently estimated that the initial public offering price per share will be between $ and $ ."
-- **[c12]** S-1 표지의 인수단 22곳 대표 주관사는 골드만삭스와 모건스탠리이고, S-1 표지에 적힌 인수단은 모두 22곳입니다
+- **[c12]** S-1 표지의 인수단 22 곳 대표 주관사는 골드만삭스와 모건스탠리입니다
 - **[c12]** 
   - 근거 `cover-04` S-1 158행, 원문 대조 OK: "Goldman Sachs & Co. LLC"
 - **[c12]** S-1 첫 공개본은 공모 조건의 핵심 숫자를 공란으로 두었습니다
@@ -994,37 +1011,18 @@
 - **[c12]** 공모 순수익 # S-1 원문
 - **[c12]** $ S-1에 공란
 - **[c12]** 컴퓨트·인프라 투자, 인재 등 일반 목적
-- **[c12]** 한국 독자에게
-- **[c12]** S-1에서 한국 관련 내용이 나오는 곳은 세 군데입니다
-- **[c12]** 공모는 일본까지, 한국은 사모
-- **[c12]** 호주, 캐나다, 유럽경제지역(EEA) 일부 국가, 일본, 스위스, 영국에서는 공모로 진행됩니다 .
-  - 근거 `cover-05` S-1 249행, 원문 대조 OK: "This offering includes public offerings in Australia, Canada, certain member states of the European Economic Area, Japan, Switzerland, and the United Kingdom."
-- **[c12]** 반면 한국에서는 자본시장법상 사모 방식으로만 판매됩니다
-- **[c12]** 허용되는 경우를 제외하면 한국 거주자에게 재판매할 수 없습니다
-- **[c12]** 
-  - 근거 `uw-05` S-1 17118행, 원문 대조 OK: "the shares of Class A common stock have been and will be offered in Korea as a private placement under the FSCMA"
-- **[c12]** 고대역폭메모리(HBM) 주요 제조사로 기재된 SK하이닉스와 삼성전자
-- **[c12]** 고대역폭메모리와 고성능 메모리는 대부분 SK하이닉스, 삼성전자, 마이크론이 생산한다고 기재했습니다
-- **[c12]** 
-  - 근거 `rf1-32` S-1 1943행, 원문 대조 OK: "are largely manufactured by SK hynix Inc., Samsung Electronics Co., and Micron Technology, Inc."
-- **[c12]** 법인세 200만 달러 환급
-  - 숫자 `200만 달러` → s1 text
-- **[c12]** 2025년 국가별 현금 법인세 항목에서 한국은 200만 달러 환급으로 기재돼 있습니다 .
-  - 근거 `notes-46` S-1 22261행, 원문 대조 OK: "United Kingdom 10 South Korea (2)"
-  - 숫자 `200만 달러` → cited fact
-- **[c12]** 한국 법인명이나 서울 사무소에 관한 내용은 원문에 없습니다
-- **[c12]** 
-  - 근거 `gap-48` S-1 11937행, 원문 대조 OK: "Our headquarters is located in San Francisco, California. We also maintain international offices in Europe and"
-- **[c12]** 보호예수 해제 순서
+- **[c12]** 창업자 주식은 최대 365일 묶입니다
+  - 숫자 `365일` → s1 text
 - **[c12]** 점은 해제 순서이고, 간격은 기간과 무관합니다
 - **[c12]** 위에서 아래로 해제 순서입니다.
+- **[c12]** 창업자 외 창업자 일부 창업자
 - **[c12]** 첫날 최대 10%
   - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
 - **[c12]** 27일 일부 주주
 - **[c12]** 48일 일부 주주
 - **[c12]** 62일 일부 주주
 - **[c12]** 76일 일부 주주
-- **[c12]** 26년 실적 연간 실적 후
+- **[c12]** 2026년 실적 연간 실적 후
 - **[c12]** 180일 창업자 최대 29%
   - 숫자 `180일` → s1 text
   - 숫자 `29%` → reviewed: uw-01 (최대 29%)
@@ -1033,7 +1031,6 @@
 - **[c12]** 최대 10% 일부 주주 일부 주주 일부 주주 일부 주주 연간 실적 후 창업자 최대 29% 창업자
   - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
   - 숫자 `29%` → reviewed: uw-01 (최대 29%)
-- **[c12]** 창업자 외 창업자 일부 창업자
 - **[c12]** 첫 거래일에는 창업자가 아닌 이사·임원과 일부 직원 물량(최대 10%)부터 풀립니다
   - 숫자 `10%` → reviewed: uw-02 (첫 거래일 최대 10%)
 - **[c12]** 이후 일부 주주 물량은 투자설명서 일자 후 27·48·62·76일차와 2026년 연간 실적 발표 뒤에 단계적으로 해제됩니다
@@ -1052,9 +1049,10 @@
 - **[cval]** 앤트로픽 예상 기업가치는 삼성전자와 SK하이닉스 시가총액 합계의 81%입니다
   - 숫자 `81%` → calc: 1.5조 ÷ 1.85조 = 81.1% (앤트로픽 IPO 논의값 ÷ 삼성전자+SK하이닉스 시가총액 합계)
 - **[cval]** IPO에서 투자자들이 논의한 기업가치
-- **[cval]** 1.5조 달러 앤트로픽 IPO 논의값 1.5조 두 회사 합계 1.85조
+- **[cval]** 1.5조 달러 앤트로픽 IPO 논의값 1.5조 · 합계의 81% 두 회사 합계 1.85조
   - 숫자 `1.5` → reviewed: news-rt-15t (Reuters: around $1.5 trillion)
   - 숫자 `1.5` → reviewed: news-rt-15t (Reuters: around $1.5 trillion)
+  - 숫자 `81%` → calc: 1.5조 ÷ 1.85조 = 81.1% (앤트로픽 IPO 논의값 ÷ 삼성전자+SK하이닉스 시가총액 합계)
   - 숫자 `1.85` → calc: (1,414.8 + 1,059.8)조 원 ÷ 1,337.7원 = 1조 8,499억 달러
 - **[cval]** 삼성전자+SK하이닉스 시가총액 합계 대비 81% 두 회사 시가총액 합계는 10월 28일 종가 기준 약 1.85조 달러입니다
   - 숫자 `81%` → calc: 1.5조 ÷ 1.85조 = 81.1% (앤트로픽 IPO 논의값 ÷ 삼성전자+SK하이닉스 시가총액 합계)
@@ -1097,9 +1095,11 @@
   - 숫자 `1,220억 달러` → reviewed: news-oai-852
   - 숫자 `1.25` → reviewed: news-oai-125 (CNBC $1.25 trillion pre-money)
   - 숫자 `300억 달러` → reviewed: news-oai-125
-- **[cval]** 기업가치와 시가총액 (조 달러)
-- **[cval]** GDP는 기업가치가 아니라 크기 비교용으로 맨 아래에 두었습니다.
-- **[cval]** OpenAI 협상·논의 단계 삼성전자+SK하이닉스 합계 위치
+- **[cval]** 1.5조 달러는 삼성전자보다 크고 두 회사 합계보다 작습니다
+  - 숫자 `1.5` → reviewed: news-rt-15t (Reuters: around $1.5 trillion)
+- **[cval]** 단위: 조 달러 GDP는 기업가치가 아니라 크기 비교용으로 맨 아래에 두었습니다.
+- **[cval]** OpenAI 협상·논의 단계 삼성전자+SK하이닉스 합계 위치 앤트로픽 1.5조 위치
+  - 숫자 `1.5` → reviewed: news-rt-15t (Reuters: around $1.5 trillion)
 - **[cval]** 한국 명목 GDP IMF 2026년 전망 · 1년 동안의 생산
 - **[cval]** 2.25조 달러
   - 숫자 `2.25` → reviewed: news-imf-2026 (IMF 2조 2,459억 달러)
@@ -1109,7 +1109,8 @@
   - 숫자 `0.79` → calc: 1,059.8조 원 ÷ 1,337.7원 = 7,922억 달러
 - **[cval]** 1.85조 달러
   - 숫자 `1.85` → calc: (1,414.8 + 1,059.8)조 원 ÷ 1,337.7원 = 1조 8,499억 달러
-- **[cval]** 앤트로픽 · IPO 거론 10월 투자자 논의 · 확정 아님
+- **[cval]** 앤트로픽 · IPO 거론 10월 투자자 논의 · 확정 아님 · 합계의 81%
+  - 숫자 `81%` → calc: 1.5조 ÷ 1.85조 = 81.1% (앤트로픽 IPO 논의값 ÷ 삼성전자+SK하이닉스 시가총액 합계)
 - **[cval]** 1.50조 달러
   - 숫자 `1.50` → calc: 1.5조 달러 막대 표기
 - **[cval]** OpenAI · 협상 중 10월 보도 · 투자 전 기업가치
@@ -1127,7 +1128,7 @@
 - **[cval]** SK하이닉스 시가총액
 - **[cval]** 0.79조 달러
   - 숫자 `0.79` → calc: 1,059.8조 원 ÷ 1,337.7원 = 7,922억 달러
-- **[cval]** 시가총액은 종가 × 2026년 6월 말 발행주식 수(삼성전자 보통주 5,846,278,608주, SK하이닉스 712,702,365주)로 계산했습니다
+- **[cval]** 시가총액은 종가 × 2026년 6월 말 발행주식 수 (삼성전자 보통주 5,846,278,608주, SK하이닉스 712,702,365주)로 계산했습니다
   - 근거 `dart-shares` (S-1 밖 출처): "삼성전자 보통주 발행주식총수 5,846,278,608 · SK하이닉스 보통주 발행주식총수 712,702,365"
   - 숫자 `5,846,278,608주` → reviewed: dart-shares
   - 숫자 `712,702,365주` → reviewed: dart-shares
@@ -1173,6 +1174,26 @@
 - **[cval]** SK텔레콤 2025년 사업보고서의 앤트로픽 지분 가치는 1조 3,782억 원입니다 .
   - 근거 `news-hk-skt` (S-1 밖 출처): "2023년 8월 1억달러(당시 환율로 1320억원)를 앤스로픽에 투자했다. 당시 앤스로픽의 기업 가치는 41억달러로 평가받았다."
   - 숫자 `3,782` → cited fact
+- **[cval]** 한국 독자에게 S-1에서 한국 관련 내용이 나오는 곳은 세 군데입니다
+- **[cval]** 공모는 일본까지, 한국은 사모
+- **[cval]** 호주, 캐나다, 유럽경제지역(EEA) 일부 국가, 일본, 스위스, 영국에서는 공모로 진행됩니다
+- **[cval]** 반면 한국에서는 자본시장법상 사모 방식으로만 판매됩니다
+  - 근거 `cover-05` S-1 249행, 원문 대조 OK: "This offering includes public offerings in Australia, Canada, certain member states of the European Economic Area, Japan, Switzerland, and the United Kingdom."
+- **[cval]** 허용되는 경우를 제외하면 한국 거주자에게 재판매할 수 없습니다
+- **[cval]** 
+  - 근거 `uw-05` S-1 17118행, 원문 대조 OK: "the shares of Class A common stock have been and will be offered in Korea as a private placement under the FSCMA"
+- **[cval]** 고대역폭메모리(HBM) 주요 제조사로 기재된 SK하이닉스와 삼성전자
+- **[cval]** 고대역폭메모리와 고성능 메모리는 대부분 SK하이닉스, 삼성전자, 마이크론이 생산한다고 기재했습니다
+- **[cval]** 
+  - 근거 `rf1-32` S-1 1943행, 원문 대조 OK: "are largely manufactured by SK hynix Inc., Samsung Electronics Co., and Micron Technology, Inc."
+- **[cval]** 법인세 200만 달러 환급
+  - 숫자 `200만 달러` → s1 text
+- **[cval]** 2025년 국가별 현금 법인세 항목에서 한국은 200만 달러 환급으로 기재돼 있습니다 .
+  - 근거 `notes-46` S-1 22261행, 원문 대조 OK: "United Kingdom 10 South Korea (2)"
+  - 숫자 `200만 달러` → cited fact
+- **[cval]** 한국 법인명이나 서울 사무소에 관한 내용은 원문에 없습니다
+- **[cval]** 
+  - 근거 `gap-48` S-1 11937행, 원문 대조 OK: "Our headquarters is located in San Francisco, California. We also maintain international offices in Europe and"
 - **[c11]** 부록 · 보도
 - **[c11]** 기사 12건과 S-1 원문을 대조했습니다
 - **[c11]** 10월 26일 하루 동안 tier 1 매체들은 같은 S-1을 보고 서로 다른 대목에 주목했습니다
@@ -1181,8 +1202,7 @@
 - **[c11]** Bloomberg는 프런티어 AI 연구소의 첫 상장을 강조했습니다.
 - **[c11]** 1 / 12
 - **[c11]** 원문을 직접 열어 확인한 기사 12건입니다.
-- **[c11]** 팩트체크
-- **[c11]** 보도와 원문이 엇갈린 곳
+- **[c11]** 팩트체크 보도와 원문이 엇갈린 곳
 - **[c11]** S-1 원문
 - **[c11]** 컴퓨트 약정 총액
 - **[c11]** 5,180억 달러(Reuters 9월 단독, 비공개본), 5,420억~5,670억 달러 (Fortune 합산), 4,300억·6,370억 달러 (Yahoo Finance 합산)
@@ -1191,7 +1211,7 @@
   - 숫자 `5,670억 달러` → reviewed: 보도 숫자: Fortune 제목 "up to $567 billion"(메인 세션 직접 확인)
   - 숫자 `4,300` → reviewed: 보도 숫자: Yahoo Finance(Howley) 합산
   - 숫자 `6,370억 달러` → reviewed: 보도 숫자: Yahoo Finance(Howley) 합산
-- **[c11]** 총액은 "more than $ "로 공란입니다
+- **[c11]** 총액은 “more than $ S-1에 공란 ”로 공란입니다
 - **[c11]** 2030년 이전분과 향후 12개월분도 공란입니다 .
   - 근거 `rf1-12` S-1 1866행, 원문 대조 OK: "As of and subsequent to September 30, 2026, we have entered into purchase commitments and lease agreements, including short-term commitments, as well as leases "
 - **[c11]** 숫자가 기재된 항목은 마이크로소프트 449억 달러 같은 개별 계약, 6월 30일 기준 확정·최소 약정 약 2,656억 달러, 미개시 리스 약 3,214억 달러 같은 부분 합계입니다
@@ -1204,15 +1224,15 @@
 - **[c11]** 이 부분 합계들은 산정 기준이 서로 다릅니다.
 - **[c11]** 4,170억 달러의 시점
   - 숫자 `4,170억 달러` → s1 text
-- **[c11]** "2025년 12월 31일 기준" 약정으로 보도한 기사가 있습니다.
-- **[c11]** 원문 표현은 "Subsequent to December 31, 2025"입니다
+- **[c11]** “2025년 12월 31일 기준” 약정으로 보도한 기사가 있습니다.
+- **[c11]** 원문 표현은 “Subsequent to December 31, 2025”입니다
 - **[c11]** 이 주석의 평가 기간은 2026년 6월 1일까지입니다
 - **[c11]** 이 금액은 그 사이 새로 체결하거나 변경한 계약분입니다
 - **[c11]** 
   - 근거 `notes-03` S-1 22696행, 원문 대조 OK: "Subsequent to December 31, 2025, the Company entered into new, and amended existing, lease and commercial agreements primarily to secure additional compute and "
 - **[c11]** 학습 중단?
-- **[c11]** "halted training"(학습 중단)으로 옮긴 기사가 있습니다.
-- **[c11]** 원문 표현은 "delay pre-training"입니다
+- **[c11]** “halted training”(학습 중단)으로 옮긴 기사가 있습니다.
+- **[c11]** 원문 표현은 “delay pre-training”입니다
 - **[c11]** 사전학습 착수를 한 달 넘게 미뤘다는 뜻입니다
 - **[c11]** 
   - 근거 `rf1-29` S-1 2906행, 원문 대조 OK: "we recently chose to delay pre-training a new frontier base model for more than a month to allow time to further enhance our security measures related to preven"
@@ -1230,7 +1250,7 @@
   - 숫자 `2.08` → reviewed: 보도 숫자: Fortune 계산 11,555 ÷ 5,558 = 2.079
 - **[c11]** Fortune이 2분기 매출을 컴퓨트 비용으로 나눠 산출한 값입니다.
 - **[c11]** S-1에는 없는 계산값입니다
-- **[c11]** S-1이 제시한 수치는 비율 251%→48%입니다
+- **[c11]** S-1이 제시한 수치는 비율 251% → 48%입니다
   - 숫자 `251%` → calc: 944 ÷ 376
   - 숫자 `48%` → calc: 5,558 ÷ 11,555 또는 2,040 ÷ 1,382
 - **[c11]** 
@@ -1244,8 +1264,8 @@
 - **[c11]** 
   - 근거 `gap-25` S-1 18876행, 원문 대조 OK: "43%"
 - **[method]** 이 페이지를 만든 방법
-- **[method]** 이 보고서를 쓰기까지 다섯 단계를 거쳤습니다
-- **[method]** 이 보고서의 숫자는 S-1 원문의 특정 줄을 근거로 합니다
+- **[method]** 이 페이지를 만들기까지 다섯 단계를 거쳤습니다
+- **[method]** 이 페이지의 숫자는 S-1 원문의 특정 줄을 근거로 합니다
 - **[method]** 원문 밖에서 가져온 정보는 ↗ 버튼으로 따로 표시했습니다
 - **[method]** 모든 숫자는 아래 다섯 단계로 확인했습니다.
 - **[method]** 23,197 줄
@@ -1282,7 +1302,7 @@
 - **[method]** 원문 Anthropic, PBC Form S-1 (SEC EDGAR, 2026년 10월 26일) · 제출 이력
 - **[method]** 표기 기준 숫자 옆 근거 버튼은 세 종류입니다
 - **[method]** # 는 S-1 원문의 해당 문장을, = 는 S-1 숫자로 낸 계산식을, ↗ 는 S-1 밖 출처를 엽니다
-- **[method]** 원문 창의 행 번호는 S-1을 텍스트로 변환한 파일을 기준으로 합니다.
+- **[method]** 원문 창의 줄 번호는 S-1을 텍스트로 변환한 파일을 기준으로 합니다.
 - **[method]** 유의 사항 이 페이지는 정보 제공을 목적으로 작성했으며 투자 권유나 투자 자문이 아닙니다
 - **[method]** 공모가가 확정되기 전의 예비 투자설명서(2026년 10월 26일 제출 S-1)를 기준으로 하므로, 이후 정정신고서에서 숫자가 바뀔 수 있습니다.
 - **[method]** 작성 2026년 10월 27일 · 최종 갱신 2026년 10월 29일

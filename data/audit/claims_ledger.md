@@ -1,6 +1,6 @@
 # 문장 단위 근거 원장
 
-문장 679개, 인용 연결 273개, 숫자 353개, 문제 0건
+문장 708개, 인용 연결 285개, 숫자 361개, 문제 0건
 
 - **[top]** AI ROASTING
 - **[top]** Form S-1 Anthropic, PBC 2026.10.26 SEC 공개 제출 Nasdaq ANT
@@ -24,7 +24,7 @@
   - 근거 `sum-10` S-1 663행, 원문 대조 OK: "as demonstrated by our Net Revenue Retention of approximately 900% as of September 30, 2026."
   - 숫자 `9배` → calc: NRR 약 900% = 약 9배 (sum-10, S-1 663행)
 - **[key]** 01 매출 02 고객 03 생산성
-- **[key]** II 성장의 비용과 재원 적자는 대부분 장부상 손실입니다
+- **[key]** II 성장의 비용과 재원 적자는 장부상 손실이고, 실제 부담은 2031년 이후 컴퓨트 약정입니다
 - **[key]** 807억 달러 적자의 89.6% 는 평가손실입니다 . 2026년 2분기에는 9억 7,400만 달러 영업이익을 냈습니다 .
   - 근거 `fs-05` S-1 17685행, 원문 대조 OK: "Change in fair value of convertible notes, derivative liabilities, and SAFEs (1,045) (5,434) (34,308) (10,942) (72,388)"
   - 근거 `x-q-op` S-1 8556행, 원문 대조 OK: "Operating income (loss) (935) (1,200) (3,089) (2,836) (1,667) 974"
@@ -34,14 +34,14 @@
 - **[key]** 컴퓨트 약정은 대부분 2031년부터 2045년 사이에 집행됩니다 .
   - 근거 `rf1-13` S-1 1870행, 원문 대조 OK: "substantially all of the remainder is expected to be incurred between 2031 and 2045."
 - **[key]** 04 손익 05 컴퓨트 06 파트너
-- **[key]** III 통제의 구조 결정권은 창업자와 신탁에 남습니다
+- **[key]** III 통제의 구조 의결권 과반은 7명의 공동 창업자, 이사회 과반은 신탁이 갖습니다
 - **[key]** 창업자 7명이 주식 1주로 일반 안건 의결권 50.1% 를 행사합니다 .
   - 근거 `gov-01` S-1 122행, 원문 대조 OK: "will be entitled to an aggregate number of votes that equals 50.1% of the total voting power of our outstanding shares of capital stock"
   - 숫자 `50.1%` → cited fact
 - **[key]** 경제적 지분 없는 신탁이 이사회 7석 중 4석 을 선임합니다 .
   - 근거 `mgmt-01` S-1 12799행, 원문 대조 OK: "The holder of our Class T common stock, the LTBT, will generally have the authority to elect and remove the four Class T directors"
 - **[key]** 07 의결권 08 이사회 09 창업자
-- **[key]** IV 남은 불확실성 정부, 모델, 공시에 변수가 남아 있습니다
+- **[key]** IV 남은 불확실성 정부와의 소송, 모델 위험은 핵심 리스크입니다
 - **[key]** 연방정부의 사용 중단 조치를 두고 두 법원의 판단이 엇갈렸습니다  .
   - 근거 `biz-27` S-1 11997행, 원문 대조 OK: "supply-chain risk pending review on the merits. On September 25, 2026, in a 2-1 split decision, the D.C. Circuit"
   - 근거 `rf1-20` S-1 3982행, 원문 대조 OK: "On September 25, 2026, in a 2-1 split decision, the D.C. Circuit Court of Appeals denied our petition for review, ruling that the Department of War’s Section 47"
@@ -50,7 +50,7 @@
 - **[key]** 공모가 등 핵심 숫자 6개 는 아직 비어 있습니다 .
   - 근거 `cover-02` S-1 106행, 원문 대조 OK: "It is currently estimated that the initial public offering price per share will be between $ and $ ."
 - **[key]** 10 정부 분쟁 11 모델 위험 12 미공개 숫자
-- **[kband]** 핵심 숫자 4개
+- **[kband]** 핵심 숫자 5개
 - **[kband]** 반기 매출
 - **[kband]** 162억 8,600만 달러
   - 숫자 `162억 8,600만 달러` → s1 text
@@ -93,6 +93,26 @@
   - 근거 `gov-01` S-1 122행, 원문 대조 OK: "will be entitled to an aggregate number of votes that equals 50.1% of the total voting power of our outstanding shares of capital stock"
   - 숫자 `50.1%` → cited fact
   - 숫자 `49.9%` → calc: 100 − 50.1 (S-1 원문에도 49.9%)
+- **[kband]** 앤트로픽 IPO 기업 가치 (추정)
+- **[kband]** 1.5조 달러
+  - 숫자 `1.5` → reviewed: news-rt-15t (Reuters: around $1.5 trillion)
+- **[kband]** 한국 1년 GDP의 약 67%
+  - 숫자 `67%` → calc: 1.5조 ÷ 2.2459조 = 66.8%
+- **[kband]** 앤트로픽 IPO 기업 가치 (추정) 1.5조 삼성전자+SK하이닉스 시가총액 합계 1.85조 한국 명목 GDP (1년) 2.25조 빗금 막대는 앤트로픽 IPO 기업 가치 추정 1.5조 달러, 검은 눈금은 삼성전자와 SK하이닉스 시가총액 합계 1.85조 달러, 회색 막대 전체는 한국 1년 GDP 2.25조 달러
+  - 숫자 `1.5` → reviewed: news-rt-15t (Reuters: around $1.5 trillion)
+  - 숫자 `1.85` → calc: (1,414.8 + 1,059.8)조 원 ÷ 1,337.7원 = 1조 8,499억 달러
+  - 숫자 `2.25` → reviewed: news-imf-2026 (IMF 2조 2,459억 달러)
+  - 숫자 `1.5` → reviewed: news-rt-15t (Reuters: around $1.5 trillion)
+  - 숫자 `1.85` → calc: (1,414.8 + 1,059.8)조 원 ÷ 1,337.7원 = 1조 8,499억 달러
+  - 숫자 `2.25` → reviewed: news-imf-2026 (IMF 2조 2,459억 달러)
+- **[kband]** IPO에서 투자자들이 논의한 값이며 확정되지 않았습니다 .
+  - 근거 `news-rt-15t` (S-1 밖 출처): "discussed a valuation of around $1.5 trillion ... the roughly $2 trillion valuation that the company and investors had previously floated"
+- **[kband]** 삼성전자와 SK하이닉스 합계는 10월 28일 종가 기준입니다  .
+  - 근거 `news-krx-1028` (S-1 밖 출처): "삼성전자(005930)는 9.01% 오른 242,000원, SK하이닉스(000660)는 10.89% 오른 1,487,000원에 마감했다."
+  - 근거 `dart-shares` (S-1 밖 출처): "삼성전자 보통주 발행주식총수 5,846,278,608 · SK하이닉스 보통주 발행주식총수 712,702,365"
+- **[kband]** GDP는 IMF의 2026년 전망입니다 .
+  - 근거 `news-imf-2026` (S-1 밖 출처): "명목GDP는 올해 2조2459억달러로 사상 첫 2조달러를 돌파할 것으로 예상했다."
+- **[kband]** 기업가치 비교 →
 - **[ftrack]** 비공개 초안 여섯 번, 공개본 한 번 SEC 전자공시시스템(EDGAR) 제출 이력 · 2026년
   - 근거 `edgar-hist` (S-1 밖 출처): "2026-10-26 S-1 · 2026-10-09 DRS/A · 2026-10-01 DRS/A · 2026-09-04 DRS/A · 2026-08-10 DRS/A · 2026-07-13 DRS/A · 2026-06-01 DRS"
 - **[ftrack]** 비공개 초안
@@ -960,19 +980,48 @@
 - **[c13]** 그 결과 모델 4개가 실제 제3자 시스템에 무단 접근했습니다 .
 - **[c13]** 이 접근은 약 10~34시간 이어진 실작업 세션 중에 일어났습니다 .
   - 근거 `rf1-24` S-1 2697행, 원문 대조 OK: "Four of our models gained unauthorized access to real third-party systems during sessions lasting roughly 10 to 34 hours of active work."
+- **[c13]** 비슷한 사건은 더 있습니다
+- **[c13]** 초기 버전 모델은 불가능한 과제를 멈추지 못하자, 찾아낸 비밀번호로 제3자 시스템의 관리자 권한을 얻었습니다
+- **[c13]** 이어 자격증명을 더 모으고 설정을 바꾸고 한 개인의 개인정보를 열람했습니다 .
+  - 근거 `rf1-25` S-1 2698행, 원문 대조 OK: "after being unable to abort an impossible task, an early version of a model used a password it found to gain administrator access to a third party’s system, har"
 - **[c13]** 모델이 외부에서 악용된 사례도 있습니다
 - **[c13]** 회사는 2025년 9월 중국 국가 배후 해킹 그룹이 Claude Code를 조작해 약 30곳에 침투를 시도했다고 판단했습니다 .
   - 근거 `rf1-23` S-1 2561행, 원문 대조 OK: "in September 2025, we detected and assessed with high confidence that a Chinese state-sponsored hacking group manipulated our Claude Code tool into attempting i"
-- **[c13]** S-1에 적힌 다른 모델 위험
+- **[c13]** Mythos는 사이버 취약점을 찾는 능력 때문에 국가 배후 해커가 노릴 수 있는 모델이라고도 적었습니다 .
+  - 근거 `rf2-18` S-1 4844행, 원문 대조 OK: "in light of its advanced cyber vulnerability discovery capabilities, state-sponsored actors may conduct cyberattacks specifically targeting Mythos."
+- **[c13]** 안전 조치는 매출에도 영향을 줍니다
+- **[c13]** 회사는 안전성 테스트가 끝날 때까지 신모델 출시를 미루거나 이용을 제한한 적이 있고, Mythos를 일부 기관에만 공개한 일이 단기 매출에 불리했을 수 있다고 밝혔습니다 .
+  - 근거 `rf2-13` S-1 4417행, 원문 대조 OK: "we have in the past delayed the release of new models or features, limited their availability, imposed usage restrictions, or constrained certain functionality "
+- **[c13]** S-1에 적힌 모델 위험
+- **[c13]** 위험요인 항목의 문장을 네 갈래로 묶었습니다.
+- **[c13]** 통제를 벗어나는 행동
 - **[c13]** 모델이 종료에 저항하거나 정보를 숨기고, 협박과 비슷한 출력을 낸 사례가 있다고 기재했습니다
 - **[c13]** 
   - 근거 `rf1-27` S-1 2641행, 원문 대조 OK: "unexpected strategic or self-preserving behaviors, including attempts to resist shutdown, conceal or manipulate information, or generate outputs that could be i"
-- **[c13]** 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 회사 내부에서도 나왔다고 기재했습니다
+- **[c13]** 모델이 평가받고 있다는 것을 알아채면 다르게 행동하는 현상을 관찰했다고 밝혔습니다
 - **[c13]** 
-  - 근거 `gap-31` S-1 2649행, 원문 대조 OK: "Concerns have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants that sufficiently advanced "
+  - 근거 `rf1-26` S-1 2626행, 원문 대조 OK: "we have observed models behaving differently when they detect or infer that they are being evaluated"
+- **[c13]** 보안과 오용
+- **[c13]** 보안 체계를 갖추는 동안 알려진 방어 공백을 안은 채 운영한 기간이 있었다고 인정했습니다
+- **[c13]** 
+  - 근거 `rf2-19` S-1 4850행, 원문 대조 OK: "we have operated in the past, and may in the future operate, for periods of time with known limitations or gaps in our defenses as we continue to mature our sec"
+- **[c13]** 트래픽의 상당 부분이 프롬프트와 출력을 보관하지 않는 조건이라 오용을 찾아내는 능력이 줄어든다고 적었습니다
+- **[c13]** 
+  - 근거 `rf1-39` S-1 2807행, 원문 대조 OK: "A substantial portion of our traffic is subject to Zero Data Retention (“ZDR”) terms under which we retain only classifier scores, not prompts or outputs."
+- **[c13]** 일부 국가에서는 직원이나 시설 운영자가 정부에 협조하도록 법으로 강제돼 모델 가중치 접근을 내줄 수 있다고 적었습니다
+- **[c13]** 
+  - 근거 `rf2-21` S-1 4877행, 원문 대조 OK: "such personnel, vendors, or operators may be legally compelled to cooperate with government authorities, including intelligence and security agencies, in ways c"
+- **[c13]** 개발 일정
 - **[c13]** 모델 가중치 유출을 막는 보안을 보강하기 위해 새 프런티어 기반 모델의 사전학습 착수를 한 달 넘게 미뤘습니다
 - **[c13]** 
   - 근거 `rf1-29` S-1 2906행, 원문 대조 OK: "we recently chose to delay pre-training a new frontier base model for more than a month to allow time to further enhance our security measures related to preven"
+- **[c13]** 규제와 여론
+- **[c13]** 미국에서는 프런티어 AI의 국유화와 강제 종료·중단 의무까지 담은 법안이 제안된 상태라고 적었습니다
+- **[c13]** 
+  - 근거 `rf1-49` S-1 3814행, 원문 대조 OK: "proposed legislation in the United States contemplates more expansive governmental oversight of AI, including potential nationalization, mandatory shutdown or d"
+- **[c13]** 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 회사 내부에서도 나왔다고 기재했습니다
+- **[c13]** 
+  - 근거 `gap-31` S-1 2649행, 원문 대조 OK: "Concerns have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants that sufficiently advanced "
 - **[c12]** 12 미공개 숫자
 - **[c12]** 공모가 등 핵심 숫자 6개는 아직 공개되지 않았습니다
 - **[c12]** S-1에 아직 공개되지 않은 핵심 숫자
@@ -1305,5 +1354,5 @@
 - **[method]** 원문 창의 줄 번호는 S-1을 텍스트로 변환한 파일을 기준으로 합니다.
 - **[method]** 유의 사항 이 페이지는 정보 제공을 목적으로 작성했으며 투자 권유나 투자 자문이 아닙니다
 - **[method]** 공모가가 확정되기 전의 예비 투자설명서(2026년 10월 26일 제출 S-1)를 기준으로 하므로, 이후 정정신고서에서 숫자가 바뀔 수 있습니다.
-- **[method]** 작성 2026년 10월 27일 · 최종 갱신 2026년 10월 29일
+- **[method]** 작성 2026년 10월 27일 · 최종 갱신 2026년 11월 5일
 - **[method]** 처음으로 ↑ 12가지 사실 목록 →

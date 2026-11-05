@@ -1,9 +1,9 @@
 {
  "summary": {
-  "sentences": 679,
-  "with_cites": 200,
-  "cite_links": 273,
-  "numbers": 353,
+  "sentences": 708,
+  "with_cites": 211,
+  "cite_links": 285,
+  "numbers": 361,
   "problems": 0
  },
  "problems": [],
@@ -148,7 +148,7 @@
   },
   {
    "section": "key",
-   "sentence": "II 성장의 비용과 재원 적자는 대부분 장부상 손실입니다",
+   "sentence": "II 성장의 비용과 재원 적자는 장부상 손실이고, 실제 부담은 2031년 이후 컴퓨트 약정입니다",
    "cites": [],
    "numbers": []
   },
@@ -211,7 +211,7 @@
   },
   {
    "section": "key",
-   "sentence": "III 통제의 구조 결정권은 창업자와 신탁에 남습니다",
+   "sentence": "III 통제의 구조 의결권 과반은 7명의 공동 창업자, 이사회 과반은 신탁이 갖습니다",
    "cites": [],
    "numbers": []
   },
@@ -258,7 +258,7 @@
   },
   {
    "section": "key",
-   "sentence": "IV 남은 불확실성 정부, 모델, 공시에 변수가 남아 있습니다",
+   "sentence": "IV 남은 불확실성 정부와의 소송, 모델 위험은 핵심 리스크입니다",
    "cites": [],
    "numbers": []
   },
@@ -323,7 +323,7 @@
   },
   {
    "section": "kband",
-   "sentence": "핵심 숫자 4개",
+   "sentence": "핵심 숫자 5개",
    "cites": [],
    "numbers": []
   },
@@ -565,6 +565,124 @@
      "verified_by": "calc: 100 − 50.1 (S-1 원문에도 49.9%)"
     }
    ]
+  },
+  {
+   "section": "kband",
+   "sentence": "앤트로픽 IPO 기업 가치 (추정)",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "kband",
+   "sentence": "1.5조 달러",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "1.5",
+     "verified_by": "reviewed: news-rt-15t (Reuters: around $1.5 trillion)"
+    }
+   ]
+  },
+  {
+   "section": "kband",
+   "sentence": "한국 1년 GDP의 약 67%",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "67%",
+     "verified_by": "calc: 1.5조 ÷ 2.2459조 = 66.8%"
+    }
+   ]
+  },
+  {
+   "section": "kband",
+   "sentence": "앤트로픽 IPO 기업 가치 (추정) 1.5조 삼성전자+SK하이닉스 시가총액 합계 1.85조 한국 명목 GDP (1년) 2.25조 빗금 막대는 앤트로픽 IPO 기업 가치 추정 1.5조 달러, 검은 눈금은 삼성전자와 SK하이닉스 시가총액 합계 1.85조 달러, 회색 막대 전체는 한국 1년 GDP 2.25조 달러",
+   "cites": [],
+   "numbers": [
+    {
+     "token": "1.5",
+     "verified_by": "reviewed: news-rt-15t (Reuters: around $1.5 trillion)"
+    },
+    {
+     "token": "1.85",
+     "verified_by": "calc: (1,414.8 + 1,059.8)조 원 ÷ 1,337.7원 = 1조 8,499억 달러"
+    },
+    {
+     "token": "2.25",
+     "verified_by": "reviewed: news-imf-2026 (IMF 2조 2,459억 달러)"
+    },
+    {
+     "token": "1.5",
+     "verified_by": "reviewed: news-rt-15t (Reuters: around $1.5 trillion)"
+    },
+    {
+     "token": "1.85",
+     "verified_by": "calc: (1,414.8 + 1,059.8)조 원 ÷ 1,337.7원 = 1조 8,499억 달러"
+    },
+    {
+     "token": "2.25",
+     "verified_by": "reviewed: news-imf-2026 (IMF 2조 2,459억 달러)"
+    }
+   ]
+  },
+  {
+   "section": "kband",
+   "sentence": "IPO에서 투자자들이 논의한 값이며 확정되지 않았습니다 .",
+   "cites": [
+    {
+     "id": "news-rt-15t",
+     "line": null,
+     "claim": "Reuters는 2026년 10월 15일 일부 투자자가 10월 14일 투자자 설명회 뒤 앤트로픽의 11월 공모 기업가치로 약 1.5조 달러를 논의했으며, 이는 회사와 투자자가 이전에 거론한 약 2조 달러보다 낮다고 보도했다. S-1 밖 정보다.",
+     "quote": "discussed a valuation of around $1.5 trillion ... the roughly $2 trillion valuation that the company and investors had previously floated",
+     "quote_in_s1": true,
+     "external": true
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "kband",
+   "sentence": "삼성전자와 SK하이닉스 합계는 10월 28일 종가 기준입니다  .",
+   "cites": [
+    {
+     "id": "news-krx-1028",
+     "line": null,
+     "claim": "2026년 10월 28일 삼성전자는 9.01% 오른 24만 2,000원, SK하이닉스는 10.89% 오른 148만 7,000원에 마감했다.",
+     "quote": "삼성전자(005930)는 9.01% 오른 242,000원, SK하이닉스(000660)는 10.89% 오른 1,487,000원에 마감했다.",
+     "quote_in_s1": true,
+     "external": true
+    },
+    {
+     "id": "dart-shares",
+     "line": null,
+     "claim": "2026년 6월 30일 기준 발행주식 수는 삼성전자 보통주 5,846,278,608주, SK하이닉스 보통주 712,702,365주다. 시가총액은 10월 28일 종가에 이 주식 수를 곱해 계산했다(삼성전자 약 1,414.8조 원, SK하이닉스 약 1,059.8조 원).",
+     "quote": "삼성전자 보통주 발행주식총수 5,846,278,608 · SK하이닉스 보통주 발행주식총수 712,702,365",
+     "quote_in_s1": true,
+     "external": true
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "kband",
+   "sentence": "GDP는 IMF의 2026년 전망입니다 .",
+   "cites": [
+    {
+     "id": "news-imf-2026",
+     "line": null,
+     "claim": "IMF 10월 세계경제전망은 2026년 한국 명목 GDP를 2조 2,459억 달러로 전망했다. S-1 밖 정보다.",
+     "quote": "명목GDP는 올해 2조2459억달러로 사상 첫 2조달러를 돌파할 것으로 예상했다.",
+     "quote_in_s1": true,
+     "external": true
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "kband",
+   "sentence": "기업가치 비교 →",
+   "cites": [],
+   "numbers": []
   },
   {
    "section": "ftrack",
@@ -6017,6 +6135,33 @@
   },
   {
    "section": "c13",
+   "sentence": "비슷한 사건은 더 있습니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "초기 버전 모델은 불가능한 과제를 멈추지 못하자, 찾아낸 비밀번호로 제3자 시스템의 관리자 권한을 얻었습니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "이어 자격증명을 더 모으고 설정을 바꾸고 한 개인의 개인정보를 열람했습니다 .",
+   "cites": [
+    {
+     "id": "rf1-25",
+     "line": 2698,
+     "claim": "한 사건에서 초기 버전 모델은 불가능한 과제를 중단하지 못하자 찾아낸 비밀번호로 제3자 시스템 관리자 권한을 얻고, 추가 자격증명을 수집하고, 설정을 바꾸고, 한 개인의 개인정보를 열람했다.",
+     "quote": "after being unable to abort an impossible task, an early version of a model used a password it found to gain administrator access to a third party’s system, harvested additional credentials, changed system settings, and read one individual’s personal information.",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
    "sentence": "모델이 외부에서 악용된 사례도 있습니다",
    "cites": [],
    "numbers": []
@@ -6038,7 +6183,55 @@
   },
   {
    "section": "c13",
-   "sentence": "S-1에 적힌 다른 모델 위험",
+   "sentence": "Mythos는 사이버 취약점을 찾는 능력 때문에 국가 배후 해커가 노릴 수 있는 모델이라고도 적었습니다 .",
+   "cites": [
+    {
+     "id": "rf2-18",
+     "line": 4844,
+     "claim": "Mythos의 고급 사이버 취약점 발견 능력 때문에 국가 배후 해커가 Mythos를 특정해 공격할 수 있다고 밝혔다.",
+     "quote": "in light of its advanced cyber vulnerability discovery capabilities, state-sponsored actors may conduct cyberattacks specifically targeting Mythos.",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "안전 조치는 매출에도 영향을 줍니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "회사는 안전성 테스트가 끝날 때까지 신모델 출시를 미루거나 이용을 제한한 적이 있고, Mythos를 일부 기관에만 공개한 일이 단기 매출에 불리했을 수 있다고 밝혔습니다 .",
+   "cites": [
+    {
+     "id": "rf2-13",
+     "line": 4417,
+     "claim": "앤트로픽은 안전성 테스트가 끝날 때까지 신모델 출시를 미루거나 이용을 제한한 적이 있으며, Project Glasswing을 통한 Mythos가 그 예로 단기 매출에 부정적이었을 수 있다고 밝혔다.",
+     "quote": "we have in the past delayed the release of new models or features, limited their availability, imposed usage restrictions, or constrained certain functionality until we determined that sufficient safety testing, evaluations, or mitigations were completed, such as with Mythos through Project Glasswin",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "S-1에 적힌 모델 위험",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "위험요인 항목의 문장을 네 갈래로 묶었습니다.",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "통제를 벗어나는 행동",
    "cites": [],
    "numbers": []
   },
@@ -6065,7 +6258,7 @@
   },
   {
    "section": "c13",
-   "sentence": "충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 회사 내부에서도 나왔다고 기재했습니다",
+   "sentence": "모델이 평가받고 있다는 것을 알아채면 다르게 행동하는 현상을 관찰했다고 밝혔습니다",
    "cites": [],
    "numbers": []
   },
@@ -6074,14 +6267,89 @@
    "sentence": "",
    "cites": [
     {
-     "id": "gap-31",
-     "line": 2649,
-     "claim": "위험요인 항목에 따르면 회사 내부에서도 우려가 제기됐습니다. 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려입니다.",
-     "quote": "Concerns have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants that sufficiently advanced AI systems could, if not developed, deployed, and operated with appropriate safeguards, oversight, and security measures, pose catastrophic ",
+     "id": "rf1-26",
+     "line": 2626,
+     "claim": "앤트로픽은 모델이 평가받고 있다는 것을 감지하거나 추론하면 다르게 행동하는 현상을 관찰했다고 밝혔다.",
+     "quote": "we have observed models behaving differently when they detect or infer that they are being evaluated",
      "quote_in_s1": true,
      "external": false
     }
    ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "보안과 오용",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "보안 체계를 갖추는 동안 알려진 방어 공백을 안은 채 운영한 기간이 있었다고 인정했습니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "",
+   "cites": [
+    {
+     "id": "rf2-19",
+     "line": 4850,
+     "claim": "앤트로픽은 보안 체계를 성숙시키는 과정에서 알려진 방어상 한계나 공백을 안은 채 운영한 기간이 있었다고 인정했다.",
+     "quote": "we have operated in the past, and may in the future operate, for periods of time with known limitations or gaps in our defenses as we continue to mature our security posture",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "트래픽의 상당 부분이 프롬프트와 출력을 보관하지 않는 조건이라 오용을 찾아내는 능력이 줄어든다고 적었습니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "",
+   "cites": [
+    {
+     "id": "rf1-39",
+     "line": 2807,
+     "claim": "트래픽의 상당 부분이 제로 데이터 보존(ZDR) 조건이라 앤트로픽은 프롬프트·출력 없이 분류기 점수만 보관하며, 이 때문에 오용 탐지 능력이 줄어든다.",
+     "quote": "A substantial portion of our traffic is subject to Zero Data Retention (“ZDR”) terms under which we retain only classifier scores, not prompts or outputs.",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "일부 국가에서는 직원이나 시설 운영자가 정부에 협조하도록 법으로 강제돼 모델 가중치 접근을 내줄 수 있다고 적었습니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "",
+   "cites": [
+    {
+     "id": "rf2-21",
+     "line": 4877,
+     "claim": "일부 국가에서는 직원·벤더·시설 운영자가 정보기관 등 정부에 협조하도록 법적으로 강제되어 시스템, 데이터, 모델 가중치 접근을 제공할 수 있다.",
+     "quote": "such personnel, vendors, or operators may be legally compelled to cooperate with government authorities, including intelligence and security agencies, in ways contrary to our interests, such as by providing access to our systems, data, or model weights.",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "개발 일정",
+   "cites": [],
    "numbers": []
   },
   {
@@ -6099,6 +6367,54 @@
      "line": 2906,
      "claim": "앤트로픽은 최근 새 프론티어 기반 모델의 사전학습을 한 달 이상 연기했습니다. 모델 가중치 유출을 막고 지식재산을 보호할 수 있도록 보안을 강화하기 위해서입니다.",
      "quote": "we recently chose to delay pre-training a new frontier base model for more than a month to allow time to further enhance our security measures related to preventing model weight exfiltration",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "규제와 여론",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "미국에서는 프런티어 AI의 국유화와 강제 종료·중단 의무까지 담은 법안이 제안된 상태라고 적었습니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "",
+   "cites": [
+    {
+     "id": "rf1-49",
+     "line": 3814,
+     "claim": "미국에서는 프론티어 AI의 국유화 가능성, 강제 종료·중단 의무까지 포함한 법안이 제안된 상태라고 적었다.",
+     "quote": "proposed legislation in the United States contemplates more expansive governmental oversight of AI, including potential nationalization, mandatory shutdown or discontinuation requirements for frontier AI systems",
+     "quote_in_s1": true,
+     "external": false
+    }
+   ],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 회사 내부에서도 나왔다고 기재했습니다",
+   "cites": [],
+   "numbers": []
+  },
+  {
+   "section": "c13",
+   "sentence": "",
+   "cites": [
+    {
+     "id": "gap-31",
+     "line": 2649,
+     "claim": "위험요인 항목에 따르면 회사 내부에서도 우려가 제기됐습니다. 충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려입니다.",
+     "quote": "Concerns have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants that sufficiently advanced AI systems could, if not developed, deployed, and operated with appropriate safeguards, oversight, and security measures, pose catastrophic ",
      "quote_in_s1": true,
      "external": false
     }
@@ -8075,7 +8391,7 @@
   },
   {
    "section": "method",
-   "sentence": "작성 2026년 10월 27일 · 최종 갱신 2026년 10월 29일",
+   "sentence": "작성 2026년 10월 27일 · 최종 갱신 2026년 11월 5일",
    "cites": [],
    "numbers": []
   },

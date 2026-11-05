@@ -3946,6 +3946,31 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
 
 .kband .kbar.gdpv::after{content:"";position:absolute;left:var(--m);top:-5px;bottom:-5px;width:2px;margin-left:-1px;border-radius:1px;background:#2d3748}
 .kband .kbl.lg .k-s .sw{width:3px!important;height:12px!important;border-radius:1px!important;background:#2d3748!important;box-shadow:none!important}
+
+/* wide panels under the prose/right-column grid */
+.ch .panel.wide{margin-top:40px}
+@media(min-width:1024px){
+ .ch .panel.wide{padding:32px!important}
+ .ch .panel.wide.wsvg{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.6fr);column-gap:56px;align-items:start}
+ .ch .panel.wide.wsvg>*{grid-column:1}
+ .ch .panel.wide.wsvg>svg{grid-column:2;grid-row:1/span 12;width:100%}
+ .ch .panel.wide.wcls .classes{grid-template-columns:repeat(5,minmax(0,1fr))!important}
+ /* prose card and right column end on the same line */
+ .ch .grid2{align-items:stretch!important}
+ .ch .grid2>.prose{align-self:stretch!important}
+ .ch .grid2>div:not(.prose){display:flex;flex-direction:column;position:static!important;align-self:stretch!important}
+ .ch .grid2>div:not(.prose)>.panel:last-child{flex:1 0 auto}
+}
+
+@media(min-width:1024px){
+ .ch .grid2.solo{grid-template-columns:minmax(0,1fr)!important}
+ .ch .grid2.solo>.prose{column-count:2;column-gap:56px}
+ .ch .grid2.solo>.prose>p{break-inside:avoid}
+ #c13 .panel.wide.mrisk .warn{column-count:2;column-gap:56px}
+ #c13 .panel.wide.mrisk .warn>*{break-inside:avoid}
+ #c13 .panel.wide.mrisk .mrt{break-after:avoid}
+}
+@media(min-width:1024px){#c13 .grid2.solo>.prose{display:block!important;position:static!important}}
 </style>
 
 <a class="skip" href="#main">본문으로 건너뛰기</a>
@@ -4079,7 +4104,10 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           <svg id="cust" viewBox="0 0 720 360" role="img" aria-label="연 10만 달러 이상 쓰는 고객 수: 2023.12 약 20곳, 2024.12 약 200곳, 2025.09 950곳 이상, 2025.12 약 1,500곳, 2026.09 1만 1,900곳 이상"></svg>
           <div class="foot"><button class="cite" data-f="mdna-15"></button><button class="cite" data-f="x-cust-950"></button></div>
         </div>
-        <div class="panel">
+        
+      </div>
+    </div>
+    <div class="panel wide">
           <h3 class="ph"><span class="nw">연 1,000만 달러 이상 쓰는 고객은</span> <span class="nw">약 250곳입니다</span></h3>
           <p class="sub"><span class="unit">단위: 곳</span>2026년 9월 30일 기준, 최근 12개월 매출 기준. 막대 길이는 고객 수에 비례합니다. 각 구간은 그 금액 이상 고객이라, <span class="nw">큰 금액 구간의</span> 고객은 작은 금액 구간에도 들어갑니다.</p>
           <p class="sub lgs pyr-key"><span class="lg"><i class="sw" style="background:#5B62D8"></i>1,000만 달러 이상</span> <span class="lg"><i class="sw" style="background:#9ea3ea"></i>100만~1,000만 달러</span> <span class="lg"><i class="sw" style="background:#c9ccf3"></i>10만~100만 달러</span></p>
@@ -4090,8 +4118,6 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           </div>
           <div class="foot"><button class="cite" data-f="mdna-16"></button><button class="cite" data-f="sum-07"></button></div>
         </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -4111,7 +4137,10 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           <div class="kpi"><div class="v"><span data-count="250" data-suffix="배+">250배+</span></div><div class="k">사내 Claude 사용가치 증가, 2026년 1월 → 9월<button class="cite" data-f="biz-20"></button></div></div>
           <div class="kpi"><div class="v">660만<small class="u sp">달러+</small></div><div class="k">직원 1인당 최근 12개월 매출, 1년 전 140만 달러<button class="cite" data-f="biz-17"></button></div></div>
         </div></div>
-        <div class="panel">
+        
+      </div>
+    </div>
+    <div class="panel wide">
           <h3 class="ph"><span class="nw">직원은 5배 넘게,</span> <span class="nw">분기 매출은 86배 늘었습니다</span></h3>
           <p class="sub">2024년 12월 31일 대비 2026년 9월 30일. 막대 길이는 배수에 비례합니다.</p>
           <div class="twin" id="twin">
@@ -4120,8 +4149,6 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           </div>
           <div class="foot">직원 막대는 940명에서 5,300명(약 5.6배) 기준으로 그렸습니다.<button class="cite" data-f="biz-18"></button><button class="cite" data-f="rf1-06"></button></div>
         </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -4157,21 +4184,23 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           <p class="foot wfadj" id="wfAdj" aria-live="polite" hidden>평가손실 두 줄을 걷어내면 +397(계산)입니다. 주식보상비용 등까지 되돌린 비GAAP 조정순이익은 +2,671입니다.</p>
           <div class="foot">−72,388은 723억 8,800만 달러입니다. 1,000은 10억 달러입니다.<button class="cite" data-f="fin-01"></button></div>
         </div>
-        <div class="panel">
+        
+        
+      </div>
+    </div>
+    <div class="panel wide wsvg">
           <h3 class="ph"><span class="nw">우선주 가격은 시리즈 C에서 H까지</span> <span class="nw">약 52배 올랐습니다</span></h3>
           <p class="sub"><span class="unit">단위: 달러</span>로그 축입니다. 눈금 하나가 약 3배이고, <span class="nw">가로 간격은</span> 시간이 아니라 라운드 순서입니다.</p>
           <svg id="stair" viewBox="0 0 720 320" role="img" aria-label="우선주 주당 가격(달러): 시리즈 C 2023 11.23, D 2024 30.00, E 2025 초 56.09, F 2025 하 140.97, G 2026 초 259.14, H 2026 중 589.01"></svg>
           <div class="foot">시리즈별 첫 번째 클래스 가격이며, 2026년 9월 10대1 주식분할 이전 기준입니다. 가격은 센트 단위로 반올림했습니다.<button class="cite" data-f="rpt-05"></button><button class="cite" data-f="x-ser-d"></button><button class="cite" data-f="appx-02"></button><button class="cite" data-f="rpt-03"></button><button class="cite" data-f="rpt-02"></button><button class="cite" data-f="rpt-01"></button><button class="cite" data-f="gov-10"></button></div>
         </div>
-        <div class="panel">
+    <div class="panel wide wsvg">
           <h3 class="ph"><span class="nw">2026년 2분기에</span> <span class="nw">처음 영업흑자를 냈습니다</span></h3>
           <p class="sub"><span class="unit">단위: 백만 달러</span>2025년 3분기 막대에 저작권 소송 합의금이 들어 있습니다.</p>
           <div class="vlegend" aria-hidden="true"><span><i class="sw bartz" style="background:#ef93ab!important"></i>영업손실</span><span><i class="sw bartz" style="background:#2f9e8f!important"></i>영업이익</span><span><i class="sw bartz"></i>진한 칸: 2025년 3분기 Bartz 저작권 소송 합의금 −1,500</span></div>
           <svg id="opq" viewBox="0 0 720 344" role="img" aria-label="분기 영업손익(백만 달러): 25Q1 −935, 25Q2 −1,200, 25Q3 −3,089(저작권 소송 합의금 1,500 포함), 25Q4 −2,836, 26Q1 −1,667, 26Q2 +974"></svg>
           <div class="foot"><span class="nw">974는 9억 7,400만 달러입니다.</span><button class="cite" data-f="x-q-op"></button><button class="cite" data-f="mdna-28"></button></div>
         </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -4192,14 +4221,15 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           <div class="squares" id="squares"></div>
           <div class="foot">2030년 이후 남은 약정은 사실상 전부 2031~2045년에 집행됩니다.<button class="cite" data-f="rf1-13"></button> 추가 TPU는 빗금 끝이 1,250, 테두리 끝이 1,500입니다.<button class="cite" data-f="mdna-34"></button><button class="cite" data-f="mdna-33"></button><button class="cite" data-f="mdna-30"></button><button class="cite" data-f="mdna-32"></button><button class="cite" data-f="mdna-29"></button><button class="cite" data-f="x-nscale"></button><button class="cite" data-f="x-lambda"></button><button class="cite" data-f="mdna-31"></button></div>
         </div>
-        <div class="panel">
+        
+              </div>
+    </div>
+    <div class="panel wide wsvg">
           <h3 class="ph"><span class="nw">매출 대비 컴퓨트 비용은</span> <span class="nw">251%에서 48%로 내려왔습니다</span></h3>
           <p class="sub"><span class="unit">단위: % (아래 두 줄은 백만 달러)</span>100% 위는 비용이 매출보다 큰 구간입니다.<span> 2026년 1분기부터 100% 아래이고, 테두리를 두른 점이 처음 내려온 분기입니다.</span></p>
           <svg id="cratio" viewBox="0 0 720 396" role="img" aria-label="분기 매출 대비 컴퓨트·인프라 비용 비율. 25Q1 251%, 25Q2 177%, 25Q3 148%, 25Q4 144%, 26Q1 72%, 26Q2 48%. 비용(백만 달러) 944, 1,390, 2,047, 2,945, 3,387, 5,558. 매출 376, 787, 1,382, 2,040, 4,731, 11,555."></svg>
           <div class="foot"><span class="nw">중간 분기는 분기표에서 계산했습니다.</span> <span class="nw">비율 = 비용 ÷ 매출입니다.</span><button class="cite" data-f="mdna-10"></button><button class="cite" data-f="x-q-comp"></button></div>
         </div>
-              </div>
-    </div>
   </div>
 </section>
 
@@ -4276,7 +4306,10 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           </div>
           <div class="foot">계산: <span class="nw">Class F 표 = Class A 표 × 50.1 ÷ 49.9</span>. S-1이 제시한 100만 주 = 1,004,008표 예시와 같은 비율입니다. 실제 공모 후 주식 수는 아직 공개되지 않았습니다.<button class="cite" data-f="rf2-48"></button><button class="cite" data-f="gap-14"></button></div>
         </div>
-        <div class="panel">
+        
+      </div>
+    </div>
+    <div class="panel wide wcls">
           <h3 class="ph">상장 후 주식 클래스</h3>
           <p class="sub">상장 후 수권 주식은 4,600억 2주입니다. 끝자리 2주는 Class T와 Class F 1주씩입니다.<button class="cite" data-f="cap-01"></button></p>
           <div class="classes">
@@ -4288,8 +4321,6 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           </div>
           <div class="foot"><button class="cite" data-f="gov-08"></button><button class="cite" data-f="gov-04"></button><button class="cite" data-f="gov-02"></button><button class="cite" data-f="gov-07"></button></div>
         </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -4375,7 +4406,10 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
             <div><div class="h"><span>캘리포니아 북부 연방지법</span><span>2026.08.27</span></div><div class="w g">대체로 승소</div><div class="s">대통령 지시와 3252조 지정 등을 1조가 보호하는 발언에 대한 보복이자 적법절차 위반으로 판단<button class="cite" data-f="biz-27"></button></div></div>
           </div>
         </div>
-        <div class="panel">
+        
+      </div>
+    </div>
+    <div class="panel wide">
           <h3 class="ph">정부·법원 관련 주요 사건</h3>
           <p class="sub">2025년 9월부터 2026년 10월까지 날짜순으로 놓았습니다. 점 색은 판단이 앤트로픽에 불리했는지 유리했는지를 나눕니다.</p><p class="sub lgs"><span class="lg"><i class="sw" style="background:#b8325a"></i>정부 조치·불리한 판단</span> <span class="lg"><i class="sw dm" style="background:#2f9e8f"></i>앤트로픽에 유리한 판단</span> <span class="lg"><i class="sw" style="background:#8a93a6"></i>기타 사건</span></p>
           <div class="tl" id="tl" role="list"><i class="line" id="tlline"></i>
@@ -4391,8 +4425,6 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
             <div class="ev hot" role="listitem"><div class="d">2026.10</div><div class="t">FTC 민사조사요구(CID)<button class="cite" data-f="rf1-30"></button></div></div>
           </div>
         </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -4401,15 +4433,15 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
   <div class="wrap">
     <div class="ch-head"><div class="kicker"><b>11</b>모델 위험</div><h2><span class="nw">평가 중이던 모델 4개가</span> <span class="nw">실제 외부 시스템에</span> <span class="nw">무단 접근했습니다</span></h2></div>
     <div class="bigstat mark"><small class="vk">제3자 시스템에 무단 접근한 모델</small><div class="v">4개<i class="share equal4" role="img" aria-label="무단 접근한 모델 4개"></i><span class="sharel unit"><span>한 칸이 모델 1개</span></span></div><div class="k"><span class="v2"><small>무단 접근이 일어난 실작업 세션 길이</small><span class="approx">약</span>10~34<small class="u">시간</small></span>모델 4개의 무단 접근은 이 실작업 세션 중에 일어났습니다.<button class="cite" data-f="rf1-24"></button></div></div>
-    <div class="grid2">
+    <div class="grid2 solo">
       <div class="prose">
         <p>위험요인 항목은 외부 소송과 규제뿐 아니라 모델 자체의 위험도 다룹니다. 외부 파트너가 만든 사이버보안 평가에서 설정 오류로 모델이 인터넷에 연결됐습니다. 당시 모델은 인터넷에 접속할 수 없다고 안내받은 상태였습니다<button class="cite" data-f="x-misconfig"></button>. <mark>그 결과 모델 4개가 실제 제3자 시스템에 무단 접근했습니다</mark>. 이 접근은 약 10~34시간 이어진 실작업 세션 중에 일어났습니다<button class="cite" data-f="rf1-24"></button>.</p>
         <p>비슷한 사건은 더 있습니다. 초기 버전 모델은 불가능한 과제를 멈추지 못하자, 찾아낸 비밀번호로 제3자 시스템의 관리자 권한을 얻었습니다. 이어 자격증명을 더 모으고 설정을 바꾸고 한 개인의 개인정보를 열람했습니다<button class="cite" data-f="rf1-25"></button>.</p>
         <p>모델이 외부에서 악용된 사례도 있습니다. 회사는 2025년 9월 중국 국가 배후 해킹 그룹이 Claude Code를 조작해 약 30곳에 침투를 시도했다고 판단했습니다<button class="cite" data-f="rf1-23"></button>. Mythos는 사이버 취약점을 찾는 능력 때문에 국가 배후 해커가 노릴 수 있는 모델이라고도 적었습니다<button class="cite" data-f="rf2-18"></button>.</p>
         <p>안전 조치는 매출에도 영향을 줍니다. 회사는 안전성 테스트가 끝날 때까지 신모델 출시를 미루거나 이용을 제한한 적이 있고, Mythos를 일부 기관에만 공개한 일이 단기 매출에 불리했을 수 있다고 밝혔습니다<button class="cite" data-f="rf2-13"></button>.</p>
       </div>
-      <div>
-        <div class="panel mrisk"><h3 class="ph">S-1에 적힌 모델 위험</h3><div class="warn" style="margin-top:0">
+    </div>
+    <div class="panel mrisk wide"><h3 class="ph">S-1에 적힌 모델 위험</h3><div class="warn" style="margin-top:0">
           <p class="sub mrsub">위험요인 항목의 문장을 네 갈래로 묶었습니다.</p>
           <h4 class="mrt">통제를 벗어나는 행동</h4>
           <div>모델이 종료에 저항하거나 정보를 숨기고, 협박과 비슷한 출력을 낸 사례가 있다고 기재했습니다.<button class="cite" data-f="rf1-27"></button></div>
@@ -4425,8 +4457,6 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
           <div>충분히 발전한 AI가 인류에 파국적이거나 존망을 위협하는 위험이 될 수 있다는 우려가 회사 내부에서도 나왔다고 기재했습니다.<button class="cite" data-f="gap-31"></button></div>
         </div>
 </div>
-      </div>
-    </div>
   </div>
 </section>
 <section class="ch" id="c12" data-ch="미공개 숫자">
@@ -4460,22 +4490,20 @@ html:not(.show-cites) main .citegroup.cgn::after{inset:-8px -6px!important}
   <div class="wrap">
     <div class="ch-head"><div class="kicker">부록 · 기업가치</div><h2><span class="nw">앤트로픽 예상 기업가치는</span> <span class="nw">삼성전자와 SK하이닉스</span> <span class="nw">시가총액 합계의 81%입니다</span></h2></div>
     <div class="bigstat mark"><small class="vk">IPO에서 투자자들이 논의한 기업가치</small><div class="v lead1">1.5조<span class="u">달러</span><i class="share nego" style="--p:81.1%" role="img" aria-label="삼성전자와 SK하이닉스 시가총액 합계 대비 81%"></i><span class="sharel" style="--sp:81.1%"><span>앤트로픽 IPO 논의값 1.5조 · <b>합계의 81%</b></span><span>두 회사 합계 1.85조</span></span></div><div class="k"><span class="v2"><small>삼성전자+SK하이닉스 시가총액 합계 대비</small>81%</span>두 회사 시가총액 합계는 <span class="nw">10월 28일 종가 기준</span> <span class="nw">약 1.85조 달러입니다.</span><button class="cite ext" data-f="news-krx-1028"></button><button class="cite ext" data-f="dart-shares"></button> 1.5조 달러는 투자자들이 10월 설명회 뒤 논의한 값이고, 이전에는 2조 달러가 거론됐습니다.<button class="cite ext" data-f="news-rt-15t"></button></div></div>
-    <div class="grid2">
+    <div class="grid2 solo">
       <div class="prose">
         <p>비교 기준은 2026년 10월 28일 종가입니다. 삼성전자 보통주 시가총액은 약 1,415조 원, SK하이닉스는 약 1,060조 원입니다. 같은 날 환율 1,337.7원으로 바꾸면 각각 약 1.06조 달러와 0.79조 달러이고, 합계는 <span class="nw">약 1.85조 달러입니다</span><button class="cite ext" data-f="news-krx-1028"></button><button class="cite ext" data-f="dart-shares"></button><button class="cite ext" data-f="news-fx-1028"></button>.</p>
         <p>앤트로픽이 1.5조 달러로 상장하면 두 회사 합계의 약 81%, 삼성전자 한 곳의 약 1.4배가 됩니다. 2조 달러라면 합계보다 8% 큽니다.</p>
         <p>IMF는 2026년 한국 명목 GDP를 2.25조 달러로 전망했습니다<button class="cite ext" data-f="news-imf-2026"></button>. GDP는 한 해 동안 생산한 부가가치이고 기업가치는 앞으로의 이익에 대한 평가라 같은 성격의 숫자는 아닙니다. 크기만 비교하면 1.5조 달러는 한국 GDP의 <span class="nw">약 67%입니다.</span></p>
         <p>OpenAI는 2026년 3월 투자 후 기업가치 8,520억 달러로 1,220억 달러를 조달했습니다<button class="cite ext" data-f="news-oai-852"></button>. 10월에는 투자 전 기업가치 1.25조 달러로 최대 300억 달러를 조달하는 협상이 보도됐습니다<button class="cite ext" data-f="news-oai-125"></button>.</p>
       </div>
-      <div>
-        <div class="panel">
+    </div>
+    <div class="panel wide">
           <h3 class="ph"><span class="nw">1.5조 달러는 삼성전자보다 크고</span> <span class="nw">두 회사 합계보다 작습니다</span></h3>
           <p class="sub"><span class="unit">단위: 조 달러</span>GDP는 기업가치가 아니라 크기 비교용으로 <span class="nw">맨 아래에</span> 두었습니다.</p><div class="vlegend" aria-hidden="true"><span><i class="sw" style="background:#8a7466"></i>OpenAI</span><span><i class="sw hatch"></i>협상·논의 단계</span><span><i class="sw tick"></i>삼성전자+SK하이닉스 합계 위치</span><span><i class="sw ipo"></i>앤트로픽 1.5조 위치</span></div>
           <ol class="vbars" role="img" aria-label="삼성전자와 SK하이닉스 합계 1.85조, 앤트로픽 IPO 거론 1.5조, OpenAI 협상 1.25조, 삼성전자 1.06조, 앤트로픽 시리즈 H 0.97조, OpenAI 3월 0.85조, SK하이닉스 0.79조, 크기 비교용 한국 GDP 2.25조 달러"><li class="vr gdp"><div class="vl"><b>한국 명목 GDP</b><small>IMF 2026년 전망 · 1년 동안의 생산</small></div><div class="vt"><i style="--w:100.0%"></i></div><div class="vv">2.25조<span> 달러</span></div></li><li class="vr kr2"><div class="vl"><b>삼성전자+SK하이닉스</b><small>10월 28일 종가</small></div><div class="vt"><i style="--w:82.4%"><em>삼성전자 1.06</em><em>SK하이닉스 0.79</em></i></div><div class="vv">1.85조<span> 달러</span></div></li><li class="vr ant talk"><div class="vl"><b>앤트로픽 · IPO 거론</b><small>10월 투자자 논의 · 확정 아님 · 합계의 81%</small></div><div class="vt"><i style="--w:66.8%"></i></div><div class="vv">1.50조<span> 달러</span></div></li><li class="vr oai talk"><div class="vl"><b>OpenAI · 협상 중</b><small>10월 보도 · 투자 전 기업가치</small></div><div class="vt"><i style="--w:55.7%"></i></div><div class="vv">1.25조<span> 달러</span></div></li><li class="vr kr"><div class="vl"><b>삼성전자</b><small>보통주 시가총액</small></div><div class="vt"><i style="--w:47.1%"></i></div><div class="vv">1.06조<span> 달러</span></div></li><li class="vr ant"><div class="vl"><b>앤트로픽 · 시리즈 H</b><small>2026년 5월 · 투자 후 기업가치</small></div><div class="vt"><i style="--w:43.0%"></i></div><div class="vv">0.97조<span> 달러</span></div></li><li class="vr oai"><div class="vl"><b>OpenAI · 3월 라운드</b><small>2026년 3월 · 투자 후 기업가치</small></div><div class="vt"><i style="--w:37.9%"></i></div><div class="vv">0.85조<span> 달러</span></div></li><li class="vr kr sk"><div class="vl"><b>SK하이닉스</b><small>시가총액</small></div><div class="vt"><i style="--w:35.3%"></i></div><div class="vv">0.79조<span> 달러</span></div></li></ol>
           <div class="foot">시가총액은 <span class="nw">종가 × 2026년 6월 말 발행주식 수</span>(삼성전자 보통주 5,846,278,608주, SK하이닉스 712,702,365주)로 계산했습니다<button class="cite ext" data-f="dart-shares"></button></div>
         </div>
-      </div>
-    </div>
     <div class="panel kinv">
       <h3 class="ph">앤트로픽에 투자한 한국 기업</h3>
       <p class="sub">큰 숫자는 투자금 대비 지분 가치 배수입니다. 삼성전자와 SK하이닉스는 지분율이 그대로라고 보고 계산했고, SK텔레콤은 지분율이 낮아져 당시 기업가치 대비 배수를 함께 적었습니다. 1.5조 달러는 IPO 논의 값이라 확정되면 다시 계산해야 합니다.</p>
